@@ -1,0 +1,51 @@
+{
+  "id": "roadmap-phases",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "roadmap-phases",
+  "args": {
+    "phases": [
+      {
+        "name": "‹como: Descubrir›",
+        "when": "‹como: Semana 1›",
+        "items": [
+          "‹como: Entrevistas con el equipo›",
+          "‹como: Mapa del proceso›"
+        ]
+      },
+      {
+        "name": "‹como: Probar›",
+        "when": "‹como: Semanas 2 y 3›",
+        "items": [
+          "‹como: Prototipo en uso›",
+          "‹como: Ajustes con usuarios›"
+        ]
+      },
+      {
+        "name": "‹como: Escalar›",
+        "when": "‹como: Mes 2›",
+        "items": [
+          "‹como: Puesta en marcha›",
+          "‹como: Medición del KPI›"
+        ]
+      }
+    ],
+    "decide": "‹como: Decisión entre fases›",
+    "goal": "‹como: La operación funcionando›"
+  },
+  "lands": "‹como: Una línea de tiempo con tres fases (su nombre, su periodo y dos entregables cada una) y un rombo de decisión entre fase y fase; abajo, la meta.›",
+  "breathes": "‹como: La barra de avance recorre la línea: cada fase se enciende, sus entregables reciben su visto y el rombo de decisión se abre hacia la siguiente; al final se enciende la meta. Queda: las tres fases hechas y la meta encendida.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

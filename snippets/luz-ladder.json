@@ -1,0 +1,97 @@
+{
+  "id": "luz-ladder",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-ladder",
+  "args": {
+    "cells": [
+      "‹como: Objetivo›",
+      "‹como: Pasos›",
+      "‹como: Ejecución›",
+      "‹como: Revisión›"
+    ],
+    "legend": [
+      "‹como: Usted›",
+      "‹como: Pactado›",
+      "‹como: La IA›"
+    ],
+    "rungs": [
+      [
+        "‹como: Prompt›",
+        "‹como: Interacción directa con el LLM: usted pregunta y recibe una respuesta puntual o un documento al vuelo.›",
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      [
+        "‹como: Chatbot o Copiloto›",
+        "‹como: Contexto de creación. Usted pide; la IA propone y usted aprueba. Trabajo diario asistido y acelerado.›",
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      [
+        "‹como: Skill›",
+        "‹como: Una instrucción guardada que la IA aplica igual cada vez.›",
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      [
+        "‹como: Workflow›",
+        "‹como: Pasos fijos, IA acotada. Proceso repetible: entregables o acciones simples, automatizados de forma segura.›",
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      [
+        "‹como: Agente›",
+        "‹como: Un «profesional o experto» digital: recibe tareas y objetivos; la IA actúa y termina entregables completos para su revisión o beneficio, con la autonomía definida por diseño.›",
+        [
+          0,
+          2,
+          2,
+          0
+        ]
+      ],
+      [
+        "‹como: Multiagente›",
+        "‹como: Varios agentes se coordinan para trabajo de alta complejidad: amplifican a los profesionales y, en ciertos casos de uso, apoyan la agentización E2E de procesos.›",
+        [
+          0,
+          2,
+          2,
+          1
+        ]
+      ]
+    ],
+    "rule": "‹como: El objetivo siempre lo pone usted.›"
+  },
+  "lands": "‹como: Una escalera de luz de seis peldaños, Prompt abajo y Multiagente arriba; cada peldaño con su riel de cuatro celdas (objetivo, pasos, ejecución, revisión) todavía vacío, su nombre y su frase; debajo, la leyenda (usted, pactado, la IA) y «El objetivo siempre lo pone usted.».›",
+  "breathes": "‹como: Una chispa sube por la escalera, un peldaño cada 1,56 s: el peldaño se enciende en magenta y su riel se llena según quién hace el trabajo (vacío, usted; a medias, pactado; lleno, la IA), mientras la celda del objetivo queda vacía con un brillo dorado propio. Cuadro final: los seis rieles llenos y la columna del objetivo vacía de abajo arriba.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

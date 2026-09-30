@@ -1,0 +1,33 @@
+{
+  "id": "titles-thread",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "titles-thread",
+  "args": {
+    "titles": [
+      "‹como: Hoy tu cliente espera un día por respuesta›",
+      "‹como: Nuestras capacidades›",
+      "‹como: Primero, el chat responde en minutos›",
+      "‹como: Luego, un prototipo en una semana›",
+      "‹como: Al final, decides si lo construimos›"
+    ],
+    "weak": 1,
+    "fix": "‹como: Tu meta del trimestre, en tres pasos›",
+    "limit": "‹como: ≤10 palabras›"
+  },
+  "lands": "‹como: Una columna de cinco títulos cortos, numerados y unidos por un hilo punteado, cada uno con su conteo de palabras bajo «≤10 palabras»; a la derecha, una persona sin rostro que los lee en voz alta.›",
+  "breathes": "‹como: La persona lee en orden y el hilo se traza de un título al siguiente; en «Nuestras capacidades» el hilo se rompe en rojo y aparece un «?»; el título se reescribe como «Tu meta del trimestre, en tres pasos», el hilo se repara, la lectura sigue hasta el final y el hilo entero se cierra en verde. Cuadro final: todos los títulos unidos por un solo hilo continuo.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

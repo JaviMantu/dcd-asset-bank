@@ -1,0 +1,89 @@
+{
+  "id": "c4-context",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "c4-context",
+  "args": {
+    "people": [
+      [
+        "‹como: asegurado›",
+        "‹como: Asegurado›",
+        "‹como: Reporta el siniestro y sigue su reclamo›"
+      ],
+      [
+        "‹como: ajustador›",
+        "‹como: Ajustador›",
+        "‹como: Inspecciona y valora el daño›"
+      ]
+    ],
+    "system": [
+      "‹como: plataforma›",
+      "‹como: Plataforma de reclamos›",
+      "‹como: Recibe, evalúa y paga los reclamos en línea›"
+    ],
+    "externals": [
+      [
+        "‹como: core›",
+        "‹como: Core de pólizas›",
+        "‹como: Coberturas y vigencia›"
+      ],
+      [
+        "‹como: pagos›",
+        "‹como: Pasarela de pagos›",
+        "‹como: Transfiere la indemnización›"
+      ],
+      [
+        "‹como: mensajeria›",
+        "‹como: Mensajería›",
+        "‹como: Correo, SMS y WhatsApp›"
+      ]
+    ],
+    "rels": [
+      [
+        "‹como: asegurado›",
+        "‹como: plataforma›",
+        "‹como: Reporta y consulta›",
+        "‹como: HTTPS›"
+      ],
+      [
+        "‹como: ajustador›",
+        "‹como: plataforma›",
+        "‹como: Registra la inspección›",
+        "‹como: HTTPS›"
+      ],
+      [
+        "‹como: plataforma›",
+        "‹como: core›",
+        "‹como: Valida la cobertura›",
+        "‹como: API›"
+      ],
+      [
+        "‹como: plataforma›",
+        "‹como: pagos›",
+        "‹como: Ordena el pago›",
+        "‹como: API›"
+      ],
+      [
+        "‹como: plataforma›",
+        "‹como: mensajeria›",
+        "‹como: Avisa cada cambio›",
+        "‹como: API›"
+      ]
+    ]
+  },
+  "lands": "‹como: Arriba, el asegurado y el ajustador; al centro, la plataforma; abajo, tres sistemas externos; la leyenda C4 al pie.›",
+  "breathes": "‹como: Un reclamo baja de las personas a la plataforma y sale hacia el core, la pasarela y la mensajería; cada caja se enciende al recibirlo.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

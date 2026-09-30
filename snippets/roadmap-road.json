@@ -1,0 +1,43 @@
+{
+  "id": "roadmap-road",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "roadmap-road",
+  "args": {
+    "start": "‹como: Hoy›",
+    "milestones": [
+      [
+        "‹como: Semana 1›",
+        "‹como: Primer taller›"
+      ],
+      [
+        "‹como: Semana 3›",
+        "‹como: Prototipo en uso›"
+      ],
+      [
+        "‹como: Mes 2›",
+        "‹como: Un equipo trabajando así›"
+      ],
+      [
+        "‹como: Mes 3›",
+        "‹como: Toda la operación›"
+      ]
+    ],
+    "goal": "‹como: La meta del año›"
+  },
+  "lands": "‹como: Un camino sube serpenteando desde «Hoy» hasta la meta, arriba; a los lados, cuatro banderas con su hito, su periodo y un ícono de su sector.›",
+  "breathes": "‹como: Un vehículo sube el camino y lo deja encendido; cada bandera se ilumina cuando pasa y, al llegar arriba, se enciende la meta. Queda: el camino recorrido y los cuatro hitos encendidos.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

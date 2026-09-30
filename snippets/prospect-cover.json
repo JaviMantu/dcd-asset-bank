@@ -1,0 +1,30 @@
+{
+  "id": "prospect-cover",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "prospect-cover",
+  "args": {
+    "tpl_title": "‹como: Quiénes somos›",
+    "tpl_line": "‹como: Líderes en tecnología›",
+    "tpl_logo": "‹como: Logo›",
+    "for_whom": "‹como: Para la gerencia de operaciones›",
+    "promise": "‹como: Que cada pedido llegue a tiempo, en todo el país›",
+    "cover_sub": "‹como: Tres ideas para lograrlo este trimestre›",
+    "meeting": "‹como: Jueves 10:00 · 30 min›"
+  },
+  "lands": "‹como: Sobre la mesa, una plantilla gris: «Quiénes somos», «Líderes en tecnología» y un hueco para el logo; al otro lado, una gerente sin rostro.›",
+  "breathes": "‹como: La plantilla se aparta y se apaga; delante se arma una portada para un solo prospecto: para quién es, su promesa, su logo y la reunión del jueves. La gerente se inclina hacia ella. Cuadro final: la portada a la medida encendida, la plantilla tenue detrás.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "arq-hero",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "arq-hero",
+  "args": {
+    "system": "‹como: Plataforma de reclamos en línea›",
+    "promise": "‹como: Del aviso al pago, sin papel›",
+    "actors": [
+      "‹como: Asegurado›",
+      "‹como: Ajustador›",
+      "‹como: Analista de reclamos›"
+    ],
+    "systems": [
+      "‹como: Core de pólizas›",
+      "‹como: Pasarela de pagos›",
+      "‹como: Mensajería›"
+    ]
+  },
+  "lands": "‹como: La plataforma en el centro; a la izquierda, quienes la usan; a la derecha, los sistemas con los que conversa.›",
+  "breathes": "‹como: Una solicitud sale de cada persona, cruza la plataforma y llega a un sistema externo; cada uno se enciende al recibirla.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

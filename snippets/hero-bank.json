@@ -1,0 +1,37 @@
+{
+  "id": "hero-bank",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "hero-bank",
+  "args": {
+    "app": "‹como: App Albora›",
+    "actions": [
+      "‹como: Pagar con PLIN›",
+      "‹como: Abrir una cuenta›",
+      "‹como: Cambiar dólares›",
+      "‹como: Pedir un préstamo›"
+    ],
+    "answers": [
+      "‹como: Pago enviado›",
+      "‹como: Cuenta abierta›",
+      "‹como: Dólares cambiados›",
+      "‹como: Oferta a su medida›"
+    ],
+    "region": "‹como: Sueños acompañados, en todo el país›"
+  },
+  "lands": "‹como: Una ciudad al anochecer detrás de una persona, vista de espaldas, con la app del banco en la mano; sobre los techos esperan cuatro sueños apagados: una casa, un negocio, un auto y un birrete.›",
+  "breathes": "‹como: Pagar con PLIN, abrir una cuenta, cambiar dólares y pedir un préstamo se encienden por turnos en la app; cada uno recibe su respuesta con un check y la respuesta sube a su sueño, que se enciende sobre la ciudad. Queda: cuatro acciones respondidas y cuatro sueños encendidos.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

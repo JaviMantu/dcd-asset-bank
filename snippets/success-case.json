@@ -1,0 +1,59 @@
+{
+  "id": "success-case",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "success-case",
+  "args": {
+    "cases": [
+      "‹como: Resumir correos›",
+      "‹como: Redactar actas›",
+      "‹como: Clasificar solicitudes›",
+      "‹como: Responder preguntas frecuentes›",
+      "‹como: Automatizar el informe de avance›",
+      "‹como: Analizar encuestas›",
+      "‹como: Crear presentaciones›",
+      "‹como: Traducir documentos›",
+      "‹como: Buscar en políticas›"
+    ],
+    "pick": "‹como: Automatizar el informe de avance›",
+    "card": "‹como: Caso de éxito›",
+    "fields": [
+      {
+        "k": "‹como: Qué cambió›",
+        "v": "‹como: el informe se arma y se envía solo›"
+      },
+      {
+        "k": "‹como: Cuándo›",
+        "v": "‹como: cada lunes, 8:00›"
+      },
+      {
+        "k": "‹como: Quién›",
+        "v": "‹como: la líder del proyecto revisa y aprueba›"
+      }
+    ],
+    "kpi": {
+      "k": "‹como: KPI›",
+      "v": "‹como: de 2 horas a 15 minutos por semana›",
+      "tag": "‹como: ejemplo›"
+    },
+    "gauge": [
+      "‹como: antes›",
+      "‹como: después›"
+    ]
+  },
+  "lands": "‹como: Un rollo de papel que se desenrolla con nueve casos de uso con nombre: resumir correos, redactar actas, clasificar solicitudes y seis más.›",
+  "breathes": "‹como: La línea «Automatizar el informe de avance» se marca con la cinta magenta, sale del rollo y se vuelve, delante, la tarjeta del caso de éxito; sus campos se llenan uno a uno y quedan: qué cambió, cuándo, quién y el KPI con su etiqueta «ejemplo», quieto desde que aparece. Un medidor de papel mueve la aguja de la zona de antes a la de después. Cuadro final: el rollo detrás, la tarjeta completa con sus cuatro campos y la etiqueta, y la aguja ya movida.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

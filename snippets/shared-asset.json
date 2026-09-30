@@ -1,0 +1,43 @@
+{
+  "id": "shared-asset",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "shared-asset",
+  "args": {
+    "center": "‹como: El dato del activo›",
+    "event": "‹como: Vibración · compresor›",
+    "lines": [
+      [
+        "‹como: Servicios O&M›",
+        "‹como: Operación y mantenimiento›"
+      ],
+      [
+        "‹como: Supply chain›",
+        "‹como: Bodegas e inventarios›"
+      ],
+      [
+        "‹como: Representaciones›",
+        "‹como: Equipos y repuestos›"
+      ],
+      [
+        "‹como: GLP›",
+        "‹como: Granel y cilindros›"
+      ]
+    ]
+  },
+  "lands": "‹como: Las cuatro líneas, una en cada esquina, se unen por tuberías a un mismo centro: el dato del activo.›",
+  "breathes": "‹como: Una vibración del compresor sale del centro, llega a las cuatro líneas a la vez y cierra un anillo entre ellas.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

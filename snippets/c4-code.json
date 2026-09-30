@@ -1,0 +1,96 @@
+{
+  "id": "c4-code",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "c4-code",
+  "args": {
+    "classes": [
+      [
+        "‹como: ctrl›",
+        "‹como: ReclamoController›",
+        "‹como: controller›",
+        [
+          "‹como: + crear(dto)›",
+          "‹como: + consultar(id)›"
+        ]
+      ],
+      [
+        "‹como: svc›",
+        "‹como: ReclamoService›",
+        "‹como: service›",
+        [
+          "‹como: + registrar(reclamo)›",
+          "‹como: - validarCobertura()›"
+        ]
+      ],
+      [
+        "‹como: repo›",
+        "‹como: ReclamoRepository›",
+        "‹como: interface›",
+        [
+          "‹como: + save(reclamo)›",
+          "‹como: + findById(id)›"
+        ]
+      ],
+      [
+        "‹como: pub›",
+        "‹como: EventPublisher›",
+        "‹como: interface›",
+        [
+          "‹como: + publish(evento)›"
+        ]
+      ],
+      [
+        "‹como: ent›",
+        "‹como: Reclamo›",
+        "‹como: entity›",
+        [
+          "‹como: id · estado · monto›",
+          "‹como: + aprobar()›"
+        ]
+      ]
+    ],
+    "rels": [
+      [
+        "‹como: ctrl›",
+        "‹como: svc›",
+        "‹como: usa›"
+      ],
+      [
+        "‹como: svc›",
+        "‹como: repo›",
+        "‹como: usa›"
+      ],
+      [
+        "‹como: svc›",
+        "‹como: pub›",
+        "‹como: usa›"
+      ],
+      [
+        "‹como: svc›",
+        "‹como: ent›",
+        "‹como: crea›"
+      ],
+      [
+        "‹como: repo›",
+        "‹como: ent›",
+        "‹como: persiste›"
+      ]
+    ]
+  },
+  "lands": "‹como: Cinco clases: el controlador arriba, el servicio al centro y, abajo, dos interfaces y la entidad del reclamo.›",
+  "breathes": "‹como: La llamada baja del controlador al servicio y de ahí a cada interfaz y a la entidad; cada clase se enciende al usarse.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

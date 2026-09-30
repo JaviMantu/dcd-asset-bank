@@ -1,0 +1,29 @@
+{
+  "id": "capacity-join",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "capacity-join",
+  "args": {
+    "count": 5,
+    "request": "‹como: Solicitud›",
+    "proto": "‹como: Prototipo›",
+    "lab": "‹como: Su laboratorio›",
+    "engineers": "‹como: Ingenieros de IA aumentados›",
+    "platform": "‹como: Con su método y su plataforma›"
+  },
+  "lands": "‹como: A la izquierda, cinco solicitudes con su reloj esperan en la puerta de «Su laboratorio», donde trabajan dos personas; a la derecha, tres ingenieros de IA aumentados, cada uno con su chispa; debajo de todo, su método y su plataforma.›",
+  "breathes": "‹como: La primera solicitud empuja la puerta cerrada; los tres ingenieros entran por la derecha, la puerta se abre y la fila avanza: cada solicitud cruza el tablero del laboratorio y sale como prototipo con check y reloj en verde. Queda: la fila vacía, cinco prototipos afuera y cinco personas en el laboratorio.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

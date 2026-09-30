@@ -1,0 +1,25 @@
+{
+  "id": "luz-hero",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-hero",
+  "args": {
+    "spark": "‹como: IA›",
+    "format": "‹como: Foro y panel · 55 minutos›"
+  },
+  "lands": "‹como: La chispa «IA» encendida a la derecha del escenario, sobre un cielo de estrellas lejanas; dos órbitas punteadas, un plano orbital inclinado que pasa por detrás y por delante, y una estela magenta que la rodea en tres vueltas, cada una más ceñida; abajo, «Foro y panel · 55 minutos».›",
+  "breathes": "‹como: Una chispa recorre la estela vuelta tras vuelta hacia adentro y la estela se carga a su paso; al llegar al centro el anillo interior se cierra y se enciende, sale una onda, la chispa «IA» destella y las vueltas de afuera se atenúan; la chispa sigue girando en el anillo y la «IA» late cada tres segundos. Cuadro final (10,8 s): el anillo cerrado y encendido alrededor de la chispa, sin salida.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

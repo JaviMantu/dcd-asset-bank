@@ -1,0 +1,47 @@
+{
+  "id": "hypotheses-live-b",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "hypotheses-live-b",
+  "args": {
+    "cards": [
+      [
+        "‹como: Atención a comercios›",
+        "‹como: Una sola respuesta, gobernada, a las consultas frecuentes de los comercios›",
+        "‹como: Menos espera›"
+      ],
+      [
+        "‹como: Conocimiento interno›",
+        "‹como: Productos, procesos y normas a mano, con permisos por equipo›",
+        "‹como: Menos tiempo buscando›"
+      ],
+      [
+        "‹como: Datos para el comercio›",
+        "‹como: Del dato de cada venta a recomendaciones para que el comercio crezca›",
+        "‹como: Nuevos servicios›"
+      ],
+      [
+        "‹como: Tecnología›",
+        "‹como: Entregar software más rápido con un equipo aumentado por IA›",
+        "‹como: Habilitador de las otras tres›"
+      ]
+    ],
+    "ret": "‹como: Retorno posible›",
+    "cycle": "‹como: Del requerimiento al despliegue›"
+  },
+  "lands": "‹como: Tres hipótesis con su retorno posible se apoyan en una cuarta, tecnología, que las habilita; cada tarjeta lleva su «?».›",
+  "breathes": "‹como: El bucle recorre cada tarjeta y cuenta su historia: una sola respuesta llega a muchos comercios; el documento correcto vuelve a quien pregunta y el restringido sigue con candado; el dato de cada venta se vuelve una recomendación. Luego tecnología recorre su ciclo y enciende las otras tres.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

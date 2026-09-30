@@ -1,0 +1,26 @@
+{
+  "id": "luz-question",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-question",
+  "args": {
+    "chip": "‹como: La IA›",
+    "neck": "‹como: Nosotros›",
+    "chat": "‹como: Responda en el chat, en una frase.›"
+  },
+  "lands": "‹como: Un embudo de luz en profundidad (su boca, dos cortes y una pared que se estrecha): arriba, el chip «La IA», abierto sobre la estela; abajo, el cuello «Nosotros» alrededor de tres personas sin rostro; debajo, la burbuja del chat.›",
+  "breathes": "‹como: Cinco chispas caen al embudo una tras otra, cruzan el chip sin frenarse (el chip destella a cada paso) y se quedan flotando, curiosas, sobre las personas, que se encienden al llegarles la luz; el cuello respira y una chispa más sigue de largo, pasa por detrás de la persona del centro y cae en la burbuja del chat, que se enciende y empieza a escribir. Cuadro final: el chip despejado, cinco chispas sobre las personas encendidas y la burbuja encendida.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

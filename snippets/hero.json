@@ -1,0 +1,41 @@
+{
+  "id": "hero",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "hero",
+  "args": {
+    "stations": [
+      "‹como: Turbina›",
+      "‹como: Compresor›",
+      "‹como: Bomba›",
+      "‹como: Válvula›"
+    ],
+    "decisions": [
+      "‹como: Compras›",
+      "‹como: Movimientos de bodega›",
+      "‹como: Mantenimiento proactivo›"
+    ],
+    "events": [
+      "‹como: Imprevisto›",
+      "‹como: Urgencia›",
+      "‹como: Riesgo›"
+    ],
+    "link": "‹como: Datos conectados›",
+    "clients": "‹como: El negocio de sus clientes›"
+  },
+  "lands": "‹como: Se enciende una sola operación: arriba, las decisiones de negocio; en el horizonte, la línea de gas con turbina, compresor, bomba y válvula; abajo, el negocio de sus clientes con las luces encendidas.›",
+  "breathes": "‹como: Un imprevisto, una urgencia y un riesgo suben como señal a bodega, compras y mantenimiento, bajan como respuesta a tiempo, y el negocio de sus clientes nunca se apaga.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

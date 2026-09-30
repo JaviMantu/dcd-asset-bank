@@ -1,0 +1,45 @@
+{
+  "id": "map-lines",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "map-lines",
+  "args": {
+    "routes": [
+      {
+        "name": "‹como: Ruta de abastecimiento›",
+        "stops": [
+          "‹como: Proveedor›",
+          "‹como: Planta›",
+          "‹como: Centro de distribución›",
+          "‹como: Bodega regional›"
+        ]
+      },
+      {
+        "name": "‹como: Ruta de venta›",
+        "stops": [
+          "‹como: Pedido›",
+          "‹como: Centro de distribución›",
+          "‹como: Tienda›",
+          "‹como: Cliente›"
+        ]
+      }
+    ],
+    "hub": "‹como: Centro de distribución›",
+    "note": "‹como: Todo pasa por un mismo punto›"
+  },
+  "lands": "‹como: Dos rutas dibujadas como un mapa de transporte, una a lo ancho y otra hacia abajo, con sus paradas e íconos de su sector; se cruzan en una estación compartida.›",
+  "breathes": "‹como: La primera ruta se enciende parada a parada, luego la segunda, con una ficha en cada una; al final la estación compartida se enciende con la nota. Queda: las dos rutas encendidas y el cruce en su centro.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

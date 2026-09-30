@@ -1,0 +1,54 @@
+{
+  "id": "ops-center",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "ops-center",
+  "args": {
+    "screen": "‹como: Centro de operaciones›",
+    "live": "‹como: En vivo›",
+    "queue": "‹como: Consultas de clientes›",
+    "tickets": [
+      "‹como: ¿Por qué no veo mi transferencia?›",
+      "‹como: ¿Cuándo sale mi carta de crédito?›",
+      "‹como: Me cobraron dos veces›"
+    ],
+    "new": "‹como: Nuevo›",
+    "solved": "‹como: Respondida sola›",
+    "sensitive": "‹como: Sensible›",
+    "routed": "‹como: A una persona, con contexto›",
+    "space": "‹como: Conocimiento gobernado›",
+    "docs": [
+      "‹como: Productos y tarifas›",
+      "‹como: Comercio exterior›"
+    ],
+    "phases": [
+      "‹como: La IA prepara la respuesta›",
+      "‹como: El equipo la aprueba›",
+      "‹como: El cliente la ve en la app›"
+    ],
+    "draft": "‹como: Respuesta preparada›",
+    "app": "‹como: App Albora›",
+    "note": [
+      "‹como: Respuesta›",
+      "‹como: Tu cobro doble ya fue revisado.›"
+    ],
+    "case": "‹como: Cobro doble›",
+    "approve": "‹como: Aprobar›",
+    "sign": "‹como: Audacious Ideas, Delivered Beyond.›"
+  },
+  "lands": "‹como: El centro de operaciones de mañana, en vivo: a la izquierda, la cola de consultas y el conocimiento gobernado; a la derecha, los tres pasos de una respuesta; debajo, el teléfono del cliente y una persona del equipo con su tablet.›",
+  "breathes": "‹como: Llegan tres consultas: las dos primeras se responden solas desde el conocimiento gobernado; la tercera se vuelve sensible y baja a la persona con su contexto; la IA prepara la respuesta, el equipo la aprueba en la tablet y el cliente la ve en la app.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

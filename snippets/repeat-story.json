@@ -1,0 +1,40 @@
+{
+  "id": "repeat-story",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "repeat-story",
+  "args": {
+    "client": "‹como: Cliente›",
+    "tells": [
+      "‹como: Cuenta su caso›",
+      "‹como: Otra vez›",
+      "‹como: Y otra vez›"
+    ],
+    "channels": [
+      "‹como: Línea de atención›",
+      "‹como: Autorizaciones›",
+      "‹como: Reembolsos›"
+    ],
+    "ask": "‹como: ¿Me cuenta su caso?›",
+    "transfer": "‹como: Lo transfieren›",
+    "status": "‹como: Espera un documento›",
+    "other": "‹como: Otro sistema›",
+    "there": "‹como: El documento ya estaba aquí›",
+    "wait": "‹como: La espera›"
+  },
+  "lands": "‹como: El cliente a la izquierda y, a su lado, tres canales vacíos, cada uno con su propio sistema; abajo, otro sistema aparte y la barra de la espera.›",
+  "breathes": "‹como: El cliente cuenta su caso a la línea de atención; lo transfieren, el siguiente canal pregunta «¿Me cuenta su caso?» y lo cuenta otra vez, y otra; el reembolso espera un documento que ya estaba en otro sistema, el intento no cruza, y la espera crece hasta volverse roja.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

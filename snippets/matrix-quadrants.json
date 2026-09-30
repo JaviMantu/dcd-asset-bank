@@ -1,0 +1,60 @@
+{
+  "id": "matrix-quadrants",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "matrix-quadrants",
+  "args": {
+    "x_axis": [
+      "‹como: Menor esfuerzo›",
+      "‹como: Mayor esfuerzo›"
+    ],
+    "y_axis": [
+      "‹como: Menor impacto›",
+      "‹como: Mayor impacto›"
+    ],
+    "quadrants": [
+      "‹como: Primero›",
+      "‹como: Planear›",
+      "‹como: Si sobra tiempo›",
+      "‹como: Por ahora no›"
+    ],
+    "ideas": [
+      [
+        "‹como: Responder más rápido›",
+        0.24,
+        0.8
+      ],
+      [
+        "‹como: Unificar reportes›",
+        0.72,
+        0.76
+      ],
+      [
+        "‹como: Avisos automáticos›",
+        0.3,
+        0.3
+      ],
+      [
+        "‹como: Rehacer el sistema›",
+        0.78,
+        0.24
+      ]
+    ],
+    "pick": "‹como: Empezamos aquí›"
+  },
+  "lands": "‹como: Una matriz de dos por dos, esfuerzo a lo ancho e impacto a lo alto, con sus cuatro cuadrantes nombrados.›",
+  "breathes": "‹como: Las ideas caen una a una a su lugar con su ícono y su nombre (posiciones relativas, no medidas); al final el cuadrante de mayor impacto y menor esfuerzo se enciende con «Empezamos aquí». Queda: las ideas ubicadas y el primer cuadrante encendido.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

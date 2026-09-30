@@ -1,0 +1,53 @@
+{
+  "id": "simple-outside",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "simple-outside",
+  "args": {
+    "outside": "‹como: Afuera: lo que publican›",
+    "sources": [
+      [
+        "‹como: Su sitio›",
+        "‹como: Entregas en 24 horas en cinco ciudades›"
+      ],
+      [
+        "‹como: Informe anual 2025›",
+        "‹como: Dos centros de distribución nuevos›"
+      ],
+      [
+        "‹como: Prensa del sector›",
+        "‹como: Más pedidos en línea en la región›"
+      ]
+    ],
+    "book": "‹como: Nuestro dossier›",
+    "inside": "‹como: Adentro: lo cuentan ustedes›",
+    "areas": [
+      "‹como: Bodega›",
+      "‹como: Despacho›",
+      "‹como: Ruta›",
+      "‹como: Entrega›"
+    ],
+    "ask": "‹como: Llevamos preguntas, no respuestas›",
+    "icons": [
+      "‹como: logistica/bodega›",
+      "‹como: logistica/caja›",
+      "‹como: logistica/ruta›",
+      "‹como: logistica/camion›"
+    ]
+  },
+  "lands": "‹como: Arriba, afuera, tres fuentes públicas y nuestro dossier; una línea punteada; abajo, sus cuatro áreas dibujadas en tenue: lo de adentro no lo vemos.›",
+  "breathes": "‹como: La lupa lee cada fuente y una nota vuela al dossier, que se llena; del dossier bajan preguntas, una a cada área, y se enciende «Llevamos preguntas, no respuestas». Queda: las fuentes leídas y una pregunta en cada área.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

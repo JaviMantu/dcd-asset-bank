@@ -1,0 +1,41 @@
+{
+  "id": "mechanism",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "mechanism",
+  "args": {
+    "chart": "‹como: Vibración · compresor›",
+    "limit": "‹como: Límite›",
+    "deviation": "‹como: Desviación temprana›",
+    "margin": "‹como: Tiempo para actuar›",
+    "link": "‹como: Datos conectados›",
+    "decisions": [
+      "‹como: Compra del repuesto›",
+      "‹como: Movimiento de bodega›",
+      "‹como: Mantenimiento proactivo›"
+    ],
+    "stations": [
+      "‹como: Turbina›",
+      "‹como: Compresor›",
+      "‹como: Bomba›",
+      "‹como: Válvula›"
+    ],
+    "done": "‹como: Riesgo desactivado›",
+    "sign": "‹como: La operación sigue›"
+  },
+  "lands": "‹como: De arriba abajo, la cadena en cuatro pasos: la vibración del compresor, los datos conectados, tres decisiones de negocio y la línea con sus cuatro estaciones.›",
+  "breathes": "‹como: La vibración sale de su rango mucho antes del límite, la señal llega a compras, bodega y mantenimiento, cada decisión se marca y la respuesta baja al compresor, que pasa a verde mientras la línea sigue.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ways",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "top",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "ways",
+  "args": {
+    "models": [
+      [
+        "‹como: Desarrollo›",
+        "‹como: Para probar y crecer›",
+        [
+          "‹como: Prototipo en una semana›",
+          "‹como: Producto mínimo en producción›",
+          "‹como: Laboratorio de innovación›"
+        ]
+      ],
+      [
+        "‹como: Capacidades›",
+        "‹como: Dan velocidad›",
+        [
+          "‹como: Perfiles aumentados por IA›",
+          "‹como: Forward Deployed Engineer›",
+          "‹como: Skill center›",
+          "‹como: Tiempo y materiales›"
+        ]
+      ],
+      [
+        "‹como: Proyecto›",
+        "‹como: Da control›",
+        [
+          "‹como: Alcance y fecha definidos›",
+          "‹como: Resultado acordado›",
+          "‹como: Un equipo responsable›"
+        ]
+      ],
+      [
+        "‹como: Servicio›",
+        "‹como: Da continuidad›",
+        [
+          "‹como: Operar y mejorar la IA›",
+          "‹como: Soporte y evolución›",
+          "‹como: Capacitación de equipos›"
+        ]
+      ]
+    ],
+    "ask": "‹como: ¿Qué necesitan hoy?›",
+    "needs": [
+      "‹como: Queremos probar›",
+      "‹como: Necesitamos velocidad›",
+      "‹como: Necesitamos control›",
+      "‹como: Necesitamos continuidad›"
+    ]
+  },
+  "lands": "‹como: Cuatro columnas se abren (desarrollo, capacidades, proyecto y servicio) y, debajo, un árbol une sus bases con una sola raíz que pregunta «¿Qué necesitan hoy?».›",
+  "breathes": "‹como: La pregunta se vuelve una necesidad a la vez (probar, velocidad, control, continuidad) y una chispa sube por su rama hasta la forma que la resuelve, que se enciende y subraya su promesa, hasta que las cuatro ramas quedan encendidas y vuelve la pregunta.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

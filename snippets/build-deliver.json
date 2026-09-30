@@ -1,0 +1,47 @@
+{
+  "id": "build-deliver",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "build-deliver",
+  "args": {
+    "phases": [
+      "‹como: Construye›",
+      "‹como: Revisa›",
+      "‹como: Entrega›"
+    ],
+    "checks": [
+      "‹como: Contraste›",
+      "‹como: Tamaño de letra›",
+      "‹como: Movimiento›",
+      "‹como: Palabras que no decimos›",
+      "‹como: Cifras confirmadas›"
+    ],
+    "files": [
+      [
+        "‹como: presentación.html›",
+        "‹como: con tus notas›"
+      ],
+      [
+        "‹como: cliente.html›",
+        "‹como: sin notas›"
+      ]
+    ],
+    "offline": "‹como: Se abre sin internet›",
+    "you": "‹como: Tú presentas›"
+  },
+  "lands": "‹como: Tres columnas de izquierda a derecha: «Construye» con cuatro diapositivas vacías, «Revisa» con cinco revisiones apagadas y «Entrega», una bandeja vacía.›",
+  "breathes": "‹como: Las diapositivas se llenan con su escena; una línea baja por «Contraste», «Tamaño de letra», «Movimiento», «Palabras que no decimos» y «Cifras confirmadas», que se ponen en verde; caen «presentación.html · con tus notas» y «cliente.html · sin notas», cada uno «Se abre sin internet», y una persona da un paso al frente con el archivo: «Tú presentas».›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

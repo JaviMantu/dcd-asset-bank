@@ -1,0 +1,151 @@
+{
+  "id": "c4-component",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "c4-component",
+  "args": {
+    "boundary": "‹como: API de reclamos [Contenedor: Java · Spring Boot]›",
+    "inputs": [
+      [
+        "‹como: web›",
+        "‹como: Portal del asegurado›",
+        "‹como: React›",
+        "",
+        "‹como: web›"
+      ],
+      [
+        "‹como: app›",
+        "‹como: App del ajustador›",
+        "‹como: Flutter›",
+        "",
+        "‹como: app›"
+      ]
+    ],
+    "components": [
+      [
+        "‹como: ctrl›",
+        "‹como: Controlador REST›",
+        "‹como: Spring MVC›",
+        "‹como: Valida y traduce la solicitud›"
+      ],
+      [
+        "‹como: svc›",
+        "‹como: Servicio de reclamos›",
+        "‹como: Spring›",
+        "‹como: Reglas y estados›"
+      ],
+      [
+        "‹como: cob›",
+        "‹como: Cliente de pólizas›",
+        "‹como: Spring · HTTP›",
+        ""
+      ],
+      [
+        "‹como: repo›",
+        "‹como: Repositorio›",
+        "‹como: Spring Data JPA›",
+        ""
+      ],
+      [
+        "‹como: pub›",
+        "‹como: Publicador de eventos›",
+        "‹como: Spring Kafka›",
+        ""
+      ]
+    ],
+    "outputs": [
+      [
+        "‹como: core›",
+        "‹como: Core de pólizas›",
+        "",
+        "",
+        "‹como: external›"
+      ],
+      [
+        "‹como: db›",
+        "‹como: BD de reclamos›",
+        "‹como: PostgreSQL›",
+        "",
+        "‹como: db›"
+      ],
+      [
+        "‹como: bus›",
+        "‹como: Bus de eventos›",
+        "‹como: Kafka›",
+        "",
+        "‹como: queue›"
+      ]
+    ],
+    "rels": [
+      [
+        "‹como: web›",
+        "‹como: ctrl›",
+        "‹como: Llama›",
+        "‹como: JSON›"
+      ],
+      [
+        "‹como: app›",
+        "‹como: ctrl›",
+        "‹como: Llama›",
+        "‹como: JSON›"
+      ],
+      [
+        "‹como: ctrl›",
+        "‹como: svc›",
+        "‹como: Delega›",
+        ""
+      ],
+      [
+        "‹como: svc›",
+        "‹como: cob›",
+        "‹como: Consulta cobertura›",
+        ""
+      ],
+      [
+        "‹como: svc›",
+        "‹como: repo›",
+        "‹como: Guarda›",
+        ""
+      ],
+      [
+        "‹como: svc›",
+        "‹como: pub›",
+        "‹como: Emite el evento›",
+        ""
+      ],
+      [
+        "‹como: cob›",
+        "‹como: core›",
+        "‹como: Consulta›",
+        "‹como: API›"
+      ],
+      [
+        "‹como: repo›",
+        "‹como: db›",
+        "‹como: Lee y escribe›",
+        "‹como: SQL›"
+      ],
+      [
+        "‹como: pub›",
+        "‹como: bus›",
+        "‹como: Publica›",
+        ""
+      ]
+    ]
+  },
+  "lands": "‹como: El recuadro de la API con cinco componentes en tres niveles; arriba, el portal y la app; abajo, el core, la base de datos y el bus.›",
+  "breathes": "‹como: La solicitud baja del controlador al servicio y se abre en tres: cobertura, persistencia y evento; cada componente se enciende al recibirla.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

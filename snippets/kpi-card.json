@@ -1,0 +1,48 @@
+{
+  "id": "kpi-card",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "kpi-card",
+  "args": {
+    "case_label": "‹como: Caso de uso›",
+    "success": "‹como: Caso de éxito›",
+    "case": "‹como: Responder dudas por chat›",
+    "fields": [
+      [
+        "‹como: Indicador›",
+        "‹como: Tiempo de respuesta›"
+      ],
+      [
+        "‹como: Cuánto se movió›",
+        "‹como: De 24 h a 5 min›"
+      ],
+      [
+        "‹como: Dueño›",
+        "‹como: Gerente de servicio›"
+      ],
+      [
+        "‹como: Fecha›",
+        "‹como: Marzo›"
+      ]
+    ],
+    "example": "‹como: ejemplo›",
+    "figure": "‹como: 1 de cada 4›",
+    "label": "‹como: empresas pasa de la prueba de concepto a valor tangible›",
+    "source": "‹como: BCG, 2024›"
+  },
+  "lands": "‹como: La tarjeta «Caso de uso · Responder dudas por chat» con cuatro campos vacíos; a su lado, quieta en su marco, la cifra «1 de cada 4» con su fuente.›",
+  "breathes": "‹como: Los campos se llenan uno a uno: indicador, cuánto se movió (un ejemplo, rotulado así), dueño y fecha; con los cuatro, la tarjeta se vuelve verde y pasa a «Caso de éxito», y la empresa encendida de la cifra responde. La cifra no se mueve. Cuadro final: el caso de éxito completo y la cifra fija.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

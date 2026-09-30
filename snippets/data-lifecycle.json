@@ -1,0 +1,42 @@
+{
+  "id": "data-lifecycle",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "data-lifecycle",
+  "args": {
+    "phases": [
+      "‹como: Ingesta›",
+      "‹como: Calidad›",
+      "‹como: Documentación›",
+      "‹como: Catálogo›"
+    ],
+    "results": [
+      "‹como: Lote revisado›",
+      "‹como: Fila corregida›",
+      "‹como: Campo descrito›",
+      "‹como: Entrada nueva›"
+    ],
+    "wait": "‹como: En cola›",
+    "approve": [
+      "‹como: Por aprobar›",
+      "‹como: Aprobado›"
+    ],
+    "tap": "‹como: Aprobar›",
+    "label": "‹como: El equipo aprueba lo que los agentes preparan›"
+  },
+  "lands": "‹como: Un ciclo de vida del dato en cuatro etapas (Ingesta, Calidad, Documentación, Catálogo) bajo la línea por la que viaja el dato; abajo, de espaldas, una persona del equipo de datos con su tablet, y la frase «El equipo aprueba lo que los agentes preparan».›",
+  "breathes": "‹como: Un bucle de 12 segundos: el dato entra y en cada etapa un agente trabaja (llegan las filas y se revisan, una fila rota se corrige, un campo se describe, aparece una entrada en el catálogo); la persona toca «Aprobar», el pulso sube y la etapa queda «Aprobado»; el dato sigue. Cuadro final: las cuatro etapas hechas y aprobadas.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "federated-live",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "federated-live",
+  "args": {
+    "console": "‹como: Gobierno de TI · en vivo›",
+    "panes": [
+      "‹como: Registro de actividad›",
+      "‹como: Permisos por espacio›",
+      "‹como: Uso por equipo›"
+    ],
+    "spaces": [
+      [
+        "‹como: Atención a comercios›",
+        "‹como: Atención›",
+        "‹como: Espacio restringido›",
+        true,
+        [
+          "‹como: Guías de producto›",
+          "‹como: Abonos y plazos›"
+        ],
+        1
+      ],
+      [
+        "‹como: Riesgo y fraude›",
+        "‹como: Riesgo›",
+        "‹como: Espacio restringido›",
+        true,
+        [
+          "‹como: Políticas›",
+          "‹como: Procedimientos›"
+        ],
+        1
+      ],
+      [
+        "‹como: Producto y tecnología›",
+        "‹como: Producto›",
+        "‹como: Espacio abierto›",
+        false,
+        [
+          "‹como: Documentación y APIs›",
+          "‹como: Reglamento de pagos›"
+        ],
+        2
+      ]
+    ],
+    "open": "‹como: Abierto›",
+    "create": "‹como: Crear agente›",
+    "created": "‹como: Creado›",
+    "member": "‹como: Nuevo miembro›",
+    "log": [
+      "‹como: Atención creó un agente›",
+      "‹como: Riesgo: acceso protegido›",
+      "‹como: TI ajustó un acceso›"
+    ],
+    "status": "‹como: Autonomía local · control central›"
+  },
+  "lands": "‹como: Arriba, la consola de TI con el registro de actividad, los permisos por espacio y el uso por equipo; abajo, tres espacios de equipo (atención, riesgo y producto), cada uno con su persona, sus fuentes y sus agentes.›",
+  "breathes": "‹como: Una persona de atención crea su agente y el registro lo anota; el agente responde con las fuentes de su espacio y el candado de riesgo se mantiene; los otros equipos también responden y su uso sube; TI suma un miembro al espacio restringido, el cambio baja al espacio y queda en el registro.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

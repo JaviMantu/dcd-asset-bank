@@ -1,0 +1,31 @@
+{
+  "id": "explain-cards",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "explain-cards",
+  "args": {
+    "ask": "‹como: Hazme el informe›",
+    "insert": "‹como: insertar›",
+    "cards": [
+      "‹como: Quién lo lee›",
+      "‹como: De dónde salen los datos›",
+      "‹como: Cuándo está bien›"
+    ],
+    "done": "‹como: Tu forma de trabajar, escrita›"
+  },
+  "lands": "‹como: A la izquierda, pequeño, el pedido «Hazme el informe» y su plantilla hueca con tres huecos «insertar»; a la derecha, una hoja de chat de papel con el mismo pedido y tres huecos vacíos; abajo, el mapa pequeño de tres paradas.›",
+  "breathes": "‹como: Entran tres fichas, una por una (quién lo lee, de dónde salen los datos, cuándo está bien), y cada una llena su hueco; la hoja se firma «tu forma de trabajar, escrita» y en la esquina se enciende la primera parada del mapa. Cuadro final: las tres fichas en la hoja completa y la primera parada encendida.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

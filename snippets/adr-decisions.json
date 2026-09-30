@@ -1,0 +1,49 @@
+{
+  "id": "adr-decisions",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "adr-decisions",
+  "args": {
+    "decisions": [
+      [
+        "‹como: ADR-01›",
+        "‹como: Eventos para desacoplar la evaluación›",
+        "‹como: El volumen se triplica tras una tormenta›",
+        "‹como: La API publica eventos y el motor los consume a su ritmo›",
+        "‹como: Más piezas que operar; la API no se detiene en un pico›",
+        "‹como: Aceptada›"
+      ],
+      [
+        "‹como: ADR-02›",
+        "‹como: PostgreSQL gestionado para el reclamo›",
+        "‹como: Estados y montos piden transacciones›",
+        "‹como: Una base relacional gestionada, con réplica en otra zona›",
+        "‹como: Menos esfuerzo de operación; dependemos del servicio de la nube›",
+        "‹como: Aceptada›"
+      ],
+      [
+        "‹como: ADR-03›",
+        "‹como: Identidad centralizada para todos los canales›",
+        "‹como: Tres canales y un mismo asegurado›",
+        "‹como: Un proveedor de identidad con OpenID Connect›",
+        "‹como: Un solo inicio de sesión; un punto crítico que se vigila›",
+        "‹como: Propuesta›"
+      ]
+    ]
+  },
+  "lands": "‹como: Tres tarjetas de decisión, cada una con su contexto, su decisión, su consecuencia y su estado.›",
+  "breathes": "‹como: Cada tarjeta se enciende por turno: primero el contexto, luego la decisión y al final la consecuencia; su estado se sella.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,1141 @@
+{
+  "schema": "storyboard/v4",
+  "meta": {
+    "type": "arquitectura",
+    "title": "Aseguradora Andina · Amaris",
+    "subtitle": "Arquitectura de la plataforma de reclamos en línea",
+    "lema": "Cada reclamo, resuelto en línea y a tiempo",
+    "intencion": "Que el comité de arquitectura de Aseguradora Andina vea una arquitectura clara, operable y con sus costos dichos.",
+    "honestidad": "Sistema y cliente ficticios para mostrar el tipo de deck; las metas de calidad son hipótesis para validar.",
+    "case": "Sesión de arquitectura de 40 minutos con el comité de arquitectura y TI de Aseguradora Andina.",
+    "voice_profile": "tecnico",
+    "versions": {
+      "40": {
+        "name": "Sesión de arquitectura",
+        "audience": "Comité de arquitectura y TI de Aseguradora Andina",
+        "minutes": 40
+      }
+    },
+    "moments": [
+      "Su sistema",
+      "La estructura",
+      "Cómo se opera",
+      "Lo que decidimos",
+      "Próximo paso"
+    ],
+    "limits": {
+      "title_words": 10,
+      "sub_words": 20,
+      "items": 3,
+      "slides": 20
+    },
+    "banned": [
+      "GenAI",
+      "l[áa]mina",
+      "\\bgates?\\b",
+      "\\bROI\\b",
+      "garantiza",
+      "transformaci",
+      "así lo (describen|escriben|dicen) ustedes",
+      "una frase suya",
+      "lo vemos igual",
+      "coincidimos",
+      "filial"
+    ],
+    "refs": {
+      "amaris": ""
+    },
+    "business_words": [
+      "reclamo",
+      "siniestro",
+      "póliza",
+      "asegurado",
+      "ajustador",
+      "indemnización"
+    ],
+    "cita": "Preparado por la Service Line de Data & IA de Amaris. Manager responsable: Javier Montaño.",
+    "simple": [
+      "portada",
+      "contexto",
+      "contenedores",
+      "componentes",
+      "datos",
+      "infraestructura",
+      "decisiones",
+      "proximo-paso"
+    ],
+    "focus": {
+      "solucion": [
+        "portada",
+        "drivers",
+        "contexto",
+        "contenedores",
+        "capas",
+        "decisiones",
+        "riesgos",
+        "proximo-paso"
+      ],
+      "software": [
+        "portada",
+        "drivers",
+        "contenedores",
+        "componentes",
+        "codigo",
+        "decisiones",
+        "riesgos",
+        "proximo-paso"
+      ],
+      "datos": [
+        "portada",
+        "drivers",
+        "contexto",
+        "datos",
+        "infraestructura",
+        "decisiones",
+        "riesgos",
+        "proximo-paso"
+      ],
+      "infraestructura": [
+        "portada",
+        "drivers",
+        "contenedores",
+        "infraestructura",
+        "capas",
+        "decisiones",
+        "riesgos",
+        "proximo-paso"
+      ],
+      "c4": [
+        "portada",
+        "contexto",
+        "contenedores",
+        "componentes",
+        "codigo",
+        "decisiones",
+        "proximo-paso"
+      ]
+    }
+  },
+  "slides": [
+    {
+      "id": "portada",
+      "act": "Su sistema",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "ASEGURADORA ANDINA · AMARIS CONSULTING",
+      "title": "Reclamos resueltos en línea, de principio a fin",
+      "sub": "La arquitectura de la plataforma de reclamos: qué la compone, cómo se opera y qué decidimos.",
+      "scene": "arq-hero",
+      "args": {
+        "system": "Plataforma de reclamos en línea",
+        "promise": "Del aviso al pago, sin papel",
+        "actors": [
+          "Asegurado",
+          "Ajustador",
+          "Analista de reclamos"
+        ],
+        "systems": [
+          "Core de pólizas",
+          "Pasarela de pagos",
+          "Mensajería"
+        ]
+      },
+      "lands": "La plataforma en el centro; a la izquierda, quienes la usan; a la derecha, los sistemas con los que conversa.",
+      "breathes": "Una solicitud sale de cada persona, cruza la plataforma y llega a un sistema externo; cada uno se enciende al recibirla.",
+      "intent": "Abrir con la promesa del sistema, no con la tecnología.",
+      "spoken": "Gracias por el espacio. Hoy mostramos la arquitectura de la plataforma de reclamos en línea. La promesa es simple: del aviso al pago, sin papel. Vamos del contexto al código y cerramos con las decisiones.",
+      "action": "Deja correr una vuelta y lee la promesa despacio.",
+      "min": {
+        "40": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "drivers",
+      "act": "Su sistema",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "PROBLEMA Y ATRIBUTOS DE CALIDAD",
+      "title": "Cuatro atributos de calidad guían cada decisión técnica",
+      "sub": "Hipótesis por validar con ustedes: disponibilidad, seguridad, escalabilidad y trazabilidad del reclamo.",
+      "scene": "quality-drivers",
+      "args": {
+        "drivers": [
+          [
+            "Disponibilidad",
+            "Meta: 99,9 %",
+            "Si cae una zona, el portal sigue atendiendo"
+          ],
+          [
+            "Seguridad",
+            "Datos cifrados",
+            "Cada acceso con identidad y registro"
+          ],
+          [
+            "Escalabilidad",
+            "Meta: 3× en picos",
+            "Tras una tormenta, el volumen se triplica"
+          ],
+          [
+            "Trazabilidad",
+            "Cada paso auditado",
+            "Quién cambió el estado del reclamo y cuándo"
+          ]
+        ]
+      },
+      "lands": "Cuatro tarjetas: disponibilidad, seguridad, escalabilidad y trazabilidad, cada una con su meta.",
+      "breathes": "Cada atributo se enciende por turno, su barra llega a la meta y recibe su visto bueno.",
+      "intent": "Nombrar lo que la arquitectura debe cumplir antes de dibujarla.",
+      "spoken": "Antes de dibujar cajas, acordemos qué debe cumplir el sistema. Proponemos cuatro atributos de calidad. Las metas son hipótesis: las validamos con ustedes en el taller. ¿Cuál de las cuatro pesa más hoy?",
+      "action": "Señala cada tarjeta cuando se enciende. Haz la pregunta y espera.",
+      "min": {
+        "40": [
+          3,
+          1
+        ]
+      },
+      "interaction": "¿Cuál de los cuatro atributos pesa más hoy?"
+    },
+    {
+      "id": "contexto",
+      "act": "La estructura",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "C4 · NIVEL 1 · CONTEXTO",
+      "title": "Contexto: quién usa la plataforma y con qué conversa",
+      "sub": "Nivel 1 del modelo C4: las personas, el sistema y los sistemas externos con los que se integra.",
+      "scene": "c4-context",
+      "args": {
+        "people": [
+          [
+            "asegurado",
+            "Asegurado",
+            "Reporta el siniestro y sigue su reclamo"
+          ],
+          [
+            "ajustador",
+            "Ajustador",
+            "Inspecciona y valora el daño"
+          ]
+        ],
+        "system": [
+          "plataforma",
+          "Plataforma de reclamos",
+          "Recibe, evalúa y paga los reclamos en línea"
+        ],
+        "externals": [
+          [
+            "core",
+            "Core de pólizas",
+            "Coberturas y vigencia"
+          ],
+          [
+            "pagos",
+            "Pasarela de pagos",
+            "Transfiere la indemnización"
+          ],
+          [
+            "mensajeria",
+            "Mensajería",
+            "Correo, SMS y WhatsApp"
+          ]
+        ],
+        "rels": [
+          [
+            "asegurado",
+            "plataforma",
+            "Reporta y consulta",
+            "HTTPS"
+          ],
+          [
+            "ajustador",
+            "plataforma",
+            "Registra la inspección",
+            "HTTPS"
+          ],
+          [
+            "plataforma",
+            "core",
+            "Valida la cobertura",
+            "API"
+          ],
+          [
+            "plataforma",
+            "pagos",
+            "Ordena el pago",
+            "API"
+          ],
+          [
+            "plataforma",
+            "mensajeria",
+            "Avisa cada cambio",
+            "API"
+          ]
+        ]
+      },
+      "lands": "Arriba, el asegurado y el ajustador; al centro, la plataforma; abajo, tres sistemas externos; la leyenda C4 al pie.",
+      "breathes": "Un reclamo baja de las personas a la plataforma y sale hacia el core, la pasarela y la mensajería; cada caja se enciende al recibirlo.",
+      "intent": "Fijar el alcance: qué es el sistema y qué no.",
+      "spoken": "Empezamos por el nivel 1 del modelo C4, el contexto. Dos personas usan la plataforma: el asegurado y el ajustador. La plataforma conversa con tres sistemas que ya existen: el core de pólizas, la pasarela de pagos y la mensajería. Todo lo que está fuera del recuadro central no lo construimos: lo integramos.",
+      "action": "Sigue el punto de luz con la mano: de la persona al sistema y del sistema a cada externo.",
+      "min": {
+        "40": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "contenedores",
+      "act": "La estructura",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "C4 · NIVEL 2 · CONTENEDORES",
+      "title": "Seis contenedores que se despliegan y escalan por separado",
+      "sub": "Nivel 2: cada contenedor con su tecnología; los eventos desacoplan la evaluación del registro.",
+      "scene": "c4-container",
+      "args": {
+        "boundary": "Plataforma de reclamos [Sistema]",
+        "people": [
+          [
+            "asegurado",
+            "Asegurado",
+            "",
+            "",
+            "person"
+          ],
+          [
+            "ajustador",
+            "Ajustador",
+            "",
+            "",
+            "person"
+          ]
+        ],
+        "containers": [
+          [
+            "web",
+            "Portal del asegurado",
+            "React",
+            "Aviso y seguimiento",
+            "web"
+          ],
+          [
+            "app",
+            "App del ajustador",
+            "Flutter",
+            "Inspección en campo",
+            "app"
+          ],
+          [
+            "api",
+            "API de reclamos",
+            "Java · Spring Boot",
+            "Reglas y estados del reclamo",
+            "api"
+          ],
+          [
+            "db",
+            "BD de reclamos",
+            "PostgreSQL",
+            "",
+            "db"
+          ],
+          [
+            "bus",
+            "Bus de eventos",
+            "Kafka",
+            "",
+            "queue"
+          ],
+          [
+            "motor",
+            "Motor de evaluación",
+            "Python",
+            "",
+            "container",
+            2
+          ]
+        ],
+        "externals": [
+          [
+            "core",
+            "Core de pólizas",
+            "",
+            "",
+            "external"
+          ],
+          [
+            "pagos",
+            "Pasarela de pagos",
+            "",
+            "",
+            "external"
+          ],
+          [
+            "mensajeria",
+            "Mensajería",
+            "",
+            "",
+            "external"
+          ]
+        ],
+        "rels": [
+          [
+            "asegurado",
+            "web",
+            "Reporta el siniestro",
+            ""
+          ],
+          [
+            "ajustador",
+            "app",
+            "Registra la inspección",
+            ""
+          ],
+          [
+            "web",
+            "api",
+            "Crea el reclamo",
+            "JSON"
+          ],
+          [
+            "app",
+            "api",
+            "Sube fotos y valoración",
+            "JSON"
+          ],
+          [
+            "api",
+            "db",
+            "Guarda el reclamo",
+            "SQL"
+          ],
+          [
+            "api",
+            "bus",
+            "Publica el evento",
+            ""
+          ],
+          [
+            "motor",
+            "bus",
+            "Consume eventos",
+            ""
+          ],
+          [
+            "motor",
+            "core",
+            "Valida la cobertura",
+            ""
+          ],
+          [
+            "motor",
+            "pagos",
+            "Ordena el pago",
+            ""
+          ],
+          [
+            "motor",
+            "mensajeria",
+            "Avisa cada cambio",
+            ""
+          ]
+        ]
+      },
+      "lands": "El recuadro de la plataforma con seis contenedores: portal, app, API, base de datos, bus de eventos y motor; fuera, personas y sistemas externos.",
+      "breathes": "El reclamo entra por el portal, la API lo guarda y publica un evento; el motor lo consume, valida la cobertura, ordena el pago y avisa.",
+      "intent": "Mostrar las piezas desplegables y por qué el bus de eventos está en el medio.",
+      "spoken": "Abrimos la caja: seis contenedores. El portal y la app hablan con una sola API de reclamos. La API guarda el reclamo y publica un evento. El motor de evaluación lo consume a su propio ritmo. Así, un pico de reclamos no detiene el registro.",
+      "action": "Señala el bus de eventos cuando el punto lo cruza.",
+      "min": {
+        "40": [
+          4,
+          1
+        ]
+      }
+    },
+    {
+      "id": "componentes",
+      "act": "La estructura",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "C4 · NIVEL 3 · COMPONENTES",
+      "title": "Dentro de la API: cinco componentes con una sola responsabilidad",
+      "sub": "Nivel 3: quién llama a la API, qué hace cada componente y hacia dónde escribe.",
+      "scene": "c4-component",
+      "args": {
+        "boundary": "API de reclamos [Contenedor: Java · Spring Boot]",
+        "inputs": [
+          [
+            "web",
+            "Portal del asegurado",
+            "React",
+            "",
+            "web"
+          ],
+          [
+            "app",
+            "App del ajustador",
+            "Flutter",
+            "",
+            "app"
+          ]
+        ],
+        "components": [
+          [
+            "ctrl",
+            "Controlador REST",
+            "Spring MVC",
+            "Valida y traduce la solicitud"
+          ],
+          [
+            "svc",
+            "Servicio de reclamos",
+            "Spring",
+            "Reglas y estados"
+          ],
+          [
+            "cob",
+            "Cliente de pólizas",
+            "Spring · HTTP",
+            ""
+          ],
+          [
+            "repo",
+            "Repositorio",
+            "Spring Data JPA",
+            ""
+          ],
+          [
+            "pub",
+            "Publicador de eventos",
+            "Spring Kafka",
+            ""
+          ]
+        ],
+        "outputs": [
+          [
+            "core",
+            "Core de pólizas",
+            "",
+            "",
+            "external"
+          ],
+          [
+            "db",
+            "BD de reclamos",
+            "PostgreSQL",
+            "",
+            "db"
+          ],
+          [
+            "bus",
+            "Bus de eventos",
+            "Kafka",
+            "",
+            "queue"
+          ]
+        ],
+        "rels": [
+          [
+            "web",
+            "ctrl",
+            "Llama",
+            "JSON"
+          ],
+          [
+            "app",
+            "ctrl",
+            "Llama",
+            "JSON"
+          ],
+          [
+            "ctrl",
+            "svc",
+            "Delega",
+            ""
+          ],
+          [
+            "svc",
+            "cob",
+            "Consulta cobertura",
+            ""
+          ],
+          [
+            "svc",
+            "repo",
+            "Guarda",
+            ""
+          ],
+          [
+            "svc",
+            "pub",
+            "Emite el evento",
+            ""
+          ],
+          [
+            "cob",
+            "core",
+            "Consulta",
+            "API"
+          ],
+          [
+            "repo",
+            "db",
+            "Lee y escribe",
+            "SQL"
+          ],
+          [
+            "pub",
+            "bus",
+            "Publica",
+            ""
+          ]
+        ]
+      },
+      "lands": "El recuadro de la API con cinco componentes en tres niveles; arriba, el portal y la app; abajo, el core, la base de datos y el bus.",
+      "breathes": "La solicitud baja del controlador al servicio y se abre en tres: cobertura, persistencia y evento; cada componente se enciende al recibirla.",
+      "intent": "Mostrar que cada componente tiene una sola responsabilidad y un solo destino.",
+      "spoken": "Entramos a la API de reclamos. El controlador recibe y valida; el servicio aplica las reglas del reclamo. Tres componentes hablan hacia afuera: uno con el core, otro con la base de datos y otro con el bus. Si cambia el core de pólizas, solo cambia un componente.",
+      "action": "Sigue la solicitud desde el controlador hasta cada salida.",
+      "min": {
+        "40": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "codigo",
+      "act": "La estructura",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "C4 · NIVEL 4 · CÓDIGO",
+      "title": "El código del núcleo: clases y dependencias del reclamo",
+      "sub": "Nivel 4, solo donde vale la pena: el servicio depende de interfaces, no de la base de datos.",
+      "scene": "c4-code",
+      "args": {
+        "classes": [
+          [
+            "ctrl",
+            "ReclamoController",
+            "controller",
+            [
+              "+ crear(dto)",
+              "+ consultar(id)"
+            ]
+          ],
+          [
+            "svc",
+            "ReclamoService",
+            "service",
+            [
+              "+ registrar(reclamo)",
+              "- validarCobertura()"
+            ]
+          ],
+          [
+            "repo",
+            "ReclamoRepository",
+            "interface",
+            [
+              "+ save(reclamo)",
+              "+ findById(id)"
+            ]
+          ],
+          [
+            "pub",
+            "EventPublisher",
+            "interface",
+            [
+              "+ publish(evento)"
+            ]
+          ],
+          [
+            "ent",
+            "Reclamo",
+            "entity",
+            [
+              "id · estado · monto",
+              "+ aprobar()"
+            ]
+          ]
+        ],
+        "rels": [
+          [
+            "ctrl",
+            "svc",
+            "usa"
+          ],
+          [
+            "svc",
+            "repo",
+            "usa"
+          ],
+          [
+            "svc",
+            "pub",
+            "usa"
+          ],
+          [
+            "svc",
+            "ent",
+            "crea"
+          ],
+          [
+            "repo",
+            "ent",
+            "persiste"
+          ]
+        ]
+      },
+      "lands": "Cinco clases: el controlador arriba, el servicio al centro y, abajo, dos interfaces y la entidad del reclamo.",
+      "breathes": "La llamada baja del controlador al servicio y de ahí a cada interfaz y a la entidad; cada clase se enciende al usarse.",
+      "intent": "Bajar al código solo para mostrar la regla que protege el diseño.",
+      "spoken": "El nivel 4 lo usamos poco, solo donde protege una decisión. Aquí la regla es clara: el servicio depende de interfaces. Así podemos probarlo sin base de datos y cambiar el bus sin tocar las reglas.",
+      "action": "Señala las dos interfaces.",
+      "min": {
+        "40": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "capas",
+      "act": "Cómo se opera",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "VISTA DE SOLUCIÓN",
+      "title": "Cinco capas, de los canales a la plataforma",
+      "sub": "Cada capa cambia a su ritmo; la seguridad y la observabilidad las cruzan todas.",
+      "scene": "solution-layers",
+      "args": {
+        "layers": [
+          [
+            "Canales",
+            [
+              "Portal web",
+              "App móvil",
+              "WhatsApp"
+            ]
+          ],
+          [
+            "Experiencia",
+            [
+              "API de reclamos",
+              "Notificaciones"
+            ]
+          ],
+          [
+            "Servicios",
+            [
+              "Evaluación",
+              "Pagos",
+              "Documentos"
+            ]
+          ],
+          [
+            "Datos",
+            [
+              "BD de reclamos",
+              "Eventos",
+              "Lago analítico"
+            ]
+          ],
+          [
+            "Plataforma",
+            [
+              "Kubernetes",
+              "Identidad",
+              "CI/CD"
+            ]
+          ]
+        ],
+        "cross": [
+          "Seguridad",
+          "Observabilidad"
+        ],
+        "path": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "lands": "Cinco bandas apiladas, de los canales a la plataforma, y dos pilares verticales: seguridad y observabilidad.",
+      "breathes": "Una solicitud baja por las capas encendiendo una pieza en cada una, cruza los pilares y la respuesta vuelve arriba con su visto bueno.",
+      "intent": "Dar la vista de solución que entiende todo el comité.",
+      "spoken": "Esta es la misma plataforma vista por capas. Arriba los canales, abajo la plataforma que la sostiene. Cada capa cambia a su ritmo: un canal nuevo no toca los datos. La seguridad y la observabilidad cruzan todas las capas.",
+      "action": "Recorre la solicitud de arriba abajo con la mano.",
+      "min": {
+        "40": [
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "datos",
+      "act": "Cómo se opera",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "ARQUITECTURA DE DATOS",
+      "title": "El dato del reclamo, del evento al tablero, con gobierno",
+      "sub": "Cinco pasos del dato con su gobierno: catálogo, linaje, calidad y acceso en cada paso.",
+      "scene": "data-architecture",
+      "args": {
+        "flow": [
+          [
+            "Fuentes",
+            [
+              "Reclamos",
+              "Pólizas",
+              "Pagos"
+            ]
+          ],
+          [
+            "Ingesta",
+            [
+              "Eventos",
+              "Carga diaria"
+            ]
+          ],
+          [
+            "Almacenamiento",
+            [
+              "Zona cruda",
+              "Zona curada"
+            ]
+          ],
+          [
+            "Servicio",
+            [
+              "Modelos de riesgo",
+              "Tableros"
+            ]
+          ],
+          [
+            "Consumo",
+            [
+              "Analistas",
+              "Actuaría"
+            ]
+          ]
+        ],
+        "governance": [
+          "Gobierno del dato",
+          [
+            "Catálogo",
+            "Linaje",
+            "Calidad",
+            "Acceso"
+          ]
+        ]
+      },
+      "lands": "Cinco filas del dato, de las fuentes al consumo, y a la derecha el pilar de gobierno con catálogo, linaje, calidad y acceso.",
+      "breathes": "Tres datos bajan de las fuentes al consumo encendiendo cada paso; en el pilar de gobierno, cada práctica recibe su visto bueno.",
+      "intent": "Mostrar que el dato del reclamo sirve también para decidir, con gobierno desde el primer paso.",
+      "spoken": "El reclamo también es un dato. Los eventos llegan en línea y las pólizas en una carga diaria. El lago guarda una zona cruda y una curada, y de ahí salen los modelos de riesgo y los tableros. El gobierno acompaña cada paso: catálogo, linaje, calidad y acceso.",
+      "action": "Señala el pilar de gobierno al final.",
+      "min": {
+        "40": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "infraestructura",
+      "act": "Cómo se opera",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "INFRAESTRUCTURA Y AMBIENTES",
+      "title": "Tres zonas de seguridad y tres ambientes idénticos",
+      "sub": "La solicitud cruza la zona pública, la privada y la de datos; cada versión se promueve igual.",
+      "scene": "infra-topology",
+      "args": {
+        "entry": "Asegurados · Internet",
+        "region": "Nube pública · región principal, dos zonas de disponibilidad",
+        "zones": [
+          [
+            "Zona pública",
+            "publica",
+            [
+              [
+                "waf",
+                "Firewall de aplicación",
+                "WAF · CDN",
+                "arquitectura/seguridad"
+              ],
+              [
+                "gw",
+                "API gateway",
+                "Gestión de APIs",
+                "arquitectura/api"
+              ]
+            ]
+          ],
+          [
+            "Zona privada",
+            "privada",
+            [
+              [
+                "k8s",
+                "Clúster de contenedores",
+                "Kubernetes gestionado",
+                "arquitectura/contenedor"
+              ]
+            ]
+          ],
+          [
+            "Zona de datos",
+            "datos",
+            [
+              [
+                "pg",
+                "PostgreSQL",
+                "Alta disponibilidad",
+                "arquitectura/base-datos"
+              ],
+              [
+                "kafka",
+                "Kafka",
+                "Tres nodos",
+                "arquitectura/cola"
+              ]
+            ]
+          ]
+        ],
+        "links": [
+          [
+            "waf",
+            "gw",
+            ""
+          ],
+          [
+            "gw",
+            "k8s",
+            ""
+          ],
+          [
+            "k8s",
+            "pg",
+            ""
+          ],
+          [
+            "k8s",
+            "kafka",
+            ""
+          ]
+        ],
+        "envs": [
+          [
+            "Desarrollo",
+            "Cada cambio"
+          ],
+          [
+            "Pruebas",
+            "Pruebas automáticas"
+          ],
+          [
+            "Producción",
+            "Con aprobación"
+          ]
+        ],
+        "promote": "La misma imagen, promovida por el pipeline"
+      },
+      "lands": "La región en la nube con tres zonas de seguridad y sus nodos; abajo, desarrollo, pruebas y producción.",
+      "breathes": "La solicitud entra desde internet y cruza cada zona encendiendo su borde; luego una versión viaja de desarrollo a producción.",
+      "intent": "Mostrar dónde corre cada pieza y cómo se protege y se promueve.",
+      "spoken": "Así se despliega. La solicitud entra por el firewall de aplicación y el API gateway, en la zona pública. Los contenedores corren en una zona privada y los datos en otra, cada una con sus reglas. Los tres ambientes son idénticos: la misma imagen se promueve con aprobación.",
+      "action": "Señala cada zona cuando se enciende y termina en producción.",
+      "min": {
+        "40": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "decisiones",
+      "act": "Lo que decidimos",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "DECISIONES CLAVE · ADR",
+      "title": "Tres decisiones que tomamos y lo que cuestan",
+      "sub": "Cada decisión con su contexto, lo que elegimos y su consecuencia, en formato ADR.",
+      "scene": "adr-decisions",
+      "args": {
+        "decisions": [
+          [
+            "ADR-01",
+            "Eventos para desacoplar la evaluación",
+            "El volumen se triplica tras una tormenta",
+            "La API publica eventos y el motor los consume a su ritmo",
+            "Más piezas que operar; la API no se detiene en un pico",
+            "Aceptada"
+          ],
+          [
+            "ADR-02",
+            "PostgreSQL gestionado para el reclamo",
+            "Estados y montos piden transacciones",
+            "Una base relacional gestionada, con réplica en otra zona",
+            "Menos esfuerzo de operación; dependemos del servicio de la nube",
+            "Aceptada"
+          ],
+          [
+            "ADR-03",
+            "Identidad centralizada para todos los canales",
+            "Tres canales y un mismo asegurado",
+            "Un proveedor de identidad con OpenID Connect",
+            "Un solo inicio de sesión; un punto crítico que se vigila",
+            "Propuesta"
+          ]
+        ]
+      },
+      "lands": "Tres tarjetas de decisión, cada una con su contexto, su decisión, su consecuencia y su estado.",
+      "breathes": "Cada tarjeta se enciende por turno: primero el contexto, luego la decisión y al final la consecuencia; su estado se sella.",
+      "intent": "Mostrar que cada decisión tiene un costo dicho, no escondido.",
+      "spoken": "Tomamos tres decisiones y cada una cuesta algo. Los eventos desacoplan, pero suman piezas que operar. La base gestionada ahorra operación, pero nos ata al servicio de la nube. La identidad central simplifica, pero es un punto que vigilamos. La tercera sigue propuesta: la decidimos juntos.",
+      "action": "Lee la consecuencia de cada tarjeta en voz alta.",
+      "min": {
+        "40": [
+          3,
+          1
+        ]
+      },
+      "interaction": "¿Qué consecuencia les preocupa más?"
+    },
+    {
+      "id": "riesgos",
+      "act": "Lo que decidimos",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "RIESGOS Y COMPROMISOS",
+      "title": "Cada riesgo tiene su mitigación y su costo",
+      "sub": "Probabilidad e impacto antes y después de mitigar; el residuo es lo que aceptamos juntos.",
+      "scene": "risks-tradeoffs",
+      "args": {
+        "risks": [
+          [
+            "Picos tras eventos climáticos",
+            3,
+            3,
+            "Autoescalado y cola de eventos",
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            "Dependencia del core de pólizas",
+            2,
+            3,
+            "Caché de coberturas y reintentos",
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            "Datos personales en las fotos",
+            2,
+            2,
+            "Cifrado y retención por política",
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            "Curva de aprendizaje de Kafka",
+            2,
+            1,
+            "Servicio gestionado y guía interna",
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      },
+      "lands": "Una matriz de probabilidad por impacto con cuatro riesgos numerados y, debajo, la lista con su mitigación.",
+      "breathes": "Cada riesgo late en su celda, su fila se enciende con la mitigación y el riesgo se mueve a su celda residual.",
+      "intent": "Decir los riesgos antes de que los pregunten, cada uno con su salida.",
+      "spoken": "Cuatro riesgos técnicos, con su mitigación. El mayor es el pico tras una tormenta: lo contienen el autoescalado y la cola. El core de pólizas es una dependencia: una caché de coberturas y reintentos la amortiguan. Lo que queda después de mitigar es el riesgo que aceptamos juntos.",
+      "action": "Señala cómo cada riesgo baja a su celda residual.",
+      "min": {
+        "40": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "proximo-paso",
+      "act": "Próximo paso",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "PRÓXIMO PASO",
+      "title": "Cada reclamo, resuelto en línea y a tiempo",
+      "sub": "Empezamos validando esta arquitectura con su comité; luego, un piloto en un ramo.",
+      "scene": "arq-roadmap",
+      "args": {
+        "phases": [
+          [
+            "Validar la arquitectura",
+            "Ahora · dos semanas",
+            [
+              "Taller con su comité",
+              "Metas de calidad acordadas"
+            ]
+          ],
+          [
+            "Piloto en un ramo",
+            "Fase 2",
+            [
+              "Autos, una ciudad",
+              "Reclamo de punta a punta"
+            ]
+          ],
+          [
+            "Escalar a todos los ramos",
+            "Fase 3",
+            [
+              "Hogar y vida",
+              "Tableros de actuaría"
+            ]
+          ],
+          [
+            "Operar y mejorar",
+            "Fase 4",
+            [
+              "Objetivos de servicio a la vista",
+              "Evolución por eventos"
+            ]
+          ]
+        ],
+        "now": 0,
+        "next": "Próximo paso",
+        "sign": "Audacious Ideas, Delivered Beyond."
+      },
+      "lands": "Cuatro fases en una línea de tiempo; la primera, validar la arquitectura, marcada como próximo paso.",
+      "breathes": "Un punto recorre las fases y cada una se enciende; la primera queda con su anillo de próximo paso.",
+      "intent": "Cerrar con el futuro del reclamo en línea y un primer paso concreto.",
+      "spoken": "Proponemos empezar por validar esta arquitectura con su comité, en dos semanas. Después, un piloto en un ramo y una ciudad, de punta a punta. Imaginen cada reclamo resuelto en línea y a tiempo. Hagámoslo juntos.",
+      "action": "Deja la línea en pantalla. Cierra con la frase y agradece.",
+      "min": {
+        "40": [
+          1,
+          1
+        ]
+      },
+      "takeaway": "Make it happen, together."
+    }
+  ]
+}

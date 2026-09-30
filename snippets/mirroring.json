@@ -1,0 +1,31 @@
+{
+  "id": "mirroring",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "mirroring",
+  "args": {
+    "source": "‹como: Su sitio web›",
+    "section": "‹como: Nuestra estrategia›",
+    "phrase": "‹como: Operación confiable›",
+    "draft": "‹como: Tu diapositiva para el jueves›",
+    "copied": "‹como: Como dice su sitio: “operación confiable”›",
+    "copy_tag": "‹como: Suena a copiar›",
+    "ours": "‹como: Una operación que anticipa las fallas›",
+    "match": "‹como: match›"
+  },
+  "lands": "‹como: A la izquierda, su sitio web con su frase «Operación confiable»; a la derecha, tu diapositiva para el jueves, aún vacía.›",
+  "breathes": "‹como: La frase del cliente se subraya y pasa tal cual a tu diapositiva, entre comillas; se tacha con «Suena a copiar», se reescribe como «Una operación que anticipa las fallas» y un hilo con «match» la une a la frase del cliente.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

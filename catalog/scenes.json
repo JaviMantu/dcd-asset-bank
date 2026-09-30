@@ -1,0 +1,5417 @@
+[
+ {
+  "alias": "hero",
+  "scene": "m01_portada",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "hero"
+  ],
+  "vertical": [
+   "energia"
+  ],
+  "lands": "Se enciende una sola operación: arriba, las decisiones de negocio; en el horizonte, la línea de gas con turbina, compresor, bomba y válvula; abajo, el negocio de sus clientes con las luces encendidas.",
+  "breathes": "Un imprevisto, una urgencia y un riesgo suben como señal a bodega, compras y mantenimiento, bajan como respuesta a tiempo, y el negocio de sus clientes nunca se apaga.",
+  "args": {
+   "stations": [
+    "Turbina",
+    "Compresor",
+    "Bomba",
+    "Válvula"
+   ],
+   "decisions": [
+    "Compras",
+    "Movimientos de bodega",
+    "Mantenimiento proactivo"
+   ],
+   "events": [
+    "Imprevisto",
+    "Urgencia",
+    "Riesgo"
+   ],
+   "link": "Datos conectados",
+   "clients": "El negocio de sus clientes"
+  }
+ },
+ {
+  "alias": "outside",
+  "scene": "m02_afuera",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "outside"
+  ],
+  "vertical": [
+   "energia"
+  ],
+  "lands": "Arriba, afuera, tres fuentes públicas y nuestro cuaderno; abajo, tras una línea punteada, su operación dibujada como una silueta que no vemos.",
+  "breathes": "La lupa lee cada fuente y la deja en el cuaderno; sale una hipótesis por validar y de ella bajan preguntas a cada estación: lo de adentro lo cuentan ustedes.",
+  "args": {
+   "layers": [
+    "Su sitio web",
+    "Prensa del sector energético",
+    "Datos públicos de gas y GLP"
+   ],
+   "book": "Fuentes públicas",
+   "case_label": "Hipótesis",
+   "case": "La desviación se ve antes si los datos se conectan",
+   "tag": "Por validar",
+   "inside": "Adentro: lo saben ustedes",
+   "ask": "Venimos a preguntar"
+  }
+ },
+ {
+  "alias": "mechanism",
+  "scene": "m03_mecanismo",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "process",
+   "data"
+  ],
+  "vertical": [
+   "energia"
+  ],
+  "lands": "De arriba abajo, la cadena en cuatro pasos: la vibración del compresor, los datos conectados, tres decisiones de negocio y la línea con sus cuatro estaciones.",
+  "breathes": "La vibración sale de su rango mucho antes del límite, la señal llega a compras, bodega y mantenimiento, cada decisión se marca y la respuesta baja al compresor, que pasa a verde mientras la línea sigue.",
+  "args": {
+   "chart": "Vibración · compresor",
+   "limit": "Límite",
+   "deviation": "Desviación temprana",
+   "margin": "Tiempo para actuar",
+   "link": "Datos conectados",
+   "decisions": [
+    "Compra del repuesto",
+    "Movimiento de bodega",
+    "Mantenimiento proactivo"
+   ],
+   "stations": [
+    "Turbina",
+    "Compresor",
+    "Bomba",
+    "Válvula"
+   ],
+   "done": "Riesgo desactivado",
+   "sign": "La operación sigue"
+  }
+ },
+ {
+  "alias": "cascade",
+  "scene": "m04_tesis",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "gap"
+  ],
+  "vertical": [
+   "energia"
+  ],
+  "lands": "La línea de gas y sus cuatro equipos se arman; debajo esperan, apagados, los tres pasos de una cascada.",
+  "breathes": "Una chispa en el compresor avisa y nadie la ve; días después se encienden la urgencia, la compra de emergencia y la parada, y el gas se detiene.",
+  "args": {
+   "stations": [
+    "Turbina",
+    "Compresor",
+    "Bomba",
+    "Válvula"
+   ],
+   "small": "Desviación pequeña",
+   "gap": "días después",
+   "cascade": [
+    "Urgencia",
+    "Compra de emergencia",
+    "Parada"
+   ]
+  }
+ },
+ {
+  "alias": "shared-asset",
+  "scene": "m05_lineas",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "data"
+  ],
+  "vertical": [
+   "energia",
+   "cualquiera"
+  ],
+  "lands": "Las cuatro líneas, una en cada esquina, se unen por tuberías a un mismo centro: el dato del activo.",
+  "breathes": "Una vibración del compresor sale del centro, llega a las cuatro líneas a la vez y cierra un anillo entre ellas.",
+  "args": {
+   "center": "El dato del activo",
+   "event": "Vibración · compresor",
+   "lines": [
+    [
+     "Servicios O&M",
+     "Operación y mantenimiento"
+    ],
+    [
+     "Supply chain",
+     "Bodegas e inventarios"
+    ],
+    [
+     "Representaciones",
+     "Equipos y repuestos"
+    ],
+    [
+     "GLP",
+     "Granel y cilindros"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "figure-context",
+  "scene": "m06_sector",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "figure"
+  ],
+  "vertical": [
+   "energia"
+  ],
+  "lands": "La cifra aparece quieta en su marco y, debajo, la línea de gas va de la producción a la demanda.",
+  "breathes": "La banda de gas se adelgaza, el indicador de la demanda sube y el compresor se detiene; la cifra no se mueve.",
+  "args": {
+   "figure": "−30 %",
+   "label": "producción de gas natural en cuatro años",
+   "supply": "Producción",
+   "station": "Compresor",
+   "demand": "Demanda",
+   "chip": "Parada"
+  }
+ },
+ {
+  "alias": "hypotheses-live",
+  "scene": "m07_hipotesis",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "hypotheses"
+  ],
+  "vertical": [
+   "energia",
+   "cualquiera"
+  ],
+  "lands": "Tres hipótesis con su retorno posible se apoyan sobre una cuarta, tecnología, que las habilita; cada una con su «?».",
+  "breathes": "Cada tarjeta cuenta su historia por turnos: la alarma que importa pasa primero, el repuesto llega antes del pedido, el documento llena su formulario, y el habilitador entrega y enciende a las otras tres.",
+  "args": {
+   "cards": [
+    [
+     "Confiabilidad",
+     "Priorizar las alarmas para mirar primero las desviaciones que importan",
+     "Menos paradas"
+    ],
+    [
+     "Supply chain",
+     "Tener el repuesto listo antes de que se pida",
+     "Menos urgencias"
+    ],
+    [
+     "Procesos y documentos",
+     "Aumentar con IA los procesos administrativos y la gestión documental",
+     "Menos trabajo manual"
+    ],
+    [
+     "Tecnología",
+     "Entregar software más rápido con un equipo aumentado por IA",
+     "Habilitador de las otras tres"
+    ]
+   ],
+   "ret": "Retorno posible",
+   "cycle": "Del requerimiento al despliegue"
+  }
+ },
+ {
+  "alias": "delivery-cycle",
+  "scene": "m08_ti",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "process",
+   "proof"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El ciclo se arma: los agentes arriba, los cuatro pasos, las personas en cada punto de decisión y la regla del pedido a producción.",
+  "breathes": "Un cambio recorre el ciclo: el agente trabaja en cada paso, una persona decide y sigue, la regla se llena hasta producción y se encienden las otras tres.",
+  "args": {
+   "agents": "Agentes en todo el ciclo",
+   "tag": "Por validar",
+   "steps": [
+    "Requerimiento",
+    "Código",
+    "Prueba",
+    "Despliegue"
+   ],
+   "people": "Personas que deciden en cada paso",
+   "start": "Pedido de cambio",
+   "end": "En producción",
+   "measure": "Se mide este tiempo",
+   "enables": "Y habilita las otras tres",
+   "areas": [
+    "Confiabilidad",
+    "Supply chain",
+    "Procesos y documentos"
+   ]
+  }
+ },
+ {
+  "alias": "evidence",
+  "scene": "m09_evidencia",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "figure"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "La cifra queda quieta con su etiqueta y su fuente; debajo, dos caminos de la prueba de concepto al valor.",
+  "breathes": "Primero, una herramienta más sobre lo de siempre: el trabajo espera donde siempre esperó. Después cambia la forma de trabajar: personas con IA dentro del flujo, y el trabajo llega al valor.",
+  "args": {
+   "figure": "70 %",
+   "label": "de los retos de la IA están en personas y procesos",
+   "source": "BCG, 2024",
+   "start": "Prueba de concepto",
+   "end": "Valor tangible",
+   "old": "Una herramienta más, encima de lo de siempre",
+   "new": "Cambia la forma de trabajar"
+  }
+ },
+ {
+  "alias": "orbit",
+  "scene": "m10_quienes",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "who"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "La cifra 12.000 aparece quieta en el centro de la órbita y, sobre ella, seis colegas sin rostro, cada uno con su disciplina: datos, IA, software, cloud, ciberseguridad y analytics.",
+  "breathes": "Una chispa de IA recorre la órbita y llega a cada colega, que se enciende con su chispa, mientras su estela los une y el halo de la cifra crece hasta cerrar el anillo con los seis aumentados y conectados.",
+  "args": {
+   "figure": "12.000",
+   "label": "colaboradores AI ready",
+   "reach": "en más de 60 países",
+   "roles": [
+    "Datos",
+    "IA",
+    "Software",
+    "Cloud",
+    "Ciberseguridad",
+    "Analytics"
+   ]
+  }
+ },
+ {
+  "alias": "criterion",
+  "scene": "m11_criterio",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "criterion"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, retorno claro y habilitador clave unidos por una «o»; debajo, un lugar vacío que pregunta «¿Retorno o habilitador?» y dos destinos: «Construimos» y «Por ahora, no».",
+  "breathes": "Llegan tres ideas: «Priorizar alarmas» enciende el retorno y se construye; «Una demo vistosa» no enciende ninguno y se aparta, sin drama, a «Por ahora, no»; «TI que entrega más rápido» enciende el habilitador y también se construye.",
+  "args": {
+   "criteria": [
+    [
+     "Retorno claro",
+     "Un resultado que el negocio puede medir"
+    ],
+    [
+     "Habilitador clave",
+     "Abre el camino a los casos que sí traen retorno"
+    ]
+   ],
+   "or": "o",
+   "ask": "¿Retorno o habilitador?",
+   "ideas": [
+    [
+     "Priorizar alarmas",
+     "retorno"
+    ],
+    [
+     "Una demo vistosa",
+     "no"
+    ],
+    [
+     "TI que entrega más rápido",
+     "habilitador"
+    ]
+   ],
+   "build": "Construimos",
+   "aside": "Por ahora, no"
+  }
+ },
+ {
+  "alias": "ways",
+  "scene": "m12_formas",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "top",
+  "intent": [
+   "cta"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cuatro columnas se abren (desarrollo, capacidades, proyecto y servicio) y, debajo, un árbol une sus bases con una sola raíz que pregunta «¿Qué necesitan hoy?».",
+  "breathes": "La pregunta se vuelve una necesidad a la vez (probar, velocidad, control, continuidad) y una chispa sube por su rama hasta la forma que la resuelve, que se enciende y subraya su promesa, hasta que las cuatro ramas quedan encendidas y vuelve la pregunta.",
+  "args": {
+   "models": [
+    [
+     "Desarrollo",
+     "Para probar y crecer",
+     [
+      "Prototipo en una semana",
+      "Producto mínimo en producción",
+      "Laboratorio de innovación"
+     ]
+    ],
+    [
+     "Capacidades",
+     "Dan velocidad",
+     [
+      "Perfiles aumentados por IA",
+      "Forward Deployed Engineer",
+      "Skill center",
+      "Tiempo y materiales"
+     ]
+    ],
+    [
+     "Proyecto",
+     "Da control",
+     [
+      "Alcance y fecha definidos",
+      "Resultado acordado",
+      "Un equipo responsable"
+     ]
+    ],
+    [
+     "Servicio",
+     "Da continuidad",
+     [
+      "Operar y mejorar la IA",
+      "Soporte y evolución",
+      "Capacitación de equipos"
+     ]
+    ]
+   ],
+   "ask": "¿Qué necesitan hoy?",
+   "needs": [
+    "Queremos probar",
+    "Necesitamos velocidad",
+    "Necesitamos control",
+    "Necesitamos continuidad"
+   ]
+  }
+ },
+ {
+  "alias": "discovery",
+  "scene": "m13_discovery",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "top",
+  "intent": [
+   "cta",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Sus opciones a la izquierda y, sobre una línea de tiempo, el taller de discovery, el prototipo y su decisión.",
+  "breathes": "En 12 segundos: se elige un dolor, el taller define cómo resolverlo y el KPI, el prototipo cobra vida con su alerta y llega la propuesta para que decidan.",
+  "args": {
+   "cards": [
+    "Confiabilidad",
+    "Supply chain",
+    "Procesos y documentos",
+    "Tecnología",
+    "Su prioridad"
+   ],
+   "pick": 0,
+   "workshop": [
+    "Taller de discovery",
+    [
+     [
+      "Elegimos",
+      "un dolor o una prioridad"
+     ],
+     [
+      "Vemos",
+      "cómo resolverlo con tecnología"
+     ],
+     [
+      "Acordamos",
+      "el KPI del caso de éxito"
+     ]
+    ]
+   ],
+   "proto": "Prototipo",
+   "live": "En vivo",
+   "chart": "Vibración · compresor",
+   "forecast": "Pronóstico",
+   "alert": "Alerta anticipada",
+   "kpi": "KPI · menos paradas no planeadas",
+   "offer": [
+    "¿Lo construimos?",
+    [
+     "Desarrollo",
+     "Capacidades",
+     "Proyecto",
+     "Servicio"
+    ]
+   ],
+   "decide": "Propuesta a su medida",
+   "when": [
+    "Hoy · un dolor o prioridad",
+    "Esta semana · discovery",
+    "Una semana después",
+    "Luego · ustedes deciden"
+   ]
+  }
+ },
+ {
+  "alias": "controlroom-live",
+  "scene": "m14_controlroom",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "left",
+  "intent": [
+   "vision",
+   "kpi"
+  ],
+  "vertical": [
+   "energia"
+  ],
+  "lands": "El prototipo crece hasta la sala de control: la pantalla en vivo con el pronóstico y el mapa de bodega a estación; delante, dos operadores en su consola.",
+  "breathes": "Un bucle de 12 segundos: alerta anticipada, sugerencia de la IA, él aprueba en la tablet y la orden viaja a la bodega, el repuesto llega y la estación pasa a mantenimiento proactivo.",
+  "args": {
+   "screen": "Sala de control · en vivo",
+   "chart": "Vibración · compresor",
+   "forecast": "Pronóstico",
+   "alert": "Alerta anticipada",
+   "warehouse": "Bodega",
+   "station": "Compresor",
+   "suggest": "Sugerencia: mover el repuesto a la estación hoy",
+   "approve": "Aprobar",
+   "done": "Mantenimiento proactivo",
+   "sign": "Audacious Ideas, Delivered Beyond."
+  }
+ },
+ {
+  "alias": "chain-tap",
+  "scene": "m15_chain",
+  "origin": "dcd · escena de catálogo (energía)",
+  "layout": "top",
+  "intent": [
+   "architecture",
+   "reflection"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cuatro capas en cadena, cada una con su pregunta; abajo, un campo luminoso que escribe «Hoy estamos en…» y espera.",
+  "breathes": "Un pulso recorre la cadena y el «?» enciende cada capa con su pregunta, luego la cadena entera se ilumina y el campo espera; al tocar la capa que nombren, se marca con «Hoy» y el campo responde «Empezamos por ahí».",
+  "args": {
+   "base": "Base de preparación para Data & IA · Estrategia · Caso de negocio",
+   "layers": [
+    [
+     "Gobierno de IA",
+     "¿El cumplimiento llega antes o después del piloto?",
+     [
+      "Riesgo y cumplimiento de IA",
+      "IA responsable y ética",
+      "Políticas y estándares"
+     ]
+    ],
+    [
+     "Capa fundacional",
+     "¿Sus bases aguantan escala, seguridad y velocidad?",
+     [
+      "Plataforma de datos cloud",
+      "Arquitectura e integración",
+      "Calidad y gobierno de datos"
+     ]
+    ],
+    [
+     "Capa de insights",
+     "¿Ven los datos o deciden con ellos?",
+     [
+      "BI y tableros",
+      "Modelos predictivos",
+      "Analítica para el negocio"
+     ]
+    ],
+    [
+     "Capa agéntica",
+     "¿Cuántos prototipos de IA llegaron a producción?",
+     [
+      "IA generativa y conocimiento",
+      "Copilotos en el día a día",
+      "Agentes que ejecutan flujos"
+     ]
+    ]
+   ],
+   "today": "Hoy",
+   "placeholder": "Hoy estamos en…",
+   "hint": "Marquémosla juntos",
+   "next": "Empezamos por ahí",
+   "answers": [
+    "Hoy estamos en gobierno de IA",
+    "Hoy estamos en la capa fundacional",
+    "Hoy estamos en la capa de insights",
+    "Hoy estamos en la capa agéntica"
+   ]
+  }
+ },
+ {
+  "alias": "hero-network",
+  "scene": "n01_portada",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "hero"
+  ],
+  "vertical": [
+   "pagos"
+  ],
+  "lands": "Una calle al anochecer, vista detrás de cuatro personas: en el horizonte, comercios de todo tamaño y, al fondo, cientos de pequeñas vitrinas encendidas; sobre los techos, un flujo de datos y conocimiento; arriba, una constelación apagada.",
+  "breathes": "Cada persona paga (POS, QR, link o app), el comercio se enciende, el pago sube como dato, abre la oportunidad de ese comercio y el conocimiento baja como un visto verde: cada negocio avanza más rápido.",
+  "args": {
+   "means": [
+    "POS",
+    "QR",
+    "Link",
+    "App"
+   ],
+   "opportunities": [
+    "Aceptar tarjetas",
+    "Cobrar en la mesa",
+    "Cobrar a distancia",
+    "Vender en línea"
+   ],
+   "link": "Datos y conocimiento",
+   "merchants": "Cientos de miles de comercios, de todo tamaño"
+  }
+ },
+ {
+  "alias": "outside-teams",
+  "scene": "n02_afuera",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "outside"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, afuera, tres fuentes públicas y nuestro cuaderno; abajo, tras una línea punteada, sus cuatro equipos dibujados como una silueta que no vemos.",
+  "breathes": "La lupa lee cada fuente y la deja en el cuaderno; sale una hipótesis por validar y de ella baja una pregunta a cada equipo: lo de adentro lo cuentan ustedes.",
+  "args": {
+   "layers": [
+    "Su sitio web",
+    "Prensa de pagos y negocios",
+    "Datos públicos del BCRP"
+   ],
+   "book": "Fuentes públicas",
+   "case_label": "Hipótesis",
+   "case": "El conocimiento podría llegar antes a cada equipo",
+   "tag": "Por validar",
+   "inside": "Adentro: lo saben ustedes",
+   "ask": "Venimos a preguntar"
+  }
+ },
+ {
+  "alias": "mechanism-teams",
+  "scene": "n03_respuesta",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "process",
+   "data"
+  ],
+  "vertical": [
+   "pagos",
+   "cualquiera"
+  ],
+  "lands": "De arriba abajo: la norma nueva, lo que Pagalia ya sabe, los cuatro equipos (producto, comercial, riesgo y atención a comercios) y la línea del tiempo hasta que la norma entra en vigor.",
+  "breathes": "La norma cae en lo que la compañía sabe; cada equipo recibe en su espacio su propia respuesta y decide, y cada decisión cae en la línea mucho antes de la fecha.",
+  "args": {
+   "event": "Llega una norma nueva",
+   "new": "Nueva",
+   "center": "Lo que Pagalia ya sabe",
+   "governed": "Gobernado",
+   "teams": [
+    "Producto",
+    "Comercial",
+    "Riesgo",
+    "Atención a comercios"
+   ],
+   "questions": [
+    "¿Qué cambia en la solución?",
+    "¿Qué les decimos a los comercios?",
+    "¿Qué control aplica?",
+    "¿Cómo respondo la consulta?"
+   ],
+   "answers": [
+    "Ajusta la solución",
+    "Informa a los comercios",
+    "Actualiza sus controles",
+    "Responde con la norma al día"
+   ],
+   "start": "Llega la norma",
+   "due": "Entra en vigor",
+   "now": "Hoy",
+   "done": "Cada equipo, a tiempo"
+  }
+ },
+ {
+  "alias": "figure-growth",
+  "scene": "n04_sector",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "figure"
+  ],
+  "vertical": [
+   "pagos"
+  ],
+  "lands": "La cifra queda quieta en su marco, con su fuente; debajo, dos carriles de pagos digitales, 2018 y 2026, y los cuatro equipos: producto, comercial, riesgo y atención.",
+  "breathes": "Un bucle de 12 segundos: el carril de 2026 se llena hasta llevar veinte pagos por cada uno de 2018; llega el nuevo reglamento y se sella vigente; las preguntas bajan a cada equipo hasta que todos tienen una cola esperando. La cifra no se mueve.",
+  "args": {
+   "figure": "1.600 M",
+   "label": "operaciones de pagos digitales al mes en el país",
+   "source": "Fuente: BCRP, junio de 2026",
+   "then": "2018",
+   "now": "2026",
+   "rule": "Nuevo reglamento de pagos",
+   "since": "Vigente desde abril de 2026",
+   "teams": [
+    "Producto",
+    "Comercial",
+    "Riesgo",
+    "Atención"
+   ],
+   "pressure": "Cada equipo necesita saber más, y más rápido"
+  }
+ },
+ {
+  "alias": "hypotheses-live-b",
+  "scene": "n05_hipotesis",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "hypotheses"
+  ],
+  "vertical": [
+   "pagos",
+   "cualquiera"
+  ],
+  "lands": "Tres hipótesis con su retorno posible se apoyan en una cuarta, tecnología, que las habilita; cada tarjeta lleva su «?».",
+  "breathes": "El bucle recorre cada tarjeta y cuenta su historia: una sola respuesta llega a muchos comercios; el documento correcto vuelve a quien pregunta y el restringido sigue con candado; el dato de cada venta se vuelve una recomendación. Luego tecnología recorre su ciclo y enciende las otras tres.",
+  "args": {
+   "cards": [
+    [
+     "Atención a comercios",
+     "Una sola respuesta, gobernada, a las consultas frecuentes de los comercios",
+     "Menos espera"
+    ],
+    [
+     "Conocimiento interno",
+     "Productos, procesos y normas a mano, con permisos por equipo",
+     "Menos tiempo buscando"
+    ],
+    [
+     "Datos para el comercio",
+     "Del dato de cada venta a recomendaciones para que el comercio crezca",
+     "Nuevos servicios"
+    ],
+    [
+     "Tecnología",
+     "Entregar software más rápido con un equipo aumentado por IA",
+     "Habilitador de las otras tres"
+    ]
+   ],
+   "ret": "Retorno posible",
+   "cycle": "Del requerimiento al despliegue"
+  }
+ },
+ {
+  "alias": "knowledge-spaces",
+  "scene": "n06_conocimiento",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "governance",
+   "data"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres espacios del conocimiento de Pagalia, uno abierto y dos restringidos con candado, cada uno con su agente y sus fuentes; arriba pregunta atención, abajo pregunta riesgo.",
+  "breathes": "Un bucle de 12 segundos: atención pregunta qué cambia con el nuevo reglamento; su espacio se abre para su equipo, su agente lee su espacio y el abierto, choca con el candado de riesgo y responde con la fuente. Luego riesgo pregunta: solo su espacio se abre, para su equipo, y su agente responde con la fuente.",
+  "args": {
+   "who": [
+    "Atención",
+    "Riesgo"
+   ],
+   "ask1": "¿Qué cambia para los comercios con el nuevo reglamento?",
+   "src1": "Fuente: Reglamento de pagos",
+   "ask2": "¿Qué política aplica a un cargo no reconocido?",
+   "src2": "Fuente: Políticas de fraude",
+   "spaces": [
+    [
+     "Producto y tecnología",
+     "Espacio abierto",
+     false,
+     [
+      "Manuales de producto",
+      "Documentación y APIs",
+      "Reglamento de pagos"
+     ]
+    ],
+    [
+     "Atención a comercios",
+     "Espacio restringido",
+     true,
+     [
+      "Guías de producto",
+      "Abonos y plazos",
+      "Soporte del POS"
+     ]
+    ],
+    [
+     "Riesgo y fraude",
+     "Espacio restringido",
+     true,
+     [
+      "Políticas de fraude",
+      "Procedimientos",
+      "Controles"
+     ]
+    ]
+   ],
+   "agent": "Agente del espacio",
+   "deny": "Sin acceso",
+   "rule": "Cada agente responde desde su espacio y hereda sus permisos",
+   "foot": "Por validar · con Dust, implementado por Amaris"
+  }
+ },
+ {
+  "alias": "internal-case",
+  "scene": "n09_casa",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "who"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres columnas se arman (las personas de todos los equipos, cada una con su disciplina; los agentes que crean y comparten; y nuestro conocimiento, conectado y gobernado) y, al pie, el sello de socios estratégicos de Dust.",
+  "breathes": "Software crea un agente, lo conecta a dos fuentes y lo comparte con Datos, IA y Cloud; Datos le pregunta y recibe la respuesta con su fuente; Cloud crea el suyo sobre la fuente restringida: el agente hereda su candado y solo lo ve quien tiene acceso a ese espacio.",
+  "args": {
+   "people": "Personas de todos los equipos",
+   "agents": "Agentes que cada equipo crea y comparte",
+   "knowledge": "Nuestro conocimiento, conectado y gobernado",
+   "roles": [
+    "Datos",
+    "IA",
+    "Software",
+    "Cloud"
+   ],
+   "badge": "Socios estratégicos de Dust"
+  }
+ },
+ {
+  "alias": "federated-live",
+  "scene": "n10_federado",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "governance",
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, la consola de TI con el registro de actividad, los permisos por espacio y el uso por equipo; abajo, tres espacios de equipo (atención, riesgo y producto), cada uno con su persona, sus fuentes y sus agentes.",
+  "breathes": "Una persona de atención crea su agente y el registro lo anota; el agente responde con las fuentes de su espacio y el candado de riesgo se mantiene; los otros equipos también responden y su uso sube; TI suma un miembro al espacio restringido, el cambio baja al espacio y queda en el registro.",
+  "args": {
+   "console": "Gobierno de TI · en vivo",
+   "panes": [
+    "Registro de actividad",
+    "Permisos por espacio",
+    "Uso por equipo"
+   ],
+   "spaces": [
+    [
+     "Atención a comercios",
+     "Atención",
+     "Espacio restringido",
+     true,
+     [
+      "Guías de producto",
+      "Abonos y plazos"
+     ],
+     1
+    ],
+    [
+     "Riesgo y fraude",
+     "Riesgo",
+     "Espacio restringido",
+     true,
+     [
+      "Políticas",
+      "Procedimientos"
+     ],
+     1
+    ],
+    [
+     "Producto y tecnología",
+     "Producto",
+     "Espacio abierto",
+     false,
+     [
+      "Documentación y APIs",
+      "Reglamento de pagos"
+     ],
+     2
+    ]
+   ],
+   "open": "Abierto",
+   "create": "Crear agente",
+   "created": "Creado",
+   "member": "Nuevo miembro",
+   "log": [
+    "Atención creó un agente",
+    "Riesgo: acceso protegido",
+    "TI ajustó un acceso"
+   ],
+   "status": "Autonomía local · control central"
+  }
+ },
+ {
+  "alias": "criterion-b",
+  "scene": "n11_criterio",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "criterion"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, retorno claro y habilitador clave unidos por una «o»; debajo, un lugar vacío que pregunta «¿Retorno o habilitador?» y dos destinos: «Construimos» y «Por ahora, no».",
+  "breathes": "Llegan tres ideas: «Responder a comercios sin esperar» enciende el retorno y se construye; «Una demo vistosa» no enciende ninguno y se aparta, sin drama, a «Por ahora, no»; «Conocimiento gobernado por equipo» enciende el habilitador y también se construye.",
+  "args": {
+   "criteria": [
+    [
+     "Retorno claro",
+     "Un resultado que el negocio puede medir"
+    ],
+    [
+     "Habilitador clave",
+     "Abre el camino a los casos que sí traen retorno"
+    ]
+   ],
+   "or": "o",
+   "ask": "¿Retorno o habilitador?",
+   "ideas": [
+    [
+     [
+      "Responder a comercios",
+      "sin esperar"
+     ],
+     "retorno"
+    ],
+    [
+     "Una demo vistosa",
+     "no"
+    ],
+    [
+     [
+      "Conocimiento gobernado",
+      "por equipo"
+     ],
+     "habilitador"
+    ]
+   ],
+   "build": "Construimos",
+   "aside": "Por ahora, no"
+  }
+ },
+ {
+  "alias": "ways-b",
+  "scene": "n12_formas",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "top",
+  "intent": [
+   "cta"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cuatro columnas se abren (desarrollo, capacidades, proyecto y servicio) y, debajo, un árbol une sus bases con una sola raíz que pregunta «¿Qué necesitan hoy?».",
+  "breathes": "La pregunta se vuelve una necesidad a la vez (probar, velocidad, control, continuidad) y una chispa sube por su rama hasta la forma que la resuelve, que se enciende y subraya su promesa; cuando vuelve la pregunta, una chispa sale hacia la derecha y enciende «Lo decidimos juntos en el discovery».",
+  "args": {
+   "models": [
+    [
+     "Desarrollo",
+     "Para probar y crecer",
+     [
+      "Prototipo en una semana",
+      "Producto mínimo en producción",
+      "Laboratorio de innovación"
+     ]
+    ],
+    [
+     "Capacidades",
+     "Dan velocidad",
+     [
+      "Perfiles aumentados por IA",
+      "Forward Deployed Engineer",
+      "Skill center",
+      "Tiempo y materiales"
+     ]
+    ],
+    [
+     "Proyecto",
+     "Da control",
+     [
+      "Alcance y fecha definidos",
+      "Resultado acordado",
+      "Un equipo responsable"
+     ]
+    ],
+    [
+     "Servicio",
+     "Da continuidad",
+     [
+      "Operar y mejorar la IA",
+      "Soporte y evolución",
+      "Capacitación de equipos"
+     ]
+    ]
+   ],
+   "ask": "¿Qué necesitan hoy?",
+   "needs": [
+    "Queremos probar",
+    "Necesitamos velocidad",
+    "Necesitamos control",
+    "Necesitamos continuidad"
+   ],
+   "next": "Lo decidimos juntos en el discovery"
+  }
+ },
+ {
+  "alias": "discovery-b",
+  "scene": "n13_discovery",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "top",
+  "intent": [
+   "cta",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Sus opciones a la izquierda y, sobre una línea de tiempo, el taller de discovery, el prototipo y su decisión.",
+  "breathes": "En 12 segundos: se elige atención a comercios, el taller define cómo resolverlo y su KPI, el prototipo cobra vida (una consulta de un comercio, el agente responde desde su espacio y su fuente, el ticket se cierra solo) y llega la propuesta para que decidan.",
+  "args": {
+   "cards": [
+    "Atención a comercios",
+    "Conocimiento interno",
+    "Datos para el comercio",
+    "Tecnología",
+    "Su prioridad"
+   ],
+   "workshop": [
+    "Taller de discovery",
+    [
+     [
+      "Elegimos",
+      "un dolor o una prioridad"
+     ],
+     [
+      "Vemos",
+      "cómo resolverlo con tecnología"
+     ],
+     [
+      "Acordamos",
+      "el KPI del caso de éxito"
+     ]
+    ]
+   ],
+   "proto": "Prototipo",
+   "offer": [
+    "¿Lo construimos?",
+    [
+     "Desarrollo",
+     "Capacidades",
+     "Proyecto",
+     "Servicio"
+    ]
+   ],
+   "decide": "Propuesta a su medida",
+   "when": [
+    "Hoy · un dolor o prioridad",
+    "Esta semana · discovery",
+    "Una semana después",
+    "Luego · ustedes deciden"
+   ],
+   "pick": 0,
+   "live": "En vivo",
+   "ticket": "¿Cuándo llega mi abono?",
+   "new": "Nuevo",
+   "solved": "Resuelto · auto-atendido",
+   "space": "Espacio: atención a comercios",
+   "doc": "Abonos y plazos",
+   "kpi": "KPI · menos espera del comercio"
+  }
+ },
+ {
+  "alias": "tickets-live",
+  "scene": "n14_tickets",
+  "origin": "dcd · escena de catálogo (pagos)",
+  "layout": "left",
+  "intent": [
+   "vision",
+   "process"
+  ],
+  "vertical": [
+   "pagos",
+   "cualquiera"
+  ],
+  "lands": "El prototipo crece hasta la pantalla de atención a comercios en vivo: cuatro tickets, el espacio restringido del agente con su candado y sus fuentes y, abajo, el monitoreo de TI; delante, de espaldas, dos personas en su consola.",
+  "breathes": "Un bucle de 12 segundos: cada consulta simple viaja al agente, se enciende la fuente de la que responde y el ticket se cierra solo; la sensible, un cargo que el comercio no reconoce, enciende el candado y pasa a la tablet de una persona con su contexto; él la resuelve y la cola queda al día. La barra de auto-atendidos crece sin cifra.",
+  "args": {
+   "screen": "Atención a comercios",
+   "queue": "Tickets de comercios",
+   "tickets": [
+    "¿Cómo activo cuotas sin intereses?",
+    "¿Cuándo llega mi abono?",
+    "El POS no conecta",
+    "No reconozco un cargo"
+   ],
+   "new": "Nuevo",
+   "solved": "Resuelto · auto-atendido",
+   "routed": "Sensible · a una persona, con contexto",
+   "closed": "Resuelto por el equipo",
+   "calm": "Cola al día",
+   "space": "Espacio: atención a comercios",
+   "space_sub": "Restringido · responde con sus permisos",
+   "agent": "Agente de conocimiento",
+   "docs": [
+    "Guías de producto",
+    "Abonos y plazos",
+    "Soporte del POS"
+   ],
+   "monitor": "Monitoreo y control de TI",
+   "share": "Auto-atendidos",
+   "usage": "Uso por espacio",
+   "rows": [
+    "Permisos por espacio",
+    "Registro de actividad"
+   ],
+   "review": "Resolver",
+   "sign": "Audacious Ideas, Delivered Beyond.",
+   "live": "En vivo"
+  }
+ },
+ {
+  "alias": "paper-hero",
+  "scene": "p01_portada",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "hero"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El logo del cliente, el calendario de la semana y la hoja del informe sobre el viernes aparecen en menos de dos segundos.",
+  "breathes": "La hoja del viernes se dobla en avión, cruza la semana dejando la cinta magenta y aterriza en el lunes, donde aparece un sobre sellado con su hora. Cuadro final: el sobre sellado sobre el lunes y el avión posado.",
+  "args": {
+   "days": [
+    "Lun",
+    "Mar",
+    "Mié",
+    "Jue",
+    "Vie"
+   ],
+   "hour": "8:00"
+  }
+ },
+ {
+  "alias": "pinned-request",
+  "scene": "p02_viernes",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "gap"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El corcho con sus primeros post-its y un reloj de papel que marca 3:30.",
+  "breathes": "Caen post-its hasta llenar el corcho; al final entra uno rojo, «Informe · lunes 8:00», y la chincheta lo clava al centro. Cuadro final: tablero lleno, post-it rojo clavado.",
+  "args": {
+   "postits": [
+    "Informe mensual",
+    "Actualizar plan",
+    "Revisar cifras",
+    "Acta del comité",
+    "Correos pendientes",
+    "Reunión de las 4",
+    "Plan de la semana",
+    "Tablero del equipo"
+   ],
+   "urgent": "Informe · lunes 8:00"
+  }
+ },
+ {
+  "alias": "strategy-map",
+  "scene": "p03_estrategia",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El post-it rojo clavado a la izquierda, una persona tranquila a su lado y un mapa de papel doblado.",
+  "breathes": "El mapa se despliega panel a panel, la cinta magenta sale del post-it y traza la ruta; en cada parada aparece un ícono sin palabras: un chat con fichas, una lupa y un sobre con engranaje. Cuadro final: mapa abierto, ruta trazada, tres íconos y el post-it al inicio.",
+  "args": {
+   "urgent": "Informe · lunes 8:00"
+  }
+ },
+ {
+  "alias": "explain-cards",
+  "scene": "p04_explicar",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "A la izquierda, pequeño, el pedido «Hazme el informe» y su plantilla hueca con tres huecos «insertar»; a la derecha, una hoja de chat de papel con el mismo pedido y tres huecos vacíos; abajo, el mapa pequeño de tres paradas.",
+  "breathes": "Entran tres fichas, una por una (quién lo lee, de dónde salen los datos, cuándo está bien), y cada una llena su hueco; la hoja se firma «tu forma de trabajar, escrita» y en la esquina se enciende la primera parada del mapa. Cuadro final: las tres fichas en la hoja completa y la primera parada encendida.",
+  "args": {
+   "ask": "Hazme el informe",
+   "insert": "insertar",
+   "cards": [
+    "Quién lo lee",
+    "De dónde salen los datos",
+    "Cuándo está bien"
+   ],
+   "done": "Tu forma de trabajar, escrita"
+  }
+ },
+ {
+  "alias": "review-lens",
+  "scene": "p05_revisar",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "governance",
+   "figure"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El borrador de papel con sus líneas y una cifra resaltada; al lado, el procedimiento con sus tres pasos y, debajo, la cifra de 42,7 % fija en su marco; en la esquina, el mapa con la primera parada encendida.",
+  "breathes": "La lupa recorre el borrador y se detiene en la cifra sin fuente; un trazo magenta la tacha y la cinta la lleva al procedimiento, que gana una línea nueva, «cada cifra con su fuente»; se enciende la segunda parada. Cuadro final: cifra tachada, paso agregado, 42,7 % quieto.",
+  "args": {
+   "draft": "Borrador del informe",
+   "invented": "73 %",
+   "nosource": "sin fuente",
+   "proc": "Procedimiento",
+   "steps": [
+    "Quién lo lee",
+    "De dónde salen los datos",
+    "Cuándo está bien"
+   ],
+   "step": "Cada cifra con su fuente",
+   "figure": "42,7 %",
+   "label": "aciertos del mejor modelo en preguntas cortas de hechos"
+  }
+ },
+ {
+  "alias": "route-named",
+  "scene": "p06_ruta",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres paneles de papel plegados en acordeón, con los dibujos de las tres paradas del mapa, y la cinta magenta que los atraviesa.",
+  "breathes": "Los paneles se abren uno tras otro y ninguno se cierra: cada dibujo recibe su palabra (explicas, revisas, automatizas) y un candado se asienta sobre revisas. Cuadro final: los tres paneles abiertos y nombrados a la vez, con el candado en revisas.",
+  "args": {
+   "words": [
+    "Explicas",
+    "Revisas",
+    "Automatizas"
+   ]
+  }
+ },
+ {
+  "alias": "automation-stairs",
+  "scene": "p07_automatizar",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "process",
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una escalera de cuatro peldaños de papel y, en la esquina, el mapa de la estrategia con dos paradas recorridas.",
+  "breathes": "Una chispa sube los peldaños (prompt guardado, asistente, flujo entre sistemas, software propio) y cada uno se enciende con borde magenta y queda encendido; se enciende la tercera parada del mapa y se clava la nota «casi siempre, una mezcla». Cuadro final: los cuatro peldaños encendidos y la nota.",
+  "args": {
+   "steps": [
+    "Prompt guardado",
+    "Asistente",
+    "Flujo entre sistemas",
+    "Software propio"
+   ],
+   "note": "Casi siempre, una mezcla"
+  }
+ },
+ {
+  "alias": "mondays-sent",
+  "scene": "p08_lunes",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "kpi"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El calendario de papel con cuatro lunes, el tablero de estado vacío y el sobre sellado listo para salir.",
+  "breathes": "A las 8:00 el sobre sale volando al tablero, el primer lunes recibe su visto y aparece una barra; vuelve sellado y se repite el segundo, el tercero y el cuarto lunes. Cuadro final: cuatro lunes con visto y el tablero completo.",
+  "args": {
+   "mondays": [
+    "Lun 1",
+    "Lun 2",
+    "Lun 3",
+    "Lun 4"
+   ],
+   "hour": "8:00",
+   "calendar": "Lunes",
+   "board": "Estado del proyecto"
+  }
+ },
+ {
+  "alias": "unfold-describe",
+  "scene": "p09_describir",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "reflection"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "La hoja del informe, doblada.",
+  "breathes": "La portada del informe se levanta y la hoja se despliega en cuatro paneles, cada uno otra tarea que se repite: acta, correo, solicitud, reporte; la cinta magenta los une uno a uno y, antes de reiniciar, la hoja se vuelve a doblar. Cuadro final: hoja abierta con los cuatro paneles unidos.",
+  "args": {
+   "cover": "El informe",
+   "panels": [
+    "Acta",
+    "Correo",
+    "Solicitud",
+    "Reporte"
+   ]
+  }
+ },
+ {
+  "alias": "cost-drop",
+  "scene": "p10_costo",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "figure"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Dos barras de papel, 2022 alta y 2024 apenas una línea, y la cifra «280× menos» fija en su marco de papel.",
+  "breathes": "La cifra y las barras no se mueven; solo respiran los acentos: una moneda de papel se encoge mientras vuela de la barra alta a la línea de 2024 y queda flotando, la cinta subraya la diferencia y un pulso suave marca la barra pequeña. Cuadro final: el gráfico quieto, la moneda pequeña sobre 2024.",
+  "args": {
+   "figure": "280× menos",
+   "label": "costo de usar un modelo de IA, 2022 a 2024",
+   "years": [
+    "2022",
+    "2024"
+   ]
+  }
+ },
+ {
+  "alias": "noise-vs-evidence",
+  "scene": "p11_ruido",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "figure",
+   "proof"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Un feed de papel con tres publicaciones exageradas a la izquierda y dos notas a la derecha, cada una con sus cifras fijas.",
+  "breathes": "La cinta magenta tacha las publicaciones del feed una a una y quedan tachadas; luego cada nota recibe su chincheta: documentos (40 % menos tiempo, 18 % más calidad) e investigación y análisis (25 % más rápido, 40 % más calidad). Cuadro final: feed tachado, dos notas clavadas.",
+  "args": {
+   "feed": "Lo que dicen las redes",
+   "posts": [
+    "La IA lo hace todo",
+    "Si no corres, ya perdiste",
+    "Sin programar, nada que hacer"
+   ],
+   "figure": "40 % menos tiempo",
+   "cards": [
+    {
+     "title": "Documentos",
+     "lines": [
+      "40 % menos tiempo",
+      "18 % más calidad"
+     ],
+     "small": "en tareas de redacción"
+    },
+    {
+     "title": "Investigación y análisis",
+     "lines": [
+      "25 % más rápido",
+      "40 % más calidad"
+     ],
+     "small": "en tareas al alcance de la IA"
+    }
+   ]
+  }
+ },
+ {
+  "alias": "success-case",
+  "scene": "p12_exito",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "kpi"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Un rollo de papel que se desenrolla con nueve casos de uso con nombre: resumir correos, redactar actas, clasificar solicitudes y seis más.",
+  "breathes": "La línea «Automatizar el informe de avance» se marca con la cinta magenta, sale del rollo y se vuelve, delante, la tarjeta del caso de éxito; sus campos se llenan uno a uno y quedan: qué cambió, cuándo, quién y el KPI con su etiqueta «ejemplo», quieto desde que aparece. Un medidor de papel mueve la aguja de la zona de antes a la de después. Cuadro final: el rollo detrás, la tarjeta completa con sus cuatro campos y la etiqueta, y la aguja ya movida.",
+  "args": {
+   "cases": [
+    "Resumir correos",
+    "Redactar actas",
+    "Clasificar solicitudes",
+    "Responder preguntas frecuentes",
+    "Automatizar el informe de avance",
+    "Analizar encuestas",
+    "Crear presentaciones",
+    "Traducir documentos",
+    "Buscar en políticas"
+   ],
+   "pick": "Automatizar el informe de avance",
+   "card": "Caso de éxito",
+   "fields": [
+    {
+     "k": "Qué cambió",
+     "v": "el informe se arma y se envía solo"
+    },
+    {
+     "k": "Cuándo",
+     "v": "cada lunes, 8:00"
+    },
+    {
+     "k": "Quién",
+     "v": "la líder del proyecto revisa y aprueba"
+    }
+   ],
+   "kpi": {
+    "k": "KPI",
+    "v": "de 2 horas a 15 minutos por semana",
+    "tag": "ejemplo"
+   },
+   "gauge": [
+    "antes",
+    "después"
+   ]
+  }
+ },
+ {
+  "alias": "diagnostic",
+  "scene": "p13_turno",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "hands-on"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una hoja de diagnóstico de papel con siete preguntas, cada una con su ícono y su casilla, todas a la vista; debajo, tres bandejas (delegar a la IA, automatizar, cambiar el proceso), la ficha «Consolidar el informe semanal» junto a la primera pregunta y un reloj de papel de dos minutos.",
+  "breathes": "La ficha baja pregunta por pregunta y marca las que aplican, y las marcas se acumulan: las seis primeras reciben su visto y la séptima queda en «no»; se encienden las bandejas «Delegar a la IA» y «Automatizar» y aparece la línea final, «Descríbela en una frase: qué es, para quién, cuándo está bien». El reloj de dos minutos da su vuelta. Cuadro final: las siete preguntas con sus marcas, dos bandejas encendidas y la línea final.",
+  "args": {
+   "task": "Consolidar el informe semanal",
+   "lenses": [
+    {
+     "q": "¿Genera fricción?",
+     "icon": "friccion",
+     "tick": true
+    },
+    {
+     "q": "¿Se repite?",
+     "icon": "repite",
+     "tick": true
+    },
+    {
+     "q": "¿Es tediosa?",
+     "icon": "tediosa",
+     "tick": true
+    },
+    {
+     "q": "¿Es mecánica?",
+     "icon": "mecanica",
+     "tick": true
+    },
+    {
+     "q": "¿Se puede delegar a la IA?",
+     "hint": "la IA hace el borrador, tú revisas",
+     "icon": "ia",
+     "tick": true
+    },
+    {
+     "q": "¿Se puede automatizar?",
+     "hint": "corre sola, con revisión",
+     "icon": "auto",
+     "tick": true
+    },
+    {
+     "q": "¿Mejora con un cambio de proceso?",
+     "hint": "quitar o juntar un paso",
+     "icon": "proceso",
+     "tick": false
+    }
+   ],
+   "trays": [
+    "Delegar a la IA",
+    "Automatizar",
+    "Cambiar el proceso"
+   ],
+   "close": "Descríbela en una frase: qué es, para quién, cuándo está bien",
+   "clock": "2 minutos"
+  }
+ },
+ {
+  "alias": "time-freed",
+  "scene": "p14_tiempo",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "reflection",
+   "vision"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El calendario de papel de la semana, con el lunes en la mañana resaltado y su bloque de dos horas: el informe.",
+  "breathes": "La cinta magenta recorta del lunes el bloque de dos horas; la pieza se levanta y se posa al lado, dejando el hueco con su sombra; del hueco sube una bombilla de papel que se enciende y a su alrededor aparecen tres ideas sin palabras: dos personas conversando, un plano, una planta que crece. Cuadro final: hueco recortado, bombilla encendida y las tres ideas.",
+  "args": {
+   "days": [
+    "Lun",
+    "Mar",
+    "Mié",
+    "Jue",
+    "Vie"
+   ],
+   "block": [
+    "Informe",
+    "2 h"
+   ]
+  }
+ },
+ {
+  "alias": "lema-signer",
+  "scene": "p15_lema",
+  "origin": "dcd · escena de catálogo (fidelización)",
+  "layout": "left",
+  "intent": [
+   "vision"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El logo del cliente arriba, grande y al centro; debajo, el mapa de la estrategia con sus tres paradas en la cinta magenta, y la foto del trainer.",
+  "breathes": "El avión de papel de la portada vuelve, recorre la ruta del mapa encendiendo cada parada (explicas, revisas, automatizas) y se posa en la última; aparece «Audacious Ideas, Delivered Beyond.» en la esquina. Cuadro final: avión posado, logo del cliente, trainer con nombre y rol, y la firma.",
+  "args": {
+   "stops": [
+    "Explicas",
+    "Revisas",
+    "Automatizas"
+   ],
+   "name": "Javier Andrés Montaño Guzmán",
+   "role": "Trainer",
+   "sign": "Audacious Ideas, Delivered Beyond."
+  }
+ },
+ {
+  "alias": "prospect-cover",
+  "scene": "v01_portada",
+  "origin": "Clase VR (formación) · diapositiva «Tu prospecto sabe en un minuto si es para él»",
+  "layout": "left",
+  "intent": [
+   "hero"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Sobre la mesa, una plantilla gris: «Quiénes somos», «Líderes en tecnología» y un hueco para el logo; al otro lado, una gerente sin rostro.",
+  "breathes": "La plantilla se aparta y se apaga; delante se arma una portada para un solo prospecto: para quién es, su promesa, su logo y la reunión del jueves. La gerente se inclina hacia ella. Cuadro final: la portada a la medida encendida, la plantilla tenue detrás.",
+  "args": {
+   "tpl_title": "Quiénes somos",
+   "tpl_line": "Líderes en tecnología",
+   "tpl_logo": "Logo",
+   "for_whom": "Para la gerencia de operaciones",
+   "promise": "Que cada pedido llegue a tiempo, en todo el país",
+   "cover_sub": "Tres ideas para lograrlo este trimestre",
+   "meeting": "Jueves 10:00 · 30 min"
+  }
+ },
+ {
+  "alias": "week-calendar",
+  "scene": "v02_martes",
+  "origin": "Clase VR (formación) · diapositiva «Martes, 4 pm: el jueves conoces a un prospecto»",
+  "layout": "left",
+  "intent": [
+   "gap"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Tu semana de martes a jueves: el martes hasta las 4 pm ya pasó, un reloj marca las 4:00 y el jueves a las 10:00 brilla la reunión con el prospecto.",
+  "breathes": "El reloj avanza; correos, otra reunión, el almuerzo y una llamada llenan los huecos uno a uno; quedan dos horas libres el miércoles, se marcan «Para preparar» y un hilo las une al jueves, que se enciende. Cuadro final: la semana llena, las dos horas marcadas, el jueves resaltado.",
+  "args": {
+   "days": [
+    "Martes",
+    "Miércoles",
+    "Jueves"
+   ],
+   "past": "Ya pasó",
+   "now": "Ahora · 4 pm",
+   "meet_time": "10:00",
+   "meet": "Reunión con el prospecto · 30 min",
+   "busy": [
+    [
+     0,
+     16,
+     18,
+     "Correos"
+    ],
+    [
+     1,
+     9,
+     12,
+     "Reunión con otro cliente"
+    ],
+    [
+     1,
+     12,
+     13,
+     "Almuerzo"
+    ],
+    [
+     1,
+     13,
+     15,
+     "Correos"
+    ],
+    [
+     1,
+     17,
+     18,
+     "Llamada interna"
+    ],
+    [
+     2,
+     9,
+     10,
+     "Correos"
+    ]
+   ],
+   "free": [
+    1,
+    15,
+    17
+   ],
+   "prep": "Para preparar",
+   "prep_hours": "2 horas"
+  }
+ },
+ {
+  "alias": "generic-template",
+  "scene": "v03_plantilla",
+  "origin": "Clase VR (formación) · diapositiva «Pides una presentación y recibes la de todos»",
+  "layout": "left",
+  "intent": [
+   "gap"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Arriba, una línea en el chat: «Hazme una presentación de Amaris»; debajo, diez diapositivas grises con sus títulos.",
+  "breathes": "Se subrayan una a una las frases que podría firmar cualquier consultora (líderes, soluciones integrales, valor, innovación y excelencia); la cifra sin fuente recibe «¿fuente?» y al final una etiqueta tapa el logo: «¿De quién es?». Cuadro final: todo lo genérico subrayado y el logo tapado.",
+  "args": {
+   "request": "Hazme una presentación de Amaris",
+   "generic": [
+    {
+     "t": "Quiénes somos",
+     "logo": "Logo",
+     "at": 0.66
+    },
+    {
+     "t": "Líderes en tecnología",
+     "u": "Líderes",
+     "at": 0.22
+    },
+    {
+     "t": "Soluciones integrales",
+     "u": "Soluciones integrales",
+     "at": 0.3
+    },
+    {
+     "t": "Nuestra propuesta de valor",
+     "u": "valor",
+     "at": 0.38
+    },
+    {
+     "t": "+500 proyectos exitosos",
+     "fig": "+500",
+     "at": 0.58
+    },
+    {
+     "t": "Innovación y excelencia",
+     "u": "Innovación y excelencia",
+     "at": 0.46
+    },
+    {
+     "t": "Nuestros servicios"
+    },
+    {
+     "t": "Casos de éxito"
+    },
+    {
+     "t": "Por qué elegirnos"
+    },
+    {
+     "t": "Gracias"
+    }
+   ],
+   "nosource": "¿fuente?",
+   "whose": "¿De quién es?"
+  }
+ },
+ {
+  "alias": "client-worries",
+  "scene": "v04_meta",
+  "origin": "Clase VR (formación) · diapositiva «Al cliente le importa su meta del trimestre, no Amaris»",
+  "layout": "left",
+  "intent": [
+   "gap",
+   "kpi"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Una manager sin rostro en su escritorio, detrás de su portátil; arriba aparece su primera preocupación, «Un proveedor dentro de mi presupuesto»; al lado, pequeño y apagado, el logo de Amaris.",
+  "breathes": "Sus tres preocupaciones aparecen una a una y cada una se resuelve: la barra de la propuesta crece y cabe dentro de su presupuesto, la barra del trimestre toca la línea de la meta, la aguja del KPI entra en verde y su jefe recibe su visto. Solo al final se enciende Amaris: «Amaris: la prueba de que se puede».",
+  "args": {
+   "worries": [
+    "Un proveedor dentro de mi presupuesto",
+    "Cerrar la meta del trimestre",
+    "El KPI que prometí a mi jefe"
+   ],
+   "budget": "Mi presupuesto",
+   "goal": "Meta",
+   "proof": "Amaris: la prueba de que se puede"
+  }
+ },
+ {
+  "alias": "facts-columns",
+  "scene": "v06_hechos",
+  "origin": "Clase VR (formación) · diapositiva «Separas lo que sabes de lo que supones»",
+  "layout": "left",
+  "intent": [
+   "data",
+   "governance"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Tu dossier arriba, tres columnas debajo (Hecho con fuente, Hipótesis por validar, No se dice) con sus huecos, y tu diapositiva abajo; la primera frase ya cae en su columna.",
+  "breathes": "Las frases del dossier caen una a una en su columna: los hechos reciben su visto y su fuente con fecha, las hipótesis su «?», y lo que no se dice (el nombre del gerente, el proveedor actual, la cifra de otra empresa) queda tachado. Luego una cifra sin fuente intenta entrar en tu diapositiva, choca con su borde y queda afuera: «Sin confirmar».",
+  "args": {
+   "dossier": "Tu dossier",
+   "columns": [
+    {
+     "head": "Hecho",
+     "tag": "con fuente"
+    },
+    {
+     "head": "Hipótesis",
+     "tag": "por validar"
+    },
+    {
+     "head": "No se dice",
+     "tag": "aunque lo sepas"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Prioriza el canal digital",
+     "src": "Sitio web · 2026"
+    },
+    {
+     "text": "Abrió dos centros nuevos",
+     "src": "Informe anual · 2025"
+    }
+   ],
+   "hyps": [
+    "Podría tardar en unir sus datos",
+    "Podría necesitar reportes más rápidos"
+   ],
+   "nots": [
+    "El nombre de su gerente",
+    "Su proveedor actual",
+    "La cifra de otra empresa"
+   ],
+   "slide_label": "Tu diapositiva",
+   "stop": "Sin confirmar",
+   "unsourced": "Ventas +40 %"
+  }
+ },
+ {
+  "alias": "mirroring",
+  "scene": "v07_palabras",
+  "origin": "Clase VR (formación) · diapositiva «Usa su vocabulario, pero no le leas sus frases»",
+  "layout": "left",
+  "intent": [
+   "process"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "A la izquierda, su sitio web con su frase «Operación confiable»; a la derecha, tu diapositiva para el jueves, aún vacía.",
+  "breathes": "La frase del cliente se subraya y pasa tal cual a tu diapositiva, entre comillas; se tacha con «Suena a copiar», se reescribe como «Una operación que anticipa las fallas» y un hilo con «match» la une a la frase del cliente.",
+  "args": {
+   "source": "Su sitio web",
+   "section": "Nuestra estrategia",
+   "phrase": "Operación confiable",
+   "draft": "Tu diapositiva para el jueves",
+   "copied": "Como dice su sitio: “operación confiable”",
+   "copy_tag": "Suena a copiar",
+   "ours": "Una operación que anticipa las fallas",
+   "match": "match"
+  }
+ },
+ {
+  "alias": "proof-paths",
+  "scene": "v10_prueba",
+  "origin": "Clase VR (formación) · diapositiva «Demuestras con una referencia de cliente o un prototipo»",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "cta"
+  ],
+  "vertical": [
+   "formacion",
+   "cualquiera"
+  ],
+  "lands": "El cliente, detrás de su mesa, pregunta «¿Y cómo sé que funciona?»; a la izquierda, dos caminos punteados llegan a su mesa: una referencia de cliente que puedas nombrar y un prototipo a su medida.",
+  "breathes": "La referencia recorre su camino y deja su ficha en la mesa; luego la línea de tiempo avanza de Discovery a Prototipo en una semana, el prototipo viaja a la mesa y aterriza con «¿Lo construimos?». Cuadro final: los dos caminos trazados y el prototipo sobre la mesa.",
+  "args": {
+   "ask": "¿Y cómo sé que funciona?",
+   "paths": [
+    "Una referencia de cliente que puedas nombrar",
+    "Un prototipo a su medida"
+   ],
+   "steps": [
+    "Discovery",
+    "Prototipo",
+    "Decisión"
+   ],
+   "span": "1 semana",
+   "decide": "¿Lo construimos?"
+  }
+ },
+ {
+  "alias": "kpi-card",
+  "scene": "v11_kpi",
+  "origin": "Clase VR (formación) · diapositiva «Un caso de éxito dice qué KPI movió y cuánto»",
+  "layout": "left",
+  "intent": [
+   "kpi",
+   "proof"
+  ],
+  "vertical": [
+   "formacion",
+   "cualquiera"
+  ],
+  "lands": "La tarjeta «Caso de uso · Responder dudas por chat» con cuatro campos vacíos; a su lado, quieta en su marco, la cifra «1 de cada 4» con su fuente.",
+  "breathes": "Los campos se llenan uno a uno: indicador, cuánto se movió (un ejemplo, rotulado así), dueño y fecha; con los cuatro, la tarjeta se vuelve verde y pasa a «Caso de éxito», y la empresa encendida de la cifra responde. La cifra no se mueve. Cuadro final: el caso de éxito completo y la cifra fija.",
+  "args": {
+   "case_label": "Caso de uso",
+   "success": "Caso de éxito",
+   "case": "Responder dudas por chat",
+   "fields": [
+    [
+     "Indicador",
+     "Tiempo de respuesta"
+    ],
+    [
+     "Cuánto se movió",
+     "De 24 h a 5 min"
+    ],
+    [
+     "Dueño",
+     "Gerente de servicio"
+    ],
+    [
+     "Fecha",
+     "Marzo"
+    ]
+   ],
+   "example": "ejemplo",
+   "figure": "1 de cada 4",
+   "label": "empresas pasa de la prueba de concepto a valor tangible",
+   "source": "BCG, 2024"
+  }
+ },
+ {
+  "alias": "titles-thread",
+  "scene": "v12_titulos",
+  "origin": "Clase VR (formación) · diapositiva «Lee tus títulos seguidos: deben contar la historia»",
+  "layout": "left",
+  "intent": [
+   "process"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Una columna de cinco títulos cortos, numerados y unidos por un hilo punteado, cada uno con su conteo de palabras bajo «≤10 palabras»; a la derecha, una persona sin rostro que los lee en voz alta.",
+  "breathes": "La persona lee en orden y el hilo se traza de un título al siguiente; en «Nuestras capacidades» el hilo se rompe en rojo y aparece un «?»; el título se reescribe como «Tu meta del trimestre, en tres pasos», el hilo se repara, la lectura sigue hasta el final y el hilo entero se cierra en verde. Cuadro final: todos los títulos unidos por un solo hilo continuo.",
+  "args": {
+   "titles": [
+    "Hoy tu cliente espera un día por respuesta",
+    "Nuestras capacidades",
+    "Primero, el chat responde en minutos",
+    "Luego, un prototipo en una semana",
+    "Al final, decides si lo construimos"
+   ],
+   "weak": 1,
+   "fix": "Tu meta del trimestre, en tres pasos",
+   "limit": "≤10 palabras"
+  }
+ },
+ {
+  "alias": "two-seconds",
+  "scene": "v13_escena",
+  "origin": "Clase VR (formación) · diapositiva «Cada diapositiva se entiende en dos segundos, sin esperar»",
+  "layout": "left",
+  "intent": [
+   "process"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Una diapositiva en la pantalla del proyector: un cronómetro corre y, antes de 2 s, están el título, la escena y la cifra «12.000» con su candado; la presentadora, sin rostro, la señala.",
+  "breathes": "El cronómetro se detiene en «2 s», «Diapositiva completa»; mientras la presentadora habla, dentro de la diapositiva un punto enciende tres pasos en orden y la cifra no se mueve. Cuadro final: diapositiva completa, historia resuelta, cifra con candado y la marca de 2 s.",
+  "args": {
+   "number": "12.000",
+   "still": "La cifra no se mueve",
+   "clock": "2 s",
+   "done": "Diapositiva completa",
+   "talk": "Tú hablas",
+   "story": "Se repite cada 12 segundos"
+  }
+ },
+ {
+  "alias": "skill-handoff",
+  "scene": "v14_demo",
+  "origin": "Clase VR (formación) · diapositiva «Demo en vivo: el facilitador te entrega el skill»",
+  "layout": "left",
+  "intent": [
+   "demo"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "El facilitador, sin rostro, sostiene el paquete «dynamic-commercial-decks.zip»; en su pantalla, «Comparto el zip en el chat del equipo»; abajo, tres portátiles con sus asistentes de espaldas y los tres pasos de instalación por marcar.",
+  "breathes": "Una copia del zip vuela a cada portátil; en cada uno se marcan en orden los tres pasos y aparece «Skill listo»; la pantalla del facilitador pasa a «Elegimos un prospecto real». Cuadro final: todos los portátiles con «Skill listo» y la demo por empezar.",
+  "args": {
+   "package": "dynamic-commercial-decks.zip",
+   "hand": "Te lo entrego ahora",
+   "screen": "Facilitador",
+   "screen_a": "Comparto el zip en el chat del equipo",
+   "screen_b": "Elegimos un prospecto real",
+   "install": [
+    "1 · Recibes el zip",
+    "2 · Claude → Configuración → Capacidades → Skills",
+    "3 · Lo pides por su nombre"
+   ],
+   "ready": "Skill listo"
+  }
+ },
+ {
+  "alias": "live-steps",
+  "scene": "v15_envivo",
+  "origin": "Clase VR (formación) · diapositiva «Le das contexto, confirmas hechos y apruebas títulos»",
+  "layout": "left",
+  "intent": [
+   "demo",
+   "process"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Tu pantalla en vivo con tres etapas en columna: Contexto (su sitio y tus notas, el skill, hechos e hipótesis), Confirmas (la tabla de hechos y las cinco preguntas) y Títulos.",
+  "breathes": "Se encienden en orden: su sitio y tus notas fluyen al skill y se separan en hechos e hipótesis; cada hecho recibe su visto y las cinco preguntas se responden una a una; los títulos se encienden y cae el sello «Aprobado». Cuadro final: las tres etapas con visto y «Aprobado».",
+  "args": {
+   "screen": "En vivo: el prospecto que elige la sala",
+   "phases": [
+    "Contexto",
+    "Confirmas",
+    "Títulos"
+   ],
+   "sources": [
+    "Su sitio y estrategia",
+    "Tus notas"
+   ],
+   "sorted": [
+    "Hechos",
+    "Hipótesis"
+   ],
+   "known_head": "Hechos que confirmas",
+   "known": [
+    "Su meta del año",
+    "Sus líneas de negocio",
+    "Una cifra publicada"
+   ],
+   "ask_head": "Máximo cinco preguntas",
+   "questions": [
+    "¿La sala?",
+    "¿El dolor?",
+    "¿La decisión?",
+    "¿La prueba?",
+    "¿Quién firma?"
+   ],
+   "titles": [
+    "1 · Su meta del año, en sus palabras",
+    "2 · Lo que vemos desde afuera",
+    "3 · Dónde podemos ayudar primero"
+   ],
+   "approved": "Aprobado"
+  }
+ },
+ {
+  "alias": "build-deliver",
+  "scene": "v16_entrega",
+  "origin": "Clase VR (formación) · diapositiva «El skill construye, revisa y entrega; tú presentas»",
+  "layout": "left",
+  "intent": [
+   "demo",
+   "process"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Tres columnas de izquierda a derecha: «Construye» con cuatro diapositivas vacías, «Revisa» con cinco revisiones apagadas y «Entrega», una bandeja vacía.",
+  "breathes": "Las diapositivas se llenan con su escena; una línea baja por «Contraste», «Tamaño de letra», «Movimiento», «Palabras que no decimos» y «Cifras confirmadas», que se ponen en verde; caen «presentación.html · con tus notas» y «cliente.html · sin notas», cada uno «Se abre sin internet», y una persona da un paso al frente con el archivo: «Tú presentas».",
+  "args": {
+   "phases": [
+    "Construye",
+    "Revisa",
+    "Entrega"
+   ],
+   "checks": [
+    "Contraste",
+    "Tamaño de letra",
+    "Movimiento",
+    "Palabras que no decimos",
+    "Cifras confirmadas"
+   ],
+   "files": [
+    [
+     "presentación.html",
+     "con tus notas"
+    ],
+    [
+     "cliente.html",
+     "sin notas"
+    ]
+   ],
+   "offline": "Se abre sin internet",
+   "you": "Tú presentas"
+  }
+ },
+ {
+  "alias": "hands-on-timer",
+  "scene": "v17_turno",
+  "origin": "Clase VR (formación) · diapositiva «Tu próxima prospección, en quince minutos»",
+  "layout": "left",
+  "intent": [
+   "hands-on"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Un escritorio con el portátil abierto en el skill, tres pasos por marcar en la pantalla y, al lado, un reloj de 15 minutos.",
+  "breathes": "El reloj se llena mientras los pasos se marcan en orden: «Un cliente real de este mes», «Contexto y hechos» y «Títulos aprobados», que queda resaltado.",
+  "args": {
+   "app": "El skill, abierto",
+   "steps": [
+    "Un cliente real de este mes",
+    "Contexto y hechos",
+    "Títulos aprobados"
+   ],
+   "timer": "15 min"
+  }
+ },
+ {
+  "alias": "pair-read",
+  "scene": "v18_parejas",
+  "origin": "Clase VR (formación) · diapositiva «Lee tus títulos a otra persona: ¿se entiende?»",
+  "layout": "left",
+  "intent": [
+   "hands-on"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "Dos personas frente a frente con la lista de títulos entre ellas y, arriba, tres relojes de 40 segundos: leer, reformular y compromiso.",
+  "breathes": "Una lee sus títulos y cada uno se enciende; la otra hace una sola pregunta, cuenta la historia de vuelta por un hilo que sale de la lista y aparece «Se entiende»; al final se escribe la nota «Cliente · fecha · conversación».",
+  "args": {
+   "timers": [
+    "40 s · leer",
+    "40 s · reformular",
+    "40 s · compromiso"
+   ],
+   "list_label": "Tus títulos",
+   "list": [
+    "1. Su meta del trimestre",
+    "2. Cuatro ideas por validar",
+    "3. Un prototipo en una semana"
+   ],
+   "understood": "Se entiende",
+   "note": "Cliente · fecha · conversación"
+  }
+ },
+ {
+  "alias": "time-back",
+  "scene": "v19_tiempo",
+  "origin": "Clase VR (formación) · diapositiva «¿Qué harías con las horas que ya no pasas diagramando?»",
+  "layout": "left",
+  "intent": [
+   "reflection",
+   "vision"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "La misma semana de la diapositiva 2: el martes a las 4 pm, el jueves 10:00 con el prospecto y, el miércoles, tus dos horas para preparar ocupadas por «Mover cajas», «Buscar una plantilla» y «Ajustar el formato».",
+  "breathes": "Cada tarea de formato se deshace en cajitas y en su lugar se enciende una para el cliente: «Leer al cliente», «Preparar las preguntas», «Pensar su caso de éxito»; un hilo las lleva al jueves, que se enciende con su visto: «Lista». Cuadro final: los tres bloques nuevos encendidos y la reunión lista.",
+  "args": {
+   "days": [
+    "Martes",
+    "Miércoles",
+    "Jueves"
+   ],
+   "past": "Ya pasó",
+   "now": "Ahora · 4 pm",
+   "meet_time": "10:00",
+   "meet": "Reunión con el prospecto · 30 min",
+   "busy": [
+    [
+     0,
+     16,
+     18,
+     "Correos"
+    ],
+    [
+     1,
+     9,
+     12,
+     "Reunión con otro cliente"
+    ],
+    [
+     1,
+     12,
+     13,
+     "Almuerzo"
+    ],
+    [
+     1,
+     13,
+     14.2,
+     "Correos"
+    ],
+    [
+     1,
+     17,
+     18,
+     "Llamada interna"
+    ],
+    [
+     2,
+     9,
+     10,
+     "Correos"
+    ]
+   ],
+   "free": [
+    1,
+    15,
+    17
+   ],
+   "prep": "Para preparar · 2 horas",
+   "before": [
+    "Mover cajas",
+    "Buscar una plantilla",
+    "Ajustar el formato"
+   ],
+   "after": [
+    "Leer al cliente",
+    "Preparar las preguntas",
+    "Pensar su caso de éxito"
+   ],
+   "ready": "Lista"
+  }
+ },
+ {
+  "alias": "lema-conversation",
+  "scene": "v20_lema",
+  "origin": "Clase VR (formación) · diapositiva «Planea la conversación. Las diapositivas vienen solas.»",
+  "layout": "left",
+  "intent": [
+   "vision"
+  ],
+  "vertical": [
+   "formacion"
+  ],
+  "lands": "La mesa del jueves de la diapositiva 1: detrás, en la pantalla, la portada hecha para ella; a un lado tú y al otro la gerente, sin rostro, frente a frente.",
+  "breathes": "Conversan por turnos, las ondas van y vuelven; mientras hablan, sus tres preocupaciones de la diapositiva 4 reciben su visto sobre la mesa (presupuesto, meta del trimestre, KPI); al final hablan a la vez y aparece la firma «Audacious Ideas, Delivered Beyond.». Cuadro final: la conversación, los tres vistos y la firma.",
+  "args": {
+   "for_whom": "Para la gerencia de operaciones",
+   "promise": "Que cada pedido llegue a tiempo, en todo el país",
+   "cover_sub": "Tres ideas para lograrlo este trimestre",
+   "meeting": "Jueves 10:00 · 30 min",
+   "worries": [
+    "Presupuesto",
+    "Meta del trimestre",
+    "KPI"
+   ],
+   "sign": "Audacious Ideas, Delivered Beyond."
+  }
+ },
+ {
+  "alias": "hero-care",
+  "scene": "b01_portada",
+  "origin": "dcd · escena de catálogo (salud)",
+  "layout": "left",
+  "intent": [
+   "hero"
+  ],
+  "vertical": [
+   "salud"
+  ],
+  "lands": "Una región al anochecer, vista detrás de cuatro personas con su teléfono: en el horizonte, sus casas y las de toda la región; arriba, un solo pulso del cuidado.",
+  "breathes": "Cada consulta en la app sube por el pulso, abre el cuidado que la responde (un médico, una clínica de la red, un recordatorio, una cita) y baja como un corazón que enciende esa casa.",
+  "args": {
+   "services": [
+    "Telemedicina",
+    "Signos vitales",
+    "Receta digital",
+    "Psicología"
+   ],
+   "cares": [
+    "Un médico",
+    "Clínica de la red",
+    "Un recordatorio",
+    "Una cita"
+   ],
+   "link": "Cuidado conectado",
+   "region": "Vidas encendidas, en toda la región"
+  }
+ },
+ {
+  "alias": "repeat-story",
+  "scene": "b04_tesis",
+  "origin": "dcd · escena de catálogo (salud)",
+  "layout": "left",
+  "intent": [
+   "gap"
+  ],
+  "vertical": [
+   "salud",
+   "cualquiera"
+  ],
+  "lands": "El cliente a la izquierda y, a su lado, tres canales vacíos, cada uno con su propio sistema; abajo, otro sistema aparte y la barra de la espera.",
+  "breathes": "El cliente cuenta su caso a la línea de atención; lo transfieren, el siguiente canal pregunta «¿Me cuenta su caso?» y lo cuenta otra vez, y otra; el reembolso espera un documento que ya estaba en otro sistema, el intento no cruza, y la espera crece hasta volverse roja.",
+  "args": {
+   "client": "Cliente",
+   "tells": [
+    "Cuenta su caso",
+    "Otra vez",
+    "Y otra vez"
+   ],
+   "channels": [
+    "Línea de atención",
+    "Autorizaciones",
+    "Reembolsos"
+   ],
+   "ask": "¿Me cuenta su caso?",
+   "transfer": "Lo transfieren",
+   "status": "Espera un documento",
+   "other": "Otro sistema",
+   "there": "El documento ya estaba aquí",
+   "wait": "La espera"
+  }
+ },
+ {
+  "alias": "figure-door",
+  "scene": "b06_sector",
+  "origin": "dcd · escena de catálogo (salud)",
+  "layout": "left",
+  "intent": [
+   "figure"
+  ],
+  "vertical": [
+   "salud"
+  ],
+  "lands": "La cifra quieta en su marco; debajo, la puerta digital abierta con sus servicios y, detrás, el dato del cliente y dos caminos.",
+  "breathes": "Teleconsulta, nutrición, psicología y signos vitales se encienden por turnos; cada dato cruza la puerta hasta el registro del cliente, que se completa, y el cuidado llega a tiempo; el otro camino, la espera, queda a la vista. La cifra no se mueve.",
+  "args": {
+   "figure": "N M",
+   "label": "clientes registrados en Cuida · fuente, año",
+   "door": "Cuida",
+   "services": [
+    "Teleconsulta",
+    "Nutrición",
+    "Psicología",
+    "Signos vitales"
+   ],
+   "behind": "Detrás de la puerta",
+   "record": "El dato del cliente",
+   "ontime": "El cuidado llega a tiempo",
+   "late": "O el cuidado espera"
+  }
+ },
+ {
+  "alias": "hypotheses-care",
+  "scene": "b07_hipotesis",
+  "origin": "dcd · escena de catálogo (salud)",
+  "layout": "left",
+  "intent": [
+   "hypotheses"
+  ],
+  "vertical": [
+   "salud"
+  ],
+  "lands": "Tres hipótesis con su retorno posible (atención al cliente, reembolsos y cuidado proactivo) se apoyan en una cuarta, tecnología, que las habilita; cada tarjeta lleva su «?».",
+  "breathes": "Cada tarjeta cobra vida por turnos: de noche, la duda del chat recibe su respuesta al instante; los documentos sueltos de un reembolso se leen, se validan y llegan listos a una persona; la señal de Cuida se vuelve recordatorio y cita en el calendario; al final, tecnología recorre su ciclo y enciende las otras tres.",
+  "args": {
+   "cards": [
+    [
+     "Atención al cliente",
+     "Responder por chat las dudas de cobertura y reembolso, a toda hora",
+     "Menos espera"
+    ],
+    [
+     "Reembolsos",
+     "Preparar los documentos de reembolso antes de que lleguen a una persona",
+     "Menos trabajo manual"
+    ],
+    [
+     "Cuidado proactivo",
+     "Convertir las señales de Cuida en recordatorios y citas a tiempo",
+     "Más cuidado preventivo"
+    ],
+    [
+     "Tecnología",
+     "Entregar software más rápido con un equipo aumentado por IA",
+     "Habilitador de las otras tres"
+    ]
+   ],
+   "ret": "Retorno posible",
+   "cycle": "Del requerimiento al despliegue"
+  }
+ },
+ {
+  "alias": "care-center",
+  "scene": "b14_cuidado",
+  "origin": "dcd · escena de catálogo (salud)",
+  "layout": "left",
+  "intent": [
+   "vision"
+  ],
+  "vertical": [
+   "salud"
+  ],
+  "lands": "El centro de cuidado de mañana: la pantalla con las señales de Cuida y la cola de consultas, el teléfono del cliente con Cuida y, delante, una persona del equipo de cuidado con su tablet.",
+  "breathes": "Un bucle de 12 segundos: la señal sube desde Cuida y se anticipa; la IA sugiere una teleconsulta, la persona la aprueba en la tablet y la cita llega a la app antes de que el cliente la pida; las dudas simples se responden solas desde el conocimiento gobernado y el reembolso rechazado baja a la persona, con su contexto.",
+  "args": {
+   "screen": "Centro de cuidado",
+   "live": "En vivo",
+   "chart": "Señales de Cuida",
+   "forecast": "Anticipado",
+   "alert": "Señal anticipada",
+   "done": "Cuidado a tiempo",
+   "steps": [
+    "La IA sugiere una teleconsulta",
+    "El equipo de cuidado la aprueba",
+    "Cita en la app, antes de pedirla"
+   ],
+   "queue": "Consultas de clientes",
+   "tickets": [
+    "¿Qué cubre mi plan en otro país?",
+    "¿Cuándo llega mi reembolso?",
+    "Me rechazaron un reembolso"
+   ],
+   "new": "Nuevo",
+   "solved": "Respondida sola",
+   "sensitive": "Sensible",
+   "routed": "A una persona, con contexto",
+   "space": "Conocimiento gobernado",
+   "docs": [
+    "Coberturas y planes",
+    "Reembolsos y plazos"
+   ],
+   "app": "Cuida",
+   "note": [
+    "Su cita",
+    "Teleconsulta",
+    "Agendada"
+   ],
+   "approve": "Aprobar",
+   "case": [
+    "Reembolso",
+    "Con contexto"
+   ],
+   "sign": "Audacious Ideas, Delivered Beyond."
+  }
+ },
+ {
+  "alias": "outside-business",
+  "scene": "v05_afuera",
+  "origin": "Clase VR2 · diapositiva «Primero investigas al prospecto en lo que él publica»",
+  "layout": "left",
+  "intent": [
+   "outside"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, afuera, tres fuentes públicas del prospecto (su sitio y su estrategia, sus resultados publicados, la prensa del sector) y tu dossier; abajo, tras una línea punteada, su operación como una silueta que no vemos.",
+  "breathes": "La lupa lee cada fuente y la deja en tu dossier; sale una hipótesis por validar y de ella bajan preguntas a cada estación: adentro lo cuenta el prospecto, tú llevas preguntas.",
+  "args": {
+   "layers": [
+    "Su sitio y su estrategia",
+    "Sus resultados publicados",
+    "Prensa del sector"
+   ],
+   "book": "Tu dossier",
+   "case_label": "Hipótesis",
+   "case": "Podrían responder antes si sus datos se conectan",
+   "tag": "Por validar",
+   "inside": "Adentro: lo cuenta el prospecto",
+   "ask": "Tú llevas preguntas",
+   "areas": [
+    "Ventas",
+    "Finanzas",
+    "Operaciones",
+    "Personas"
+   ]
+  }
+ },
+ {
+  "alias": "panel-questions",
+  "scene": "w13_preguntas",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «Cinco preguntas»",
+  "layout": "top",
+  "intent": [
+   "panel"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cinco tarjetas altas de pregunta en fila, numeradas del 1 al 5, con las preguntas grandes y un medidor de voz quieto al pie, sobre una línea de luz magenta; al fondo, estrellas lejanas.",
+  "breathes": "Sin toque, una chispa recorre la línea y se detiene bajo cada pregunta: una gota de luz sube por su tallo, el borde de su tarjeta se enciende suave y su medidor de voz habla; al tocar una (o pulsar su número), cae sobre ella la luz del escenario: haz dorado, halo, vidrio encendido, marco que late, la marca «En curso» y su medidor dorado que sigue hablando; las demás atenúan su vidrio sin perder la lectura y el recorrido se detiene. Cuadro final: las cinco preguntas visibles, sin ninguna marcada hasta el toque.",
+  "args": {
+   "questions": [
+    "¿Qué separa un piloto de una operación duradera?",
+    "¿Cuándo sí hace falta un agente?",
+    "¿Qué no delegarían hoy a la IA?",
+    "¿Cuándo está listo un agente?",
+    "Una señal para escalar, rediseñar o apagar"
+   ],
+   "live": "En curso"
+  }
+ },
+ {
+  "alias": "reflections-live",
+  "scene": "w14_reflexiones",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «Tres reflexiones de hoy»",
+  "layout": "top",
+  "intent": [
+   "reflection",
+   "cta"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cinco momentos sobre un mismo hilo de luz, en el orden del cierre: a la izquierda el chat «Sus preguntas, por el chat»; al centro, tres tarjetas de vidrio oscuro boca abajo, «Reflexión 1», «Reflexión 2» y «Reflexión 3»; a la derecha, la encuesta con su marco de QR.",
+  "breathes": "Sin toque, primero late el chat: se levanta una mano con sus ondas, llegan tres mensajes uno a uno y alguien sigue escribiendo; luego una chispa sale del chat por el hilo y se detiene bajo cada reflexión, cuyo borde se enciende por turnos, y al final bajo la encuesta, que se enciende dorada y barre su marco de QR; al tocar una tarjeta (o pulsar 1, 2 o 3), el moderador la voltea y muestra «Se anota en vivo» bajo su número, con tres líneas de nota que se escriben solas, y queda volteada. Cuadro final: los mensajes en el chat, las tres tarjetas boca abajo y la encuesta encendida.",
+  "args": {
+   "reflections": [
+    "Reflexión 1",
+    "Reflexión 2",
+    "Reflexión 3"
+   ],
+   "live": "Se anota en vivo",
+   "survey": [
+    "Encuesta",
+    "QR por confirmar"
+   ],
+   "ask": "Sus preguntas, por el chat"
+  }
+ },
+ {
+  "alias": "panel-questions-list",
+  "scene": "wp_preguntas",
+  "origin": "any world · library scene (webinar-panel, 2026-10)",
+  "layout": "left",
+  "intent": [
+   "panel"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Las preguntas del panel, numeradas, en una columna; las dos de reserva, punteadas y con su etiqueta.",
+  "breathes": "Un marco visita cada pregunta por turno hasta que el presentador toca la que está en curso: se enciende con «En curso» y las demás se atenúan; queda encendida hasta que toque otra. Cuadro final: todas legibles.",
+  "args": {
+   "questions": [
+    "¿Qué separa una demo de una operación que dura?",
+    "¿Cuándo sí hace falta un agente?",
+    "Si la IA actúa, ¿qué no delegarían hoy?",
+    "¿Cómo saben que un agente está listo?",
+    "Una señal para escalar, rediseñar o apagar",
+    "¿Qué no volverían a escalar, aunque funcione?",
+    "En 24 meses, ¿qué estamos subestimando?"
+   ],
+   "reserve": 2,
+   "reserve_label": "Reserva",
+   "live": "En curso"
+  }
+ },
+ {
+  "alias": "reflections-cards",
+  "scene": "wp_reflexiones",
+  "origin": "any world · library scene (webinar-panel, 2026-10)",
+  "layout": "left",
+  "intent": [
+   "reflection"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres tarjetas boca abajo, «Reflexión 1», «Reflexión 2» y «Reflexión 3», y debajo la encuesta.",
+  "breathes": "Los bordes de las tarjetas se encienden por turno; el moderador toca cada una al decirla y se voltea con su texto y una línea que sigue escribiendo. Cuadro final: las tres caras y la encuesta.",
+  "args": {
+   "label": "Reflexión",
+   "cards": [
+    "Se anota en vivo",
+    "Se anota en vivo",
+    "Se anota en vivo"
+   ],
+   "survey": [
+    "Encuesta",
+    "Por confirmar: el enlace llega por el chat"
+   ]
+  }
+ },
+ {
+  "alias": "luz-hero",
+  "scene": "w01_portada",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «IA: ¿el fin del piloto eterno?»",
+  "layout": "left",
+  "intent": [
+   "hero"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "La chispa «IA» encendida a la derecha del escenario, sobre un cielo de estrellas lejanas; dos órbitas punteadas, un plano orbital inclinado que pasa por detrás y por delante, y una estela magenta que la rodea en tres vueltas, cada una más ceñida; abajo, «Foro y panel · 55 minutos».",
+  "breathes": "Una chispa recorre la estela vuelta tras vuelta hacia adentro y la estela se carga a su paso; al llegar al centro el anillo interior se cierra y se enciende, sale una onda, la chispa «IA» destella y las vueltas de afuera se atenúan; la chispa sigue girando en el anillo y la «IA» late cada tres segundos. Cuadro final (10,8 s): el anillo cerrado y encendido alrededor de la chispa, sin salida.",
+  "args": {
+   "spark": "IA",
+   "format": "Foro y panel · 55 minutos"
+  }
+ },
+ {
+  "alias": "luz-agenda",
+  "scene": "w02_agenda",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «55 minutos»",
+  "layout": "top",
+  "intent": [
+   "agenda"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cuatro tarjetas de vidrio a lo ancho, cada una del tamaño de su parte de los 55 minutos, con su duración grande y su nombre: «5 min» Chat, «10 min» Contexto, «30 min» Panel y «10 min» Cierre, cada una con sus contenidos; debajo, una línea de tiempo de luz con sus marcas 00:00 · 05:00 · 15:00 · 45:00 · 55:00.",
+  "breathes": "Una chispa recorre la línea de tiempo, que se carga a su paso, y enciende cada tarjeta al llegar a su marca: el chat, que empieza a escribir; el contexto («El piloto eterno» y «No todo es un agente»), con su ciclo en miniatura; el panel, el más ancho, con sus tres asientos bajo los focos, donde se encienden una a una sus cinco preguntas y los focos quedan latiendo; y el cierre, con las preguntas del público, las reflexiones y la encuesta; al final se detiene en 55:00, que se enciende. Cuadro final: las cuatro tarjetas encendidas con su duración, el panel latiendo y la chispa en 55:00.",
+  "args": {
+   "steps": [
+    "Pregunta al chat",
+    "El piloto eterno",
+    "No todo es un agente",
+    "Cinco preguntas",
+    "Preguntas del público",
+    "Reflexiones y encuesta"
+   ],
+   "blocks": [
+    [
+     "Chat · 5 min",
+     "00:00"
+    ],
+    [
+     "Contexto · 10 min",
+     "05:00"
+    ],
+    [
+     "Panel · 30 min",
+     "15:00"
+    ],
+    [
+     "Cierre · 10 min",
+     "45:00"
+    ]
+   ],
+   "end": "55:00"
+  }
+ },
+ {
+  "alias": "luz-question",
+  "scene": "w03_apertura",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «¿El cuello de botella es la IA… o somos nosotros?»",
+  "layout": "left",
+  "intent": [
+   "reflection"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Un embudo de luz en profundidad (su boca, dos cortes y una pared que se estrecha): arriba, el chip «La IA», abierto sobre la estela; abajo, el cuello «Nosotros» alrededor de tres personas sin rostro; debajo, la burbuja del chat.",
+  "breathes": "Cinco chispas caen al embudo una tras otra, cruzan el chip sin frenarse (el chip destella a cada paso) y se quedan flotando, curiosas, sobre las personas, que se encienden al llegarles la luz; el cuello respira y una chispa más sigue de largo, pasa por detrás de la persona del centro y cae en la burbuja del chat, que se enciende y empieza a escribir. Cuadro final: el chip despejado, cinco chispas sobre las personas encendidas y la burbuja encendida.",
+  "args": {
+   "chip": "La IA",
+   "neck": "Nosotros",
+   "chat": "Responda en el chat, en una frase."
+  }
+ },
+ {
+  "alias": "luz-divider",
+  "scene": "w04_divisor",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «El piloto eterno»",
+  "layout": "left",
+  "intent": [
+   "gap"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una órbita grande de luz magenta se traza sola; dentro, «Capacidad» en grande y tres órbitas interiores con muchos satélites pequeños, apagados, que giran cada uno a su ritmo; afuera, tenue y hueco, un punto que dice «Operación».",
+  "breathes": "La chispa recorre la órbita y, justo después de la cima, sale hacia «Operación»: se frena cerca de él, que responde con un anillo tenue, y el trazo se curva de vuelta a la órbita, que se cierra sobre sí misma con un destello. De cada cierre corre una onda hacia adentro que enciende la mitad de los satélites: capacidad por todas partes. La primera vuelta enciende «Capacidad»; la segunda la hace brillar más y enciende el resto. «Operación» sigue esperando, sin encenderse. Cuadro final: órbita cerrada y brillante, todos los satélites encendidos, «Capacidad» encendida, la chispa en su trazo y «Operación» tenue afuera.",
+  "args": {
+   "inside": "Capacidad",
+   "outside": "Operación"
+  }
+ },
+ {
+  "alias": "luz-loop",
+  "scene": "w05_ciclo",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «¿Por qué el ciclo no llega a operar?»",
+  "layout": "left",
+  "intent": [
+   "gap"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El anillo Idea → POC → Demo con sus tres nodos y la chispa girando con su estela magenta; fuera del anillo, la puerta «Operar» apagada y un trazo punteado que no llega; debajo, el hilo magenta baja de «Demo» a un estante con tres lugares vacíos.",
+  "breathes": "La chispa gira cada 4 segundos: Idea, POC, Demo y vuelta a empezar; cada paso por «Demo» deja caer una demo más en el estante, y se van acumulando. A los 5 segundos una chispa se separa hacia «Operar»: la puerta se enciende y dentro se dibuja un signo de pregunta; la chispa se queda cerca, duda, y vuelve al anillo justo cuando pasa la otra. Llega la tercera demo. Cuadro final: anillo girando con su estela, tres demos en el estante, «Operar» encendido con su «?» y el trazo que no llega a la puerta.",
+  "args": {
+   "stops": [
+    "Idea",
+    "POC",
+    "Demo"
+   ],
+   "exit": "Operar"
+  }
+ },
+ {
+  "alias": "luz-figures",
+  "scene": "w06_datos",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «¿Por qué escalar sigue siendo la excepción?»",
+  "layout": "left",
+  "intent": [
+   "figure"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres cifras grandes y quietas en tarjetas de vidrio oscuro, cada una con su alcance y su fuente; a la derecha, un muro de luz punteado con una sola puerta alta y estrecha: «Operación».",
+  "breathes": "El borde de cada tarjeta se ilumina por turnos y de ella salen siete chispas hacia el muro: lo tocan, se deslizan buscando la puerta y se apagan. La última de la tercera tarjeta la cruza con su trazo magenta: la puerta se enciende, los tres bordes brillan juntos y la chispa queda encendida del otro lado. Las cifras no se mueven. Cuadro final: tres cifras quietas con sus bordes encendidos, la puerta encendida, el trazo magenta y una chispa del otro lado.",
+  "args": {
+   "figure": [
+    {
+     "pre": "Al menos",
+     "v": "30 %",
+     "label": "de los proyectos de IA generativa, abandonados tras la POC (predicción, fin de 2025)",
+     "src": "Gartner · 2024"
+    },
+    {
+     "v": "95 %",
+     "label": "de los pilotos de IA generativa, sin impacto medible en el P&L (declarado, ene–jun 2025)",
+     "src": "MIT NANDA · 2025"
+    },
+    {
+     "v": "42 %",
+     "label": "de las empresas encuestadas abandonó la mayoría de sus iniciativas de IA en 2025",
+     "src": "S&P Global · 2025"
+    }
+   ],
+   "door": "Operación"
+  }
+ },
+ {
+  "alias": "luz-bridge",
+  "scene": "w07_salto",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «Piloto y operación no se parecen»",
+  "layout": "top",
+  "intent": [
+   "kpi",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "La tabla Piloto | Operación con sus cinco filas (datos, usuarios, control, dueño, éxito): el piloto encendido, la operación apagada; por su borde derecho baja la estela magenta hasta un medidor «KPI de negocio» con la aguja abajo.",
+  "breathes": "La chispa baja por la estela fila a fila (datos, usuarios, control, dueño, éxito): en cada una la celda del piloto se apaga y la de la operación se ilumina; con «Mejoró un proceso», en dorado, la chispa llega al medidor y la aguja sube, sin número. Cuadro final: las cinco filas con la operación encendida y la aguja arriba.",
+  "args": {
+   "head": [
+    "",
+    "Piloto",
+    "Operación"
+   ],
+   "rows": [
+    [
+     "Datos",
+     "Preparados",
+     "Reales, integrados"
+    ],
+    [
+     "Usuarios",
+     "Uno entusiasta",
+     "Un área entera"
+    ],
+    [
+     "Control",
+     "Pendiente",
+     "Permisos, trazabilidad"
+    ],
+    [
+     "Dueño",
+     "Sin asignar",
+     "Nombre, presupuesto"
+    ],
+    [
+     "Éxito",
+     "Buena demo",
+     "Mejoró un proceso"
+    ]
+   ],
+   "gauge": "KPI de negocio"
+  }
+ },
+ {
+  "alias": "luz-ladder",
+  "scene": "w08_formas",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «No todo problema necesita un agente»",
+  "layout": "left",
+  "intent": [
+   "architecture",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una escalera de luz de seis peldaños, Prompt abajo y Multiagente arriba; cada peldaño con su riel de cuatro celdas (objetivo, pasos, ejecución, revisión) todavía vacío, su nombre y su frase; debajo, la leyenda (usted, pactado, la IA) y «El objetivo siempre lo pone usted.».",
+  "breathes": "Una chispa sube por la escalera, un peldaño cada 1,56 s: el peldaño se enciende en magenta y su riel se llena según quién hace el trabajo (vacío, usted; a medias, pactado; lleno, la IA), mientras la celda del objetivo queda vacía con un brillo dorado propio. Cuadro final: los seis rieles llenos y la columna del objetivo vacía de abajo arriba.",
+  "args": {
+   "cells": [
+    "Objetivo",
+    "Pasos",
+    "Ejecución",
+    "Revisión"
+   ],
+   "legend": [
+    "Usted",
+    "Pactado",
+    "La IA"
+   ],
+   "rungs": [
+    [
+     "Prompt",
+     "Interacción directa con el LLM: usted pregunta y recibe una respuesta puntual o un documento al vuelo.",
+     [
+      0,
+      0,
+      2,
+      0
+     ]
+    ],
+    [
+     "Chatbot o Copiloto",
+     "Contexto de creación. Usted pide; la IA propone y usted aprueba. Trabajo diario asistido y acelerado.",
+     [
+      0,
+      1,
+      2,
+      0
+     ]
+    ],
+    [
+     "Skill",
+     "Una instrucción guardada que la IA aplica igual cada vez.",
+     [
+      0,
+      1,
+      2,
+      1
+     ]
+    ],
+    [
+     "Workflow",
+     "Pasos fijos, IA acotada. Proceso repetible: entregables o acciones simples, automatizados de forma segura.",
+     [
+      0,
+      1,
+      2,
+      1
+     ]
+    ],
+    [
+     "Agente",
+     "Un «profesional o experto» digital: recibe tareas y objetivos; la IA actúa y termina entregables completos para su revisión o beneficio, con la autonomía definida por diseño.",
+     [
+      0,
+      2,
+      2,
+      0
+     ]
+    ],
+    [
+     "Multiagente",
+     "Varios agentes se coordinan para trabajo de alta complejidad: amplifican a los profesionales y, en ciertos casos de uso, apoyan la agentización E2E de procesos.",
+     [
+      0,
+      2,
+      2,
+      1
+     ]
+    ]
+   ],
+   "rule": "El objetivo siempre lo pone usted."
+  }
+ },
+ {
+  "alias": "luz-console",
+  "scene": "w09_costo",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «La autonomía cuesta»",
+  "layout": "left",
+  "intent": [
+   "governance"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una consola de tres paneles (antes de actuar, mientras actúa, cuando falla) con sus controles apagados; la estela del trabajo delegado entra por la izquierda y la cruza; debajo, la línea del presupuesto y su intercambio: fichas, una flecha, un reloj y tres barras.",
+  "breathes": "La chispa cruza la consola: antes de actuar, el alcance se cierra con su candado y se encienden solo los datos que toca; mientras actúa, el rastro se dibuja nodo a nodo y una persona toma el control de pausa; cuando falla, una alerta serena, la recuperación rebobina y se ilumina quién responde; al final las fichas viajan y se encienden el tiempo y el beneficio. Cuadro final: los tres paneles encendidos y el intercambio del presupuesto resuelto.",
+  "args": {
+   "panels": [
+    [
+     "Antes de actuar",
+     [
+      "Permisos y alcance",
+      "Datos que toca"
+     ]
+    ],
+    [
+     "Mientras actúa",
+     [
+      "Trazabilidad",
+      "Intervención humana"
+     ]
+    ],
+    [
+     "Cuando falla",
+     [
+      "Recuperación",
+      "Quién responde"
+     ]
+    ]
+   ],
+   "budget": "Y por supuesto, implica presupuesto de inversión: buscamos probar que intercambiamos tokens por tiempo o beneficio económico directo (revenue o eficiencia operativa medible)."
+  }
+ },
+ {
+  "alias": "luz-wave",
+  "scene": "w10_ola",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «La próxima ola: ¿escala o repite el ciclo?»",
+  "layout": "left",
+  "intent": [
+   "figure"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El mismo anillo Idea → POC → Demo de la diapositiva 5, ahora con tres agentes visibles (un pequeño robot de luz en cada uno) girando en él y la leyenda «Agentes» al centro; afuera, la puerta «Operar» apagada; abajo, la cifra quieta y grande: más del 40 %, con su alcance y su fuente.",
+  "breathes": "Los tres agentes dan vueltas al anillo con su estela, como antes la chispa, y encienden cada parada al pasar; a los 3,5 s, cuando un agente pasa frente a la salida, una chispa se desprende y avanza dibujando el trazo magenta; a los 6 s llega al umbral, «Operar» se enciende con un anillo de luz y la chispa espera ahí, respirando: la pregunta queda abierta. La cifra no se mueve. Cuadro final: el anillo con sus agentes, la chispa en el umbral de «Operar» encendido y el 40 % quieto con su fuente.",
+  "args": {
+   "stops": [
+    "Idea",
+    "POC",
+    "Demo"
+   ],
+   "exit": "Operar",
+   "agents": "Agentes",
+   "figure": [
+    {
+     "pre": "Más del",
+     "v": "40 %",
+     "label": "de los proyectos de IA agéntica se cancelarán antes de que termine 2027 (predicción)",
+     "src": "Gartner · 2025"
+    }
+   ]
+  }
+ },
+ {
+  "alias": "luz-escala",
+  "scene": "w11_escala",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «¿Qué hace que una iniciativa esté lista para escalar?»",
+  "layout": "top",
+  "intent": [
+   "criterion"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Seis letras grandes de luz en fila, E-S-C-A-L-A, apagadas (solo su contorno) sobre una línea magenta tenue, cada una con su palabra debajo.",
+  "breathes": "Una chispa recorre la línea y el trazo brillante crece detrás de ella; se detiene bajo cada letra cada 1,6 s: se abre un anillo de luz en su punto, un destello toca la letra y se encienden la letra, su palabra y su pregunta, que quedan encendidas; tras la última A, el trazo sube a la derecha, hacia el panel, y su punto se enciende. Cuadro final: ESCALA encendida con sus seis palabras y preguntas, el trazo arriba y la chispa en su punta.",
+  "args": {
+   "letters": [
+    [
+     "E",
+     "Evidencia",
+     "¿Tiene línea base?"
+    ],
+    [
+     "S",
+     "Sistema",
+     "¿Toca sistemas reales?"
+    ],
+    [
+     "C",
+     "Control",
+     "¿Sabe cuándo parar?"
+    ],
+    [
+     "A",
+     "Asignación",
+     "¿Tiene un responsable con nombre?"
+    ],
+    [
+     "L",
+     "Largo plazo",
+     "¿Puede sostenerse y corregirse en el tiempo?"
+    ],
+    [
+     "A",
+     "Adopción",
+     "¿La gente trabaja distinto?"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "luz-panel",
+  "scene": "w12_panel",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «Panel»",
+  "layout": "left",
+  "intent": [
+   "panel"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una mesa de luz en perspectiva con tres siluetas sin rostro sentadas detrás y una lámpara en su riel arriba; frente a cada una, una tarjeta con su rol y «Por confirmar»; el trazo magenta cruza el frente de la mesa.",
+  "breathes": "Un foco baja de la lámpara y se detiene en cada persona, como en su presentación de 20 segundos, mientras la chispa del trazo llega a su puesto; cada silueta, su charco de luz sobre la mesa, su punto y su tarjeta se encienden y quedan encendidos bajo un cono suave. Cuadro final: las tres siluetas encendidas bajo su luz, cada tarjeta legible con su rol y «Por confirmar».",
+  "args": {
+   "seats": [
+    [
+     "Panelista 1",
+     "Por confirmar"
+    ],
+    [
+     "Panelista 2",
+     "Por confirmar"
+    ],
+    [
+     "Modera",
+     "Por confirmar"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "luz-end",
+  "scene": "w15_final",
+  "origin": "webinar «IA: ¿el fin del piloto eterno?» · diapositiva «Make it happen, together.»",
+  "layout": "left",
+  "intent": [
+   "vision"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El anillo del piloto, más grande, con «Piloto» en su centro; a la derecha, el puente de cinco pilares hacia la operación; abajo, el retrato de Javier en un anillo de luz, con su nombre y su rol; al fondo, estrellas y una cámara que respira.",
+  "breathes": "La chispa del anillo pinta una última vuelta magenta; donde el piloto no tenía salida, estalla un destello y la estela sale por fin, baja con su cola de cometa al puente y lo cruza encendiendo sus cinco pilares (datos, integración, control, adopción, valor), mientras el anillo queda en calma detrás; aterriza en la operación, que estalla en dorado y late, y aparece «Audacious Ideas, Delivered Beyond.». Cuadro final: la estela aterrizada en la operación, el anillo quieto, el retrato del speaker y la firma.",
+  "args": {
+   "stops": [
+    "Idea",
+    "POC",
+    "Demo"
+   ],
+   "bridge": [
+    "datos",
+    "integración",
+    "control",
+    "adopción",
+    "valor"
+   ],
+   "from": "Piloto",
+   "to": "Operación",
+   "name": "Javier Andrés Montaño Guzmán",
+   "role": "Speaker · Service Line de Data & IA",
+   "sign": "Audacious Ideas, Delivered Beyond."
+  }
+ },
+ {
+  "alias": "hero-bank",
+  "scene": "k01_portada",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "hero"
+  ],
+  "vertical": [
+   "banca"
+  ],
+  "lands": "Una ciudad al anochecer detrás de una persona, vista de espaldas, con la app del banco en la mano; sobre los techos esperan cuatro sueños apagados: una casa, un negocio, un auto y un birrete.",
+  "breathes": "Pagar con PLIN, abrir una cuenta, cambiar dólares y pedir un préstamo se encienden por turnos en la app; cada uno recibe su respuesta con un check y la respuesta sube a su sueño, que se enciende sobre la ciudad. Queda: cuatro acciones respondidas y cuatro sueños encendidos.",
+  "args": {
+   "app": "App Albora",
+   "actions": [
+    "Pagar con PLIN",
+    "Abrir una cuenta",
+    "Cambiar dólares",
+    "Pedir un préstamo"
+   ],
+   "answers": [
+    "Pago enviado",
+    "Cuenta abierta",
+    "Dólares cambiados",
+    "Oferta a su medida"
+   ],
+   "region": "Sueños acompañados, en todo el país"
+  }
+ },
+ {
+  "alias": "figure-rank",
+  "scene": "k06_sector",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "figure"
+  ],
+  "vertical": [
+   "banca"
+  ],
+  "lands": "La cifra quieta en su marco, junto a un ranking de cinco barras donde la quinta, la del banco, está encendida, con sus dos participaciones; debajo, el banco y dos caminos.",
+  "breathes": "Créditos, depósitos, factoring y comercio exterior se encienden por turnos y entran al banco; por un camino se encuentran con el dato del cliente y se enciende crecer sin más costo; el otro, crecer con más trabajo manual, queda dibujado y apagado.",
+  "args": {
+   "figure": "N.º",
+   "label": "banco del país en créditos y depósitos · fuente, año",
+   "ranking": "Banca múltiple",
+   "door": "Albora",
+   "shares": [
+    "Créditos N %",
+    "Depósitos N %"
+   ],
+   "services": [
+    "Créditos",
+    "Depósitos",
+    "Factoring",
+    "Comercio exterior"
+   ],
+   "record": "El dato del cliente",
+   "ontime": "Crecer sin más costo",
+   "late": "O crecer con más trabajo manual"
+  }
+ },
+ {
+  "alias": "hypotheses-bank",
+  "scene": "k07_hipotesis",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "hypotheses"
+  ],
+  "vertical": [
+   "banca"
+  ],
+  "lands": "Tres hipótesis con su retorno posible (banca personas, comercio exterior y ofertas a su medida) se apoyan en una cuarta, tecnología, que las habilita; cada tarjeta lleva su «?».",
+  "breathes": "Cada tarjeta cobra vida por turnos: de noche, la duda del chat recibe su respuesta al instante; los documentos sueltos de comercio exterior se leen, se validan y llegan listos a una persona; en la app aparece un preaprobado, el cliente da su consentimiento y solo entonces llega la oferta, con su check; al final, tecnología recorre su ciclo y enciende las otras tres.",
+  "args": {
+   "cards": [
+    [
+     "Banca personas",
+     "Responder en la app las dudas frecuentes, a toda hora",
+     "Menos espera"
+    ],
+    [
+     "Comercio exterior",
+     "Revisar cartas de crédito y garantías antes de que lleguen a una persona",
+     "Menos trabajo manual"
+    ],
+    [
+     "Ofertas a su medida",
+     "Ofrecer en la app lo preaprobado, solo con el consentimiento del cliente",
+     "Más colocaciones"
+    ],
+    [
+     "Tecnología",
+     "Entregar software más rápido con un equipo aumentado por IA",
+     "Habilitador de las otras tres"
+    ]
+   ],
+   "ret": "Retorno posible",
+   "cycle": "Del requerimiento al despliegue",
+   "offer": [
+    "Preaprobado",
+    "Con tu consentimiento"
+   ]
+  }
+ },
+ {
+  "alias": "ops-center",
+  "scene": "k14_cierre",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "vision",
+   "governance"
+  ],
+  "vertical": [
+   "banca"
+  ],
+  "lands": "El centro de operaciones de mañana, en vivo: a la izquierda, la cola de consultas y el conocimiento gobernado; a la derecha, los tres pasos de una respuesta; debajo, el teléfono del cliente y una persona del equipo con su tablet.",
+  "breathes": "Llegan tres consultas: las dos primeras se responden solas desde el conocimiento gobernado; la tercera se vuelve sensible y baja a la persona con su contexto; la IA prepara la respuesta, el equipo la aprueba en la tablet y el cliente la ve en la app.",
+  "args": {
+   "screen": "Centro de operaciones",
+   "live": "En vivo",
+   "queue": "Consultas de clientes",
+   "tickets": [
+    "¿Por qué no veo mi transferencia?",
+    "¿Cuándo sale mi carta de crédito?",
+    "Me cobraron dos veces"
+   ],
+   "new": "Nuevo",
+   "solved": "Respondida sola",
+   "sensitive": "Sensible",
+   "routed": "A una persona, con contexto",
+   "space": "Conocimiento gobernado",
+   "docs": [
+    "Productos y tarifas",
+    "Comercio exterior"
+   ],
+   "phases": [
+    "La IA prepara la respuesta",
+    "El equipo la aprueba",
+    "El cliente la ve en la app"
+   ],
+   "draft": "Respuesta preparada",
+   "app": "App Albora",
+   "note": [
+    "Respuesta",
+    "Tu cobro doble ya fue revisado."
+   ],
+   "case": "Cobro doble",
+   "approve": "Aprobar",
+   "sign": "Audacious Ideas, Delivered Beyond."
+  }
+ },
+ {
+  "alias": "hypotheses-quarter",
+  "scene": "d01_portada",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "hero",
+   "hypotheses"
+  ],
+  "vertical": [
+   "banca",
+   "cualquiera"
+  ],
+  "lands": "Diez tarjetas de hipótesis, numeradas y cada una con su «?», sobre un embudo que baja a «Su laboratorio»; debajo, la línea del trimestre con octubre, noviembre y diciembre y diez casillas vacías. El contador es texto fijo: «10 hipótesis».",
+  "breathes": "Un bucle de 12 segundos: una a una, cada hipótesis se enciende, baja por el embudo al laboratorio y sale validada; su «?» se vuelve check y un check cae en su casilla del trimestre, que se llena mes a mes hasta «10 de 10 validadas». Cuadro final: diez checks en la línea del trimestre.",
+  "args": {
+   "count": "10 hipótesis",
+   "hypotheses": [
+    "Asistente del asesor",
+    "Reportería con agente",
+    "Calidad de datos",
+    "Resumen de llamadas",
+    "Consulta de políticas",
+    "Documentar tablas",
+    "Clasificar consultas",
+    "Alertas tempranas",
+    "Oferta a medida",
+    "Su prioridad"
+   ],
+   "lab": "Su laboratorio",
+   "months": [
+    "Oct",
+    "Nov",
+    "Dic"
+   ],
+   "pending": "Por validar",
+   "done": "10 de 10 validadas"
+  }
+ },
+ {
+  "alias": "data-lifecycle",
+  "scene": "d05_dato",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "data",
+   "governance"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Un ciclo de vida del dato en cuatro etapas (Ingesta, Calidad, Documentación, Catálogo) bajo la línea por la que viaja el dato; abajo, de espaldas, una persona del equipo de datos con su tablet, y la frase «El equipo aprueba lo que los agentes preparan».",
+  "breathes": "Un bucle de 12 segundos: el dato entra y en cada etapa un agente trabaja (llegan las filas y se revisan, una fila rota se corrige, un campo se describe, aparece una entrada en el catálogo); la persona toca «Aprobar», el pulso sube y la etapa queda «Aprobado»; el dato sigue. Cuadro final: las cuatro etapas hechas y aprobadas.",
+  "args": {
+   "phases": [
+    "Ingesta",
+    "Calidad",
+    "Documentación",
+    "Catálogo"
+   ],
+   "results": [
+    "Lote revisado",
+    "Fila corregida",
+    "Campo descrito",
+    "Entrada nueva"
+   ],
+   "wait": "En cola",
+   "approve": [
+    "Por aprobar",
+    "Aprobado"
+   ],
+   "tap": "Aprobar",
+   "label": "El equipo aprueba lo que los agentes preparan"
+  }
+ },
+ {
+  "alias": "report-before-after",
+  "scene": "d06_reporte",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "kpi"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Dos paneles lado a lado con sus cifras fijas: «20 min», atenuado, y «160 s», encendido; en cada uno, los mismos pasos del reporte, la hoja que llenan y, abajo, de espaldas, una persona con su tablet. Arriba, «Caso Amaris · sin nombre de cliente».",
+  "breathes": "Un bucle de 12 segundos que muestra el proceso, no las cifras: a la izquierda la persona avanza a mano, un paso cada casi dos segundos; a la derecha el agente marca los mismos pasos en un instante, el reporte queda listo, baja a la tablet y la persona toca «Revisado». Cuadro final: a la derecha el reporte listo y revisado; a la izquierda el camino manual sigue en el sexto paso.",
+  "args": {
+   "tag": "Caso Amaris · sin nombre de cliente",
+   "sides": [
+    [
+     "Antes, a mano",
+     "20 min",
+     "Una persona, paso a paso"
+    ],
+    [
+     "Con un agente",
+     "160 s",
+     "El agente arma el reporte; la persona revisa y decide"
+    ]
+   ],
+   "tasks": [
+    "Buscar la fuente",
+    "Exportar datos",
+    "Copiar a la hoja",
+    "Cruzar tablas",
+    "Revisar cifras",
+    "Armar gráficos",
+    "Dar formato",
+    "Enviar"
+   ],
+   "ready": "Reporte listo",
+   "review": [
+    "Revisar",
+    "Revisado"
+   ]
+  }
+ },
+ {
+  "alias": "funnel-weeks",
+  "scene": "d07_embudo",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "hypotheses",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Diez candidatas caen en la boca de un embudo; arriba, un riel con las semanas; a la derecha, el estante «Validadas»; abajo, la bandeja «Por ahora, no».",
+  "breathes": "Cada semana se encienden una o dos: bajan por el cuello, pasan un pequeño check de KPI que se pone verde y quedan en el estante con su etiqueta, «Retorno claro» o «Habilitador»; en la semana 2 una sigue sin check y descansa en «Por ahora, no». Queda: cinco validadas, una a un lado y cuatro esperando en el embudo.",
+  "args": {
+   "candidates": [
+    "Asistente del asesor",
+    "Resumen de llamadas",
+    "Comercio exterior",
+    "Reportería con agente",
+    "Calidad de datos",
+    "Catálogo de datos",
+    "Observabilidad de datos",
+    "Ofertas con consentimiento",
+    "APIs abiertas",
+    "Desarrollo con IA"
+   ],
+   "weeks": [
+    "Semana 1",
+    "Semana 2",
+    "Semana 3",
+    "Semana 4"
+   ],
+   "route": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     7,
+     1,
+     -1
+    ],
+    [
+     4,
+     2,
+     1
+    ],
+    [
+     5,
+     3,
+     1
+    ]
+   ],
+   "tags": [
+    [
+     "Retorno claro",
+     "mueve un KPI"
+    ],
+    [
+     "Habilitador",
+     "habilita otra"
+    ]
+   ],
+   "pending": "Por validar",
+   "kpi": "KPI",
+   "shelf": "Validadas",
+   "aside": "Por ahora, no"
+  }
+ },
+ {
+  "alias": "capacity-join",
+  "scene": "d10_capacidad",
+  "origin": "dcd · escena de catálogo (banca)",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "cta"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "A la izquierda, cinco solicitudes con su reloj esperan en la puerta de «Su laboratorio», donde trabajan dos personas; a la derecha, tres ingenieros de IA aumentados, cada uno con su chispa; debajo de todo, su método y su plataforma.",
+  "breathes": "La primera solicitud empuja la puerta cerrada; los tres ingenieros entran por la derecha, la puerta se abre y la fila avanza: cada solicitud cruza el tablero del laboratorio y sale como prototipo con check y reloj en verde. Queda: la fila vacía, cinco prototipos afuera y cinco personas en el laboratorio.",
+  "args": {
+   "count": 5,
+   "request": "Solicitud",
+   "proto": "Prototipo",
+   "lab": "Su laboratorio",
+   "engineers": "Ingenieros de IA aumentados",
+   "platform": "Con su método y su plataforma"
+  }
+ },
+ {
+  "alias": "arq-hero",
+  "scene": "arq_hero",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Reclamos resueltos en línea, de principio a fin»",
+  "layout": "left",
+  "intent": [
+   "hero",
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "La plataforma en el centro; a la izquierda, quienes la usan; a la derecha, los sistemas con los que conversa.",
+  "breathes": "Una solicitud sale de cada persona, cruza la plataforma y llega a un sistema externo; cada uno se enciende al recibirla.",
+  "args": {
+   "system": "Plataforma de reclamos en línea",
+   "promise": "Del aviso al pago, sin papel",
+   "actors": [
+    "Asegurado",
+    "Ajustador",
+    "Analista de reclamos"
+   ],
+   "systems": [
+    "Core de pólizas",
+    "Pasarela de pagos",
+    "Mensajería"
+   ]
+  }
+ },
+ {
+  "alias": "quality-drivers",
+  "scene": "arq_drivers",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Cuatro atributos de calidad guían cada decisión técnica»",
+  "layout": "left",
+  "intent": [
+   "gap",
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cuatro tarjetas: disponibilidad, seguridad, escalabilidad y trazabilidad, cada una con su meta.",
+  "breathes": "Cada atributo se enciende por turno, su barra llega a la meta y recibe su visto bueno.",
+  "args": {
+   "drivers": [
+    [
+     "Disponibilidad",
+     "Meta: 99,9 %",
+     "Si cae una zona, el portal sigue atendiendo"
+    ],
+    [
+     "Seguridad",
+     "Datos cifrados",
+     "Cada acceso con identidad y registro"
+    ],
+    [
+     "Escalabilidad",
+     "Meta: 3× en picos",
+     "Tras una tormenta, el volumen se triplica"
+    ],
+    [
+     "Trazabilidad",
+     "Cada paso auditado",
+     "Quién cambió el estado del reclamo y cuándo"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "c4-context",
+  "scene": "arq_c4_context",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Contexto: quién usa la plataforma y con qué conversa»",
+  "layout": "left",
+  "intent": [
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, el asegurado y el ajustador; al centro, la plataforma; abajo, tres sistemas externos; la leyenda C4 al pie.",
+  "breathes": "Un reclamo baja de las personas a la plataforma y sale hacia el core, la pasarela y la mensajería; cada caja se enciende al recibirlo.",
+  "args": {
+   "people": [
+    [
+     "asegurado",
+     "Asegurado",
+     "Reporta el siniestro y sigue su reclamo"
+    ],
+    [
+     "ajustador",
+     "Ajustador",
+     "Inspecciona y valora el daño"
+    ]
+   ],
+   "system": [
+    "plataforma",
+    "Plataforma de reclamos",
+    "Recibe, evalúa y paga los reclamos en línea"
+   ],
+   "externals": [
+    [
+     "core",
+     "Core de pólizas",
+     "Coberturas y vigencia"
+    ],
+    [
+     "pagos",
+     "Pasarela de pagos",
+     "Transfiere la indemnización"
+    ],
+    [
+     "mensajeria",
+     "Mensajería",
+     "Correo, SMS y WhatsApp"
+    ]
+   ],
+   "rels": [
+    [
+     "asegurado",
+     "plataforma",
+     "Reporta y consulta",
+     "HTTPS"
+    ],
+    [
+     "ajustador",
+     "plataforma",
+     "Registra la inspección",
+     "HTTPS"
+    ],
+    [
+     "plataforma",
+     "core",
+     "Valida la cobertura",
+     "API"
+    ],
+    [
+     "plataforma",
+     "pagos",
+     "Ordena el pago",
+     "API"
+    ],
+    [
+     "plataforma",
+     "mensajeria",
+     "Avisa cada cambio",
+     "API"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "c4-container",
+  "scene": "arq_c4_container",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Seis contenedores que se despliegan y escalan por separado»",
+  "layout": "left",
+  "intent": [
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El recuadro de la plataforma con seis contenedores: portal, app, API, base de datos, bus de eventos y motor; fuera, personas y sistemas externos.",
+  "breathes": "El reclamo entra por el portal, la API lo guarda y publica un evento; el motor lo consume, valida la cobertura, ordena el pago y avisa.",
+  "args": {
+   "boundary": "Plataforma de reclamos [Sistema]",
+   "people": [
+    [
+     "asegurado",
+     "Asegurado",
+     "",
+     "",
+     "person"
+    ],
+    [
+     "ajustador",
+     "Ajustador",
+     "",
+     "",
+     "person"
+    ]
+   ],
+   "containers": [
+    [
+     "web",
+     "Portal del asegurado",
+     "React",
+     "Aviso y seguimiento",
+     "web"
+    ],
+    [
+     "app",
+     "App del ajustador",
+     "Flutter",
+     "Inspección en campo",
+     "app"
+    ],
+    [
+     "api",
+     "API de reclamos",
+     "Java · Spring Boot",
+     "Reglas y estados del reclamo",
+     "api"
+    ],
+    [
+     "db",
+     "BD de reclamos",
+     "PostgreSQL",
+     "",
+     "db"
+    ],
+    [
+     "bus",
+     "Bus de eventos",
+     "Kafka",
+     "",
+     "queue"
+    ],
+    [
+     "motor",
+     "Motor de evaluación",
+     "Python",
+     "",
+     "container",
+     2
+    ]
+   ],
+   "externals": [
+    [
+     "core",
+     "Core de pólizas",
+     "",
+     "",
+     "external"
+    ],
+    [
+     "pagos",
+     "Pasarela de pagos",
+     "",
+     "",
+     "external"
+    ],
+    [
+     "mensajeria",
+     "Mensajería",
+     "",
+     "",
+     "external"
+    ]
+   ],
+   "rels": [
+    [
+     "asegurado",
+     "web",
+     "Reporta el siniestro",
+     ""
+    ],
+    [
+     "ajustador",
+     "app",
+     "Registra la inspección",
+     ""
+    ],
+    [
+     "web",
+     "api",
+     "Crea el reclamo",
+     "JSON"
+    ],
+    [
+     "app",
+     "api",
+     "Sube fotos y valoración",
+     "JSON"
+    ],
+    [
+     "api",
+     "db",
+     "Guarda el reclamo",
+     "SQL"
+    ],
+    [
+     "api",
+     "bus",
+     "Publica el evento",
+     ""
+    ],
+    [
+     "motor",
+     "bus",
+     "Consume eventos",
+     ""
+    ],
+    [
+     "motor",
+     "core",
+     "Valida la cobertura",
+     ""
+    ],
+    [
+     "motor",
+     "pagos",
+     "Ordena el pago",
+     ""
+    ],
+    [
+     "motor",
+     "mensajeria",
+     "Avisa cada cambio",
+     ""
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "c4-component",
+  "scene": "arq_c4_component",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Dentro de la API: cinco componentes con una sola responsabilidad»",
+  "layout": "left",
+  "intent": [
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "El recuadro de la API con cinco componentes en tres niveles; arriba, el portal y la app; abajo, el core, la base de datos y el bus.",
+  "breathes": "La solicitud baja del controlador al servicio y se abre en tres: cobertura, persistencia y evento; cada componente se enciende al recibirla.",
+  "args": {
+   "boundary": "API de reclamos [Contenedor: Java · Spring Boot]",
+   "inputs": [
+    [
+     "web",
+     "Portal del asegurado",
+     "React",
+     "",
+     "web"
+    ],
+    [
+     "app",
+     "App del ajustador",
+     "Flutter",
+     "",
+     "app"
+    ]
+   ],
+   "components": [
+    [
+     "ctrl",
+     "Controlador REST",
+     "Spring MVC",
+     "Valida y traduce la solicitud"
+    ],
+    [
+     "svc",
+     "Servicio de reclamos",
+     "Spring",
+     "Reglas y estados"
+    ],
+    [
+     "cob",
+     "Cliente de pólizas",
+     "Spring · HTTP",
+     ""
+    ],
+    [
+     "repo",
+     "Repositorio",
+     "Spring Data JPA",
+     ""
+    ],
+    [
+     "pub",
+     "Publicador de eventos",
+     "Spring Kafka",
+     ""
+    ]
+   ],
+   "outputs": [
+    [
+     "core",
+     "Core de pólizas",
+     "",
+     "",
+     "external"
+    ],
+    [
+     "db",
+     "BD de reclamos",
+     "PostgreSQL",
+     "",
+     "db"
+    ],
+    [
+     "bus",
+     "Bus de eventos",
+     "Kafka",
+     "",
+     "queue"
+    ]
+   ],
+   "rels": [
+    [
+     "web",
+     "ctrl",
+     "Llama",
+     "JSON"
+    ],
+    [
+     "app",
+     "ctrl",
+     "Llama",
+     "JSON"
+    ],
+    [
+     "ctrl",
+     "svc",
+     "Delega",
+     ""
+    ],
+    [
+     "svc",
+     "cob",
+     "Consulta cobertura",
+     ""
+    ],
+    [
+     "svc",
+     "repo",
+     "Guarda",
+     ""
+    ],
+    [
+     "svc",
+     "pub",
+     "Emite el evento",
+     ""
+    ],
+    [
+     "cob",
+     "core",
+     "Consulta",
+     "API"
+    ],
+    [
+     "repo",
+     "db",
+     "Lee y escribe",
+     "SQL"
+    ],
+    [
+     "pub",
+     "bus",
+     "Publica",
+     ""
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "c4-code",
+  "scene": "arq_c4_code",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «El código del núcleo: clases y dependencias del reclamo»",
+  "layout": "left",
+  "intent": [
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cinco clases: el controlador arriba, el servicio al centro y, abajo, dos interfaces y la entidad del reclamo.",
+  "breathes": "La llamada baja del controlador al servicio y de ahí a cada interfaz y a la entidad; cada clase se enciende al usarse.",
+  "args": {
+   "classes": [
+    [
+     "ctrl",
+     "ReclamoController",
+     "controller",
+     [
+      "+ crear(dto)",
+      "+ consultar(id)"
+     ]
+    ],
+    [
+     "svc",
+     "ReclamoService",
+     "service",
+     [
+      "+ registrar(reclamo)",
+      "- validarCobertura()"
+     ]
+    ],
+    [
+     "repo",
+     "ReclamoRepository",
+     "interface",
+     [
+      "+ save(reclamo)",
+      "+ findById(id)"
+     ]
+    ],
+    [
+     "pub",
+     "EventPublisher",
+     "interface",
+     [
+      "+ publish(evento)"
+     ]
+    ],
+    [
+     "ent",
+     "Reclamo",
+     "entity",
+     [
+      "id · estado · monto",
+      "+ aprobar()"
+     ]
+    ]
+   ],
+   "rels": [
+    [
+     "ctrl",
+     "svc",
+     "usa"
+    ],
+    [
+     "svc",
+     "repo",
+     "usa"
+    ],
+    [
+     "svc",
+     "pub",
+     "usa"
+    ],
+    [
+     "svc",
+     "ent",
+     "crea"
+    ],
+    [
+     "repo",
+     "ent",
+     "persiste"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "solution-layers",
+  "scene": "arq_layers",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Cinco capas, de los canales a la plataforma»",
+  "layout": "left",
+  "intent": [
+   "architecture",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cinco bandas apiladas, de los canales a la plataforma, y dos pilares verticales: seguridad y observabilidad.",
+  "breathes": "Una solicitud baja por las capas encendiendo una pieza en cada una, cruza los pilares y la respuesta vuelve arriba con su visto bueno.",
+  "args": {
+   "layers": [
+    [
+     "Canales",
+     [
+      "Portal web",
+      "App móvil",
+      "WhatsApp"
+     ]
+    ],
+    [
+     "Experiencia",
+     [
+      "API de reclamos",
+      "Notificaciones"
+     ]
+    ],
+    [
+     "Servicios",
+     [
+      "Evaluación",
+      "Pagos",
+      "Documentos"
+     ]
+    ],
+    [
+     "Datos",
+     [
+      "BD de reclamos",
+      "Eventos",
+      "Lago analítico"
+     ]
+    ],
+    [
+     "Plataforma",
+     [
+      "Kubernetes",
+      "Identidad",
+      "CI/CD"
+     ]
+    ]
+   ],
+   "cross": [
+    "Seguridad",
+    "Observabilidad"
+   ],
+   "path": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "alias": "data-architecture",
+  "scene": "arq_data",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «El dato del reclamo, del evento al tablero, con gobierno»",
+  "layout": "left",
+  "intent": [
+   "architecture",
+   "data",
+   "governance"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cinco filas del dato, de las fuentes al consumo, y a la derecha el pilar de gobierno con catálogo, linaje, calidad y acceso.",
+  "breathes": "Tres datos bajan de las fuentes al consumo encendiendo cada paso; en el pilar de gobierno, cada práctica recibe su visto bueno.",
+  "args": {
+   "flow": [
+    [
+     "Fuentes",
+     [
+      "Reclamos",
+      "Pólizas",
+      "Pagos"
+     ]
+    ],
+    [
+     "Ingesta",
+     [
+      "Eventos",
+      "Carga diaria"
+     ]
+    ],
+    [
+     "Almacenamiento",
+     [
+      "Zona cruda",
+      "Zona curada"
+     ]
+    ],
+    [
+     "Servicio",
+     [
+      "Modelos de riesgo",
+      "Tableros"
+     ]
+    ],
+    [
+     "Consumo",
+     [
+      "Analistas",
+      "Actuaría"
+     ]
+    ]
+   ],
+   "governance": [
+    "Gobierno del dato",
+    [
+     "Catálogo",
+     "Linaje",
+     "Calidad",
+     "Acceso"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "infra-topology",
+  "scene": "arq_infra",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Tres zonas de seguridad y tres ambientes idénticos»",
+  "layout": "left",
+  "intent": [
+   "architecture",
+   "governance"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "La región en la nube con tres zonas de seguridad y sus nodos; abajo, desarrollo, pruebas y producción.",
+  "breathes": "La solicitud entra desde internet y cruza cada zona encendiendo su borde; luego una versión viaja de desarrollo a producción.",
+  "args": {
+   "entry": "Asegurados · Internet",
+   "region": "Nube pública · región principal, dos zonas de disponibilidad",
+   "zones": [
+    [
+     "Zona pública",
+     "publica",
+     [
+      [
+       "waf",
+       "Firewall de aplicación",
+       "WAF · CDN",
+       "arquitectura/seguridad"
+      ],
+      [
+       "gw",
+       "API gateway",
+       "Gestión de APIs",
+       "arquitectura/api"
+      ]
+     ]
+    ],
+    [
+     "Zona privada",
+     "privada",
+     [
+      [
+       "k8s",
+       "Clúster de contenedores",
+       "Kubernetes gestionado",
+       "arquitectura/contenedor"
+      ]
+     ]
+    ],
+    [
+     "Zona de datos",
+     "datos",
+     [
+      [
+       "pg",
+       "PostgreSQL",
+       "Alta disponibilidad",
+       "arquitectura/base-datos"
+      ],
+      [
+       "kafka",
+       "Kafka",
+       "Tres nodos",
+       "arquitectura/cola"
+      ]
+     ]
+    ]
+   ],
+   "links": [
+    [
+     "waf",
+     "gw",
+     ""
+    ],
+    [
+     "gw",
+     "k8s",
+     ""
+    ],
+    [
+     "k8s",
+     "pg",
+     ""
+    ],
+    [
+     "k8s",
+     "kafka",
+     ""
+    ]
+   ],
+   "envs": [
+    [
+     "Desarrollo",
+     "Cada cambio"
+    ],
+    [
+     "Pruebas",
+     "Pruebas automáticas"
+    ],
+    [
+     "Producción",
+     "Con aprobación"
+    ]
+   ],
+   "promote": "La misma imagen, promovida por el pipeline"
+  }
+ },
+ {
+  "alias": "adr-decisions",
+  "scene": "arq_adr",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Tres decisiones que tomamos y lo que cuestan»",
+  "layout": "left",
+  "intent": [
+   "architecture",
+   "criterion"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres tarjetas de decisión, cada una con su contexto, su decisión, su consecuencia y su estado.",
+  "breathes": "Cada tarjeta se enciende por turno: primero el contexto, luego la decisión y al final la consecuencia; su estado se sella.",
+  "args": {
+   "decisions": [
+    [
+     "ADR-01",
+     "Eventos para desacoplar la evaluación",
+     "El volumen se triplica tras una tormenta",
+     "La API publica eventos y el motor los consume a su ritmo",
+     "Más piezas que operar; la API no se detiene en un pico",
+     "Aceptada"
+    ],
+    [
+     "ADR-02",
+     "PostgreSQL gestionado para el reclamo",
+     "Estados y montos piden transacciones",
+     "Una base relacional gestionada, con réplica en otra zona",
+     "Menos esfuerzo de operación; dependemos del servicio de la nube",
+     "Aceptada"
+    ],
+    [
+     "ADR-03",
+     "Identidad centralizada para todos los canales",
+     "Tres canales y un mismo asegurado",
+     "Un proveedor de identidad con OpenID Connect",
+     "Un solo inicio de sesión; un punto crítico que se vigila",
+     "Propuesta"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "risks-tradeoffs",
+  "scene": "arq_risks",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Cada riesgo tiene su mitigación y su costo»",
+  "layout": "left",
+  "intent": [
+   "architecture",
+   "gap"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una matriz de probabilidad por impacto con cuatro riesgos numerados y, debajo, la lista con su mitigación.",
+  "breathes": "Cada riesgo late en su celda, su fila se enciende con la mitigación y el riesgo se mueve a su celda residual.",
+  "args": {
+   "risks": [
+    [
+     "Picos tras eventos climáticos",
+     3,
+     3,
+     "Autoescalado y cola de eventos",
+     [
+      2,
+      1
+     ]
+    ],
+    [
+     "Dependencia del core de pólizas",
+     2,
+     3,
+     "Caché de coberturas y reintentos",
+     [
+      1,
+      2
+     ]
+    ],
+    [
+     "Datos personales en las fotos",
+     2,
+     2,
+     "Cifrado y retención por política",
+     [
+      1,
+      1
+     ]
+    ],
+    [
+     "Curva de aprendizaje de Kafka",
+     2,
+     1,
+     "Servicio gestionado y guía interna",
+     [
+      1,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "arq-roadmap",
+  "scene": "arq_roadmap",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · diapositiva «Cada reclamo, resuelto en línea y a tiempo»",
+  "layout": "left",
+  "intent": [
+   "cta",
+   "vision"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cuatro fases en una línea de tiempo; la primera, validar la arquitectura, marcada como próximo paso.",
+  "breathes": "Un punto recorre las fases y cada una se enciende; la primera queda con su anillo de próximo paso.",
+  "args": {
+   "phases": [
+    [
+     "Validar la arquitectura",
+     "Ahora · dos semanas",
+     [
+      "Taller con su comité",
+      "Metas de calidad acordadas"
+     ]
+    ],
+    [
+     "Piloto en un ramo",
+     "Fase 2",
+     [
+      "Autos, una ciudad",
+      "Reclamo de punta a punta"
+     ]
+    ],
+    [
+     "Escalar a todos los ramos",
+     "Fase 3",
+     [
+      "Hogar y vida",
+      "Tableros de actuaría"
+     ]
+    ],
+    [
+     "Operar y mejorar",
+     "Fase 4",
+     [
+      "Objetivos de servicio a la vista",
+      "Evolución por eventos"
+     ]
+    ]
+   ],
+   "now": 0,
+   "next": "Próximo paso",
+   "sign": "Audacious Ideas, Delivered Beyond."
+  }
+ },
+ {
+  "alias": "component-diagram",
+  "scene": "arq_components",
+  "origin": "Arquitectura demo (Aseguradora Andina, ficticia) · ejemplo de references/architecture.md",
+  "layout": "left",
+  "intent": [
+   "architecture"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cajas con sus puertos, ordenadas por sus dependencias, dentro de un marco punteado; cada arista con su etiqueta.",
+  "breathes": "Una solicitud recorre las aristas en orden: cada caja se enciende al recibirla y cada puerto la pasa a la siguiente.",
+  "args": {
+   "boundary": "Motor de evaluación",
+   "nodes": [
+    [
+     "cons",
+     "Consumidor de eventos",
+     "Kafka client"
+    ],
+    [
+     "reglas",
+     "Motor de reglas",
+     "Python"
+    ],
+    [
+     "fraude",
+     "Modelo de fraude",
+     "scikit-learn"
+    ],
+    [
+     "orden",
+     "Orden de pago",
+     "Python"
+    ],
+    [
+     "aviso",
+     "Notificador",
+     "Python"
+    ]
+   ],
+   "edges": [
+    [
+     "cons",
+     "reglas",
+     "Entrega el reclamo"
+    ],
+    [
+     "reglas",
+     "fraude",
+     "Pide un puntaje"
+    ],
+    [
+     "reglas",
+     "orden",
+     "Aprueba"
+    ],
+    [
+     "orden",
+     "aviso",
+     "Confirma el pago"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "simple-hero",
+  "scene": "sm01_hero",
+  "origin": "Simple · Andina Logística (demo 0.5.0) · diapositiva «Que cada pedido llegue a tiempo, sin subir el costo»",
+  "layout": "left",
+  "intent": [
+   "hero"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, para quién es; debajo, sus tres preocupaciones (el presupuesto, la meta del trimestre y el KPI que prometió), cada una con su medidor; abajo, su operación en cuatro estaciones con los íconos de su sector, camino a su promesa.",
+  "breathes": "Un envío recorre las cuatro estaciones, que se encienden una a una hasta su promesa; entonces el presupuesto cuadra dentro de su marco, la meta del trimestre llega a su línea y la aguja del KPI entra en verde. Queda: la operación encendida y las tres preocupaciones resueltas.",
+  "args": {
+   "who": "Para la gerencia de operaciones",
+   "worries": [
+    "Dentro de su presupuesto",
+    "La meta del trimestre",
+    "El KPI que prometió"
+   ],
+   "stations": [
+    "Bodega",
+    "Despacho",
+    "Ruta",
+    "Entrega"
+   ],
+   "goal": "Cada pedido, a tiempo",
+   "icons": [
+    "logistica/bodega",
+    "logistica/caja",
+    "logistica/ruta",
+    "logistica/camion"
+   ]
+  }
+ },
+ {
+  "alias": "simple-outside",
+  "scene": "sm02_outside",
+  "origin": "Simple · Andina Logística (demo 0.5.0) · diapositiva «Esto es lo que vemos desde afuera, en fuentes públicas»",
+  "layout": "left",
+  "intent": [
+   "outside"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, afuera, tres fuentes públicas y nuestro dossier; una línea punteada; abajo, sus cuatro áreas dibujadas en tenue: lo de adentro no lo vemos.",
+  "breathes": "La lupa lee cada fuente y una nota vuela al dossier, que se llena; del dossier bajan preguntas, una a cada área, y se enciende «Llevamos preguntas, no respuestas». Queda: las fuentes leídas y una pregunta en cada área.",
+  "args": {
+   "outside": "Afuera: lo que publican",
+   "sources": [
+    [
+     "Su sitio",
+     "Entregas en 24 horas en cinco ciudades"
+    ],
+    [
+     "Informe anual 2025",
+     "Dos centros de distribución nuevos"
+    ],
+    [
+     "Prensa del sector",
+     "Más pedidos en línea en la región"
+    ]
+   ],
+   "book": "Nuestro dossier",
+   "inside": "Adentro: lo cuentan ustedes",
+   "areas": [
+    "Bodega",
+    "Despacho",
+    "Ruta",
+    "Entrega"
+   ],
+   "ask": "Llevamos preguntas, no respuestas",
+   "icons": [
+    "logistica/bodega",
+    "logistica/caja",
+    "logistica/ruta",
+    "logistica/camion"
+   ]
+  }
+ },
+ {
+  "alias": "simple-gap",
+  "scene": "sm03_gap",
+  "origin": "Simple · Andina Logística (demo 0.5.0) · diapositiva «Separamos lo que sabemos de lo que suponemos»",
+  "layout": "left",
+  "intent": [
+   "gap"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres columnas con sus tarjetas: hechos con su fuente, hipótesis con su «?» y, cerrada, lo que no suponemos; abajo, la conversación de hoy, con sus casillas vacías.",
+  "breathes": "Cada hecho recibe su visto y su fuente; cada hipótesis enciende su «?»; lo que no suponemos queda con candado. Luego bajan a la conversación solo el hecho y la hipótesis, que se vuelve una pregunta. Queda: la conversación armada con un hecho, una hipótesis y una pregunta.",
+  "args": {
+   "bins": [
+    [
+     "Hecho",
+     "con fuente"
+    ],
+    [
+     "Hipótesis",
+     "por validar"
+    ],
+    [
+     "No suponemos",
+     "lo cuentan ustedes"
+    ]
+   ],
+   "known": [
+    [
+     "Promete entregas en 24 horas",
+     "Su sitio · 2026"
+    ],
+    [
+     "Abrió dos centros nuevos",
+     "Informe anual · 2025"
+    ]
+   ],
+   "guess": [
+    "Podría anticipar qué pedido llegará tarde",
+    "Podría unir los datos de sus centros"
+   ],
+   "unsaid": [
+    "Sus cifras internas",
+    "Sus proveedores y sistemas"
+   ],
+   "slide": "Lo que traemos a la conversación",
+   "icons": [
+    "logistica/ruta",
+    "logistica/bodega",
+    "logistica/camion",
+    "logistica/bodega",
+    "generico/dato",
+    "generico/documento"
+   ]
+  }
+ },
+ {
+  "alias": "simple-hypotheses",
+  "scene": "sm04_hypotheses",
+  "origin": "Simple · Andina Logística (demo 0.5.0) · diapositiva «Cuatro lugares donde la IA podría ayudar, por validar»",
+  "layout": "left",
+  "intent": [
+   "hypotheses"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres tarjetas con su ícono, su idea y su retorno posible, cada una con su «?», se apoyan en una cuarta, el habilitador, unida a las tres.",
+  "breathes": "Desde el habilitador sube una chispa a cada tarjeta, que se enciende por turnos y hace latir su «?»; al final se enciende el habilitador. Queda: las cuatro encendidas y cada una con su «?»: se eligen juntos.",
+  "args": {
+   "cards": [
+    [
+     "Ruta",
+     "Avisar antes qué pedido llegará tarde",
+     "Menos entregas tarde"
+    ],
+    [
+     "Bodega",
+     "Preparar cada pedido en el orden de la ruta",
+     "Menos tiempo de carga"
+    ],
+    [
+     "Atención",
+     "Responder por chat dónde va cada pedido",
+     "Menos llamadas"
+    ],
+    [
+     "Datos",
+     "Unir los datos de bodega, ruta y entrega",
+     "Habilita las otras tres"
+    ]
+   ],
+   "ret": "Retorno posible",
+   "icons": [
+    "logistica/ruta",
+    "logistica/bodega",
+    "generico/equipo",
+    "logistica/camion"
+   ]
+  }
+ },
+ {
+  "alias": "simple-criterion",
+  "scene": "sm05_criterion",
+  "origin": "Simple · Andina Logística (demo 0.5.0) · diapositiva «Solo construimos si hay retorno claro o habilitador clave»",
+  "layout": "left",
+  "intent": [
+   "criterion"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Tres ideas arriba; en el medio, dos puertas, «Retorno claro» o «Habilitador clave»; abajo, dos bandejas: «Construimos» y «Por ahora, no».",
+  "breathes": "Cada idea baja por turnos: la del retorno cruza su puerta y entra a «Construimos»; la vistosa se aparta a «Por ahora, no»; la habilitadora cruza la suya y también se construye. Queda: dos ideas construidas y una apartada.",
+  "args": {
+   "criteria": [
+    [
+     "Retorno claro",
+     "Mueve un indicador que el negocio mide"
+    ],
+    [
+     "Habilitador clave",
+     "Abre el camino a las ideas con retorno"
+    ]
+   ],
+   "or": "o",
+   "ask": "¿Retorno o habilitador?",
+   "ideas": [
+    [
+     "Aviso de pedido tarde",
+     "retorno"
+    ],
+    [
+     "Un tablero vistoso",
+     "no"
+    ],
+    [
+     "Datos unidos de sus centros",
+     "habilitador"
+    ]
+   ],
+   "build": "Construimos",
+   "aside": "Por ahora, no",
+   "icons": [
+    "logistica/ruta",
+    "generico/dato",
+    "logistica/bodega"
+   ]
+  }
+ },
+ {
+  "alias": "simple-proof",
+  "scene": "sm06_proof",
+  "origin": "Simple · Andina Logística (demo 0.5.0) · diapositiva «La prueba: un caso que movió las entregas a tiempo»",
+  "layout": "left",
+  "intent": [
+   "proof",
+   "kpi"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, su pregunta: «¿Y cómo sabemos que funciona?»; dos caminos, una referencia o un prototipo en una semana; abajo, el caso de éxito con su KPI: indicador, de cuánto a cuánto, dueño y fecha.",
+  "breathes": "La referencia se enciende; luego la semana del prototipo avanza día a día hasta el prototipo; los dos caminos bajan al caso y cada campo del KPI recibe su visto. Las cifras no se mueven. Queda: el caso con sus cuatro campos validados.",
+  "args": {
+   "ask": "¿Y cómo sabemos que funciona?",
+   "paths": [
+    [
+     "Una referencia",
+     "Un cliente que podemos nombrar"
+    ],
+    [
+     "Un prototipo",
+     "Discovery y prototipo en una semana"
+    ]
+   ],
+   "or": "o",
+   "case": "Pedidos entregados a tiempo",
+   "kpi": [
+    [
+     "Indicador",
+     "Pedidos a tiempo"
+    ],
+    [
+     "De → a",
+     "82 % → 95 %"
+    ],
+    [
+     "Dueño",
+     "Gerente de operaciones"
+    ],
+    [
+     "Fecha",
+     "Marzo de 2026"
+    ]
+   ],
+   "tag": "Ejemplo",
+   "icons": [
+    "logistica/camion",
+    "logistica/bodega",
+    "logistica/ruta"
+   ]
+  }
+ },
+ {
+  "alias": "simple-path",
+  "scene": "sm07_path",
+  "origin": "Simple · Andina Logística (demo 0.5.0) · diapositiva «Tres pasos cortos, y ustedes deciden en cada uno»",
+  "layout": "left",
+  "intent": [
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una ruta de tres pasos numerados (discovery, prototipo y decisión), cada uno con lo que pasa y cuánto dura; abajo, los dos equipos juntos y la persona que revisa.",
+  "breathes": "Una chispa baja por la ruta: el discovery se enciende, el prototipo corre sobre su operación y la decisión recibe su visto; al final se enciende «Una persona revisa cada paso». Queda: los tres pasos encendidos y la revisión humana.",
+  "args": {
+   "phases": [
+    [
+     "Discovery",
+     "Un dolor, su KPI y sus datos",
+     "Un día"
+    ],
+    [
+     "Prototipo",
+     "Funciona con sus datos",
+     "Una semana"
+    ],
+    [
+     "Decisión",
+     "Ustedes deciden si se construye",
+     "Con el prototipo"
+    ]
+   ],
+   "team": "Su equipo y el nuestro",
+   "review": "Una persona revisa cada paso",
+   "icons": [
+    "logistica/bodega",
+    "logistica/caja",
+    "logistica/ruta",
+    "logistica/camion"
+   ]
+  }
+ },
+ {
+  "alias": "simple-next",
+  "scene": "sm08_next",
+  "origin": "Simple · Andina Logística (demo 0.5.0) · diapositiva «Empecemos por su meta: en una semana, un prototipo»",
+  "layout": "left",
+  "intent": [
+   "cta",
+   "vision"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, la invitación con su fecha en un calendario y su botón; en el medio, su operación de la portada; abajo, sus tres preocupaciones y la firma de quien la prepara.",
+  "breathes": "El botón late; su operación se enciende estación por estación, como en la portada, y cada preocupación recibe su visto. Queda: su operación encendida, las tres preocupaciones resueltas y la invitación abierta.",
+  "args": {
+   "cta": "Agendemos el discovery de su ruta",
+   "when": "Esta semana · con su equipo",
+   "worries": [
+    "Dentro de su presupuesto",
+    "La meta del trimestre",
+    "El KPI que prometió"
+   ],
+   "stations": [
+    "Bodega",
+    "Despacho",
+    "Ruta",
+    "Entrega"
+   ],
+   "goal": "Cada pedido, a tiempo",
+   "sign": "Audacious Ideas, Delivered Beyond.",
+   "name": "Javier Montaño",
+   "role": "Manager responsable",
+   "icons": [
+    "logistica/bodega",
+    "logistica/caja",
+    "logistica/ruta",
+    "logistica/camion"
+   ]
+  }
+ },
+ {
+  "alias": "journey-path",
+  "scene": "ix01_journey_path",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "journey",
+   "process",
+   "gap"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, para quién es; debajo, el recorrido de su cliente en cinco estaciones con los íconos de su sector, cada una con su nombre y lo que pasa ahí; en una de ellas, un «?»; abajo, la promesa.",
+  "breathes": "Un viajero recorre el camino y cada estación se enciende a su paso; en la estación de la fricción se detiene, el «?» se vuelve un visto y sigue hasta el final, donde se enciende la promesa. Queda: el recorrido encendido, la fricción resuelta.",
+  "args": {
+   "who": "El recorrido de su cliente",
+   "steps": [
+    [
+     "Descubre",
+     "Ve la oferta"
+    ],
+    [
+     "Pregunta",
+     "Pide detalles"
+    ],
+    [
+     "Decide",
+     "Compara opciones"
+    ],
+    [
+     "Recibe",
+     "Obtiene lo pedido"
+    ],
+    [
+     "Vuelve",
+     "Repite y recomienda"
+    ]
+   ],
+   "friction": 2,
+   "friction_label": "¿Dónde se detiene?",
+   "goal": "Un recorrido sin tropiezos"
+  }
+ },
+ {
+  "alias": "journey-loop",
+  "scene": "ix02_journey_loop",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "journey",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Su cliente al centro de un anillo con seis puntos de contacto, cada uno con un ícono de su sector y su nombre; abajo, la lección del ciclo.",
+  "breathes": "Una chispa recorre el anillo una vez y deja su hilo encendido; cada punto de contacto se enciende a su paso y, al cerrar el anillo, el cliente del centro recibe su visto y se enciende la lección. Queda: el anillo cerrado, todo encendido.",
+  "args": {
+   "center": "Su cliente",
+   "touchpoints": [
+    "Conoce",
+    "Compara",
+    "Contrata",
+    "Usa",
+    "Pide ayuda",
+    "Renueva"
+   ],
+   "loop": "Cada contacto aprende del anterior"
+  }
+ },
+ {
+  "alias": "roadmap-phases",
+  "scene": "ix03_roadmap_phases",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "roadmap",
+   "cta",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una línea de tiempo con tres fases (su nombre, su periodo y dos entregables cada una) y un rombo de decisión entre fase y fase; abajo, la meta.",
+  "breathes": "La barra de avance recorre la línea: cada fase se enciende, sus entregables reciben su visto y el rombo de decisión se abre hacia la siguiente; al final se enciende la meta. Queda: las tres fases hechas y la meta encendida.",
+  "args": {
+   "phases": [
+    {
+     "name": "Descubrir",
+     "when": "Semana 1",
+     "items": [
+      "Entrevistas con el equipo",
+      "Mapa del proceso"
+     ]
+    },
+    {
+     "name": "Probar",
+     "when": "Semanas 2 y 3",
+     "items": [
+      "Prototipo en uso",
+      "Ajustes con usuarios"
+     ]
+    },
+    {
+     "name": "Escalar",
+     "when": "Mes 2",
+     "items": [
+      "Puesta en marcha",
+      "Medición del KPI"
+     ]
+    }
+   ],
+   "decide": "Decisión entre fases",
+   "goal": "La operación funcionando"
+  }
+ },
+ {
+  "alias": "roadmap-road",
+  "scene": "ix04_roadmap_road",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "roadmap",
+   "vision"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Un camino sube serpenteando desde «Hoy» hasta la meta, arriba; a los lados, cuatro banderas con su hito, su periodo y un ícono de su sector.",
+  "breathes": "Un vehículo sube el camino y lo deja encendido; cada bandera se ilumina cuando pasa y, al llegar arriba, se enciende la meta. Queda: el camino recorrido y los cuatro hitos encendidos.",
+  "args": {
+   "start": "Hoy",
+   "milestones": [
+    [
+     "Semana 1",
+     "Primer taller"
+    ],
+    [
+     "Semana 3",
+     "Prototipo en uso"
+    ],
+    [
+     "Mes 2",
+     "Un equipo trabajando así"
+    ],
+    [
+     "Mes 3",
+     "Toda la operación"
+    ]
+   ],
+   "goal": "La meta del año"
+  }
+ },
+ {
+  "alias": "before-after-split",
+  "scene": "ix05_before_split",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "before-after",
+   "gap",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Dos paneles: «Antes», con cuatro pasos a mano y su reloj, y «Después», punteado, con tres pasos por encender.",
+  "breathes": "Una línea barre del panel de antes al de después: los pasos viejos se apagan uno a uno y los nuevos se encienden con su visto. Queda: antes, tenue; después, encendido.",
+  "args": {
+   "before_label": "Antes",
+   "before_note": "Muchos pasos a mano",
+   "before": [
+    "Se pide por correo",
+    "Se copia en una planilla",
+    "Se revisa dos veces",
+    "Se espera la respuesta"
+   ],
+   "after_label": "Después",
+   "after_note": "Menos pasos, más control",
+   "after": [
+    "Se pide en un solo lugar",
+    "Se valida al momento",
+    "Se responde el mismo día"
+   ]
+  }
+ },
+ {
+  "alias": "before-after-lanes",
+  "scene": "ix06_before_lanes",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "before-after",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Dos carriles con las mismas cuatro estaciones y los íconos de su sector: «Hoy», con una vuelta atrás marcada, y «Con el cambio», derecho; abajo, el resultado.",
+  "breathes": "En el carril de hoy, la ficha vuelve de la segunda estación a la primera y después sigue; en el nuevo, corre derecho y llega primero, recibe su visto y se enciende el resultado. Queda: los dos carriles recorridos, el nuevo con su visto.",
+  "args": {
+   "steps": [
+    "Solicitud",
+    "Revisión",
+    "Aprobación",
+    "Entrega"
+   ],
+   "before_label": "Hoy",
+   "after_label": "Con el cambio",
+   "detour": "Vuelve a empezar",
+   "result": "Llega sin volver atrás"
+  }
+ },
+ {
+  "alias": "matrix-quadrants",
+  "scene": "ix07_matrix_quadrants",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "matrix",
+   "criterion",
+   "hypotheses"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una matriz de dos por dos, esfuerzo a lo ancho e impacto a lo alto, con sus cuatro cuadrantes nombrados.",
+  "breathes": "Las ideas caen una a una a su lugar con su ícono y su nombre (posiciones relativas, no medidas); al final el cuadrante de mayor impacto y menor esfuerzo se enciende con «Empezamos aquí». Queda: las ideas ubicadas y el primer cuadrante encendido.",
+  "args": {
+   "x_axis": [
+    "Menor esfuerzo",
+    "Mayor esfuerzo"
+   ],
+   "y_axis": [
+    "Menor impacto",
+    "Mayor impacto"
+   ],
+   "quadrants": [
+    "Primero",
+    "Planear",
+    "Si sobra tiempo",
+    "Por ahora no"
+   ],
+   "ideas": [
+    [
+     "Responder más rápido",
+     0.24,
+     0.8
+    ],
+    [
+     "Unificar reportes",
+     0.72,
+     0.76
+    ],
+    [
+     "Avisos automáticos",
+     0.3,
+     0.3
+    ],
+    [
+     "Rehacer el sistema",
+     0.78,
+     0.24
+    ]
+   ],
+   "pick": "Empezamos aquí"
+  }
+ },
+ {
+  "alias": "matrix-table",
+  "scene": "ix08_matrix_table",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "matrix",
+   "criterion"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una tabla: tres opciones con el ícono de su sector en las filas, tres criterios en las columnas y sus círculos vacíos; debajo, la leyenda.",
+  "breathes": "Las marcas se llenan columna por columna (lleno, medio o vacío; nunca una cifra) y al final la fila elegida se enciende con su etiqueta. Queda: la tabla completa y la opción elegida.",
+  "args": {
+   "criteria": [
+    "Retorno",
+    "Rapidez",
+    "Riesgo bajo"
+   ],
+   "rows": [
+    "Responder más rápido",
+    "Unificar reportes",
+    "Avisos automáticos"
+   ],
+   "marks": [
+    [
+     2,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2
+    ]
+   ],
+   "pick": 0,
+   "pick_label": "La que llevamos a prueba",
+   "legend": [
+    "Alto",
+    "Medio",
+    "Bajo"
+   ]
+  }
+ },
+ {
+  "alias": "funnel-stages",
+  "scene": "ix09_funnel_stages",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "funnel",
+   "gap",
+   "data"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Un embudo de cuatro etapas, cada una con un ícono de su sector y su nombre a la derecha; a la izquierda, las salidas punteadas; abajo, el resultado.",
+  "breathes": "El flujo cae por el embudo; en cada etapa una parte sale por el costado y la etapa se enciende; al final la etapa señalada recibe su «?» y se enciende el resultado. Queda: las etapas encendidas y la pregunta en su lugar. Sin cifras: solo el orden.",
+  "args": {
+   "levels": [
+    "Llegan",
+    "Se interesan",
+    "Piden propuesta",
+    "Deciden"
+   ],
+   "out": "Se van sin respuesta",
+   "focus": 2,
+   "focus_label": "¿Por qué se van aquí?",
+   "result": "Clientes que se quedan"
+  }
+ },
+ {
+  "alias": "funnel-gates",
+  "scene": "ix10_funnel_gates",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "funnel",
+   "criterion",
+   "hypotheses"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "A la izquierda, cinco ideas con los íconos de su sector; al medio, tres preguntas como compuertas; abajo, la bandeja «Por ahora no»; al final, «Construimos».",
+  "breathes": "Cada idea corre hacia el final; donde una pregunta dice que no, baja sin drama a «Por ahora no» y su fila queda marcada con el número de esa pregunta; las demás llegan al final con su visto. Queda: cada idea con su destino.",
+  "args": {
+   "ideas": [
+    "Chat de atención",
+    "Tablero de ventas",
+    "Alerta de inventario",
+    "Una demo vistosa",
+    "Reporte automático"
+   ],
+   "gates": [
+    "¿Resuelve un dolor?",
+    "¿Hay datos?",
+    "¿Se puede medir?"
+   ],
+   "stops": [
+    -1,
+    2,
+    -1,
+    0,
+    1
+   ],
+   "aside": "Por ahora no",
+   "keep": "Construimos"
+  }
+ },
+ {
+  "alias": "timeline-milestones",
+  "scene": "ix11_timeline_milestones",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "timeline",
+   "roadmap"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una línea desde «Hoy» con cinco hitos, cada uno con su periodo, su nombre y un ícono de su sector, alternando a un lado y al otro.",
+  "breathes": "Un cursor recorre la línea y la deja encendida; cada hito se enciende al paso. Queda: los cinco hitos alcanzados.",
+  "args": {
+   "now": "Hoy",
+   "events": [
+    [
+     "Semana 1",
+     "Taller de arranque"
+    ],
+    [
+     "Semana 2",
+     "Datos conectados"
+    ],
+    [
+     "Semana 4",
+     "Prototipo en uso"
+    ],
+    [
+     "Mes 2",
+     "Primer resultado medido"
+    ],
+    [
+     "Mes 3",
+     "Decisión de escalar"
+    ]
+   ]
+  }
+ },
+ {
+  "alias": "timeline-tracks",
+  "scene": "ix12_timeline_tracks",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "timeline",
+   "roadmap",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Cuatro frentes en filas, con un ícono de su sector, y cuatro semanas en columnas; cada frente con su tramo punteado; abajo, la decisión.",
+  "breathes": "La línea de hoy barre las semanas y cada barra crece a su paso; al completarse, aparece lo que entrega; al final se enciende la decisión. Queda: las cuatro barras completas.",
+  "args": {
+   "periods": [
+    "Semana 1",
+    "Semana 2",
+    "Semana 3",
+    "Semana 4"
+   ],
+   "tracks": [
+    [
+     "Negocio",
+     0,
+     1,
+     "Definir el KPI"
+    ],
+    [
+     "Datos",
+     0,
+     2,
+     "Conectar fuentes"
+    ],
+    [
+     "Producto",
+     1,
+     4,
+     "Prototipo"
+    ],
+    [
+     "Personas",
+     2,
+     4,
+     "Adopción"
+    ]
+   ],
+   "today": "Hoy",
+   "gate": "Decisión con los resultados"
+  }
+ },
+ {
+  "alias": "org-tree",
+  "scene": "ix13_org_tree",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "org",
+   "who",
+   "governance"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Arriba, el patrocinador; debajo, tres líderes (cada uno con el ícono de un área de su negocio) y los roles de cada equipo, todos sin rostro; abajo, la meta.",
+  "breathes": "Una chispa baja del patrocinador a cada líder y de ahí a sus roles, que se encienden uno a uno; al final se enciende la meta compartida. Queda: el equipo entero encendido.",
+  "args": {
+   "top": "Patrocinador del negocio",
+   "teams": [
+    {
+     "lead": "Líder de producto",
+     "members": [
+      "Analista de negocio",
+      "Diseño"
+     ]
+    },
+    {
+     "lead": "Líder técnico",
+     "members": [
+      "Datos",
+      "Desarrollo"
+     ]
+    },
+    {
+     "lead": "Líder del cambio",
+     "members": [
+      "Formación",
+      "Comunicación"
+     ]
+    }
+   ],
+   "goal": "Un solo equipo, una meta"
+  }
+ },
+ {
+  "alias": "org-squad",
+  "scene": "ix14_org_squad",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "org",
+   "who",
+   "process"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Sus roles a un lado y los nuestros al otro, sin rostro, unidos por puentes punteados a una meta compartida al centro; abajo, el ritmo del trabajo.",
+  "breathes": "Cada par conversa por turnos: un pulso va de su rol a la meta, sigue al nuestro y vuelve; el puente queda encendido. Con todos los puentes, la meta y el ritmo se encienden. Queda: un solo equipo.",
+  "args": {
+   "their_team": "Su equipo",
+   "our_team": "Nuestro equipo",
+   "their_roles": [
+    "Dueño del proceso",
+    "Usuario experto",
+    "Responsable de TI"
+   ],
+   "our_roles": [
+    "Líder de entrega",
+    "Especialista de datos",
+    "Desarrollo"
+   ],
+   "center": "Meta compartida",
+   "rhythm": "Revisión juntos cada semana"
+  }
+ },
+ {
+  "alias": "map-hub",
+  "scene": "ix15_map_hub",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "map",
+   "governance"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Una tierra abstracta de puntos (nunca un mapa real), su oficina central al medio y cinco regiones con un ícono de su sector y su nombre; abajo, la nota.",
+  "breathes": "Una línea sale de la central a cada región, una ficha la recorre y la región se enciende; con todas unidas se enciende la nota. Queda: las cinco regiones unidas a la central.",
+  "args": {
+   "hub": "Oficina central",
+   "regions": [
+    "Norte",
+    "Centro",
+    "Sur",
+    "Costa",
+    "Oriente"
+   ],
+   "note": "Un mismo estándar en cada región"
+  }
+ },
+ {
+  "alias": "map-lines",
+  "scene": "ix16_map_lines",
+  "origin": "dcd 0.6.0 · escena de catálogo",
+  "layout": "left",
+  "intent": [
+   "map",
+   "process",
+   "data"
+  ],
+  "vertical": [
+   "cualquiera"
+  ],
+  "lands": "Dos rutas dibujadas como un mapa de transporte, una a lo ancho y otra hacia abajo, con sus paradas e íconos de su sector; se cruzan en una estación compartida.",
+  "breathes": "La primera ruta se enciende parada a parada, luego la segunda, con una ficha en cada una; al final la estación compartida se enciende con la nota. Queda: las dos rutas encendidas y el cruce en su centro.",
+  "args": {
+   "routes": [
+    {
+     "name": "Ruta de abastecimiento",
+     "stops": [
+      "Proveedor",
+      "Planta",
+      "Centro de distribución",
+      "Bodega regional"
+     ]
+    },
+    {
+     "name": "Ruta de venta",
+     "stops": [
+      "Pedido",
+      "Centro de distribución",
+      "Tienda",
+      "Cliente"
+     ]
+    }
+   ],
+   "hub": "Centro de distribución",
+   "note": "Todo pasa por un mismo punto"
+  }
+ }
+]

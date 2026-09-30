@@ -1,0 +1,61 @@
+{
+  "id": "care-center",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "care-center",
+  "args": {
+    "screen": "‹como: Centro de cuidado›",
+    "live": "‹como: En vivo›",
+    "chart": "‹como: Señales de Cuida›",
+    "forecast": "‹como: Anticipado›",
+    "alert": "‹como: Señal anticipada›",
+    "done": "‹como: Cuidado a tiempo›",
+    "steps": [
+      "‹como: La IA sugiere una teleconsulta›",
+      "‹como: El equipo de cuidado la aprueba›",
+      "‹como: Cita en la app, antes de pedirla›"
+    ],
+    "queue": "‹como: Consultas de clientes›",
+    "tickets": [
+      "‹como: ¿Qué cubre mi plan en otro país?›",
+      "‹como: ¿Cuándo llega mi reembolso?›",
+      "‹como: Me rechazaron un reembolso›"
+    ],
+    "new": "‹como: Nuevo›",
+    "solved": "‹como: Respondida sola›",
+    "sensitive": "‹como: Sensible›",
+    "routed": "‹como: A una persona, con contexto›",
+    "space": "‹como: Conocimiento gobernado›",
+    "docs": [
+      "‹como: Coberturas y planes›",
+      "‹como: Reembolsos y plazos›"
+    ],
+    "app": "‹como: Cuida›",
+    "note": [
+      "‹como: Su cita›",
+      "‹como: Teleconsulta›",
+      "‹como: Agendada›"
+    ],
+    "approve": "‹como: Aprobar›",
+    "case": [
+      "‹como: Reembolso›",
+      "‹como: Con contexto›"
+    ],
+    "sign": "‹como: Audacious Ideas, Delivered Beyond.›"
+  },
+  "lands": "‹como: El centro de cuidado de mañana: la pantalla con las señales de Cuida y la cola de consultas, el teléfono del cliente con Cuida y, delante, una persona del equipo de cuidado con su tablet.›",
+  "breathes": "‹como: Un bucle de 12 segundos: la señal sube desde Cuida y se anticipa; la IA sugiere una teleconsulta, la persona la aprueba en la tablet y la cita llega a la app antes de que el cliente la pida; las dudas simples se responden solas desde el conocimiento gobernado y el reembolso rechazado baja a la persona, con su contexto.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

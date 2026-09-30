@@ -1,0 +1,72 @@
+{
+  "id": "discovery-b",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "top",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "discovery-b",
+  "args": {
+    "cards": [
+      "‹como: Atención a comercios›",
+      "‹como: Conocimiento interno›",
+      "‹como: Datos para el comercio›",
+      "‹como: Tecnología›",
+      "‹como: Su prioridad›"
+    ],
+    "workshop": [
+      "‹como: Taller de discovery›",
+      [
+        [
+          "‹como: Elegimos›",
+          "‹como: un dolor o una prioridad›"
+        ],
+        [
+          "‹como: Vemos›",
+          "‹como: cómo resolverlo con tecnología›"
+        ],
+        [
+          "‹como: Acordamos›",
+          "‹como: el KPI del caso de éxito›"
+        ]
+      ]
+    ],
+    "proto": "‹como: Prototipo›",
+    "offer": [
+      "‹como: ¿Lo construimos?›",
+      [
+        "‹como: Desarrollo›",
+        "‹como: Capacidades›",
+        "‹como: Proyecto›",
+        "‹como: Servicio›"
+      ]
+    ],
+    "decide": "‹como: Propuesta a su medida›",
+    "when": [
+      "‹como: Hoy · un dolor o prioridad›",
+      "‹como: Esta semana · discovery›",
+      "‹como: Una semana después›",
+      "‹como: Luego · ustedes deciden›"
+    ],
+    "pick": 0,
+    "live": "‹como: En vivo›",
+    "ticket": "‹como: ¿Cuándo llega mi abono?›",
+    "new": "‹como: Nuevo›",
+    "solved": "‹como: Resuelto · auto-atendido›",
+    "space": "‹como: Espacio: atención a comercios›",
+    "doc": "‹como: Abonos y plazos›",
+    "kpi": "‹como: KPI · menos espera del comercio›"
+  },
+  "lands": "‹como: Sus opciones a la izquierda y, sobre una línea de tiempo, el taller de discovery, el prototipo y su decisión.›",
+  "breathes": "‹como: En 12 segundos: se elige atención a comercios, el taller define cómo resolverlo y su KPI, el prototipo cobra vida (una consulta de un comercio, el agente responde desde su espacio y su fuente, el ticket se cierra solo) y llega la propuesta para que decidan.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

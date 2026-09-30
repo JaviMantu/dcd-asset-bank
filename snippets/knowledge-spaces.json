@@ -1,0 +1,67 @@
+{
+  "id": "knowledge-spaces",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "knowledge-spaces",
+  "args": {
+    "who": [
+      "‹como: Atención›",
+      "‹como: Riesgo›"
+    ],
+    "ask1": "‹como: ¿Qué cambia para los comercios con el nuevo reglamento?›",
+    "src1": "‹como: Fuente: Reglamento de pagos›",
+    "ask2": "‹como: ¿Qué política aplica a un cargo no reconocido?›",
+    "src2": "‹como: Fuente: Políticas de fraude›",
+    "spaces": [
+      [
+        "‹como: Producto y tecnología›",
+        "‹como: Espacio abierto›",
+        false,
+        [
+          "‹como: Manuales de producto›",
+          "‹como: Documentación y APIs›",
+          "‹como: Reglamento de pagos›"
+        ]
+      ],
+      [
+        "‹como: Atención a comercios›",
+        "‹como: Espacio restringido›",
+        true,
+        [
+          "‹como: Guías de producto›",
+          "‹como: Abonos y plazos›",
+          "‹como: Soporte del POS›"
+        ]
+      ],
+      [
+        "‹como: Riesgo y fraude›",
+        "‹como: Espacio restringido›",
+        true,
+        [
+          "‹como: Políticas de fraude›",
+          "‹como: Procedimientos›",
+          "‹como: Controles›"
+        ]
+      ]
+    ],
+    "agent": "‹como: Agente del espacio›",
+    "deny": "‹como: Sin acceso›",
+    "rule": "‹como: Cada agente responde desde su espacio y hereda sus permisos›",
+    "foot": "‹como: Por validar · con Dust, implementado por Amaris›"
+  },
+  "lands": "‹como: Tres espacios del conocimiento de Pagalia, uno abierto y dos restringidos con candado, cada uno con su agente y sus fuentes; arriba pregunta atención, abajo pregunta riesgo.›",
+  "breathes": "‹como: Un bucle de 12 segundos: atención pregunta qué cambia con el nuevo reglamento; su espacio se abre para su equipo, su agente lee su espacio y el abierto, choca con el candado de riesgo y responde con la fuente. Luego riesgo pregunta: solo su espacio se abre, para su equipo, y su agente responde con la fuente.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "luz-escala",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "top",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-escala",
+  "args": {
+    "letters": [
+      [
+        "‹como: E›",
+        "‹como: Evidencia›",
+        "‹como: ¿Tiene línea base?›"
+      ],
+      [
+        "‹como: S›",
+        "‹como: Sistema›",
+        "‹como: ¿Toca sistemas reales?›"
+      ],
+      [
+        "‹como: C›",
+        "‹como: Control›",
+        "‹como: ¿Sabe cuándo parar?›"
+      ],
+      [
+        "‹como: A›",
+        "‹como: Asignación›",
+        "‹como: ¿Tiene un responsable con nombre?›"
+      ],
+      [
+        "‹como: L›",
+        "‹como: Largo plazo›",
+        "‹como: ¿Puede sostenerse y corregirse en el tiempo?›"
+      ],
+      [
+        "‹como: A›",
+        "‹como: Adopción›",
+        "‹como: ¿La gente trabaja distinto?›"
+      ]
+    ]
+  },
+  "lands": "‹como: Seis letras grandes de luz en fila, E-S-C-A-L-A, apagadas (solo su contorno) sobre una línea magenta tenue, cada una con su palabra debajo.›",
+  "breathes": "‹como: Una chispa recorre la línea y el trazo brillante crece detrás de ella; se detiene bajo cada letra cada 1,6 s: se abre un anillo de luz en su punto, un destello toca la letra y se encienden la letra, su palabra y su pregunta, que quedan encendidas; tras la última A, el trazo sube a la derecha, hacia el panel, y su punto se enciende. Cuadro final: ESCALA encendida con sus seis palabras y preguntas, el trazo arriba y la chispa en su punta.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

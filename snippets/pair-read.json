@@ -1,0 +1,36 @@
+{
+  "id": "pair-read",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "pair-read",
+  "args": {
+    "timers": [
+      "‹como: 40 s · leer›",
+      "‹como: 40 s · reformular›",
+      "‹como: 40 s · compromiso›"
+    ],
+    "list_label": "‹como: Tus títulos›",
+    "list": [
+      "‹como: 1. Su meta del trimestre›",
+      "‹como: 2. Cuatro ideas por validar›",
+      "‹como: 3. Un prototipo en una semana›"
+    ],
+    "understood": "‹como: Se entiende›",
+    "note": "‹como: Cliente · fecha · conversación›"
+  },
+  "lands": "‹como: Dos personas frente a frente con la lista de títulos entre ellas y, arriba, tres relojes de 40 segundos: leer, reformular y compromiso.›",
+  "breathes": "‹como: Una lee sus títulos y cada uno se enciende; la otra hace una sola pregunta, cuenta la historia de vuelta por un hilo que sale de la lista y aparece «Se entiende»; al final se escribe la nota «Cliente · fecha · conversación».›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

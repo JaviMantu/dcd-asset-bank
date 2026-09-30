@@ -1,0 +1,29 @@
+{
+  "id": "figure-context",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "figure-context",
+  "args": {
+    "figure": "‹como: −30 %›",
+    "label": "‹como: producción de gas natural en cuatro años›",
+    "supply": "‹como: Producción›",
+    "station": "‹como: Compresor›",
+    "demand": "‹como: Demanda›",
+    "chip": "‹como: Parada›"
+  },
+  "lands": "‹como: La cifra aparece quieta en su marco y, debajo, la línea de gas va de la producción a la demanda.›",
+  "breathes": "‹como: La banda de gas se adelgaza, el indicador de la demanda sube y el compresor se detiene; la cifra no se mueve.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "lema-conversation",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "lema-conversation",
+  "args": {
+    "for_whom": "‹como: Para la gerencia de operaciones›",
+    "promise": "‹como: Que cada pedido llegue a tiempo, en todo el país›",
+    "cover_sub": "‹como: Tres ideas para lograrlo este trimestre›",
+    "meeting": "‹como: Jueves 10:00 · 30 min›",
+    "worries": [
+      "‹como: Presupuesto›",
+      "‹como: Meta del trimestre›",
+      "‹como: KPI›"
+    ],
+    "sign": "‹como: Audacious Ideas, Delivered Beyond.›"
+  },
+  "lands": "‹como: La mesa del jueves de la diapositiva 1: detrás, en la pantalla, la portada hecha para ella; a un lado tú y al otro la gerente, sin rostro, frente a frente.›",
+  "breathes": "‹como: Conversan por turnos, las ondas van y vuelven; mientras hablan, sus tres preocupaciones de la diapositiva 4 reciben su visto sobre la mesa (presupuesto, meta del trimestre, KPI); al final hablan a la vez y aparece la firma «Audacious Ideas, Delivered Beyond.». Cuadro final: la conversación, los tres vistos y la firma.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

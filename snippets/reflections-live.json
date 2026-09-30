@@ -1,0 +1,34 @@
+{
+  "id": "reflections-live",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "top",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "reflections-live",
+  "args": {
+    "reflections": [
+      "‹como: Reflexión 1›",
+      "‹como: Reflexión 2›",
+      "‹como: Reflexión 3›"
+    ],
+    "live": "‹como: Se anota en vivo›",
+    "survey": [
+      "‹como: Encuesta›",
+      "‹como: QR por confirmar›"
+    ],
+    "ask": "‹como: Sus preguntas, por el chat›"
+  },
+  "lands": "‹como: Cinco momentos sobre un mismo hilo de luz, en el orden del cierre: a la izquierda el chat «Sus preguntas, por el chat»; al centro, tres tarjetas de vidrio oscuro boca abajo, «Reflexión 1», «Reflexión 2» y «Reflexión 3»; a la derecha, la encuesta con su marco de QR.›",
+  "breathes": "‹como: Sin toque, primero late el chat: se levanta una mano con sus ondas, llegan tres mensajes uno a uno y alguien sigue escribiendo; luego una chispa sale del chat por el hilo y se detiene bajo cada reflexión, cuyo borde se enciende por turnos, y al final bajo la encuesta, que se enciende dorada y barre su marco de QR; al tocar una tarjeta (o pulsar 1, 2 o 3), el moderador la voltea y muestra «Se anota en vivo» bajo su número, con tres líneas de nota que se escriben solas, y queda volteada. Cuadro final: los mensajes en el chat, las tres tarjetas boca abajo y la encuesta encendida.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

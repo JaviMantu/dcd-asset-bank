@@ -1,0 +1,47 @@
+{
+  "id": "hypotheses-live",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "hypotheses-live",
+  "args": {
+    "cards": [
+      [
+        "‹como: Confiabilidad›",
+        "‹como: Priorizar las alarmas para mirar primero las desviaciones que importan›",
+        "‹como: Menos paradas›"
+      ],
+      [
+        "‹como: Supply chain›",
+        "‹como: Tener el repuesto listo antes de que se pida›",
+        "‹como: Menos urgencias›"
+      ],
+      [
+        "‹como: Procesos y documentos›",
+        "‹como: Aumentar con IA los procesos administrativos y la gestión documental›",
+        "‹como: Menos trabajo manual›"
+      ],
+      [
+        "‹como: Tecnología›",
+        "‹como: Entregar software más rápido con un equipo aumentado por IA›",
+        "‹como: Habilitador de las otras tres›"
+      ]
+    ],
+    "ret": "‹como: Retorno posible›",
+    "cycle": "‹como: Del requerimiento al despliegue›"
+  },
+  "lands": "‹como: Tres hipótesis con su retorno posible se apoyan sobre una cuarta, tecnología, que las habilita; cada una con su «?».›",
+  "breathes": "‹como: Cada tarjeta cuenta su historia por turnos: la alarma que importa pasa primero, el repuesto llega antes del pedido, el documento llena su formulario, y el habilitador entrega y enciende a las otras tres.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

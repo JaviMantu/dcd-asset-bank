@@ -1,0 +1,42 @@
+{
+  "id": "simple-hero",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "simple-hero",
+  "args": {
+    "who": "‹como: Para la gerencia de operaciones›",
+    "worries": [
+      "‹como: Dentro de su presupuesto›",
+      "‹como: La meta del trimestre›",
+      "‹como: El KPI que prometió›"
+    ],
+    "stations": [
+      "‹como: Bodega›",
+      "‹como: Despacho›",
+      "‹como: Ruta›",
+      "‹como: Entrega›"
+    ],
+    "goal": "‹como: Cada pedido, a tiempo›",
+    "icons": [
+      "‹como: logistica/bodega›",
+      "‹como: logistica/caja›",
+      "‹como: logistica/ruta›",
+      "‹como: logistica/camion›"
+    ]
+  },
+  "lands": "‹como: Arriba, para quién es; debajo, sus tres preocupaciones (el presupuesto, la meta del trimestre y el KPI que prometió), cada una con su medidor; abajo, su operación en cuatro estaciones con los íconos de su sector, camino a su promesa.›",
+  "breathes": "‹como: Un envío recorre las cuatro estaciones, que se encienden una a una hasta su promesa; entonces el presupuesto cuadra dentro de su marco, la meta del trimestre llega a su línea y la aguja del KPI entra en verde. Queda: la operación encendida y las tres preocupaciones resueltas.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "evidence",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "evidence",
+  "args": {
+    "figure": "‹como: 70 %›",
+    "label": "‹como: de los retos de la IA están en personas y procesos›",
+    "source": "‹como: BCG, 2024›",
+    "start": "‹como: Prueba de concepto›",
+    "end": "‹como: Valor tangible›",
+    "old": "‹como: Una herramienta más, encima de lo de siempre›",
+    "new": "‹como: Cambia la forma de trabajar›"
+  },
+  "lands": "‹como: La cifra queda quieta con su etiqueta y su fuente; debajo, dos caminos de la prueba de concepto al valor.›",
+  "breathes": "‹como: Primero, una herramienta más sobre lo de siempre: el trabajo espera donde siempre esperó. Después cambia la forma de trabajar: personas con IA dentro del flujo, y el trabajo llega al valor.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

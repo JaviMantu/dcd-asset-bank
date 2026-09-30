@@ -1,0 +1,49 @@
+{
+  "id": "mechanism-teams",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "mechanism-teams",
+  "args": {
+    "event": "‹como: Llega una norma nueva›",
+    "new": "‹como: Nueva›",
+    "center": "‹como: Lo que Pagalia ya sabe›",
+    "governed": "‹como: Gobernado›",
+    "teams": [
+      "‹como: Producto›",
+      "‹como: Comercial›",
+      "‹como: Riesgo›",
+      "‹como: Atención a comercios›"
+    ],
+    "questions": [
+      "‹como: ¿Qué cambia en la solución?›",
+      "‹como: ¿Qué les decimos a los comercios?›",
+      "‹como: ¿Qué control aplica?›",
+      "‹como: ¿Cómo respondo la consulta?›"
+    ],
+    "answers": [
+      "‹como: Ajusta la solución›",
+      "‹como: Informa a los comercios›",
+      "‹como: Actualiza sus controles›",
+      "‹como: Responde con la norma al día›"
+    ],
+    "start": "‹como: Llega la norma›",
+    "due": "‹como: Entra en vigor›",
+    "now": "‹como: Hoy›",
+    "done": "‹como: Cada equipo, a tiempo›"
+  },
+  "lands": "‹como: De arriba abajo: la norma nueva, lo que Pagalia ya sabe, los cuatro equipos (producto, comercial, riesgo y atención a comercios) y la línea del tiempo hasta que la norma entra en vigor.›",
+  "breathes": "‹como: La norma cae en lo que la compañía sabe; cada equipo recibe en su espacio su propia respuesta y decide, y cada decisión cae en la línea mucho antes de la fecha.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

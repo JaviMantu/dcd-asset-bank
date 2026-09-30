@@ -1,0 +1,65 @@
+{
+  "id": "risks-tradeoffs",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "risks-tradeoffs",
+  "args": {
+    "risks": [
+      [
+        "‹como: Picos tras eventos climáticos›",
+        3,
+        3,
+        "‹como: Autoescalado y cola de eventos›",
+        [
+          2,
+          1
+        ]
+      ],
+      [
+        "‹como: Dependencia del core de pólizas›",
+        2,
+        3,
+        "‹como: Caché de coberturas y reintentos›",
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        "‹como: Datos personales en las fotos›",
+        2,
+        2,
+        "‹como: Cifrado y retención por política›",
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        "‹como: Curva de aprendizaje de Kafka›",
+        2,
+        1,
+        "‹como: Servicio gestionado y guía interna›",
+        [
+          1,
+          1
+        ]
+      ]
+    ]
+  },
+  "lands": "‹como: Una matriz de probabilidad por impacto con cuatro riesgos numerados y, debajo, la lista con su mitigación.›",
+  "breathes": "‹como: Cada riesgo late en su celda, su fila se enciende con la mitigación y el riesgo se mueve a su celda residual.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

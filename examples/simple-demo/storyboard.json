@@ -1,0 +1,514 @@
+{
+  "schema": "storyboard/v4",
+  "meta": {
+    "type": "simple",
+    "size": "simple",
+    "title": "Andina Logística · Amaris",
+    "subtitle": "Primera conversación con la gerencia de operaciones",
+    "lema": "Empecemos por su meta: en una semana, un prototipo",
+    "intencion": "Que la gerencia de operaciones vea en quince minutos que la presentación es solo suya: su meta, cuatro ideas por validar y un primer paso pequeño.",
+    "honestidad": "Solo lo que Andina Logística publica y datos públicos del sector; lo demás, como hipótesis para validar juntos.",
+    "case": "Primera reunión de 15 minutos con la gerencia de operaciones: ocho diapositivas, una idea cada una.",
+    "vertical": "logistica",
+    "stages": [
+      "Conversar",
+      "Investigar",
+      "Destilar",
+      "Guionar",
+      "Estructurar",
+      "Titular",
+      "Componer"
+    ],
+    "stage_colors": [
+      "var(--c1)",
+      "var(--c2)",
+      "var(--c3)",
+      "var(--c4)",
+      "var(--accent)",
+      "var(--c5)",
+      "var(--brand)"
+    ],
+    "versions": {
+      "15": {
+        "name": "Primera reunión",
+        "audience": "la gerencia de operaciones",
+        "minutes": 15
+      }
+    },
+    "moments": [
+      "Su meta",
+      "Lo que vemos",
+      "Lo que podría ser",
+      "Cómo lo probamos",
+      "Próximo paso"
+    ],
+    "limits": {
+      "title_words": 10,
+      "sub_words": 16,
+      "items": 3,
+      "slides": 10
+    },
+    "banned": [
+      "GenAI",
+      "l[áa]mina",
+      "\\bgates?\\b",
+      "\\bROI\\b",
+      "garantiza",
+      "transformaci",
+      "así lo (describen|escriben|dicen) ustedes",
+      "una frase suya",
+      "lo vemos igual",
+      "coincidimos",
+      "filial"
+    ],
+    "refs": {
+      "amaris": ""
+    },
+    "business_words": [
+      "pedido",
+      "entrega",
+      "ruta",
+      "bodega",
+      "despacho",
+      "trimestre",
+      "presupuesto",
+      "KPI"
+    ],
+    "cita": "Preparado por la Service Line de Data & IA de Amaris. Manager responsable: Javier Montaño."
+  },
+  "slides": [
+    {
+      "id": "portada",
+      "act": "Su meta",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "Andina Logística · AMARIS CONSULTING",
+      "title": "Que cada pedido llegue a tiempo, sin subir el costo",
+      "sub": "Una primera conversación sobre su meta del trimestre y cuatro ideas por validar.",
+      "scene": "simple-hero",
+      "args": {
+        "who": "Para la gerencia de operaciones",
+        "worries": [
+          "Dentro de su presupuesto",
+          "La meta del trimestre",
+          "El KPI que prometió"
+        ],
+        "stations": [
+          "Bodega",
+          "Despacho",
+          "Ruta",
+          "Entrega"
+        ],
+        "goal": "Cada pedido, a tiempo",
+        "icons": [
+          "logistica/bodega",
+          "logistica/caja",
+          "logistica/ruta",
+          "logistica/camion"
+        ]
+      },
+      "ref": "amaris",
+      "lands": "Arriba, para quién es; debajo, sus tres preocupaciones (el presupuesto, la meta del trimestre y el KPI que prometió), cada una con su medidor; abajo, su operación en cuatro estaciones con los íconos de su sector, camino a su promesa.",
+      "breathes": "Un envío recorre las cuatro estaciones, que se encienden una a una hasta su promesa; entonces el presupuesto cuadra dentro de su marco, la meta del trimestre llega a su línea y la aguja del KPI entra en verde. Queda: la operación encendida y las tres preocupaciones resueltas.",
+      "intent": "Abrir con su meta, no con Amaris: lo que a quien decide le importa este trimestre.",
+      "spoken": "Antes de hablar de nosotros, hablemos de su meta. Que cada pedido llegue a tiempo, dentro del presupuesto, este trimestre y con el KPI que ya prometieron.",
+      "action": "Señala las tres preocupaciones mientras el envío recorre la operación. No presentes a Amaris todavía.",
+      "min": {
+        "15": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "afuera",
+      "act": "Lo que vemos",
+      "pole": "es",
+      "layout": "left",
+      "eyebrow": "LO QUE PUBLICAN",
+      "title": "Esto es lo que vemos desde afuera, en fuentes públicas",
+      "sub": "Solo lo que publican. Lo de adentro lo saben ustedes: venimos a preguntar.",
+      "scene": "simple-outside",
+      "args": {
+        "outside": "Afuera: lo que publican",
+        "sources": [
+          [
+            "Su sitio",
+            "Entregas en 24 horas en cinco ciudades"
+          ],
+          [
+            "Informe anual 2025",
+            "Dos centros de distribución nuevos"
+          ],
+          [
+            "Prensa del sector",
+            "Más pedidos en línea en la región"
+          ]
+        ],
+        "book": "Nuestro dossier",
+        "inside": "Adentro: lo cuentan ustedes",
+        "areas": [
+          "Bodega",
+          "Despacho",
+          "Ruta",
+          "Entrega"
+        ],
+        "ask": "Llevamos preguntas, no respuestas",
+        "icons": [
+          "logistica/bodega",
+          "logistica/caja",
+          "logistica/ruta",
+          "logistica/camion"
+        ]
+      },
+      "ref": "amaris",
+      "lands": "Arriba, afuera, tres fuentes públicas y nuestro dossier; una línea punteada; abajo, sus cuatro áreas dibujadas en tenue: lo de adentro no lo vemos.",
+      "breathes": "La lupa lee cada fuente y una nota vuela al dossier, que se llena; del dossier bajan preguntas, una a cada área, y se enciende «Llevamos preguntas, no respuestas». Queda: las fuentes leídas y una pregunta en cada área.",
+      "intent": "Humildad: lo que sabemos es público; lo de adentro lo cuentan ellos.",
+      "spoken": "Esto es lo que leímos en lo que ustedes publican y en la prensa del sector. Lo de adentro no lo vemos: por eso traemos preguntas, no respuestas.",
+      "action": "Recorre las tres fuentes con la mano. En la línea punteada, baja la voz y pregunta.",
+      "min": {
+        "15": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "brecha",
+      "act": "Lo que vemos",
+      "pole": "es",
+      "layout": "left",
+      "eyebrow": "HECHO, HIPÓTESIS Y LO QUE NO SUPONEMOS",
+      "title": "Separamos lo que sabemos de lo que suponemos",
+      "sub": "Hechos con fuente, hipótesis por validar y nada que no hayan publicado.",
+      "scene": "simple-gap",
+      "args": {
+        "bins": [
+          [
+            "Hecho",
+            "con fuente"
+          ],
+          [
+            "Hipótesis",
+            "por validar"
+          ],
+          [
+            "No suponemos",
+            "lo cuentan ustedes"
+          ]
+        ],
+        "known": [
+          [
+            "Promete entregas en 24 horas",
+            "Su sitio · 2026"
+          ],
+          [
+            "Abrió dos centros nuevos",
+            "Informe anual · 2025"
+          ]
+        ],
+        "guess": [
+          "Podría anticipar qué pedido llegará tarde",
+          "Podría unir los datos de sus centros"
+        ],
+        "unsaid": [
+          "Sus cifras internas",
+          "Sus proveedores y sistemas"
+        ],
+        "slide": "Lo que traemos a la conversación",
+        "icons": [
+          "logistica/ruta",
+          "logistica/bodega",
+          "logistica/camion",
+          "logistica/bodega",
+          "generico/dato",
+          "generico/documento"
+        ]
+      },
+      "ref": "amaris",
+      "lands": "Tres columnas con sus tarjetas: hechos con su fuente, hipótesis con su «?» y, cerrada, lo que no suponemos; abajo, la conversación de hoy, con sus casillas vacías.",
+      "breathes": "Cada hecho recibe su visto y su fuente; cada hipótesis enciende su «?»; lo que no suponemos queda con candado. Luego bajan a la conversación solo el hecho y la hipótesis, que se vuelve una pregunta. Queda: la conversación armada con un hecho, una hipótesis y una pregunta.",
+      "intent": "Mostrar el método: nada de lo que decimos es un supuesto disfrazado de dato.",
+      "spoken": "Separamos lo que publican de lo que suponemos. Los hechos llevan su fuente; las hipótesis, un signo de pregunta. Lo que no han contado, no lo suponemos.",
+      "action": "Señala las tres columnas en orden y termina en la conversación de abajo.",
+      "min": {
+        "15": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "hipotesis",
+      "act": "Lo que podría ser",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "POR VALIDAR",
+      "title": "Cuatro lugares donde la IA podría ayudar, por validar",
+      "sub": "Tres con retorno posible y una que las habilita. Ustedes eligen cuál validar.",
+      "scene": "simple-hypotheses",
+      "args": {
+        "cards": [
+          [
+            "Ruta",
+            "Avisar antes qué pedido llegará tarde",
+            "Menos entregas tarde"
+          ],
+          [
+            "Bodega",
+            "Preparar cada pedido en el orden de la ruta",
+            "Menos tiempo de carga"
+          ],
+          [
+            "Atención",
+            "Responder por chat dónde va cada pedido",
+            "Menos llamadas"
+          ],
+          [
+            "Datos",
+            "Unir los datos de bodega, ruta y entrega",
+            "Habilita las otras tres"
+          ]
+        ],
+        "ret": "Retorno posible",
+        "icons": [
+          "logistica/ruta",
+          "logistica/bodega",
+          "generico/equipo",
+          "logistica/camion"
+        ]
+      },
+      "ref": "amaris",
+      "lands": "Tres tarjetas con su ícono, su idea y su retorno posible, cada una con su «?», se apoyan en una cuarta, el habilitador, unida a las tres.",
+      "breathes": "Desde el habilitador sube una chispa a cada tarjeta, que se enciende por turnos y hace latir su «?»; al final se enciende el habilitador. Queda: las cuatro encendidas y cada una con su «?»: se eligen juntos.",
+      "intent": "Hipótesis, no diagnóstico: el prospecto elige cuál validar primero.",
+      "interaction": "¿Cuál de las cuatro les movería primero su meta del trimestre?",
+      "spoken": "Cuatro lugares donde la IA podría ayudar. Tres con un retorno posible y uno que las habilita: los datos unidos. Son hipótesis; ustedes eligen cuál validar.",
+      "action": "Nombra cada tarjeta cuando se encienda. Al final, pregunta cuál les mueve primero la meta.",
+      "min": {
+        "15": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "criterio",
+      "act": "Lo que podría ser",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "CÓMO DECIDIMOS",
+      "title": "Solo construimos si hay retorno claro o habilitador clave",
+      "sub": "Si una idea no trae ninguno de los dos, no se construye todavía.",
+      "scene": "simple-criterion",
+      "args": {
+        "criteria": [
+          [
+            "Retorno claro",
+            "Mueve un indicador que el negocio mide"
+          ],
+          [
+            "Habilitador clave",
+            "Abre el camino a las ideas con retorno"
+          ]
+        ],
+        "or": "o",
+        "ask": "¿Retorno o habilitador?",
+        "ideas": [
+          [
+            "Aviso de pedido tarde",
+            "retorno"
+          ],
+          [
+            "Un tablero vistoso",
+            "no"
+          ],
+          [
+            "Datos unidos de sus centros",
+            "habilitador"
+          ]
+        ],
+        "build": "Construimos",
+        "aside": "Por ahora, no",
+        "icons": [
+          "logistica/ruta",
+          "generico/dato",
+          "logistica/bodega"
+        ]
+      },
+      "ref": "amaris",
+      "lands": "Tres ideas arriba; en el medio, dos puertas, «Retorno claro» o «Habilitador clave»; abajo, dos bandejas: «Construimos» y «Por ahora, no».",
+      "breathes": "Cada idea baja por turnos: la del retorno cruza su puerta y entra a «Construimos»; la vistosa se aparta a «Por ahora, no»; la habilitadora cruza la suya y también se construye. Queda: dos ideas construidas y una apartada.",
+      "intent": "Un criterio antes del entusiasmo: sin retorno ni habilitador, no se construye.",
+      "interaction": "¿Retorno o habilitador? Pregunta a la sala por la idea vistosa.",
+      "spoken": "Solo construimos si hay retorno claro o un habilitador clave. El aviso de pedido tarde tiene retorno; los datos unidos habilitan; el tablero vistoso espera.",
+      "action": "Sigue con el dedo la idea que baja. Pregunta por el tablero antes de que se aparte.",
+      "min": {
+        "15": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "prueba",
+      "act": "Cómo lo probamos",
+      "pole": "es",
+      "layout": "left",
+      "eyebrow": "LA PRUEBA",
+      "title": "La prueba: un caso que movió las entregas a tiempo",
+      "sub": "Si no podemos nombrar al cliente, un discovery y, en una semana, un prototipo.",
+      "scene": "simple-proof",
+      "args": {
+        "ask": "¿Y cómo sabemos que funciona?",
+        "paths": [
+          [
+            "Una referencia",
+            "Un cliente que podemos nombrar"
+          ],
+          [
+            "Un prototipo",
+            "Discovery y prototipo en una semana"
+          ]
+        ],
+        "or": "o",
+        "case": "Pedidos entregados a tiempo",
+        "kpi": [
+          [
+            "Indicador",
+            "Pedidos a tiempo"
+          ],
+          [
+            "De → a",
+            "82 % → 95 %"
+          ],
+          [
+            "Dueño",
+            "Gerente de operaciones"
+          ],
+          [
+            "Fecha",
+            "Marzo de 2026"
+          ]
+        ],
+        "tag": "Ejemplo",
+        "icons": [
+          "logistica/camion",
+          "logistica/bodega",
+          "logistica/ruta"
+        ]
+      },
+      "ref": "amaris",
+      "lands": "Arriba, su pregunta: «¿Y cómo sabemos que funciona?»; dos caminos, una referencia o un prototipo en una semana; abajo, el caso de éxito con su KPI: indicador, de cuánto a cuánto, dueño y fecha.",
+      "breathes": "La referencia se enciende; luego la semana del prototipo avanza día a día hasta el prototipo; los dos caminos bajan al caso y cada campo del KPI recibe su visto. Las cifras no se mueven. Queda: el caso con sus cuatro campos validados.",
+      "intent": "Una prueba que se puede verificar: un cliente nombrable o un prototipo, y el KPI que movió.",
+      "spoken": "¿Cómo saben que funciona? Con un cliente que podamos nombrar o con un prototipo en una semana. Y un caso se mide con su KPI: indicador, de cuánto a cuánto, dueño y fecha.",
+      "action": "Señala los cuatro campos del KPI. Aclara que es un ejemplo.",
+      "min": {
+        "15": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "como",
+      "act": "Cómo lo probamos",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "CÓMO TRABAJAMOS",
+      "title": "Tres pasos cortos, y ustedes deciden en cada uno",
+      "sub": "Nuestro equipo con el suyo: la IA propone y una persona revisa.",
+      "scene": "simple-path",
+      "args": {
+        "phases": [
+          [
+            "Discovery",
+            "Un dolor, su KPI y sus datos",
+            "Un día"
+          ],
+          [
+            "Prototipo",
+            "Funciona con sus datos",
+            "Una semana"
+          ],
+          [
+            "Decisión",
+            "Ustedes deciden si se construye",
+            "Con el prototipo"
+          ]
+        ],
+        "team": "Su equipo y el nuestro",
+        "review": "Una persona revisa cada paso",
+        "icons": [
+          "logistica/bodega",
+          "logistica/caja",
+          "logistica/ruta",
+          "logistica/camion"
+        ]
+      },
+      "ref": "amaris",
+      "lands": "Una ruta de tres pasos numerados (discovery, prototipo y decisión), cada uno con lo que pasa y cuánto dura; abajo, los dos equipos juntos y la persona que revisa.",
+      "breathes": "Una chispa baja por la ruta: el discovery se enciende, el prototipo corre sobre su operación y la decisión recibe su visto; al final se enciende «Una persona revisa cada paso». Queda: los tres pasos encendidos y la revisión humana.",
+      "intent": "Mostrar que empezar es pequeño, rápido y con control.",
+      "spoken": "Empezar es pequeño. Un día de discovery para elegir un dolor y su KPI, una semana de prototipo con sus datos y, con el prototipo, ustedes deciden. Una persona revisa cada paso.",
+      "action": "Baja con la mano por la ruta. Termina en la revisión humana.",
+      "min": {
+        "15": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "cierre",
+      "act": "Próximo paso",
+      "pole": "podria",
+      "layout": "left",
+      "eyebrow": "EL PRÓXIMO PASO",
+      "title": "Empecemos por su meta: en una semana, un prototipo",
+      "sub": "Un dolor, su equipo y el nuestro, y en una semana su prototipo.",
+      "takeaway": "Make it happen, together.",
+      "scene": "simple-next",
+      "args": {
+        "cta": "Agendemos el discovery de su ruta",
+        "when": "Esta semana · con su equipo",
+        "worries": [
+          "Dentro de su presupuesto",
+          "La meta del trimestre",
+          "El KPI que prometió"
+        ],
+        "stations": [
+          "Bodega",
+          "Despacho",
+          "Ruta",
+          "Entrega"
+        ],
+        "goal": "Cada pedido, a tiempo",
+        "sign": "Audacious Ideas, Delivered Beyond.",
+        "name": "Javier Montaño",
+        "role": "Manager responsable",
+        "icons": [
+          "logistica/bodega",
+          "logistica/caja",
+          "logistica/ruta",
+          "logistica/camion"
+        ]
+      },
+      "ref": "amaris",
+      "lands": "Arriba, la invitación con su fecha en un calendario y su botón; en el medio, su operación de la portada; abajo, sus tres preocupaciones y la firma de quien la prepara.",
+      "breathes": "El botón late; su operación se enciende estación por estación, como en la portada, y cada preocupación recibe su visto. Queda: su operación encendida, las tres preocupaciones resueltas y la invitación abierta.",
+      "intent": "Un paso pequeño con una razón para volver: el discovery, con fecha.",
+      "interaction": "¿Qué semana les sirve para el discovery?",
+      "spoken": "Les proponemos empezar por su meta: esta semana, un discovery con su equipo; la próxima, el prototipo. ¿Qué semana les sirve?",
+      "action": "Haz la pregunta y espera. Anota la fecha en la reunión.",
+      "min": {
+        "15": [
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

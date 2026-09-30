@@ -1,0 +1,29 @@
+{
+  "id": "cost-drop",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "cost-drop",
+  "args": {
+    "figure": "‹como: 280× menos›",
+    "label": "‹como: costo de usar un modelo de IA, 2022 a 2024›",
+    "years": [
+      "‹como: 2022›",
+      "‹como: 2024›"
+    ]
+  },
+  "lands": "‹como: Dos barras de papel, 2022 alta y 2024 apenas una línea, y la cifra «280× menos» fija en su marco de papel.›",
+  "breathes": "‹como: La cifra y las barras no se mueven; solo respiran los acentos: una moneda de papel se encoge mientras vuela de la barra alta a la línea de 2024 y queda flotando, la cinta subraya la diferencia y un pulso suave marca la barra pequeña. Cuadro final: el gráfico quieto, la moneda pequeña sobre 2024.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

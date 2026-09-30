@@ -1,0 +1,112 @@
+{
+  "id": "infra-topology",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "infra-topology",
+  "args": {
+    "entry": "‹como: Asegurados · Internet›",
+    "region": "‹como: Nube pública · región principal, dos zonas de disponibilidad›",
+    "zones": [
+      [
+        "‹como: Zona pública›",
+        "‹como: publica›",
+        [
+          [
+            "‹como: waf›",
+            "‹como: Firewall de aplicación›",
+            "‹como: WAF · CDN›",
+            "‹como: arquitectura/seguridad›"
+          ],
+          [
+            "‹como: gw›",
+            "‹como: API gateway›",
+            "‹como: Gestión de APIs›",
+            "‹como: arquitectura/api›"
+          ]
+        ]
+      ],
+      [
+        "‹como: Zona privada›",
+        "‹como: privada›",
+        [
+          [
+            "‹como: k8s›",
+            "‹como: Clúster de contenedores›",
+            "‹como: Kubernetes gestionado›",
+            "‹como: arquitectura/contenedor›"
+          ]
+        ]
+      ],
+      [
+        "‹como: Zona de datos›",
+        "‹como: datos›",
+        [
+          [
+            "‹como: pg›",
+            "‹como: PostgreSQL›",
+            "‹como: Alta disponibilidad›",
+            "‹como: arquitectura/base-datos›"
+          ],
+          [
+            "‹como: kafka›",
+            "‹como: Kafka›",
+            "‹como: Tres nodos›",
+            "‹como: arquitectura/cola›"
+          ]
+        ]
+      ]
+    ],
+    "links": [
+      [
+        "‹como: waf›",
+        "‹como: gw›",
+        ""
+      ],
+      [
+        "‹como: gw›",
+        "‹como: k8s›",
+        ""
+      ],
+      [
+        "‹como: k8s›",
+        "‹como: pg›",
+        ""
+      ],
+      [
+        "‹como: k8s›",
+        "‹como: kafka›",
+        ""
+      ]
+    ],
+    "envs": [
+      [
+        "‹como: Desarrollo›",
+        "‹como: Cada cambio›"
+      ],
+      [
+        "‹como: Pruebas›",
+        "‹como: Pruebas automáticas›"
+      ],
+      [
+        "‹como: Producción›",
+        "‹como: Con aprobación›"
+      ]
+    ],
+    "promote": "‹como: La misma imagen, promovida por el pipeline›"
+  },
+  "lands": "‹como: La región en la nube con tres zonas de seguridad y sus nodos; abajo, desarrollo, pruebas y producción.›",
+  "breathes": "‹como: La solicitud entra desde internet y cruza cada zona encendiendo su borde; luego una versión viaja de desarrollo a producción.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

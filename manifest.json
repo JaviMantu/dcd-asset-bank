@@ -1,0 +1,4216 @@
+{
+ "cards": {
+  "arcs": 192,
+  "examples": 3,
+  "icons": 17,
+  "knowledge": 16,
+  "scenes": 128,
+  "templates": 12
+ },
+ "counts": {
+  "brand": 2,
+  "cards": 368,
+  "catalog": 1,
+  "examples": 10,
+  "graphify-out": 2,
+  "icons": 1,
+  "knowledge": 3,
+  "previews": 256,
+  "root": 7,
+  "scenes": 37,
+  "schema": 2,
+  "snippets": 129,
+  "templates": 228
+ },
+ "files": {
+  "README.md": {
+   "sha256": "72a3207afe2bc4e591edd84bff03d59c28628f0903210ef0c7d6bb16bb976d9f",
+   "size": 3792
+  },
+  "brand/assets/lockup.svg": {
+   "sha256": "7c9659491b6eafcd5d019cd72bbd5ea591e7fcc029b5a5d0201c57104be61c8d",
+   "size": 15778
+  },
+  "brand/marks/amaris-logo-blue.png": {
+   "sha256": "fb187155791949f72af5f5646593a3e92df02d5c99cf802a00dd4bab7b09d762",
+   "size": 10947
+  },
+  "cards/arcs/arquitectura--banca.md": {
+   "sha256": "8f6ee85a821d1ed3aca63e280fec4e4101f9ea2504f9c6be5e666624e2a5d201",
+   "size": 3888
+  },
+  "cards/arcs/arquitectura--consumo.md": {
+   "sha256": "3a0218fdbc09fe40f546b2e5ec8b04ac8631fb6acbbae6d703b5143c1fd01e79",
+   "size": 3985
+  },
+  "cards/arcs/arquitectura--cualquiera.md": {
+   "sha256": "7960957e7ed141d4fb11bfe9234e9ecbf39fd7bc0c0f6e6dfe0e671f1a143c20",
+   "size": 3612
+  },
+  "cards/arcs/arquitectura--energia.md": {
+   "sha256": "6ef592962fb500c3d204c50e1274f50aa185270af663efa2b5fab16fa21ddee8",
+   "size": 3883
+  },
+  "cards/arcs/arquitectura--farmacia.md": {
+   "sha256": "f9888398fec5e59fb60ab7db3caaa646bcd4a22cb936fc74f3cc9c9706b5b461",
+   "size": 3949
+  },
+  "cards/arcs/arquitectura--fidelizacion.md": {
+   "sha256": "daac91c93140b4a818c84188754bcd55bb6d56eb99a20dd6a1a6420e72ae8709",
+   "size": 3972
+  },
+  "cards/arcs/arquitectura--formacion.md": {
+   "sha256": "5664a02c6a2155d2feecfc607b2d6ec1357cd1e5f67dfcb50ba5f019368e6252",
+   "size": 4006
+  },
+  "cards/arcs/arquitectura--industria.md": {
+   "sha256": "d2f7ec17bc28ef7af2609b4a901c9b459c352943a0ffad84e8e3f3c6420bc362",
+   "size": 4038
+  },
+  "cards/arcs/arquitectura--logistica.md": {
+   "sha256": "d8a37508f778a1d039c2f196fd7a6fe27d69e9ea03db323e684c7df9c3a846a9",
+   "size": 3988
+  },
+  "cards/arcs/arquitectura--mineria.md": {
+   "sha256": "aca425e7592602e8645e62a3f7497d528992cad2a32bf08fef0f307272d422e0",
+   "size": 3941
+  },
+  "cards/arcs/arquitectura--pagos.md": {
+   "sha256": "ac70f970d5208661cbb2466655196ecd7b55d0eaa843dd846c10ecb762f19d79",
+   "size": 3921
+  },
+  "cards/arcs/arquitectura--publico.md": {
+   "sha256": "da0fa88781daf2fb213c0464b0a4abd72b14df34c9564492ef6168e15c04ad79",
+   "size": 4032
+  },
+  "cards/arcs/arquitectura--retail.md": {
+   "sha256": "5d216b1009bf78df0481a632483840f363f98b2bbbbdd0a9f40ca025ab3b428b",
+   "size": 3955
+  },
+  "cards/arcs/arquitectura--salud.md": {
+   "sha256": "ce5971d1265e1521d9f0d4341d12c04c8bccf8f59e4925522e0d78057f7de5f5",
+   "size": 3896
+  },
+  "cards/arcs/arquitectura--seguros.md": {
+   "sha256": "79852117a275f779c03c634e6846a14dd2e3d6e80df6f3c4f44f102c932fe950",
+   "size": 3999
+  },
+  "cards/arcs/arquitectura--telco.md": {
+   "sha256": "2c2708865be300ac06d6dfa011ea90b27d0d2770c800f566e6f76f0918d6c13b",
+   "size": 3952
+  },
+  "cards/arcs/cierre-training--banca.md": {
+   "sha256": "0d9792b6166b6cdd57ba8bf5876ce460ea85e76afb9f95f5f8d783c9d33139bd",
+   "size": 3894
+  },
+  "cards/arcs/cierre-training--consumo.md": {
+   "sha256": "cd0fdf79ae6b53b51306897f1cb9b36c31332b8ca9fda8e4160d521b77ca38f4",
+   "size": 3907
+  },
+  "cards/arcs/cierre-training--cualquiera.md": {
+   "sha256": "fe7506329a89958c875ef161601593a617623efbf28af7651aa26eb8c921d87a",
+   "size": 3720
+  },
+  "cards/arcs/cierre-training--energia.md": {
+   "sha256": "bbbfe2b25d1be7e68515b97590d5e70e856de735063604eac3d87ec831263525",
+   "size": 3925
+  },
+  "cards/arcs/cierre-training--farmacia.md": {
+   "sha256": "9ef485216bdb19fae18ed12823a3d91fcf0a30c1a22be69042bebb00225c5898",
+   "size": 3883
+  },
+  "cards/arcs/cierre-training--fidelizacion.md": {
+   "sha256": "296486214d3cd72f350ee07d0f1a4640c92988c0e33b2b6d2a9a100f8046298f",
+   "size": 3909
+  },
+  "cards/arcs/cierre-training--formacion.md": {
+   "sha256": "cc112577b7e058263f17e185d9d5b8ec7cc014e01beb99e71ae7ac3e464e0fa7",
+   "size": 3917
+  },
+  "cards/arcs/cierre-training--industria.md": {
+   "sha256": "427c000175430163d73842f8f5c215060e7a55421c53ec5973f085e89ae19b17",
+   "size": 3967
+  },
+  "cards/arcs/cierre-training--logistica.md": {
+   "sha256": "fcd38914c89c99238167e7671956954936e0ba42eaff80d51b17d1c3f0a5cbb8",
+   "size": 3930
+  },
+  "cards/arcs/cierre-training--mineria.md": {
+   "sha256": "6670807a0394e576bb59af6d3c43f8cf4cdfd7a9e167cd40c40a889d702d9b28",
+   "size": 3887
+  },
+  "cards/arcs/cierre-training--pagos.md": {
+   "sha256": "f33aeaf8105226780c8e0f57750c0504dc0856c7ba30878740d6d93df924e1a6",
+   "size": 3897
+  },
+  "cards/arcs/cierre-training--publico.md": {
+   "sha256": "86a1763d1fac77f384cd5be91e6c980ef1169191b420f70eac9b2746c8791f7d",
+   "size": 3962
+  },
+  "cards/arcs/cierre-training--retail.md": {
+   "sha256": "6dedbeca8d6ef6440b65037d7edb901a213fe5c1933221c1ccf8725d32dd1886",
+   "size": 3896
+  },
+  "cards/arcs/cierre-training--salud.md": {
+   "sha256": "bc5c6562614a18a407f18f368657836e26effb0f7de42fda74b2d5f0386956e2",
+   "size": 3903
+  },
+  "cards/arcs/cierre-training--seguros.md": {
+   "sha256": "118be49eede63caab9d6ebb63a15d2b76541870e7c88b72e74f2eaff5a434d10",
+   "size": 3941
+  },
+  "cards/arcs/cierre-training--telco.md": {
+   "sha256": "611b4141466345eaef26714058f74217e40fa4e5d99c2cbffc90d4eb8587afeb",
+   "size": 3882
+  },
+  "cards/arcs/comercial--banca.md": {
+   "sha256": "001f98f4d70d2ef0661a1a7228a3a1ec9db4e275e4ce51219f69146f80858351",
+   "size": 3542
+  },
+  "cards/arcs/comercial--consumo.md": {
+   "sha256": "4dcee841bac2eeaf6644feaa605731bd96cbc35f711064c2ec236eb766222a69",
+   "size": 3634
+  },
+  "cards/arcs/comercial--cualquiera.md": {
+   "sha256": "c7e0e6247c63e94f0d7eb3f5b0a62d756ed9bb5573fff3327306d1e1dc96e45c",
+   "size": 3361
+  },
+  "cards/arcs/comercial--energia.md": {
+   "sha256": "4830c9f88c8174613859fadd7001609ddfd913cd42d982023e0e5483d7cc9690",
+   "size": 3540
+  },
+  "cards/arcs/comercial--farmacia.md": {
+   "sha256": "75eb80b1484c9a24e2ef9b0ff3beb1730ea7789d2f919a3f52b83d3390d89dd8",
+   "size": 3614
+  },
+  "cards/arcs/comercial--fidelizacion.md": {
+   "sha256": "ffc6d50759efb78a2e1c5d8bd7cf5ed6f808912269dc936875332f8ee5f98109",
+   "size": 3634
+  },
+  "cards/arcs/comercial--formacion.md": {
+   "sha256": "8317e29a80e5ce184c71ad9993ae5fe62048f4841af309580c375e5d218e76aa",
+   "size": 3610
+  },
+  "cards/arcs/comercial--industria.md": {
+   "sha256": "e19c1d7ee24f6e62c7cf4efbb8ca5b9be3b3f44f6b1ca70c0d61d2a1680defbe",
+   "size": 3696
+  },
+  "cards/arcs/comercial--logistica.md": {
+   "sha256": "862c6b5738710dbbfce1a907c9dc04abfc8feef5c7f4859e668c01605911f183",
+   "size": 3654
+  },
+  "cards/arcs/comercial--mineria.md": {
+   "sha256": "9bb00353069d0ea7cc40537050a893dbae6803d2f3bf5ba10e464533f2579cd7",
+   "size": 3605
+  },
+  "cards/arcs/comercial--pagos.md": {
+   "sha256": "2131c5483b67f869210f0f873371ae18edca43519ce0728ca3227b56ce1ea625",
+   "size": 3593
+  },
+  "cards/arcs/comercial--publico.md": {
+   "sha256": "ea9839a62d6bc373d2646ed8e2632467e4a9f84c20709ebed37df1f7ad61fdf9",
+   "size": 3691
+  },
+  "cards/arcs/comercial--retail.md": {
+   "sha256": "212fc82d971576da173a7eea91f84cc6004dc6dd6496dd8f80b57196514b0fa7",
+   "size": 3624
+  },
+  "cards/arcs/comercial--salud.md": {
+   "sha256": "82ff0d514b936727173a421f920840a0774450921a0411607b4cbfc567009dd3",
+   "size": 3559
+  },
+  "cards/arcs/comercial--seguros.md": {
+   "sha256": "3540f28f73577f0a6af3acf388e16aa2b089fe4aa7a5689df6dc6a607acd8921",
+   "size": 3670
+  },
+  "cards/arcs/comercial--telco.md": {
+   "sha256": "dcb92b95ffb1c0db2e780913867b3c2a4011116490121dd78fbb40ec3495a971",
+   "size": 3609
+  },
+  "cards/arcs/defensa-funcional--banca.md": {
+   "sha256": "48bcef0ae13859965eb9d03f9d1ccf123af83d4df3c2f1c724060b0ef040fa0b",
+   "size": 3977
+  },
+  "cards/arcs/defensa-funcional--consumo.md": {
+   "sha256": "c9c10e5c1881c41b23ff209fea5c3641de5995b58ce90708881c576c5a4f854a",
+   "size": 4074
+  },
+  "cards/arcs/defensa-funcional--cualquiera.md": {
+   "sha256": "b1158b4865c640cf1bca21e1f86c5638debb33f2e50d43de9bbacaa34f64cbd0",
+   "size": 3701
+  },
+  "cards/arcs/defensa-funcional--energia.md": {
+   "sha256": "dbbac4a124343b2951ebbaa4a9965e83cfb66c081a735059c88df53c12e90465",
+   "size": 3938
+  },
+  "cards/arcs/defensa-funcional--farmacia.md": {
+   "sha256": "9ea0a1833992ad24d560d8f5c87e171078a35107c361c584e7e6bcf527071545",
+   "size": 4038
+  },
+  "cards/arcs/defensa-funcional--fidelizacion.md": {
+   "sha256": "738d40ac3d38408f4ef2daf343f211f5709d0f2e71d1f599f800bd7797355ba9",
+   "size": 4061
+  },
+  "cards/arcs/defensa-funcional--formacion.md": {
+   "sha256": "2678f94724a663e826ffea1c1eb15496d192cab23f26a6218233c3f4e0a06f35",
+   "size": 4065
+  },
+  "cards/arcs/defensa-funcional--industria.md": {
+   "sha256": "e55d88af1a6311ea0d4e6277b8751274dde6f9d3a5824da01bb22deb07a38f90",
+   "size": 4127
+  },
+  "cards/arcs/defensa-funcional--logistica.md": {
+   "sha256": "3f16b00b3b3363ebb2dca302b6a8314f8b504ce17f131b123b68e02320e8d749",
+   "size": 4077
+  },
+  "cards/arcs/defensa-funcional--mineria.md": {
+   "sha256": "4fbcc1d4f4305935b4ba07ff56bdf4b610d8c88682d42e94eac2bbcbfc2b7830",
+   "size": 4030
+  },
+  "cards/arcs/defensa-funcional--pagos.md": {
+   "sha256": "3fcbc6b51aa17d86d98ac3c749eb4b839a09101b80f4624bc0d84fa86c9551e3",
+   "size": 4016
+  },
+  "cards/arcs/defensa-funcional--publico.md": {
+   "sha256": "6b480fd18c88afeb6aaa1c329b7a1d4ad229082e6dcd2ab42157c2446ed5ed7a",
+   "size": 4121
+  },
+  "cards/arcs/defensa-funcional--retail.md": {
+   "sha256": "2683284df2ffd984c52873d6e2cda04b5b5f45057bbbc0066861ae5fdf7f7959",
+   "size": 4044
+  },
+  "cards/arcs/defensa-funcional--salud.md": {
+   "sha256": "73b22132337afc8196653374ea50f6e1116f6d18d04d1c65e5de165afb337a54",
+   "size": 3985
+  },
+  "cards/arcs/defensa-funcional--seguros.md": {
+   "sha256": "e1b6dc7fb4ae2006ddb08920f1842fb0f6cfd8090f40a825922d4b24e124f3b7",
+   "size": 4088
+  },
+  "cards/arcs/defensa-funcional--telco.md": {
+   "sha256": "1440d459a66ee96eed58843ef43a8b361d202842d604e81bc319c1e0a95626fe",
+   "size": 4041
+  },
+  "cards/arcs/defensa-hibrida--banca.md": {
+   "sha256": "b3d00d4d89a53a07aca5d867238e6c074cd0a736ef5f0aa41eb8d49415b0ab50",
+   "size": 3862
+  },
+  "cards/arcs/defensa-hibrida--consumo.md": {
+   "sha256": "91a68a593c10d09dbc239bbc40eea03c4d67929e7716876b3694f56583c71762",
+   "size": 3960
+  },
+  "cards/arcs/defensa-hibrida--cualquiera.md": {
+   "sha256": "f3a8689fc00cbcf7e700f85835101d1eb49d6db43b2b1aa1811ac35853bbf02e",
+   "size": 3646
+  },
+  "cards/arcs/defensa-hibrida--energia.md": {
+   "sha256": "cc0a4f8fe5e8fc7bd30915435bc616735c1435fe27469a20ec2ff25b852c8e56",
+   "size": 3950
+  },
+  "cards/arcs/defensa-hibrida--farmacia.md": {
+   "sha256": "f1068bc48e27e3b165cb6f9bed0ab228093b9fbc5fe5274a5688d601d6821c39",
+   "size": 3924
+  },
+  "cards/arcs/defensa-hibrida--fidelizacion.md": {
+   "sha256": "1a21b8742cc16d0b34708625b21d87c7033b1cc24554a015f1669afa4b7170d5",
+   "size": 3949
+  },
+  "cards/arcs/defensa-hibrida--formacion.md": {
+   "sha256": "73a00f90c798c9abf1283c9c4361dfdfa3b3f826b1dfb1d6f1c70f12ff36c4df",
+   "size": 3989
+  },
+  "cards/arcs/defensa-hibrida--industria.md": {
+   "sha256": "9c035b6c051aa5bd865bb26087faa8b0b2d5a28636c8382655b754b51644e95e",
+   "size": 4017
+  },
+  "cards/arcs/defensa-hibrida--logistica.md": {
+   "sha256": "7a312959ba2334ff2fadc97a6a41d37c6fdb0a2acb988513b3b68c113ff04c5a",
+   "size": 3980
+  },
+  "cards/arcs/defensa-hibrida--mineria.md": {
+   "sha256": "802b6d7365d7c6ec739ffd6092c51387f36d040e0a95c805ca3d0e32d445dee5",
+   "size": 3929
+  },
+  "cards/arcs/defensa-hibrida--pagos.md": {
+   "sha256": "45008852f9f329718ee56c0f408be79b122ae65b8c3e90073e7a9f14fac65f08",
+   "size": 3904
+  },
+  "cards/arcs/defensa-hibrida--publico.md": {
+   "sha256": "4a023f093625ef65fe72b705d68ffe95867f459262238980d9b0257e6d5f6ea3",
+   "size": 4023
+  },
+  "cards/arcs/defensa-hibrida--retail.md": {
+   "sha256": "98a7e3f52bb3d982ef3217d7a2351f4ae78e4c90d073cf5e230f929829b3a001",
+   "size": 3945
+  },
+  "cards/arcs/defensa-hibrida--salud.md": {
+   "sha256": "99a31222801014d5fc0380a4ecbb7e3b01f34febeba52dfb192641dda6863978",
+   "size": 3881
+  },
+  "cards/arcs/defensa-hibrida--seguros.md": {
+   "sha256": "8d1989841ac66b3d72b6f42b68b34aeb61210eeba430c240c73c1e846b4e0f53",
+   "size": 3990
+  },
+  "cards/arcs/defensa-hibrida--telco.md": {
+   "sha256": "bd1cadde6ac327b9eff2859a51f637da25dde96ddd0dda20e191d74bed222f4a",
+   "size": 3934
+  },
+  "cards/arcs/defensa-negocio--banca.md": {
+   "sha256": "4169ec411950333e81c00eb338df3d078528e411ac3d6f91eecb38de3e97a470",
+   "size": 3916
+  },
+  "cards/arcs/defensa-negocio--consumo.md": {
+   "sha256": "c46ccebe7a035ea72b623711a104e7087c1de9335855e6a8e0c3c7b5cb609879",
+   "size": 4006
+  },
+  "cards/arcs/defensa-negocio--cualquiera.md": {
+   "sha256": "988314ecbcf0bcadbd1085a81296710e6ce071c213190a8e1efcad93df811151",
+   "size": 3633
+  },
+  "cards/arcs/defensa-negocio--energia.md": {
+   "sha256": "e64fd8c824f34cebd136e75b3c8c6c28e75ab99435d6298b4c7caf8910ff602c",
+   "size": 3883
+  },
+  "cards/arcs/defensa-negocio--farmacia.md": {
+   "sha256": "07ab2b5ac8cbe4c64701e7d8677ccc4e82943ff814449636a72e28d924eba79b",
+   "size": 3970
+  },
+  "cards/arcs/defensa-negocio--fidelizacion.md": {
+   "sha256": "74e59862d54833274fa35896838b5872642626f3f8cb555b84c069a927f6dbf1",
+   "size": 3993
+  },
+  "cards/arcs/defensa-negocio--formacion.md": {
+   "sha256": "bbeb31661e3fe0ea9fd271fdb44d9474b5aa3e69601d73ba96f6f7dce257ec88",
+   "size": 4018
+  },
+  "cards/arcs/defensa-negocio--industria.md": {
+   "sha256": "1014e87dcaef2f88289680ad08c0750ae85ed7eaf3afa97358b206a7f448fd20",
+   "size": 4059
+  },
+  "cards/arcs/defensa-negocio--logistica.md": {
+   "sha256": "aad195af54fde23ea7df7197413023292f647f47066dd1800ebc51fc971d6939",
+   "size": 4009
+  },
+  "cards/arcs/defensa-negocio--mineria.md": {
+   "sha256": "8e936446efd17aef27aefedf3532b493a502e475520ff452300c749aed1d08b9",
+   "size": 3962
+  },
+  "cards/arcs/defensa-negocio--pagos.md": {
+   "sha256": "1424700ca852957a9caa62ff1ab88d4c5149fc31830fc747388e780c470e802b",
+   "size": 3942
+  },
+  "cards/arcs/defensa-negocio--publico.md": {
+   "sha256": "6500c4115806576bded1df79ab4127db331a0e1310e73fde066e52d7b22c7f08",
+   "size": 4053
+  },
+  "cards/arcs/defensa-negocio--retail.md": {
+   "sha256": "89af4bf6feb0a47d30967ca1166536991af05975b298f0c053b83307db856235",
+   "size": 3976
+  },
+  "cards/arcs/defensa-negocio--salud.md": {
+   "sha256": "e5f1b576ec3aaae955787142a048eb3e8355410903dcaf74625d94daa39d556c",
+   "size": 3924
+  },
+  "cards/arcs/defensa-negocio--seguros.md": {
+   "sha256": "5273f434e066064af4d9d6deb499ffc9daf29410ba4cd069f644a00e81d9ee52",
+   "size": 4020
+  },
+  "cards/arcs/defensa-negocio--telco.md": {
+   "sha256": "d81914fdd599717d1f8ca8120a866ce71bb0a16adeb5009816be5c90e2a01f3b",
+   "size": 3973
+  },
+  "cards/arcs/defensa-tecnica--banca.md": {
+   "sha256": "9066d1b54d8df32b38743bc0aef8b39609b9b44ce5e0528c5ac74b1e79459b5e",
+   "size": 3788
+  },
+  "cards/arcs/defensa-tecnica--consumo.md": {
+   "sha256": "65bc31e02940e75a1122f09e7fcbb159528ead55bd12c5b85e2beeb38b1dd5de",
+   "size": 3862
+  },
+  "cards/arcs/defensa-tecnica--cualquiera.md": {
+   "sha256": "76ee5638f88a6e674576257a3fb469db499113ed26b98d4b22c51a6add758295",
+   "size": 3589
+  },
+  "cards/arcs/defensa-tecnica--energia.md": {
+   "sha256": "f9b5dfe8ef7e9f5d4a80f4db46e274cb26b7db9e801dd652534b65fedad1a684",
+   "size": 3814
+  },
+  "cards/arcs/defensa-tecnica--farmacia.md": {
+   "sha256": "9f0540d9d4800a6e1d9f39076724eb930a7f96c16c2be903729412b5e9ab572e",
+   "size": 3842
+  },
+  "cards/arcs/defensa-tecnica--fidelizacion.md": {
+   "sha256": "148d4c0cbd7992515478cb0223b8cf2c09e94195c124363fa152f21446df9cb7",
+   "size": 3862
+  },
+  "cards/arcs/defensa-tecnica--formacion.md": {
+   "sha256": "e7ba9942232d41ce20ec48927306f33131382f0352df2aaef4c7b85b45a4c422",
+   "size": 3895
+  },
+  "cards/arcs/defensa-tecnica--industria.md": {
+   "sha256": "9cbd7514a1f65520fb387959a3ae090dea4ffe64da4873f08db201af801c50dc",
+   "size": 3924
+  },
+  "cards/arcs/defensa-tecnica--logistica.md": {
+   "sha256": "8a3838d9b74fa7758598428508ca53707372461a13c3659b3a368ebb14e505c3",
+   "size": 3882
+  },
+  "cards/arcs/defensa-tecnica--mineria.md": {
+   "sha256": "5b6c9d3f1d039030c2187a8c20ab116b8b2b8f3507633d5747304f4b1ca3752c",
+   "size": 3833
+  },
+  "cards/arcs/defensa-tecnica--pagos.md": {
+   "sha256": "a989e0a4b2439b1ed7337088f346d2d8952586c4f9a3e67cd5420baee0ea19e6",
+   "size": 3815
+  },
+  "cards/arcs/defensa-tecnica--publico.md": {
+   "sha256": "12209d6d875e47119c00ac7259fe84b2acc4b3ff0ca4f5c78751ba21ba4b3235",
+   "size": 3919
+  },
+  "cards/arcs/defensa-tecnica--retail.md": {
+   "sha256": "245b66a2ecc98a31fa5a9384962b524b9ad23ebbc875c4cf477ffb0cfbace4ff",
+   "size": 3852
+  },
+  "cards/arcs/defensa-tecnica--salud.md": {
+   "sha256": "ae253f89bac31fda2181dd87dcc0ae5c95848c3f76d1fd61d63fb4cb4b9f7933",
+   "size": 3799
+  },
+  "cards/arcs/defensa-tecnica--seguros.md": {
+   "sha256": "3b2403db76416fc782224a5358c8477c768bc359cf94c47b327f11c37d2796c2",
+   "size": 3898
+  },
+  "cards/arcs/defensa-tecnica--telco.md": {
+   "sha256": "c1548a42bf47910db08ed84b1f1486b8b85a8e533ff14a697b7255a028a7b7a6",
+   "size": 3837
+  },
+  "cards/arcs/formacion--banca.md": {
+   "sha256": "083699b92cae5ab760c0b378c9a1f8b97d209df1aafb861b16c1f0d5f9ffc37e",
+   "size": 4295
+  },
+  "cards/arcs/formacion--consumo.md": {
+   "sha256": "f0489e283e1f800fd08b11d1fa1848486a6a688aa4e8165f796a4e6587459cd8",
+   "size": 4353
+  },
+  "cards/arcs/formacion--cualquiera.md": {
+   "sha256": "ecf1f971b6aa5dc53123197b90b8456fb9f7f75ff6346e96c160f9d24e536e1c",
+   "size": 3839
+  },
+  "cards/arcs/formacion--energia.md": {
+   "sha256": "27f2061f578bab14c703d0f6abc7f68afc2db56f2c0ce9d80d245ff4ff9f8be5",
+   "size": 4292
+  },
+  "cards/arcs/formacion--farmacia.md": {
+   "sha256": "3ea7ba936e8b6538aace5d414ea73dae111c41410880e248c16b9992dcddee1b",
+   "size": 4303
+  },
+  "cards/arcs/formacion--fidelizacion.md": {
+   "sha256": "d76c30b36700ee42c787423dfada30e7910e5355c1ae4abc5abf18125fd89c01",
+   "size": 4325
+  },
+  "cards/arcs/formacion--formacion.md": {
+   "sha256": "dc67c5b8e6604cc49e283b903cd0eb013b35779641c162734b8a93c919c8cce2",
+   "size": 4396
+  },
+  "cards/arcs/formacion--industria.md": {
+   "sha256": "524db14189077cb033058a50476dd9e3ec3ccb572e5e8d31452ae258908749a1",
+   "size": 4418
+  },
+  "cards/arcs/formacion--logistica.md": {
+   "sha256": "7318f32e11a658dd7baa1fa669e14caf490ffcfb34ceb874a41651526ac53996",
+   "size": 4364
+  },
+  "cards/arcs/formacion--mineria.md": {
+   "sha256": "032eb972bddc62055196ef579f846f16ecb3c57a9a542da7825897fa8f14006a",
+   "size": 4309
+  },
+  "cards/arcs/formacion--pagos.md": {
+   "sha256": "5d6a77799388c96fa590132584911587e731c04a68bdff8d51ddcab22b471bf5",
+   "size": 4282
+  },
+  "cards/arcs/formacion--publico.md": {
+   "sha256": "78f997c9f4fb159ba275e10e1923378bff3787a6ffa0a00eabc0f3842968855f",
+   "size": 4412
+  },
+  "cards/arcs/formacion--retail.md": {
+   "sha256": "29d65fc3201a9d02660c2b44cb32763a90218cb2a05bbcdf6732ac46d2fce029",
+   "size": 4314
+  },
+  "cards/arcs/formacion--salud.md": {
+   "sha256": "bb9db79c4aeb074559a72628496e4cd4a85c4a450508d39fa3ddebf17df60afc",
+   "size": 4319
+  },
+  "cards/arcs/formacion--seguros.md": {
+   "sha256": "79684f27bba59b660d58af8d9db4a3690df94ef3a60abc5f7b6d0bebd181d446",
+   "size": 4381
+  },
+  "cards/arcs/formacion--telco.md": {
+   "sha256": "ab1406421a729b85ab8b507239ee593d4fcdedfaaad910856253e882d8a96b8d",
+   "size": 4314
+  },
+  "cards/arcs/prospeccion--banca.md": {
+   "sha256": "c61864ad5b999d152b0050ff48ea6d7b27334563d380ebc799e075721494a9a6",
+   "size": 3870
+  },
+  "cards/arcs/prospeccion--consumo.md": {
+   "sha256": "0ab99a7c8c788bb333c67eec3b7dd5ad61c2181041d6b01a4e6102d3b00df5c4",
+   "size": 3967
+  },
+  "cards/arcs/prospeccion--cualquiera.md": {
+   "sha256": "78d28d48d88a8e2a977ac68316a3dd1b3d166f0a466736c710cd00fbad3242bd",
+   "size": 3594
+  },
+  "cards/arcs/prospeccion--energia.md": {
+   "sha256": "3995b10eb1ef7e46323f9d286060138ae1044ccfdab8e4e0ad3e334d6dede7e8",
+   "size": 3865
+  },
+  "cards/arcs/prospeccion--farmacia.md": {
+   "sha256": "f6d2469aad227618741de420e0c47453e388d78e37e2cf916151b0274809ac71",
+   "size": 3931
+  },
+  "cards/arcs/prospeccion--fidelizacion.md": {
+   "sha256": "5db6e6141dd73f30394bf119d78334316b290be784b9cd736eb11c8ffb4bc350",
+   "size": 3954
+  },
+  "cards/arcs/prospeccion--formacion.md": {
+   "sha256": "28a2344cd40a4162f62f2b97f548f599888ebdfe09a392fbc70067c4e93b280c",
+   "size": 4006
+  },
+  "cards/arcs/prospeccion--industria.md": {
+   "sha256": "8c504e577bb260a4746e1bc2335a7ec86000cab44eff43e26ee06ab04530bea1",
+   "size": 4020
+  },
+  "cards/arcs/prospeccion--logistica.md": {
+   "sha256": "059a8b7d1f5c1b10f2b99ebdaedd507d69f895fa86628caaf6cdd0c2a38fc853",
+   "size": 3970
+  },
+  "cards/arcs/prospeccion--mineria.md": {
+   "sha256": "45b168fedbcd9aeb13bd5d17eeb7a8cc1a807fc16d415d285af65cc0bcf70fad",
+   "size": 3923
+  },
+  "cards/arcs/prospeccion--pagos.md": {
+   "sha256": "442b82d7de5f4a7115ef76b4baff5370190f06dcd67e0df269ece16ebb3053f9",
+   "size": 3903
+  },
+  "cards/arcs/prospeccion--publico.md": {
+   "sha256": "359104de0e98b3abbbcfc776190ac5f46dea996649f11c944738046ce6f1d059",
+   "size": 4014
+  },
+  "cards/arcs/prospeccion--retail.md": {
+   "sha256": "63acd8c41aa3211efa05a21ba322e1b7977261dc6b22c1a47728173519b5cf0a",
+   "size": 3937
+  },
+  "cards/arcs/prospeccion--salud.md": {
+   "sha256": "a4def06b0ac3d965da861f4a6420c6aac48acc04b81ea1bc1c1e46a3210b9c98",
+   "size": 3878
+  },
+  "cards/arcs/prospeccion--seguros.md": {
+   "sha256": "edc7229e78115f10c98e3f77980dec4c8703929b66868e52802564786aa2e654",
+   "size": 3981
+  },
+  "cards/arcs/prospeccion--telco.md": {
+   "sha256": "135186423f2b066e616468c64210e431a747a76342c979b2dbc14e3c51530631",
+   "size": 3934
+  },
+  "cards/arcs/simple--banca.md": {
+   "sha256": "96d13f5b95770ac1ac13a921ab02a1ccdddb1c9db0410c828a3084188c3321f7",
+   "size": 3815
+  },
+  "cards/arcs/simple--consumo.md": {
+   "sha256": "49be8ec0b6a373220ff75468dfe628dbd8b42f3365504736a2689e47dd054f0b",
+   "size": 3912
+  },
+  "cards/arcs/simple--cualquiera.md": {
+   "sha256": "2582199ce3ac0d382d9632420378cfd6cea44a2f198be428113b486ab54a17a0",
+   "size": 3539
+  },
+  "cards/arcs/simple--energia.md": {
+   "sha256": "9151e493085e75335e3e59640a24c3d5f3f3c2d8a5bf36d8f7cda92818c695fa",
+   "size": 3810
+  },
+  "cards/arcs/simple--farmacia.md": {
+   "sha256": "65437b81a3167b18de763e129b009a5fb28a009c2ab6e0516256d74ebcad7b0a",
+   "size": 3876
+  },
+  "cards/arcs/simple--fidelizacion.md": {
+   "sha256": "d9acfef3f7052e8df14b4ad459fffddf6af7c35b96b6a960622fa5c78ea95524",
+   "size": 3899
+  },
+  "cards/arcs/simple--formacion.md": {
+   "sha256": "de6ef28e36ce3c1c61e4f253e668b2b9c4cbf3766e54f239a841960afe8226de",
+   "size": 3951
+  },
+  "cards/arcs/simple--industria.md": {
+   "sha256": "3ea25803c5169a198ddd4894cd49bdcc56b09c9abf3e9bd33f24c49b94b2a216",
+   "size": 3965
+  },
+  "cards/arcs/simple--logistica.md": {
+   "sha256": "09354f8099475fe2759d101ba208bac28277c73d5aad4aec8a7d708fe98975b2",
+   "size": 3915
+  },
+  "cards/arcs/simple--mineria.md": {
+   "sha256": "81bf7ad63a88431f10e7020fe0389571c4105a7b5d96091e8213d7c7c06a3bec",
+   "size": 3868
+  },
+  "cards/arcs/simple--pagos.md": {
+   "sha256": "d2e7e4b0eb868d6ab7e3c02bd330037db078b13e1f93e57e9639a8b0fb7d9675",
+   "size": 3848
+  },
+  "cards/arcs/simple--publico.md": {
+   "sha256": "3d3acd0c8838735931161d31227b24793646be64925da7a9c5052e300cd80f61",
+   "size": 3959
+  },
+  "cards/arcs/simple--retail.md": {
+   "sha256": "6f7e34c82c63dcbea9fe5a867f3b06206224724d2d4f20dd1adb79b4d0be26e9",
+   "size": 3882
+  },
+  "cards/arcs/simple--salud.md": {
+   "sha256": "9fb765041c6a1579bebdf0b3014dc32d6491edb415f33d842c8d62143295dc9c",
+   "size": 3823
+  },
+  "cards/arcs/simple--seguros.md": {
+   "sha256": "ca47b4eb06bc4508da0ccf37dca0dcd77c51324943b5d2358fe1f5e6d14fe26b",
+   "size": 3926
+  },
+  "cards/arcs/simple--telco.md": {
+   "sha256": "0b87e3a4bb85e3e48867fc6b8ea01c3105df6b3e44488b69353752e65fde95b1",
+   "size": 3879
+  },
+  "cards/arcs/tecnico--banca.md": {
+   "sha256": "e0390e1f3de5659f0e0361a0bac17500046e8cac95e2fdf0063705dbc14444e6",
+   "size": 3721
+  },
+  "cards/arcs/tecnico--consumo.md": {
+   "sha256": "2abe9866ed163f04fbf47358d7e6335e35619af243b48b79133d35f99feea1ab",
+   "size": 3813
+  },
+  "cards/arcs/tecnico--cualquiera.md": {
+   "sha256": "b20f82ab5cc03f1ed4534cda77c5ec8f7086af9b4a52c57ae77596bf0efc9c5e",
+   "size": 3540
+  },
+  "cards/arcs/tecnico--energia.md": {
+   "sha256": "9147d3d6b65245c42fcb078d13bab074fc8490f0770d9ac4e282ac26a26ecbec",
+   "size": 3744
+  },
+  "cards/arcs/tecnico--farmacia.md": {
+   "sha256": "3adf80968df3b03808731ed91ac505694c18e341b38193ca1ec2ccec128aa9a5",
+   "size": 3793
+  },
+  "cards/arcs/tecnico--fidelizacion.md": {
+   "sha256": "3b97808a78aca73ec06a18536deecf5cf8ec20a645e4ab30f79ff4473838891d",
+   "size": 3813
+  },
+  "cards/arcs/tecnico--formacion.md": {
+   "sha256": "9aeeeaa05c37f3219f929e84c4b9c725230afe190771e57917be6789dfe85196",
+   "size": 3837
+  },
+  "cards/arcs/tecnico--industria.md": {
+   "sha256": "5594ab4c39844d2d80388613b49339329650e142ec888cdf87bd37dbc6870723",
+   "size": 3875
+  },
+  "cards/arcs/tecnico--logistica.md": {
+   "sha256": "536dceb461beab22fed9eaa8f2c2548b31d1bcd67c809ac375800b55eeb19fe0",
+   "size": 3833
+  },
+  "cards/arcs/tecnico--mineria.md": {
+   "sha256": "cd4205cf63a498ff3ad628a536709ac407a9436518374e9b8b3f18cafca2d903",
+   "size": 3784
+  },
+  "cards/arcs/tecnico--pagos.md": {
+   "sha256": "98b1b34fc35f83bbf9520a0df55dc66e5903b7f8cb59e0f800debef9b09dd36c",
+   "size": 3766
+  },
+  "cards/arcs/tecnico--publico.md": {
+   "sha256": "8df0ba24cf41061c892aa43d4d3ddc4808a2a621c4b9c6df124a88b7a0b644fb",
+   "size": 3870
+  },
+  "cards/arcs/tecnico--retail.md": {
+   "sha256": "096ef7250d9846bffe0c0306bee7e23f23a18ff537a4d10f698547262f1f7e00",
+   "size": 3803
+  },
+  "cards/arcs/tecnico--salud.md": {
+   "sha256": "93d456283227ef0bdc8c48e74681944687e4d0bea638ef0b3abbdf7f491047af",
+   "size": 3738
+  },
+  "cards/arcs/tecnico--seguros.md": {
+   "sha256": "e24158878b034607f720368e29286a19900e3205940031ddbff1d14eb91861e6",
+   "size": 3849
+  },
+  "cards/arcs/tecnico--telco.md": {
+   "sha256": "c8224f4225121994d0a3b0fa4d32275ed8e74a9aa20e1e3f46e20e25535d868c",
+   "size": 3788
+  },
+  "cards/arcs/webinar-panel--banca.md": {
+   "sha256": "3e67ead4783008c1b49e93925e16b3c399d80c419097f882ae1bb79a2ee71bd9",
+   "size": 4146
+  },
+  "cards/arcs/webinar-panel--consumo.md": {
+   "sha256": "ac88c25667681e010e4ec1170945aa30aca07a3deb64594735209e478daedfc4",
+   "size": 4151
+  },
+  "cards/arcs/webinar-panel--cualquiera.md": {
+   "sha256": "2aead58413b194bad5b9c66c075131a9e0fccd873c00eb50dd6b4c0a4af84a24",
+   "size": 3730
+  },
+  "cards/arcs/webinar-panel--energia.md": {
+   "sha256": "95533b0f598122d9cf70fb409965eebb900cda08d5973ef351142ffcc0dc08e9",
+   "size": 4153
+  },
+  "cards/arcs/webinar-panel--farmacia.md": {
+   "sha256": "087308512f1b2c74a20c8d4c9e572346d7166115f7823eb72cd8e0c7c4e65c9c",
+   "size": 4094
+  },
+  "cards/arcs/webinar-panel--fidelizacion.md": {
+   "sha256": "62fe6b1f5ce4c569293c36fae61a11876ab2bb51843522231da7de42d2977016",
+   "size": 4132
+  },
+  "cards/arcs/webinar-panel--formacion.md": {
+   "sha256": "81aa75a0024cdd7e0c867ef80c285e98c964c0d36e185d8fbf2dd5bced152f9c",
+   "size": 4159
+  },
+  "cards/arcs/webinar-panel--industria.md": {
+   "sha256": "d9c5a131b0b312985342ff9576d2e2352ab37c1479c2c974b374ce7f869f3ad8",
+   "size": 4217
+  },
+  "cards/arcs/webinar-panel--logistica.md": {
+   "sha256": "1c5de3c2d5d42c93e5a1c960bb50f911f88e8779488b87b1ff21360178029b89",
+   "size": 4178
+  },
+  "cards/arcs/webinar-panel--mineria.md": {
+   "sha256": "5cf7f134d23515d749f7028102a7e97c7336f5140b6467e9a80a1c9cd3f53740",
+   "size": 4128
+  },
+  "cards/arcs/webinar-panel--pagos.md": {
+   "sha256": "c17721394ae15df09e8d429968ab11bdff5398724a82c1a1b9cfbac30c060b87",
+   "size": 4131
+  },
+  "cards/arcs/webinar-panel--publico.md": {
+   "sha256": "8dffdaa12640263f8960df1733979c86db30c26385e2f2af6da723df35ea655e",
+   "size": 4227
+  },
+  "cards/arcs/webinar-panel--retail.md": {
+   "sha256": "52f1e34e6d90e612a27d0747edde0fefdd24abacc332eca5e193981c36162b6b",
+   "size": 4131
+  },
+  "cards/arcs/webinar-panel--salud.md": {
+   "sha256": "36dd00929768437595bf0f05eb82f788b64c71bf70fcce63587c4a281c0b1233",
+   "size": 4145
+  },
+  "cards/arcs/webinar-panel--seguros.md": {
+   "sha256": "b8e4e4f87cbec6a55ba04500ca78317625683bc7576321975e8e1ba0f1ff2828",
+   "size": 4199
+  },
+  "cards/arcs/webinar-panel--telco.md": {
+   "sha256": "f0cefd2694141784ccd923681930dab6337f6ecabef90ef141e74659eff1f29c",
+   "size": 4117
+  },
+  "cards/examples/arquitectura-demo.md": {
+   "sha256": "5a5cef13e3db93cb96dd4679b53139ccdec4144b11ff5fc93d82a32824a8b2d6",
+   "size": 4238
+  },
+  "cards/examples/simple-demo.md": {
+   "sha256": "c509c1a9c16c9c66358c83dbdf5b17d7a12c606d1b7a123054608a97d7b46782",
+   "size": 3983
+  },
+  "cards/examples/webinar-piloto-eterno.md": {
+   "sha256": "7dc2c8838dbf1373106885cc238799311ab97e759341e21d0d9c3fd7ed092e4f",
+   "size": 4184
+  },
+  "cards/icons/arquitectura.md": {
+   "sha256": "4df15767e2e47fc74104e7252c1123d33788a5c369bd62e282d68fd080ca0639",
+   "size": 2488
+  },
+  "cards/icons/banca.md": {
+   "sha256": "814975240cff5086440bfb7d3b8dc820b08bfd2611600b6f4b8dc824fd65cfb5",
+   "size": 1897
+  },
+  "cards/icons/consumo.md": {
+   "sha256": "74cc1405d334430fd663d2d43b090bc1aaeb7a51d20fb32de2260e0519768d38",
+   "size": 1967
+  },
+  "cards/icons/energia.md": {
+   "sha256": "f081b0ff5809bb59989743da6207cb8366189efe12882936090c4a65b738ea2b",
+   "size": 1981
+  },
+  "cards/icons/entrega.md": {
+   "sha256": "c0da7da81b3b9c37a34557942002bc86d4d111232a09b7f129ee0fb8c08c0bef",
+   "size": 1277
+  },
+  "cards/icons/generico.md": {
+   "sha256": "63ea852c7989057fa41f1854b75d0b74c2557ab7012152fd4edc23bfe8d9f458",
+   "size": 2061
+  },
+  "cards/icons/ia.md": {
+   "sha256": "410fc0849270da279bf158a3b213518a7367c79f27b7482e1f2faa211a5ab26c",
+   "size": 3463
+  },
+  "cards/icons/industria.md": {
+   "sha256": "ff5abf4d0bcfaf0bfc7a1b5215c47493e9c56cd2d1eac6c880e8d7afb11c59ad",
+   "size": 2120
+  },
+  "cards/icons/logistica.md": {
+   "sha256": "b7d413924f51576c12bdc912c15f01a818058337d22dcf4e7bfb44a5f6eb5741",
+   "size": 2036
+  },
+  "cards/icons/mineria.md": {
+   "sha256": "1446a2b089dc72a6192172f68c469ae29a852c5fd8088ff3262193170c76767f",
+   "size": 1951
+  },
+  "cards/icons/pagos.md": {
+   "sha256": "ac305aa6957954dd91d01584de8254bc3fb0f4eb718c1c7eb12f89b8e1418ab1",
+   "size": 1932
+  },
+  "cards/icons/publico.md": {
+   "sha256": "2fa3f0d13554f3e617149d57d82c382552c585359b52ae83c770d10d68365604",
+   "size": 2024
+  },
+  "cards/icons/retail.md": {
+   "sha256": "35a04e5d38b03cd5098dcb2d418f0e5ed8dbb32277fe7aad486b5b98a28004a5",
+   "size": 1909
+  },
+  "cards/icons/salud.md": {
+   "sha256": "224cadd9a69f35bfc73b1d886a3da89ed1d508e88f22b255d7ea8798d7b8ab6c",
+   "size": 1979
+  },
+  "cards/icons/seguros.md": {
+   "sha256": "a7889e42cdb3b47214b650eb57239e0b3f7dae61fda1661586293d55fe40c556",
+   "size": 2000
+  },
+  "cards/icons/telco.md": {
+   "sha256": "73b6a3056bc39dfb1d8f17b5983c85962d8abef1f3b737e28c9e0aa07f575e1e",
+   "size": 1915
+  },
+  "cards/icons/uso.md": {
+   "sha256": "a37fc1ee48d0895ca8042fd8a13f793a11141bc5feadada7c142b6f69014a372",
+   "size": 3365
+  },
+  "cards/knowledge/banca.md": {
+   "sha256": "ece72d9d9870e2e5f81d330963ae8b509804977cb1c03cece6de8dcc16e94e82",
+   "size": 3776
+  },
+  "cards/knowledge/consumo.md": {
+   "sha256": "e2dc42564f5d606aa0da3318c70a37c5a4a7a9a9c843a122919f82d5636e2be2",
+   "size": 3382
+  },
+  "cards/knowledge/energia.md": {
+   "sha256": "ba94b7d2a71fd58fefd2d4009b30b948a67a515dc07616938f561e77b4c29767",
+   "size": 3462
+  },
+  "cards/knowledge/farmacia.md": {
+   "sha256": "9c064070b8a4f2310f8463fadaa748c05d190c7828fd739ff6e87204485d350b",
+   "size": 3278
+  },
+  "cards/knowledge/fidelizacion.md": {
+   "sha256": "7e27c6e46126f5bd408239e1e3bce75bc83550d1bf8e95c7be96b5bad1de5da1",
+   "size": 3208
+  },
+  "cards/knowledge/formacion.md": {
+   "sha256": "301db525418861243d4bd3c8ee774b1d086fa3b3eec8c1044ff761690bde264a",
+   "size": 3261
+  },
+  "cards/knowledge/industria.md": {
+   "sha256": "91fde75591fd9bea8b90ae160286dd220b659bb0bea66760d1d0caea79867e11",
+   "size": 3335
+  },
+  "cards/knowledge/kpi-library.md": {
+   "sha256": "46f1fdd26aa79199c646037c9bd210e51ace7cfb95ab18e6a050c2cb0d892d3c",
+   "size": 5063
+  },
+  "cards/knowledge/logistica.md": {
+   "sha256": "83af510b67bc15093f9e84a0b8abc5b970eb4c40f58f8978c7a4ce76729f4edb",
+   "size": 3400
+  },
+  "cards/knowledge/mineria.md": {
+   "sha256": "510f1546278da74c56fe6b9ff1ab865835e7202b431b9a0b13c2c5db13f690f0",
+   "size": 3236
+  },
+  "cards/knowledge/pagos.md": {
+   "sha256": "6e2f91e475b9423093ac23511e3678c67205d9498227ad2500a430cc98a8be63",
+   "size": 3310
+  },
+  "cards/knowledge/publico.md": {
+   "sha256": "7e2635fe9f9fd201ab5e3771d3cbc913b14a6329de879a59e88e357e9ec88beb",
+   "size": 3479
+  },
+  "cards/knowledge/retail.md": {
+   "sha256": "9c9c2f11e47ea00f35c243944cd0ed420adced687e4ec6f5dd9e95a8899671b1",
+   "size": 3230
+  },
+  "cards/knowledge/salud.md": {
+   "sha256": "845e4d9009ca0aac700fba430ceb933de6ace3128824844f3b780c305b81885f",
+   "size": 3362
+  },
+  "cards/knowledge/seguros.md": {
+   "sha256": "81cba8c7f9a28246496b8bd53893f27d0d93b77bbb97af23277f9ec9884e602c",
+   "size": 3369
+  },
+  "cards/knowledge/telco.md": {
+   "sha256": "9b218c2fc93e8263c7790df8a82eadd1ffb0c086fa435bd7dd116b54fd55dbd3",
+   "size": 3271
+  },
+  "cards/scenes/adr-decisions.md": {
+   "sha256": "ca7c64e86bd7b1fc5e8d9bc273690bb688e5e84428baf4a050b867f79235380d",
+   "size": 3761
+  },
+  "cards/scenes/arq-hero.md": {
+   "sha256": "b5ffdf87d4c81f9986a2b04b1bb6576060570b29201dabf01a8870da163f334d",
+   "size": 3113
+  },
+  "cards/scenes/arq-roadmap.md": {
+   "sha256": "d51a8181b198f07fe92caaecac1845d3e269216e3af194209553eb9c8a5300b9",
+   "size": 3651
+  },
+  "cards/scenes/automation-stairs.md": {
+   "sha256": "2ddaa1299ee4420e589996841f187cb7d923c6ba23880fbee081a6207dad79e9",
+   "size": 3209
+  },
+  "cards/scenes/before-after-lanes.md": {
+   "sha256": "1a7e87191ee71f4418e6a0d19b525b6d80d623e2c35aebd8a73d3559e92779cd",
+   "size": 3400
+  },
+  "cards/scenes/before-after-split.md": {
+   "sha256": "9e4209642853516348fb51a579eaee6e0f181c53db44759ad602c1de172a67f9",
+   "size": 3534
+  },
+  "cards/scenes/build-deliver.md": {
+   "sha256": "6f30ef241ebc2295c8c7fbd7f81714c0fc6cd277d9d68435008b72f13fa0f4f1",
+   "size": 3756
+  },
+  "cards/scenes/c4-code.md": {
+   "sha256": "f7cdaf60ef88001930e834d2126ce0a96f2b967f48ee2d488544ed43354d8cef",
+   "size": 3987
+  },
+  "cards/scenes/c4-component.md": {
+   "sha256": "301f2093cef6cd8ae3f797d387c7d748032730515609da85a3859020a6009fbe",
+   "size": 5151
+  },
+  "cards/scenes/c4-container.md": {
+   "sha256": "7759476d85dc1138c0495f983b4cbd7ce975fa3d908c808337e087fe2e87bdbc",
+   "size": 4979
+  },
+  "cards/scenes/c4-context.md": {
+   "sha256": "38491cd21100ef554bcb6b079144a623dd8e8b4c9f44455e4217078df5e9ccca",
+   "size": 4204
+  },
+  "cards/scenes/capacity-join.md": {
+   "sha256": "7102b34ddb972fd0589bdbd2d0740ef4be9b540ec358f893d38fb6136356dd03",
+   "size": 3438
+  },
+  "cards/scenes/care-center.md": {
+   "sha256": "e4fdaac5098f7d66af0f73cc2a935edac17d7c10f329d6923ad72fd504c751c1",
+   "size": 4429
+  },
+  "cards/scenes/cascade.md": {
+   "sha256": "f666b4ac6d3cc593a71cb4aa52b896d4952171fe3c0310ee771246134138418c",
+   "size": 2990
+  },
+  "cards/scenes/chain-tap.md": {
+   "sha256": "790208003497a4ccb193e51aeacad65d8b6f89212278ed780eca8949b269a6aa",
+   "size": 4494
+  },
+  "cards/scenes/client-worries.md": {
+   "sha256": "9f0f36e8d0dab97fee3d917be97e981e3959a5e16b5870971677a544962311cf",
+   "size": 3589
+  },
+  "cards/scenes/component-diagram.md": {
+   "sha256": "5c72048cfcec2faeb26557d15baba8205eac856a291a2cc0b59736bad3508d16",
+   "size": 3720
+  },
+  "cards/scenes/controlroom-live.md": {
+   "sha256": "bdc2cebfff6c5e9774f4876e9ead2265ed86903506b53f890b62ed8e2d80ef76",
+   "size": 3528
+  },
+  "cards/scenes/cost-drop.md": {
+   "sha256": "7dd966d6caf4300d3ed9e9cd702b5d16d831faf89f59c54af410878f9745fe07",
+   "size": 3118
+  },
+  "cards/scenes/criterion-b.md": {
+   "sha256": "6ebf5206f93b1010b136453823f803a95524b345e4467168f266a1d9809f763f",
+   "size": 3659
+  },
+  "cards/scenes/criterion.md": {
+   "sha256": "516630c972e1a8ddbe32395c6fe2656ffd48acf068e11833cbedbe5fc4ecfc20",
+   "size": 3678
+  },
+  "cards/scenes/data-architecture.md": {
+   "sha256": "7421e0bc5823cb589098844d2894f184cbdd307ccc384c06c8c8f89af6998720",
+   "size": 3829
+  },
+  "cards/scenes/data-lifecycle.md": {
+   "sha256": "747f81fae2fd776a25a595eacb4c4b3cb8f38efa35181fa705269cad01e37813",
+   "size": 3763
+  },
+  "cards/scenes/delivery-cycle.md": {
+   "sha256": "9ef2d45a3c52e01868cc262d8fdf977590193461ce6bc21ea14b7c3daf5ca3a2",
+   "size": 3544
+  },
+  "cards/scenes/diagnostic.md": {
+   "sha256": "3641e34b6e0249c6041da06acfc19d7c9e94fe6d2dd200401d39355a461c20c3",
+   "size": 4181
+  },
+  "cards/scenes/discovery-b.md": {
+   "sha256": "b26fcbc89b438d8e531940f4ee346d58ab236d34eabb2916a83fc689ee3e67ef",
+   "size": 4331
+  },
+  "cards/scenes/discovery.md": {
+   "sha256": "4ef2ad72c61bf0f8bc810b86cc42f0e5acc5dc3aa46e695ab0067ad09f10851b",
+   "size": 4105
+  },
+  "cards/scenes/evidence.md": {
+   "sha256": "f6edebed3cc97900791ef6822c411d4d8f19202570b1c29d23b9a75445e6bc10",
+   "size": 3155
+  },
+  "cards/scenes/explain-cards.md": {
+   "sha256": "ace6abe3b1d3195bc0b510c7f9aff2a6473eb0d5a4f0aec5c5a66f71dd670b2c",
+   "size": 3488
+  },
+  "cards/scenes/facts-columns.md": {
+   "sha256": "116a681ad9fe85dff8981c64149191d8f0c9cbc0be0344a58f03414baabc4303",
+   "size": 4276
+  },
+  "cards/scenes/federated-live.md": {
+   "sha256": "b0b114f0b9a466a0b149d22e413c6afc45cd752774a2f1fdf6e255c362cb64a1",
+   "size": 4493
+  },
+  "cards/scenes/figure-context.md": {
+   "sha256": "c55f4fa35db475fc81d2692c15be8be23426c327685b95943b2483d99770ec69",
+   "size": 3046
+  },
+  "cards/scenes/figure-door.md": {
+   "sha256": "85657de5fb40d6688a9d44299a400b0fe9894af23349b152f833c832764073f6",
+   "size": 3460
+  },
+  "cards/scenes/figure-growth.md": {
+   "sha256": "413289995d03f41fbbbb86f5ed18a274aaffd2aa68315589d56cfe088895d554",
+   "size": 3618
+  },
+  "cards/scenes/figure-rank.md": {
+   "sha256": "5573d06524c4a274cb5d13469689ed64dd4d779ed758d99bf8ddde76c1d25c36",
+   "size": 3659
+  },
+  "cards/scenes/funnel-gates.md": {
+   "sha256": "397f55d5bdd578a751977141255595543f7166515c7d6b90fc181e4a02e93b56",
+   "size": 3284
+  },
+  "cards/scenes/funnel-stages.md": {
+   "sha256": "037150581e653180f1f41f245c4f9a5f1a048f3e283c194098ee33153e37c00d",
+   "size": 3251
+  },
+  "cards/scenes/funnel-weeks.md": {
+   "sha256": "f0eac37a6a20d9e83a2e85c1a60a0eced017e726dc21b1f63ad992691aec19dd",
+   "size": 4180
+  },
+  "cards/scenes/generic-template.md": {
+   "sha256": "e6bc4294b5059ba3ceda366223d433356804d7e08530d6a6228c2da7cae4581c",
+   "size": 4073
+  },
+  "cards/scenes/hands-on-timer.md": {
+   "sha256": "a38b54aa4dba699919b37900f313652dff0929c64a25db9766de9ada129dce95",
+   "size": 3038
+  },
+  "cards/scenes/hero-bank.md": {
+   "sha256": "9ac5ef82f543784b055445e02442ac8bb732c2046234dc69183b4ea1bf26842a",
+   "size": 3387
+  },
+  "cards/scenes/hero-care.md": {
+   "sha256": "5e49c5f23e2c888008867abe7ca96accc5ad5ce955114cd6883d03663d00a791",
+   "size": 3233
+  },
+  "cards/scenes/hero-network.md": {
+   "sha256": "3d2d32e2b9be50a707601d8b5ff5f10f8ec8da9a159fb30b44f6db8ad968b5c6",
+   "size": 3450
+  },
+  "cards/scenes/hero.md": {
+   "sha256": "0ba92a6590bf4356dde815d202d954824f6800d97d2a839abd98b711ea748b78",
+   "size": 3309
+  },
+  "cards/scenes/hypotheses-bank.md": {
+   "sha256": "9a62281b6380a06c8d3a53cf9d15a8bd2b1e1fd7858bf912b16de5c2d957c573",
+   "size": 3941
+  },
+  "cards/scenes/hypotheses-care.md": {
+   "sha256": "fdf0c65f5773226770306f79f7cb7b79d972d9f5a1772d06673705659e28da7e",
+   "size": 3805
+  },
+  "cards/scenes/hypotheses-live-b.md": {
+   "sha256": "10865e8987758253cfa14679f90fe0ae4bc389f47ae12b06bdebd19611dc8973",
+   "size": 3792
+  },
+  "cards/scenes/hypotheses-live.md": {
+   "sha256": "d9a82ca2145718800ab085813b1da4d48b92a6ae7480da0b92097e22dcebb31f",
+   "size": 3730
+  },
+  "cards/scenes/hypotheses-quarter.md": {
+   "sha256": "ac39f16267075b3957f7ef4af71409ebe80ec16bc09a334762b8139f34264c01",
+   "size": 4028
+  },
+  "cards/scenes/infra-topology.md": {
+   "sha256": "97a2854981534b474e370795ebaaf529e2ff0cf81700f615643c250d7c76a523",
+   "size": 4676
+  },
+  "cards/scenes/internal-case.md": {
+   "sha256": "159e2873421dc8d0946e12d59947391e281ff2c4bf3eab56b1b821de26a577b8",
+   "size": 3383
+  },
+  "cards/scenes/journey-loop.md": {
+   "sha256": "d25d4c478cfb969acaf5b61cba18a0cd1b37f91e11e2611de2ad802d7456ec9d",
+   "size": 3122
+  },
+  "cards/scenes/journey-path.md": {
+   "sha256": "44dbcf58e9b9bd5b61f6c81d344913b15ad56e2dfc442c2c4a9cb28246667f46",
+   "size": 3587
+  },
+  "cards/scenes/knowledge-spaces.md": {
+   "sha256": "bd4987e05a1820ec518c607f67393f2a3cf95d8c9a2b0826114746ab58084072",
+   "size": 4477
+  },
+  "cards/scenes/kpi-card.md": {
+   "sha256": "0cf05ddf01535fd0709051c5bb857fd6087002eacf67e616758dbe998c951ef2",
+   "size": 3853
+  },
+  "cards/scenes/lema-conversation.md": {
+   "sha256": "d364ef7f7a99f2aea059c9101f54ce68c63d82264054f9a1f39f8cce344dd5b8",
+   "size": 3691
+  },
+  "cards/scenes/lema-signer.md": {
+   "sha256": "61a71fa5735b6b36cdf2ceb345506089fc0e6fa405760979a5cf6a159c0afbdf",
+   "size": 3246
+  },
+  "cards/scenes/live-steps.md": {
+   "sha256": "e549e86442a233714f71df39b9e804ce04251cafa7ba5d15b6cf7ad1057e303e",
+   "size": 4178
+  },
+  "cards/scenes/luz-agenda.md": {
+   "sha256": "022ff382ad7f0ba4bf0656530a29ce3a409a3b6d244412641f8c0868fe122f14",
+   "size": 3576
+  },
+  "cards/scenes/luz-bridge.md": {
+   "sha256": "8afbe98b2bf4c0848bbf28c56e52fd895c59f6bab5ef22b67dcbbd3119862088",
+   "size": 3873
+  },
+  "cards/scenes/luz-console.md": {
+   "sha256": "3f0a7ec9d983587dcef0075f880085ce39b1e058f1caa07756ca497aa4646189",
+   "size": 4019
+  },
+  "cards/scenes/luz-divider.md": {
+   "sha256": "91b820226a54f2c405749e2b35ff359987590ea4b232c24e089da441022acd4e",
+   "size": 3531
+  },
+  "cards/scenes/luz-end.md": {
+   "sha256": "f9a771e97ebc86264fbef376e0853e48b85c5d46acbd027481d59fa68ee749e4",
+   "size": 3890
+  },
+  "cards/scenes/luz-escala.md": {
+   "sha256": "6a2a7f3574a07ba2de68ff502b6107b9be4ec7d3cfacb01626838f214e60a385",
+   "size": 3733
+  },
+  "cards/scenes/luz-figures.md": {
+   "sha256": "bdbf62b372adace7f0c7bf88e8d0432bd318fb1819937406b196116d030787fa",
+   "size": 3935
+  },
+  "cards/scenes/luz-hero.md": {
+   "sha256": "215a42a9d906da5ca03fbcb27b5d899ca65d9cc727b74c23760f9c1153db3eac",
+   "size": 3309
+  },
+  "cards/scenes/luz-ladder.md": {
+   "sha256": "86cd8629f47bf7898e96b5a2cbe0018fa86b730e891699100de1521829c1fe8b",
+   "size": 4988
+  },
+  "cards/scenes/luz-loop.md": {
+   "sha256": "55cd58578344b4a832960270d10b687d0febce66b0a252d978cc86aaa4432b4c",
+   "size": 3514
+  },
+  "cards/scenes/luz-panel.md": {
+   "sha256": "c2a52c108fef3a384e487f9e56f77a08027187d0045d37f3dd3de0231db7aad5",
+   "size": 2905
+  },
+  "cards/scenes/luz-question.md": {
+   "sha256": "78c70d60f64c3b336bc466d09005da5efc6359eb3d62115d873e05f0146738f0",
+   "size": 3520
+  },
+  "cards/scenes/luz-wave.md": {
+   "sha256": "5f058fe3dc33bded3371d64af6a9c4b65749dc7f627f7e8377360d791f4b43a6",
+   "size": 3915
+  },
+  "cards/scenes/map-hub.md": {
+   "sha256": "4b4d22fcbf097e75d64010f0a32aa95d3ebc5b6d71616f601454db82a9e3b182",
+   "size": 2979
+  },
+  "cards/scenes/map-lines.md": {
+   "sha256": "006ad9b0590f69ba29968076db4358b42bca856874e779c8a41bb132d1203770",
+   "size": 3367
+  },
+  "cards/scenes/matrix-quadrants.md": {
+   "sha256": "a900e362b4a9a188485331a9d12f74c824c19886a36a1e211a394550e1aa2a2f",
+   "size": 3430
+  },
+  "cards/scenes/matrix-table.md": {
+   "sha256": "0aaa2ed6f2017b5de4757fadc5611c6b844090ba575ad97eb1b5659c16169154",
+   "size": 3260
+  },
+  "cards/scenes/mechanism-teams.md": {
+   "sha256": "5b90204744390869339007817c84be7625e06a47fb1f7b8e66e20cce1527464b",
+   "size": 4030
+  },
+  "cards/scenes/mechanism.md": {
+   "sha256": "97bf0b7a3a201c6b68988dd6943e4ca4e5b498d13b863420488d6beaba915415",
+   "size": 3602
+  },
+  "cards/scenes/mirroring.md": {
+   "sha256": "722994cd6d1056a7e05743835f78e7dbee279f688629f6b4e0bd87fa50152acd",
+   "size": 3405
+  },
+  "cards/scenes/mondays-sent.md": {
+   "sha256": "81216024bd5d5c6da95d71929adef09882697a06f2009a6f2bc08498ea0233ed",
+   "size": 3071
+  },
+  "cards/scenes/noise-vs-evidence.md": {
+   "sha256": "b2b80f2cd94f208e086bd30bdf79ef12a91289aa9ed3d73a34ffa237b8d89c33",
+   "size": 3779
+  },
+  "cards/scenes/ops-center.md": {
+   "sha256": "d23b2b18bde0cd6a1a528b8b5ebb9dd87455e731f0116a22dd935c48166035b9",
+   "size": 4319
+  },
+  "cards/scenes/orbit.md": {
+   "sha256": "4a218e6ed1958e7d77dc428aa75b0c466393f33504511c62530f6e783a238f47",
+   "size": 3104
+  },
+  "cards/scenes/org-squad.md": {
+   "sha256": "097476e10c11951ffe1f8ae657dc4048a0ae4f0d0b311254422eee694fc33282",
+   "size": 3360
+  },
+  "cards/scenes/org-tree.md": {
+   "sha256": "f1cf3c0c9a581f2e57ad72a257359a75112d9b890b698c66fbac00dbf367439a",
+   "size": 3353
+  },
+  "cards/scenes/outside-business.md": {
+   "sha256": "75833c72fbbf4fe6cd217f4e74414896937661e1128bae8e8cac6da1d89ce57c",
+   "size": 3793
+  },
+  "cards/scenes/outside-teams.md": {
+   "sha256": "a70b76f57c1a2d31d163cdfa1fc2845de60c35cc08035dca62a86f41724965f3",
+   "size": 3149
+  },
+  "cards/scenes/outside.md": {
+   "sha256": "840e971324bc608a5960a343dee9742ce6049efeb38e16853b0e044739e0f143",
+   "size": 3312
+  },
+  "cards/scenes/pair-read.md": {
+   "sha256": "849a38e3fdc6a04d14b3bb2e7d9e1fa3a2206a90ee172b2d687042fbe3dc5dc2",
+   "size": 3361
+  },
+  "cards/scenes/panel-questions-list.md": {
+   "sha256": "8fb9aecd1bb3f8a81a250d5858d6f0b6b67d12de5e7dc2085263461df0a9e93f",
+   "size": 2937
+  },
+  "cards/scenes/panel-questions.md": {
+   "sha256": "2c631514f330a1f4910bb0a0d03e8f1387740ee22c448ef23a26bd9ec5910924",
+   "size": 3513
+  },
+  "cards/scenes/paper-hero.md": {
+   "sha256": "d3aca6abf2a7d5c5b1129f7d301ddc4f47af90fff2c8b0c55d31ba3ffa2f583e",
+   "size": 2923
+  },
+  "cards/scenes/pinned-request.md": {
+   "sha256": "24a8fd76f6e09acefdb81f80c5f6f6f268ed531508b759d95979a3fa658269a8",
+   "size": 3051
+  },
+  "cards/scenes/proof-paths.md": {
+   "sha256": "fda5130a571174db3bb81c218f0ffd6110ae7f0b65de03a8742ecb91a0376a19",
+   "size": 3575
+  },
+  "cards/scenes/prospect-cover.md": {
+   "sha256": "cf6801ab6d950c30cc8d6275c0c8644a4c8e3a71ad30610130c3f64f5172cc5d",
+   "size": 3497
+  },
+  "cards/scenes/quality-drivers.md": {
+   "sha256": "505724ad2c2e6e78e72af94c5f4fcda6067881471b0af484e55bffbae812aeb7",
+   "size": 3400
+  },
+  "cards/scenes/reflections-cards.md": {
+   "sha256": "62308bb26be1f6e86cd00e08a9a28bbf04cd1cfc34268e0f64a8a16d8de73985",
+   "size": 3099
+  },
+  "cards/scenes/reflections-live.md": {
+   "sha256": "e58082c74b2c4278a04b4ae6dcffde7199eb6270fae44c1d790215b7c2b53cb7",
+   "size": 3964
+  },
+  "cards/scenes/repeat-story.md": {
+   "sha256": "2b743931160892c0d8a8fd17502427899e223f36ffd2eebf591f4f1c4da3a2eb",
+   "size": 3664
+  },
+  "cards/scenes/report-before-after.md": {
+   "sha256": "b9052e97df28ec7ddcf10c8aaeecca27e3d111843cfdcfbe3950cdb78aca0723",
+   "size": 4042
+  },
+  "cards/scenes/review-lens.md": {
+   "sha256": "e3250d8ef5e597b4169bbfb3876b861d2a49f4363e942dfa3f7f3b42b9b72538",
+   "size": 3699
+  },
+  "cards/scenes/risks-tradeoffs.md": {
+   "sha256": "4538cfa4dd4f63521a43348b6faa0d452d5bddd5a6f90846eb118950679330f4",
+   "size": 3450
+  },
+  "cards/scenes/roadmap-phases.md": {
+   "sha256": "20e3846f403c27cbcc5a52dab51818e0fbe16fbcffad43710f54f1a8d1b59add",
+   "size": 3604
+  },
+  "cards/scenes/roadmap-road.md": {
+   "sha256": "94d511cc1a241af5424490fdfb955564183d50ffa555502781950d4663bee93c",
+   "size": 3218
+  },
+  "cards/scenes/route-named.md": {
+   "sha256": "157091d3bcb3148325c1b1e7b76a6432ab14a723ee2567e979e808847f6a72ce",
+   "size": 2996
+  },
+  "cards/scenes/shared-asset.md": {
+   "sha256": "5de6d1f1f7688b0ce85b2f570c3cf8f17b9afae513d3f18291e15a6ab1edf324",
+   "size": 3207
+  },
+  "cards/scenes/simple-criterion.md": {
+   "sha256": "d69ff0ebe581ae535a899088808f0c59766bb74cb5a909f41c429339b8bec8e4",
+   "size": 3787
+  },
+  "cards/scenes/simple-gap.md": {
+   "sha256": "6c40c4565ffb3f88c1e3f33624c12b6b85085d398e4d39cebc39fa00637412f4",
+   "size": 4057
+  },
+  "cards/scenes/simple-hero.md": {
+   "sha256": "2da8d34e4be61ec3e143803b944b61427ef97a4fe9a34fde1647d1bb81427eaf",
+   "size": 3563
+  },
+  "cards/scenes/simple-hypotheses.md": {
+   "sha256": "ea1ab8d299d52aced9c9b2982b83602e52e584be2a88bf8ec0014fef67a248d4",
+   "size": 3681
+  },
+  "cards/scenes/simple-next.md": {
+   "sha256": "28eb5b67d120fd8ea23fa74ba590bb24529716fae988d5d7dc606a612318d7fd",
+   "size": 3860
+  },
+  "cards/scenes/simple-outside.md": {
+   "sha256": "636265b91f5b721aa000d2758c337b13ba2389d199cab10b6838e8ca63825cc9",
+   "size": 3710
+  },
+  "cards/scenes/simple-path.md": {
+   "sha256": "f2c677d5c623b33bb57fa25c3a97d11391074a17359de1f3b36c4dfaf67c6811",
+   "size": 3691
+  },
+  "cards/scenes/simple-proof.md": {
+   "sha256": "8b7e3e736d195b4feed7ed869cff19dcee98e032042d72e2157520dec3897c62",
+   "size": 3916
+  },
+  "cards/scenes/skill-handoff.md": {
+   "sha256": "17cbdcf9c9851f4a56d46712c70f726d91ae5f7aca61e3503b32e729b87e8c18",
+   "size": 3727
+  },
+  "cards/scenes/solution-layers.md": {
+   "sha256": "920f8b368e00b5cbe9068a3b4b5f78bc1e5f2e2c3d1b195ea83f62147b62d9f6",
+   "size": 3685
+  },
+  "cards/scenes/strategy-map.md": {
+   "sha256": "41552882930c87e1ac802b0d704ee3937e6337c956002c4ab53d06eaa8d7009f",
+   "size": 2914
+  },
+  "cards/scenes/success-case.md": {
+   "sha256": "c3f5b160fdd28632955b25bf5d02f531e9528a6ee93234a5abce5418974ac774",
+   "size": 4143
+  },
+  "cards/scenes/tickets-live.md": {
+   "sha256": "1a699d315cd8cd5981adbb0ac8b5c01d049e17cd1b68409a804b6bcf7353c9a2",
+   "size": 4642
+  },
+  "cards/scenes/time-back.md": {
+   "sha256": "26e64c1efbe58756827255a59e11c8d3d878ded5dedcb1463f69e61c5af7055f",
+   "size": 4413
+  },
+  "cards/scenes/time-freed.md": {
+   "sha256": "1a7b369833da0d6130caa370597ad169bfacb77d57492b91a5c7fe614110c482",
+   "size": 3237
+  },
+  "cards/scenes/timeline-milestones.md": {
+   "sha256": "e0841a2ae4cd6868ba107c0e10527b28c7cf0f94e379c2d4c59309005f084285",
+   "size": 2897
+  },
+  "cards/scenes/timeline-tracks.md": {
+   "sha256": "1e06f097a524633dd456a9c3bafe21fe7ec2ab29e616b639e44782801beb271b",
+   "size": 3493
+  },
+  "cards/scenes/titles-thread.md": {
+   "sha256": "b44eb766fba1ad4ea092b287ff24c10b3008442b359e15c1f98cd76d98aadfe1",
+   "size": 3652
+  },
+  "cards/scenes/two-seconds.md": {
+   "sha256": "d32525fa2eed098cfe5ef73674913bcedb248e7d484f464800bf3d57178aebcb",
+   "size": 3410
+  },
+  "cards/scenes/unfold-describe.md": {
+   "sha256": "2bd98fd1b7dff9a2030bcd9f5700e357f4209c575eab26711f1cbd4444e17964",
+   "size": 2942
+  },
+  "cards/scenes/ways-b.md": {
+   "sha256": "20ca4e379b505f4b1960e15eb8a1cacd7211f98f6ecafd1bbb6c616d04df1b82",
+   "size": 4096
+  },
+  "cards/scenes/ways.md": {
+   "sha256": "2556ebd00f9af63bd76d46c1fa1b10aca4b8b4753c73aeeb6c2792cb23abf218",
+   "size": 3965
+  },
+  "cards/scenes/week-calendar.md": {
+   "sha256": "a2f293ade5064c2046efe78faa2e44247e7ce10357eec0413eb638aff38ed9fc",
+   "size": 3931
+  },
+  "cards/templates/arquitectura.md": {
+   "sha256": "a809c21f4d0cb6255e6530ee0a350d2edfb05d5d20390aa3e103c17e16c900df",
+   "size": 4462
+  },
+  "cards/templates/cierre-training.md": {
+   "sha256": "164988b85d5218898b0ffd5424cf447bc66d365a9dcda9ee1909ade1d411a13e",
+   "size": 4567
+  },
+  "cards/templates/comercial.md": {
+   "sha256": "0e85dba989f130398b77cec96e130ae57525e926baf709afcd121b11042fc3cb",
+   "size": 4438
+  },
+  "cards/templates/defensa-funcional.md": {
+   "sha256": "6712dde241be89fa4d47c5ae020a9e821a9f070ec2467d22a659f3582bea6b9a",
+   "size": 4589
+  },
+  "cards/templates/defensa-hibrida.md": {
+   "sha256": "7856764d0b749d3e6290b04eec61ae7a836959d086cc293ff6cedbdd900ff18d",
+   "size": 4585
+  },
+  "cards/templates/defensa-negocio.md": {
+   "sha256": "e2410f5842ee70f795bc07128685295db0bbd4ae6d48e5216138e16e31ff67fc",
+   "size": 4568
+  },
+  "cards/templates/defensa-tecnica.md": {
+   "sha256": "c29749e79475eb6454b4bf48340b0f144dfdec5a8efe36329d29aed4f186493d",
+   "size": 4550
+  },
+  "cards/templates/formacion.md": {
+   "sha256": "d20eea057d1f11e87dff3eb96d569850691be700ecaa3f4440a5d68f3a865ecd",
+   "size": 4393
+  },
+  "cards/templates/prospeccion.md": {
+   "sha256": "ebd67fab3b0836d7199f590b214b9c1d454ca476298f17a0c07176225c254d7d",
+   "size": 4437
+  },
+  "cards/templates/simple.md": {
+   "sha256": "17a3203e728c78b9fce8eef990b66f68d5a3676ca973e33a280f6553d1bd878a",
+   "size": 4434
+  },
+  "cards/templates/tecnico.md": {
+   "sha256": "7e36ecf7e470b53c3cd0d0ea0dcb9920a8da63a327e51e08b0b52048fb6af6e7",
+   "size": 4412
+  },
+  "cards/templates/webinar-panel.md": {
+   "sha256": "036e835b7323103d96849b82cfcdbbd2f68f467800912ff2d54c9417336929d0",
+   "size": 4587
+  },
+  "catalog/scenes.json": {
+   "sha256": "a48cff5b44d1993abc38c1c700244ef47fbbb5584717e3fecb2c3c5c016deb97",
+   "size": 153776
+  },
+  "examples/arquitectura-demo/brief.md": {
+   "sha256": "008777bcb5cdb61335af1a5f6dc5b49721f161592a50cabcd5ab949412216867",
+   "size": 2069
+  },
+  "examples/arquitectura-demo/storyboard.json": {
+   "sha256": "2a55d126eda96478a26b5ba70672ad46c03efa3195db3aa12d101589a8515130",
+   "size": 32870
+  },
+  "examples/simple-demo/brief.md": {
+   "sha256": "1bb46c2fb44ba021c5cd194054266e2cfdc481daddc3a4edc8bc57f4c12e56d9",
+   "size": 1783
+  },
+  "examples/simple-demo/guion.md": {
+   "sha256": "cfee45406ae2d368af7933edfb23630330de2b24bb489a93670a4b23fc67fce4",
+   "size": 9585
+  },
+  "examples/simple-demo/storyboard.json": {
+   "sha256": "aee2fe72836d849b32bcb46030e838bccb002e522890deac739aa68a7f1497e6",
+   "size": 18542
+  },
+  "examples/simple-demo/titulos.md": {
+   "sha256": "4241c3c8bf15eab346faf67ee5438400099127368eeea22b3be67aeb8b6ea0ea",
+   "size": 485
+  },
+  "examples/webinar-piloto-eterno/brief.md": {
+   "sha256": "58820ecfc1d6413e9c598d7dc80821126b452ad2ce4d66a2e9ca7485fb442188",
+   "size": 1789
+  },
+  "examples/webinar-piloto-eterno/guion.md": {
+   "sha256": "d11d3f52b56cb4e6a21c7318db20a481e0e365420bdcc91f24a4d7507b1461a1",
+   "size": 23161
+  },
+  "examples/webinar-piloto-eterno/storyboard.json": {
+   "sha256": "206c898af5675c3fdc085896d1690ff7152ce964466bc912174ce6f6a2c1be17",
+   "size": 35859
+  },
+  "examples/webinar-piloto-eterno/titulos.md": {
+   "sha256": "17fce3eb5539932cac379c795787df1e194d979d9089360676768a9284d2c332",
+   "size": 562
+  },
+  "graphify-out/GRAPH_REPORT.md": {
+   "sha256": "f1d04a7caaf8f9150ef9e737c0fae2f7ec21987957cba0d39c07c4254e618bec",
+   "size": 11905
+  },
+  "graphify-out/graph.json": {
+   "sha256": "dffbd3879f2ba3b05c790de70007f7adb3d7d2cf753078eae1863cdaab220c41",
+   "size": 954399
+  },
+  "icons/icons.html": {
+   "sha256": "9ecbd9236cf186f3e8a240c000b1b6ef2518200005c8001f101b3a3f21c88efa",
+   "size": 146884
+  },
+  "index.json": {
+   "sha256": "e4a7b1c40f26f2eab4ca467db5387abed8d1d4e99ce8ddb783e10293b0ed9b4e",
+   "size": 596341
+  },
+  "index.jsonl": {
+   "sha256": "245ef0be381b45e75e7a3c5acf6c71c25b59e664e0c6aafe48b23c3a017367db",
+   "size": 508080
+  },
+  "knowledge/README.md": {
+   "sha256": "eae37c87e15040cb3b4e5e27132242998824f14b2bc2dafa7c4a9662129f9e09",
+   "size": 4542
+  },
+  "knowledge/kpi-library.md": {
+   "sha256": "69fab9df18fb0d09b51203f63a1f432cf9c44543a00e5a08535bd20e3e23a03c",
+   "size": 3955
+  },
+  "knowledge/verticals.md": {
+   "sha256": "6389d764a60be2c9acfaf2fbf97221eb7dfd8710df12ad8dec4e534f3fd7a043",
+   "size": 58615
+  },
+  "llms-full.txt": {
+   "sha256": "4e225cbda9a3bf9fd5ec91e02bf801ee976dfcf4b3a8abdc6a150071cb54e98f",
+   "size": 1396819
+  },
+  "llms.txt": {
+   "sha256": "c5e6417c0c5b2f6d9ab2e2a636af503a1a8e4dc95a838cd654b73c4280142d91",
+   "size": 79912
+  },
+  "previews/adr-decisions.desktop.png": {
+   "sha256": "fe214e5e4c0c2802f6f388081680fb55ae37a1f27ad8f4b683f2fa78bfc299e2",
+   "size": 29223
+  },
+  "previews/adr-decisions.mobile.png": {
+   "sha256": "a0a6dda78d18e2ea47871bc6d20432043c66f2ff4b1af612141c520de6b946b5",
+   "size": 32004
+  },
+  "previews/arq-hero.desktop.png": {
+   "sha256": "67967a1b9e558dcca23b50687f6d541add876ef58a1a3d3289fc42d672d35f15",
+   "size": 35066
+  },
+  "previews/arq-hero.mobile.png": {
+   "sha256": "e871dbf2dc7618038d0fe9c8eeb639da46135654303f86d6ab8db84545d54ad2",
+   "size": 31539
+  },
+  "previews/arq-roadmap.desktop.png": {
+   "sha256": "1b88fdbcdf838ae31096537395a6f4ce8658eee9328a8f4dc2c3fd984369e469",
+   "size": 35158
+  },
+  "previews/arq-roadmap.mobile.png": {
+   "sha256": "20c73bc63c214c1153a52b065e2edc5e44b091275cb1ea54a0bbde6eeda7b01a",
+   "size": 32869
+  },
+  "previews/automation-stairs.desktop.png": {
+   "sha256": "17ab2923997703d660827a6fc27b2d66478f779852de7f454dfab39208beadf3",
+   "size": 30874
+  },
+  "previews/automation-stairs.mobile.png": {
+   "sha256": "a6f098b572f36fcb23a0803c618b0a3ef3e07272dae8177eff350e6aa98e38fb",
+   "size": 31294
+  },
+  "previews/before-after-lanes.desktop.png": {
+   "sha256": "e971165565c9106471b69c15c18cc3dba830b3490c72f6894b7a6ca7add3d0a7",
+   "size": 25566
+  },
+  "previews/before-after-lanes.mobile.png": {
+   "sha256": "23df6c523053802c60808a9ae629ce753a262670b528752b5c867aa0ec932bef",
+   "size": 23591
+  },
+  "previews/before-after-split.desktop.png": {
+   "sha256": "d15e93333307680a63a0f9f56d3dc0ce1d63f2c0f041964d5cb9bff448adc481",
+   "size": 36398
+  },
+  "previews/before-after-split.mobile.png": {
+   "sha256": "fe14d627ec2383c6273f83c242ab65408a88894f00a58df391b9e2a49e2df67c",
+   "size": 24811
+  },
+  "previews/build-deliver.desktop.png": {
+   "sha256": "b7b9bc683ca2299789962914183b9a4f7c23d0c6bffe165d0167f96eae097912",
+   "size": 44140
+  },
+  "previews/build-deliver.mobile.png": {
+   "sha256": "2511807be5b0d62602f147a03639de049a1e04e2e7ba02b6d782e629d08d64e1",
+   "size": 32724
+  },
+  "previews/c4-code.desktop.png": {
+   "sha256": "9d7675f51c6e8c90d2ce37d177d8256323d66276660b5f0f9de4fdc60689c2f5",
+   "size": 36946
+  },
+  "previews/c4-code.mobile.png": {
+   "sha256": "e80ccbb6e4c1e01a603a7093a0c35a9e1289b76ce75c5c8788df27de323073f6",
+   "size": 31909
+  },
+  "previews/c4-component.desktop.png": {
+   "sha256": "454d110157f1df8d1dd9942ae08b7034ec7dcfe01c0cf1480c817a3b53fa536a",
+   "size": 45517
+  },
+  "previews/c4-component.mobile.png": {
+   "sha256": "954aac695c4722d4726e912c76900a9941ee1cf6ae3eed4f38eddbb3a183517f",
+   "size": 42455
+  },
+  "previews/c4-container.desktop.png": {
+   "sha256": "df4d9cc9e7de1a3246822cd615079ed3b9abc790049e4313c0462a134f066693",
+   "size": 45351
+  },
+  "previews/c4-container.mobile.png": {
+   "sha256": "3d4a8a7f41119fab992e6d1786a920120edf6c2ab0dfa70b78017bedf69da1a1",
+   "size": 44588
+  },
+  "previews/c4-context.desktop.png": {
+   "sha256": "1150f93db37d6578b3845559aaefdd957be4d1f1b94c0f916daf64574ab473ad",
+   "size": 43194
+  },
+  "previews/c4-context.mobile.png": {
+   "sha256": "4f3c121a20156a7f75a57e458114e537c229c6f73df67ab62fe9f867486046ac",
+   "size": 42755
+  },
+  "previews/capacity-join.desktop.png": {
+   "sha256": "d98e954b7155e32462bab6b540646cccd5c598fcc437865c58d9f6c1ac27fc07",
+   "size": 28278
+  },
+  "previews/capacity-join.mobile.png": {
+   "sha256": "83434761512c0301fe6d522c2e87b9a9f56152c8bb8620bd011aec0fcb955fca",
+   "size": 23990
+  },
+  "previews/care-center.desktop.png": {
+   "sha256": "317b2c6c1fadb361cf39cf04dc7655670237d680a8744a90145989eb6d67c895",
+   "size": 40770
+  },
+  "previews/care-center.mobile.png": {
+   "sha256": "3bce1c21def19d26adc609b8decd44774328d162fbcd4de1100ab153d77e35af",
+   "size": 34520
+  },
+  "previews/cascade.desktop.png": {
+   "sha256": "a934eaddac77e1b98e8c312cd08db8d2aa3417a4173c0842bff24ad63d76c889",
+   "size": 40240
+  },
+  "previews/cascade.mobile.png": {
+   "sha256": "afd0120c86a5914db4a164fd93e8ecd7440f676260fda0e8e1f5603804e4fbea",
+   "size": 36435
+  },
+  "previews/chain-tap.desktop.png": {
+   "sha256": "e3d99e1fc161f7c0a9092c6c08b3e03d7cda034610b004ad8566a4ea31d03e74",
+   "size": 33167
+  },
+  "previews/chain-tap.mobile.png": {
+   "sha256": "e25f119a78304b9163981828a0d719fa6ea6cdd634d3f4330d088b63922403be",
+   "size": 31470
+  },
+  "previews/client-worries.desktop.png": {
+   "sha256": "b9b20ea9347751aab050a308b62e1489c35993606a5866d5a06055861a1d00e8",
+   "size": 37071
+  },
+  "previews/client-worries.mobile.png": {
+   "sha256": "2aa1a5e0ce08fd920db22920045f70a333dcbc0ea11ea13ce8368ffa6ae8da0f",
+   "size": 27083
+  },
+  "previews/component-diagram.desktop.png": {
+   "sha256": "cb678259f70815e300f0b475e19845a6e295c17d763552b3bb468c7e961546eb",
+   "size": 34422
+  },
+  "previews/component-diagram.mobile.png": {
+   "sha256": "255661e89d2288fca4e8fdf120959d4a95e80c214d14179f43355258392af0d4",
+   "size": 34311
+  },
+  "previews/controlroom-live.desktop.png": {
+   "sha256": "163b614870fc211cff19093be4d8aa05d86f2275b4d0c9abf385553e8a3bca26",
+   "size": 31845
+  },
+  "previews/controlroom-live.mobile.png": {
+   "sha256": "bd715a95e9b1c18c31010fb6e56c84be96656fa6355a81b46828d6ec735752e7",
+   "size": 27720
+  },
+  "previews/cost-drop.desktop.png": {
+   "sha256": "a5c8c05efb969f0b9de58f82e3224ed1bbda5b2ab8bdff4085ac1c5c6b7be672",
+   "size": 27985
+  },
+  "previews/cost-drop.mobile.png": {
+   "sha256": "0d43b9a712a8a31b578051032114e1de6a977b7f2a6973ed1733921d4fe789cd",
+   "size": 23083
+  },
+  "previews/criterion-b.desktop.png": {
+   "sha256": "5c6a92d1505f49116d825fd5e7678f447ee47d8f40b23feac6453ff696c16e30",
+   "size": 36392
+  },
+  "previews/criterion-b.mobile.png": {
+   "sha256": "c48a4a4d06fab55accfbd333c299d80a2a63eb49325692d2b67a8bf20cc729f7",
+   "size": 41797
+  },
+  "previews/criterion.desktop.png": {
+   "sha256": "ca11a94379793e906d88e1357cae8999f6f8dddd4601805df982ea8bced21e28",
+   "size": 34362
+  },
+  "previews/criterion.mobile.png": {
+   "sha256": "4507bbc5d01d7e9f0ef2617dc1e2a2701e2e4cbbbe3460691d1969cdd2a1b475",
+   "size": 37557
+  },
+  "previews/data-architecture.desktop.png": {
+   "sha256": "3dc2adad9b4626f41fe25cecec4ddb2a4fdab3b6a3779453aedc9ff8938c8fa0",
+   "size": 31210
+  },
+  "previews/data-architecture.mobile.png": {
+   "sha256": "b2a2cabfc5a4d6d7d5cb9a5f47709c434e6a8aa3bea3c44051338eeb9912f25c",
+   "size": 23390
+  },
+  "previews/data-lifecycle.desktop.png": {
+   "sha256": "615700ccc56c5522c2e5d58bbd19f752da6c0914d0f90254db8ed639799f976a",
+   "size": 33435
+  },
+  "previews/data-lifecycle.mobile.png": {
+   "sha256": "d349dac757ce225fa81de0ac8e5e771f967fc25e1724299c5e8bb0365097bf49",
+   "size": 28161
+  },
+  "previews/delivery-cycle.desktop.png": {
+   "sha256": "8925dccbcad55fdecf2469832ccf7cda325987a2a3fded3ef396ae8800e823cf",
+   "size": 38103
+  },
+  "previews/delivery-cycle.mobile.png": {
+   "sha256": "34fef1c7a1ed89f819a7d31a3b52bc0a7f1d73b2035bc380b9b05448ecab5b26",
+   "size": 38342
+  },
+  "previews/diagnostic.desktop.png": {
+   "sha256": "6d987b1f7723a28af8948a83b20c3ac4a2e2e9c6bb990900c0e24c2f5f7eacda",
+   "size": 35532
+  },
+  "previews/diagnostic.mobile.png": {
+   "sha256": "6cc10c7f76e72f7bc1bc456c93dbd19fd4229a2a17fc6fab4f948409b4cadcfc",
+   "size": 31866
+  },
+  "previews/discovery-b.desktop.png": {
+   "sha256": "88c6bbc4420d7f108b644b8077a95226f5340e54fcc18920986686476bb488f1",
+   "size": 41861
+  },
+  "previews/discovery-b.mobile.png": {
+   "sha256": "3d7c4226085dbc5613f793605dc838e3e1c06baacbfb50d450983d0e909de27b",
+   "size": 32731
+  },
+  "previews/discovery.desktop.png": {
+   "sha256": "d6597fbaed9044286ebbfaa2bcc0c3cc8c4451c76fbc34bbefa747aaf997458a",
+   "size": 40020
+  },
+  "previews/discovery.mobile.png": {
+   "sha256": "a608b980a1dc4981c2f800bc3bf9a079b5a0f5d4349831b8f14f32c81b3d5d97",
+   "size": 33084
+  },
+  "previews/evidence.desktop.png": {
+   "sha256": "f92637ec86ebc87c8b44b735b88dc19c166698298f6892cfefc9bcf28abbc714",
+   "size": 35450
+  },
+  "previews/evidence.mobile.png": {
+   "sha256": "89347ae0c7ebe02af2af7b6cb8d3819dbf08c6b74c95fdf7b9eee204b9708061",
+   "size": 39029
+  },
+  "previews/explain-cards.desktop.png": {
+   "sha256": "6f53b0a91761e1a9dcdc91c733068bbd22084ba0c1aa943ed7dab07f2cab6d8b",
+   "size": 31315
+  },
+  "previews/explain-cards.mobile.png": {
+   "sha256": "0c3f9d17cdd174f6fcf8cddc91850974994002b44811cf99e2abebbbfd684962",
+   "size": 28302
+  },
+  "previews/facts-columns.desktop.png": {
+   "sha256": "aa6cf780c30965af25dbffd8356ee595951ba52294d5249906eafec168d86c74",
+   "size": 41199
+  },
+  "previews/facts-columns.mobile.png": {
+   "sha256": "1c5a2975c9671181a82a3a8d23a1d46f96dff5bda9e1080e3ce755a91efc34e7",
+   "size": 37835
+  },
+  "previews/federated-live.desktop.png": {
+   "sha256": "327cdc7ade7f90570c73308644ab7e82e34a486a4f36727cfc4cb687e506b2c7",
+   "size": 32410
+  },
+  "previews/federated-live.mobile.png": {
+   "sha256": "61f9a9e2e026d3dbf9b425400e94e5e26bf448a7af0d4b3b92f0a2c503b38896",
+   "size": 31912
+  },
+  "previews/figure-context.desktop.png": {
+   "sha256": "0d18b54fa98a25b953360c8804f34720ad8569ec551527b6b7f35daa6776acf6",
+   "size": 35910
+  },
+  "previews/figure-context.mobile.png": {
+   "sha256": "9c1b63dee916f9fdca8cc170e15c1dc7d48a53a9644976708ea6a6c65501c5ac",
+   "size": 37839
+  },
+  "previews/figure-door.desktop.png": {
+   "sha256": "e1e1e5e1256b68a2644bf27a874519da8f3520872b740ee9599c1d2b09b58f95",
+   "size": 36698
+  },
+  "previews/figure-door.mobile.png": {
+   "sha256": "b64e309c52591aedb7a13a9b9cf5a78bcc092f0efa63c5918d4ed0de0517abcd",
+   "size": 35488
+  },
+  "previews/figure-growth.desktop.png": {
+   "sha256": "36a108332c74fc3b72be73c6c5bbfb43e9aa642e968324e2fc5ce191d45f03b0",
+   "size": 36949
+  },
+  "previews/figure-growth.mobile.png": {
+   "sha256": "9ca2f10070b6bd6f369b51b9c92b54f90288f04e50f6be6025cbe548d5fbcf99",
+   "size": 33259
+  },
+  "previews/figure-rank.desktop.png": {
+   "sha256": "4f39636407e6760bfa3fd406cef47f41d518fe768318f520947e7b4910ac1155",
+   "size": 36879
+  },
+  "previews/figure-rank.mobile.png": {
+   "sha256": "15433223dc04ee3716dd19a907b32dc32c08dbcdfa3db6c2081843bac77fd27c",
+   "size": 38942
+  },
+  "previews/funnel-gates.desktop.png": {
+   "sha256": "ab0dd18bc9189da2bdafa672088edc12b2c11fe387e9ef99a77441594fd28b33",
+   "size": 34414
+  },
+  "previews/funnel-gates.mobile.png": {
+   "sha256": "b32d84666153c9129e3946a272a5053112c7b57075ff3fe9338c382839dc7aa1",
+   "size": 29303
+  },
+  "previews/funnel-stages.desktop.png": {
+   "sha256": "63862c19dcd07d1a36e9cbf64df7f290af59af2eb62cfdfd86dc2ed59dbd8f02",
+   "size": 30708
+  },
+  "previews/funnel-stages.mobile.png": {
+   "sha256": "6dd2c7766c0bc77a1c6f2d0e4ec06d5d54d5504bbc6f23b50f94ea6312dee7c7",
+   "size": 36531
+  },
+  "previews/funnel-weeks.desktop.png": {
+   "sha256": "736e78f53af74d0f8783cb08feb8c77eea58d9900f47bf305a4170f5f932daea",
+   "size": 35738
+  },
+  "previews/funnel-weeks.mobile.png": {
+   "sha256": "3e86e7832974c0425e07ffe3d33025f1f5659491c794e60741ac2f96f52d4954",
+   "size": 35847
+  },
+  "previews/generic-template.desktop.png": {
+   "sha256": "07a9079002a579e7ecf39b0ac6d9592597f60b29d7f037edf2f909d59337f7a2",
+   "size": 32263
+  },
+  "previews/generic-template.mobile.png": {
+   "sha256": "3595977b6b552bdb8df1df2d35f0fec4c8a15ac140fc1222a5cbfa35a10f9d51",
+   "size": 28837
+  },
+  "previews/hands-on-timer.desktop.png": {
+   "sha256": "89e38d5b3df44526db1de055b63e9709eb63e9a56ba29a94bf183b9afff71b4a",
+   "size": 35640
+  },
+  "previews/hands-on-timer.mobile.png": {
+   "sha256": "fc6aa0197160016d3fc59f9bb7b6a5ff3b195c6be59d2506866f79adbd009688",
+   "size": 32574
+  },
+  "previews/hero-bank.desktop.png": {
+   "sha256": "53c28433b68fb56f1d3316ad73475b4a2a06aad3bb8c306625c7ac0674b649d9",
+   "size": 38462
+  },
+  "previews/hero-bank.mobile.png": {
+   "sha256": "5fa371f776fe8880c0546a675ae051bbe2c6681e8390044aca353a9a4cd7ce43",
+   "size": 37019
+  },
+  "previews/hero-care.desktop.png": {
+   "sha256": "be56025376bedeab3ae814b704797f529823eec87a312c89d9f389f47aff84a7",
+   "size": 47422
+  },
+  "previews/hero-care.mobile.png": {
+   "sha256": "c64e1b58d68b9c4dcd741d79f18161ed1c6ef8224893839d37bd5799bf3e1837",
+   "size": 38847
+  },
+  "previews/hero-network.desktop.png": {
+   "sha256": "c17c33c9eb6d442ee285ab7faf1d5f365bd71263ab662e269707f1c520b1918e",
+   "size": 48389
+  },
+  "previews/hero-network.mobile.png": {
+   "sha256": "4128a4816c54df9b2749b6981bf2fa9e0ac9d45f0e92abcd3fdea8745af93858",
+   "size": 41940
+  },
+  "previews/hero.desktop.png": {
+   "sha256": "6357900c38b58abbf799d72a791cd724ffd0f4a057fffa85e2fd9a59a7fdf263",
+   "size": 49356
+  },
+  "previews/hero.mobile.png": {
+   "sha256": "8c9ce4de3f25a0380f4bdb25caf6aa510f95728edfd927828ae2a562a8c2227e",
+   "size": 47620
+  },
+  "previews/hypotheses-bank.desktop.png": {
+   "sha256": "c8099f68344d42207df2165ca68908f7015b94d2b155690def89c80ba3bed997",
+   "size": 31488
+  },
+  "previews/hypotheses-bank.mobile.png": {
+   "sha256": "a2b470f6d79df6ff2cac10286778534ee2e8c2ae0cdcdc35c6d4e15b95d909de",
+   "size": 30198
+  },
+  "previews/hypotheses-care.desktop.png": {
+   "sha256": "014167ddd43ddf645e1899199ebd691e6d8115b2c71dc074ebd1acb3153eac14",
+   "size": 30912
+  },
+  "previews/hypotheses-care.mobile.png": {
+   "sha256": "6e0aa740a61785d21efce3bbd35456be91012cba195c2264382717e7104c1f47",
+   "size": 29060
+  },
+  "previews/hypotheses-live-b.desktop.png": {
+   "sha256": "47b09b5d01b144d92cbc2db080730b828c5aad0cb859bdcecb2610ac74885ff4",
+   "size": 31994
+  },
+  "previews/hypotheses-live-b.mobile.png": {
+   "sha256": "72d4f2cc73b2be5c8fe7cff2d7c285520359181b63c838047eeb0f2a5bed2fb7",
+   "size": 30034
+  },
+  "previews/hypotheses-live.desktop.png": {
+   "sha256": "353c804ffa1f7afc6054031a0c01035b10068c8019a6ffb20b8ca483bee1e8a4",
+   "size": 31164
+  },
+  "previews/hypotheses-live.mobile.png": {
+   "sha256": "4f6d2358ebf7020c3a1daca10fd9f487c8ba93cdd41c91cdcb89fecb0b6c15ee",
+   "size": 29894
+  },
+  "previews/hypotheses-quarter.desktop.png": {
+   "sha256": "02148b552f6b17bc40ddc91710b45c0813b30787c0131e70677b4418d1b6203a",
+   "size": 35309
+  },
+  "previews/hypotheses-quarter.mobile.png": {
+   "sha256": "ca4cda898ebfb9d7da2f087140cb88089fccbda69802d4cf9532fbb66cf855c0",
+   "size": 30915
+  },
+  "previews/infra-topology.desktop.png": {
+   "sha256": "9199c25bcdd54dfa8e7a3cb4a4dd3f8f06d2204156561b2bc10504ae8fcec060",
+   "size": 41004
+  },
+  "previews/infra-topology.mobile.png": {
+   "sha256": "b51fac50cab950452ee7eec78c19a924856e469f8149de3a82c9768caa0957a5",
+   "size": 37998
+  },
+  "previews/internal-case.desktop.png": {
+   "sha256": "3496ac63c41c886ae7ef31cd36b215e148b84a7a21ee4f8bb580ad47b31cb03a",
+   "size": 41440
+  },
+  "previews/internal-case.mobile.png": {
+   "sha256": "719bcbf7e8149a95ee8f7862552e8f9212807fd337cbab3f8c02a421692fc0de",
+   "size": 37535
+  },
+  "previews/journey-loop.desktop.png": {
+   "sha256": "f298c689a91abd2b333e9234e882bac3e9ea24661c5287139a04c2c4c4819f2e",
+   "size": 35802
+  },
+  "previews/journey-loop.mobile.png": {
+   "sha256": "1d318df5e48bdff5b3ae3ec46bf39c58260f8b76a61cb13be4b35b32462ee255",
+   "size": 36422
+  },
+  "previews/journey-path.desktop.png": {
+   "sha256": "7ce4f1b79bc4fb0576935f6a09069d0bd5aa72d4057cbe728784a3a3d2532692",
+   "size": 35213
+  },
+  "previews/journey-path.mobile.png": {
+   "sha256": "94200c12c217362faad13914156dc562f19861c231664ee2ac579abc12bf5c0b",
+   "size": 28819
+  },
+  "previews/knowledge-spaces.desktop.png": {
+   "sha256": "3bd429c5c132fc0697533b0c992729efcd44a22f5aaab3695a8b70db25bef8ce",
+   "size": 43696
+  },
+  "previews/knowledge-spaces.mobile.png": {
+   "sha256": "1f6dd6a46071fd21720f44a8a90322c82f0736c582dc3666ae008376594b206a",
+   "size": 44481
+  },
+  "previews/kpi-card.desktop.png": {
+   "sha256": "306cd4cf55f6b9de22da8a0f604ba576d2f30d7676b802651f701509ed86a024",
+   "size": 38321
+  },
+  "previews/kpi-card.mobile.png": {
+   "sha256": "a7af55344d66c4e75f3ea806d0dcdbc614a84e03eb3fa8309b003ba95871f6cf",
+   "size": 21045
+  },
+  "previews/lema-conversation.desktop.png": {
+   "sha256": "e30a739c4f80eccda2a8d7e1fc8b9f35a86e6369cbe40ceeb1dcf0c90ab47f37",
+   "size": 39282
+  },
+  "previews/lema-conversation.mobile.png": {
+   "sha256": "f2b2015d31724b6148c427a504a0471805591b537d4cf9c20c8afb568d8e9701",
+   "size": 30659
+  },
+  "previews/lema-signer.desktop.png": {
+   "sha256": "f8743cf7f30ba87551a56aa50eba10df362bff5a21a7569b52968bc0780422a3",
+   "size": 33992
+  },
+  "previews/lema-signer.mobile.png": {
+   "sha256": "3517dc2eb2d267206bfb09ffe264b9013b737d724b4e0f4ddef1482ce5504a5c",
+   "size": 29037
+  },
+  "previews/live-steps.desktop.png": {
+   "sha256": "ec415c936835e3593dc3b4aa4dfdcfec48e5ae3c2125b5433cad2601053d48ec",
+   "size": 29490
+  },
+  "previews/live-steps.mobile.png": {
+   "sha256": "1391ceb6f7e38fc6fb8b9bf4e78d87b3ae5efaa80cb230b403cc34f2e65ac130",
+   "size": 24835
+  },
+  "previews/luz-agenda.desktop.png": {
+   "sha256": "c3f389b9f9bcda6964bf3a56f0bbd1db03debcabbd3cf38136dcc15e0812f872",
+   "size": 34452
+  },
+  "previews/luz-agenda.mobile.png": {
+   "sha256": "1cadc93b4eb386aadb67ce7050ebb8495727f27b0e5217a7da1fe9a4ebff5515",
+   "size": 28695
+  },
+  "previews/luz-bridge.desktop.png": {
+   "sha256": "5a149c07628fbcd1e57e516852841a99eda3edfba3ba67701c026762d210769f",
+   "size": 45915
+  },
+  "previews/luz-bridge.mobile.png": {
+   "sha256": "42046888fdc99084fdebd79a12823cce7bdc8b70fae8b61e44654731079e8a89",
+   "size": 33177
+  },
+  "previews/luz-console.desktop.png": {
+   "sha256": "fc72908bbbe9927230f68f56e8a9e88626400e8ab13da6439ab5248d40b9a9c8",
+   "size": 36774
+  },
+  "previews/luz-console.mobile.png": {
+   "sha256": "9cf8a405bb22d5755098ec3a85c0566b702d61c978acd5f80659005a6bf7e6e2",
+   "size": 32636
+  },
+  "previews/luz-divider.desktop.png": {
+   "sha256": "4c2a31953b19d0e4c7fa9b042d32d6f91db3e87e0f48230f299464ef9162146a",
+   "size": 40277
+  },
+  "previews/luz-divider.mobile.png": {
+   "sha256": "bec291703806a8aec8748a962951bad095f65e5537e10c3ee8c64acd94a369a3",
+   "size": 42404
+  },
+  "previews/luz-end.desktop.png": {
+   "sha256": "ecad7496fab82e9405c2829181a9e404b26701e95533fff942ab3ae93069eb0d",
+   "size": 42743
+  },
+  "previews/luz-end.mobile.png": {
+   "sha256": "6534f020baf6c9e38452c5628783cdfea4a402bf9e97c0353026eb3e3baa73a6",
+   "size": 44430
+  },
+  "previews/luz-escala.desktop.png": {
+   "sha256": "2690bfd08c2e3b515e61a573529f164269bbbd53a8794b7f26db2911f7f7bddc",
+   "size": 35252
+  },
+  "previews/luz-escala.mobile.png": {
+   "sha256": "3f5b177784cd288c12f113348691a90cf88faf61a3e3ca6739b6ee40b2a53c18",
+   "size": 38878
+  },
+  "previews/luz-figures.desktop.png": {
+   "sha256": "c5fa4afb189c7b88f06f2169034c70f461104dfa9abb23c98576ce24f30c9626",
+   "size": 40860
+  },
+  "previews/luz-figures.mobile.png": {
+   "sha256": "c6e4ae2b6f59fa174c5169c4df77c3f75912de93cb75a650d1c10d3e74ba3de4",
+   "size": 34931
+  },
+  "previews/luz-hero.desktop.png": {
+   "sha256": "8ec60ce59ebbb97416df0830424c07b9e9444bcfb25dc497d914f3c5a7cd038a",
+   "size": 41874
+  },
+  "previews/luz-hero.mobile.png": {
+   "sha256": "0d62199a99e02dd4d20795e24f45affc49d618c4941d3f381f86e1b8e5cd54bc",
+   "size": 37223
+  },
+  "previews/luz-ladder.desktop.png": {
+   "sha256": "cc9457b809e035ee3b39d50161e6dbe77a69f55753c2c27bd917d6517541a910",
+   "size": 48405
+  },
+  "previews/luz-ladder.mobile.png": {
+   "sha256": "0d181a3c547d16c54661913b2a1aae887ff23dd538ff4fa3acfc2d972d285cde",
+   "size": 49647
+  },
+  "previews/luz-loop.desktop.png": {
+   "sha256": "c81afe08f920396503658f960b9ee186309d3b578f3c5b4f92cd00b9a3d74f9b",
+   "size": 37555
+  },
+  "previews/luz-loop.mobile.png": {
+   "sha256": "6f56cdbaa7af3f91bccb7227ab12a54fab01f886e0ee5f3ac00a330d5ceadf61",
+   "size": 42050
+  },
+  "previews/luz-panel.desktop.png": {
+   "sha256": "ea2719b5f3f764593a1e24445c6c706c6dd48499fce1236c118d4943c809dfaa",
+   "size": 37352
+  },
+  "previews/luz-panel.mobile.png": {
+   "sha256": "f7e42f49094da49e19a197f45834f4c742d2e958d9cfd943b49ce735a7fbbae6",
+   "size": 37737
+  },
+  "previews/luz-question.desktop.png": {
+   "sha256": "461dd7760e19d5212ec67610e9db72e2f061d3154595f61aef2fe5e613435e92",
+   "size": 39215
+  },
+  "previews/luz-question.mobile.png": {
+   "sha256": "ed20d3d35cfec261a8bd13ed51e694a29ed388d34de73c1e2b0d47bd41b46939",
+   "size": 38497
+  },
+  "previews/luz-wave.desktop.png": {
+   "sha256": "c16906e128913f120143c16f44938a00fadecd94108d4a0f7e636d04beb48c04",
+   "size": 35378
+  },
+  "previews/luz-wave.mobile.png": {
+   "sha256": "56012b91ed6125e9154a061412af20c4e39798e2d6c6818e358258988d333946",
+   "size": 41400
+  },
+  "previews/map-hub.desktop.png": {
+   "sha256": "49fbb1081e4ecb8459a99b3b3898e71b0206287aa54813decdea1b9d9c418b1a",
+   "size": 34427
+  },
+  "previews/map-hub.mobile.png": {
+   "sha256": "cc02d2f8bbf9b34deeabcb545da596e88839251e81987d55828ce4e4ed83e486",
+   "size": 40274
+  },
+  "previews/map-lines.desktop.png": {
+   "sha256": "3850ff9aec7b1d5f05afe6c4dc170e3f43fe298bf878f890b7f9951b70c6681a",
+   "size": 34393
+  },
+  "previews/map-lines.mobile.png": {
+   "sha256": "07088751fc2a38d80b9f80f10f91bce6a8c8b4f79a4db624c27efee7d8c17baa",
+   "size": 36991
+  },
+  "previews/matrix-quadrants.desktop.png": {
+   "sha256": "652fa266eba6db7ddc10d9e23fe7f1b1c8d51d61c64fa1964f267bc772c3790d",
+   "size": 27438
+  },
+  "previews/matrix-quadrants.mobile.png": {
+   "sha256": "a7d2c8f3ec9151b85d33dc9af57baa69219bfba9609af1d8aaff1e68e67bb4b9",
+   "size": 25163
+  },
+  "previews/matrix-table.desktop.png": {
+   "sha256": "75d9ac0a62128aef231204198b91c28d0063c11a6284694206f6768d4edcf294",
+   "size": 32194
+  },
+  "previews/matrix-table.mobile.png": {
+   "sha256": "a47670f4dc4d5878f182561654b175098394ce2d2c8bcc1e96fa7b203ada73de",
+   "size": 23427
+  },
+  "previews/mechanism-teams.desktop.png": {
+   "sha256": "96792eb8c3ed6d4e2c1b337c806654a0288bc1a2b4e09005ce87d5784c0b5597",
+   "size": 33828
+  },
+  "previews/mechanism-teams.mobile.png": {
+   "sha256": "4af12c22e90bddccbf8227ccdd5e1a5bdf0348b99be72e22639b8bbab3fce2dd",
+   "size": 28523
+  },
+  "previews/mechanism.desktop.png": {
+   "sha256": "4b4ad5405104d31438d8322720fc28ec63b1b0b5f08af5bd68ff94fb414e3eca",
+   "size": 38983
+  },
+  "previews/mechanism.mobile.png": {
+   "sha256": "014da5f356192fbba061196860b9ec5e42d1b00ed8236e9997b4338af2587518",
+   "size": 33284
+  },
+  "previews/mirroring.desktop.png": {
+   "sha256": "06587d9a2153de985c0cb7ee0e3be0a2f04b00f749874be794c7d13dadd9ac7f",
+   "size": 42800
+  },
+  "previews/mirroring.mobile.png": {
+   "sha256": "1be24a2af71f6458315b1ba59fb8733fa6b7603b3b49b08c6d0affa5dfe2bd84",
+   "size": 24587
+  },
+  "previews/mondays-sent.desktop.png": {
+   "sha256": "fced0aa207dcb9b0a9286a1cf33430eb29d66a46438710c788532c7e3dc90ec0",
+   "size": 27819
+  },
+  "previews/mondays-sent.mobile.png": {
+   "sha256": "e731a7fa085f9a3803071b7da15ff956d0e72f1a310cae2720ec3b808f9fc2b8",
+   "size": 24499
+  },
+  "previews/noise-vs-evidence.desktop.png": {
+   "sha256": "a706437dafe17c9c1ff2a9b761a56f0fda8e53cce689c045ec32d5fca90268c2",
+   "size": 34137
+  },
+  "previews/noise-vs-evidence.mobile.png": {
+   "sha256": "ee9b430d6ee8a5d5828ba94b590976c5fe122ac9d6f3e7de06a60ec492711416",
+   "size": 31797
+  },
+  "previews/ops-center.desktop.png": {
+   "sha256": "615c125b78684e34f521519613997fef7fc265bdc96eaabaa899a8f3e11da0ab",
+   "size": 38454
+  },
+  "previews/ops-center.mobile.png": {
+   "sha256": "2ddc30cb1325ee41e46b001889252ca489525147d742608eae526b68eb47f1ce",
+   "size": 34341
+  },
+  "previews/orbit.desktop.png": {
+   "sha256": "87fe6b5cfc196fb2b2eda78fabefc9ce86c882561180f29c62d0df673c9d70ad",
+   "size": 43185
+  },
+  "previews/orbit.mobile.png": {
+   "sha256": "4f2bf973dddf857aca5e0b2cb00891f8091de1b26f06c1cc64e32e3c73e57d7d",
+   "size": 36468
+  },
+  "previews/org-squad.desktop.png": {
+   "sha256": "4f2927c2316b127ca23997b50747180ab43af5d0e932838df3772f1cd83896b7",
+   "size": 39657
+  },
+  "previews/org-squad.mobile.png": {
+   "sha256": "819748a376be6edd5f5016c9aea65debb33a6a573202d2cf808974a09b8f3966",
+   "size": 33579
+  },
+  "previews/org-tree.desktop.png": {
+   "sha256": "8ee518d834d9888411ad67b31e62b637a572a4735bb44920b19f389f15b21ad0",
+   "size": 31032
+  },
+  "previews/org-tree.mobile.png": {
+   "sha256": "6cd19bbbf409af6ff9d3c05555bf4a30793a8cfa7178aa6aed1f5a9e5f96c9b1",
+   "size": 28635
+  },
+  "previews/outside-business.desktop.png": {
+   "sha256": "6d07340f764ac5e14fccbad3a60c3bdfc12503e504cb2a948e2daccad6e02dfc",
+   "size": 38993
+  },
+  "previews/outside-business.mobile.png": {
+   "sha256": "c1c13b31d1f5d8d11679e94973da7c70e4ac4e360a467de161087322febdc781",
+   "size": 33273
+  },
+  "previews/outside-teams.desktop.png": {
+   "sha256": "10e63b2f86981e62573b1bf79a35db8e5a3810a5d4d27e792b0071402f6ec062",
+   "size": 38462
+  },
+  "previews/outside-teams.mobile.png": {
+   "sha256": "c2485712c6e112eef4b0f3483cf4ca66b5f57a5a9995c6666b00b0639d2457c9",
+   "size": 35600
+  },
+  "previews/outside.desktop.png": {
+   "sha256": "f8c3649a00e093a46d6e0a27f950343950aa1d57d3dece25a43d097849e88537",
+   "size": 39835
+  },
+  "previews/outside.mobile.png": {
+   "sha256": "85ae7c7744fef7087ccb7a899bf1415106633047071a3fddd472c3b06ce861e2",
+   "size": 34907
+  },
+  "previews/pair-read.desktop.png": {
+   "sha256": "ad12ebbfaa3607f8bc692af2a48ce02131adf3c6c571e385128d762d4486528e",
+   "size": 36560
+  },
+  "previews/pair-read.mobile.png": {
+   "sha256": "1325f39e8162422509a7d1e5bb9deb88b13fc3bc17cf0dc77f237cfde7d2980c",
+   "size": 38690
+  },
+  "previews/panel-questions-list.desktop.png": {
+   "sha256": "c0692e67402b5425c5d436ffbd8051eaf3b2d006ad665a2c1dca990aadbecddc",
+   "size": 32799
+  },
+  "previews/panel-questions-list.mobile.png": {
+   "sha256": "c37e91ee312b3eee39faa0cb54bafb9bf9c83c6047cff6edc7372d19cdbe9192",
+   "size": 27510
+  },
+  "previews/panel-questions.desktop.png": {
+   "sha256": "74759b5a44382c9f29db35f523da8f6032b9e03820816fc2bf616f93f64a8bb7",
+   "size": 39375
+  },
+  "previews/panel-questions.mobile.png": {
+   "sha256": "fac23a371e0d10fe3e6c83e3f81cd211f6cf073abd6d5834e9c0f0fa1fdd2586",
+   "size": 23538
+  },
+  "previews/paper-hero.desktop.png": {
+   "sha256": "88c3a9c6dbbd4010cfeefff3c56a8aeba58428d1902eed478640ce76c69529c1",
+   "size": 26182
+  },
+  "previews/paper-hero.mobile.png": {
+   "sha256": "171900a7fc5f715e927e5084ae11a693dd3e84b0cfa6dc490a8ce1a30c3b75c9",
+   "size": 25194
+  },
+  "previews/pinned-request.desktop.png": {
+   "sha256": "97937ede472b7dbc41f4d0200109428cd390b8050f9e337ba479d11bf3adfaff",
+   "size": 33023
+  },
+  "previews/pinned-request.mobile.png": {
+   "sha256": "009b3e5db1b364e74b607dbac089b9e455fdfa9b4c447f29eb004152a40d5afe",
+   "size": 27883
+  },
+  "previews/proof-paths.desktop.png": {
+   "sha256": "51a81dea25f69350631b9f4d523a22018029ebcd5d4f6cc55b0eb4bf8e0ce743",
+   "size": 36111
+  },
+  "previews/proof-paths.mobile.png": {
+   "sha256": "d40e69494e0245f2f7098d5613e89b01576236797675a2dbf09432be6ac71bd7",
+   "size": 35679
+  },
+  "previews/prospect-cover.desktop.png": {
+   "sha256": "290aeecd259cf9a016b28a61f1430e828d09bca02e6db74163e27713b9e43cf7",
+   "size": 33624
+  },
+  "previews/prospect-cover.mobile.png": {
+   "sha256": "0667a153ea5d2027571e558853aba2858353bca8ebac4b5fe530d7e5e16f33ca",
+   "size": 34615
+  },
+  "previews/quality-drivers.desktop.png": {
+   "sha256": "e5031f5bf7bc5569d9702318edbeb670db9fa9f68b7bf8c840ad0ce29c256156",
+   "size": 41101
+  },
+  "previews/quality-drivers.mobile.png": {
+   "sha256": "fdebe6fa27a6425acbf1423de880ab674ddea355921bd342cef2308850dbdc68",
+   "size": 32569
+  },
+  "previews/reflections-cards.desktop.png": {
+   "sha256": "51911397c39684cdc2e5ad9d62b0fe163592fd1faea503c50f11eda40584e835",
+   "size": 25037
+  },
+  "previews/reflections-cards.mobile.png": {
+   "sha256": "caa3239b5e0a06e0568d4837b429b609f3947fac05351dc91a5ef3de4b5b9f16",
+   "size": 22093
+  },
+  "previews/reflections-live.desktop.png": {
+   "sha256": "b9162a9ce9f9e13382e2e98b83109124adeefdc29aea36583e38b8212e2578c1",
+   "size": 39074
+  },
+  "previews/reflections-live.mobile.png": {
+   "sha256": "dba688bff6e424277111ec1b447b925c411367a5d1de90cb2d70858e538c0959",
+   "size": 22880
+  },
+  "previews/repeat-story.desktop.png": {
+   "sha256": "a826a9fa56c395b36d5489bfd347c2e84d09997db3fc434a0f4c97da5dcf9b76",
+   "size": 38072
+  },
+  "previews/repeat-story.mobile.png": {
+   "sha256": "ec5b651349486f0a9b72eeaf38e54c5b6fbc82c9a1c14600e48b3079863e915f",
+   "size": 34199
+  },
+  "previews/report-before-after.desktop.png": {
+   "sha256": "9f98a550c6b581cc637579f5fc3d7b7bf40b535c05e11d7389015d0598850aed",
+   "size": 35041
+  },
+  "previews/report-before-after.mobile.png": {
+   "sha256": "d12cd5cfef7bbfd1af79c987306c00691449c021f7629c41ab370773a80c62a7",
+   "size": 28698
+  },
+  "previews/review-lens.desktop.png": {
+   "sha256": "2b1075d2f2ceb02c9dcf543b9520adb67e85e5e3937ce78a1358b106cb0e40db",
+   "size": 34511
+  },
+  "previews/review-lens.mobile.png": {
+   "sha256": "e160361a0ca6a11316fe15764168450b6b429a89323ba9d43894761eb1991d7e",
+   "size": 28791
+  },
+  "previews/risks-tradeoffs.desktop.png": {
+   "sha256": "38aa9f52a956d6c3e10a5ec92c8a359a77b4b99b5c249f9c473eed0e6fedc0d0",
+   "size": 39743
+  },
+  "previews/risks-tradeoffs.mobile.png": {
+   "sha256": "0dfc8b8b39f1ea11fd1a615232db611f58207c7f59932733d72c12345888248f",
+   "size": 29797
+  },
+  "previews/roadmap-phases.desktop.png": {
+   "sha256": "db62482207c3b33c07236446c9335b903c2368d301f61946bbc8eeed94ddc3cb",
+   "size": 28977
+  },
+  "previews/roadmap-phases.mobile.png": {
+   "sha256": "8704435d64586a277ada931ae6bf18d6c24c15e286bd6a3d78f645a313e782a0",
+   "size": 24007
+  },
+  "previews/roadmap-road.desktop.png": {
+   "sha256": "c5352add276c46220f8a9f496c53d5ed6a435d09f426817870ada4ab1073bc76",
+   "size": 39354
+  },
+  "previews/roadmap-road.mobile.png": {
+   "sha256": "b3796f4264e61b86a8627a93149c897813acf97aca2158d8316407e2fb102cc2",
+   "size": 36241
+  },
+  "previews/route-named.desktop.png": {
+   "sha256": "6f46d074173946cfe47ab7180ce38a84f26db59f319664325fe175729b8d1b53",
+   "size": 34681
+  },
+  "previews/route-named.mobile.png": {
+   "sha256": "ec0cf0d12aa24058465aa9e7ee1f51fd2907729f060990c608bbbc6c07136f58",
+   "size": 23902
+  },
+  "previews/shared-asset.desktop.png": {
+   "sha256": "b3029de80d5567519d725a23d817d21033f2f1a8b2b7fb61e8958745d5e6be47",
+   "size": 41085
+  },
+  "previews/shared-asset.mobile.png": {
+   "sha256": "22949ea54fd33e34a154f81352ad92030c336a55eb2a8e2b7122c66d5437d1db",
+   "size": 39539
+  },
+  "previews/simple-criterion.desktop.png": {
+   "sha256": "9a3562be341d762a7be6f7439ed74c10cb893ec5b323a63a82ae5099d8b071d6",
+   "size": 41528
+  },
+  "previews/simple-criterion.mobile.png": {
+   "sha256": "9f95b56d3714f1532e62406fdb3e9a7cf6e3e44f120d9c0b87a7dafae5f38a3e",
+   "size": 43445
+  },
+  "previews/simple-gap.desktop.png": {
+   "sha256": "076d464d4957aa4ccd8455349a4344d9e9f55fb2eee30b6e16c30d10c5a08833",
+   "size": 33845
+  },
+  "previews/simple-gap.mobile.png": {
+   "sha256": "9a98bd973136b7467a195cde3f8a022931e9f2506711078550e5701f5c157c40",
+   "size": 29766
+  },
+  "previews/simple-hero.desktop.png": {
+   "sha256": "750f2cb9abd92aa6a5738d49d3295ab16c1169bdc9fd15359be077032afec023",
+   "size": 30326
+  },
+  "previews/simple-hero.mobile.png": {
+   "sha256": "fcad601926da6145f8a94b48719e0575c65d41da20b02d01d2cff3efeb0bcb4e",
+   "size": 23462
+  },
+  "previews/simple-hypotheses.desktop.png": {
+   "sha256": "f694ccc4a2323a95bee29a9b0c0c4f47573077fa0997b8d315fb85f0ec5d4f43",
+   "size": 33547
+  },
+  "previews/simple-hypotheses.mobile.png": {
+   "sha256": "586e586449bb216ae2a0993c1356619da4257e35b560799a5d7bbb6ea9c4b753",
+   "size": 32038
+  },
+  "previews/simple-next.desktop.png": {
+   "sha256": "d97442da3cdd76c85dbf4e61b8b2cb4b4ac8c1c5deac98469dbe93e638efa076",
+   "size": 28021
+  },
+  "previews/simple-next.mobile.png": {
+   "sha256": "89e68468546188bc048cc997d6cb73f013432ecd66d488ecc63032b188332760",
+   "size": 26713
+  },
+  "previews/simple-outside.desktop.png": {
+   "sha256": "4379e48cf83429943574b0efab6c6a37c82f36e940971fea4a62a3e94806e7f5",
+   "size": 35829
+  },
+  "previews/simple-outside.mobile.png": {
+   "sha256": "a8ac02896d314ac9559e4f1fde79ca09d79a740142dbab5d019334c2180beec9",
+   "size": 38845
+  },
+  "previews/simple-path.desktop.png": {
+   "sha256": "0c63e2531e3ad4d44e266432bd58752f9872947108aa2cafa5adfc2e7045e036",
+   "size": 31122
+  },
+  "previews/simple-path.mobile.png": {
+   "sha256": "fef95fdcf452d3628d13b778302111853fefc5eb14b9dec53b1fdaf11743d5d8",
+   "size": 26253
+  },
+  "previews/simple-proof.desktop.png": {
+   "sha256": "26137f75103b30c27b81306d843db346550692917197b98c20494927c6452e57",
+   "size": 26969
+  },
+  "previews/simple-proof.mobile.png": {
+   "sha256": "4369bfc71ae00b76c69da339c3b837779213b5e25712b8bf06f214d792c702dc",
+   "size": 25179
+  },
+  "previews/skill-handoff.desktop.png": {
+   "sha256": "fc926de330f649e5073d457207beebd13246717886a519a36cf583bf03b69c65",
+   "size": 39302
+  },
+  "previews/skill-handoff.mobile.png": {
+   "sha256": "af16bc25b486104ec3bc3567a7cb34945dbfdfc97348a9659912ca88c2f7c5d6",
+   "size": 32550
+  },
+  "previews/solution-layers.desktop.png": {
+   "sha256": "738fa38895da08a7765738ec4c7e2d8cbfc1a2b9b6f751b477efef2d42f13aba",
+   "size": 31738
+  },
+  "previews/solution-layers.mobile.png": {
+   "sha256": "42dc6120e716dc14b6725f9412979ea540723f07ce14183e8ebd43dca7322286",
+   "size": 33754
+  },
+  "previews/strategy-map.desktop.png": {
+   "sha256": "79ffd7889f6250b13b35f50d8cb555bfad414ea86c26e91dde9abae3577f7463",
+   "size": 31537
+  },
+  "previews/strategy-map.mobile.png": {
+   "sha256": "9cff3ed9b44e7f56213976aa53874f59d1a7157de87b6259800db189d6a60cce",
+   "size": 27111
+  },
+  "previews/success-case.desktop.png": {
+   "sha256": "9fea2480deb205aeb649f85db3f6039ee493f852809103601b8399ab29e2b996",
+   "size": 27702
+  },
+  "previews/success-case.mobile.png": {
+   "sha256": "fb35b37c3981592ec32c053fc06f7f8623140cf07f2e6d528df225773bcf5076",
+   "size": 27480
+  },
+  "previews/tickets-live.desktop.png": {
+   "sha256": "d032b85f22269d83cc26e8aa4b97296b60a6fc271cf1b5c97351c38f0b492837",
+   "size": 35549
+  },
+  "previews/tickets-live.mobile.png": {
+   "sha256": "e479dd6a5957a1fbf65e583d41d1686da30ebca23fac9e1c30a3449440c4df49",
+   "size": 35403
+  },
+  "previews/time-back.desktop.png": {
+   "sha256": "a73b4b237cc50f098b6310f9bfba6812e705b32d7af8e6aabef2ef7ab3cfee11",
+   "size": 35881
+  },
+  "previews/time-back.mobile.png": {
+   "sha256": "e9d7f81451215ae7d9627b662086ef699ead9b419b76a0526ce3623675a31615",
+   "size": 33325
+  },
+  "previews/time-freed.desktop.png": {
+   "sha256": "84734302bfbd938eead2a5626db007a87fd6341436887660d14bd7d4efc1783a",
+   "size": 30788
+  },
+  "previews/time-freed.mobile.png": {
+   "sha256": "270ed4e64e165a7c656cb99d7a6c663cc9e9c03fd2be3cd01f7b9d2e7e734637",
+   "size": 29145
+  },
+  "previews/timeline-milestones.desktop.png": {
+   "sha256": "9de770fdb877d481d09485704aa16431eb30d17c7941b71521cd38add67f216e",
+   "size": 34181
+  },
+  "previews/timeline-milestones.mobile.png": {
+   "sha256": "a007f3305ff97f59ae5debd45cbbb588ea3b7e6df3cf764d034ea5080585af72",
+   "size": 33786
+  },
+  "previews/timeline-tracks.desktop.png": {
+   "sha256": "337c6bbcbb3abc42735b52958fd6aebaf329e67646edd14b3ce07b80b2b8dc31",
+   "size": 39266
+  },
+  "previews/timeline-tracks.mobile.png": {
+   "sha256": "aa9e29b610ab4c36cdc7fe2575e74fe004b4763a0075c739e1006dddc0ae6d03",
+   "size": 34032
+  },
+  "previews/titles-thread.desktop.png": {
+   "sha256": "26f93ed3e23cec9565713deefb8e4f3f1b9018de8edb194ed824ad5db00d74c1",
+   "size": 36753
+  },
+  "previews/titles-thread.mobile.png": {
+   "sha256": "ced08f990435ccc94f99d5dd0f41f56cbe116e5f66b77ba63cedcda5a374ff9c",
+   "size": 39898
+  },
+  "previews/two-seconds.desktop.png": {
+   "sha256": "c57d2140d321f8d0997a6a104e86b1a2e414fdbaab9bfdba7cd2229a02f28a81",
+   "size": 37912
+  },
+  "previews/two-seconds.mobile.png": {
+   "sha256": "e1f32218d6cdbd50f4e902dd832ff3239298800bcd58bdd0376a6ebfebe41a4e",
+   "size": 36474
+  },
+  "previews/unfold-describe.desktop.png": {
+   "sha256": "5f4a8f7465962d117d3a8fedeb0afb15650d6bc840c5414698adb016082679f4",
+   "size": 29169
+  },
+  "previews/unfold-describe.mobile.png": {
+   "sha256": "35f60d3a0b66a98a72df5249ecebeaaa746e24c4a1e5adc70a4d8dca1f78e22c",
+   "size": 23222
+  },
+  "previews/ways-b.desktop.png": {
+   "sha256": "8f234c3e7c927d7390e044c54ad78fd3b221b0320b825f1f4a94e256117d897e",
+   "size": 37756
+  },
+  "previews/ways-b.mobile.png": {
+   "sha256": "48b21554ed2859222bccb0afd06e1a9da85ff4e71978b254362deac6b33893f5",
+   "size": 30406
+  },
+  "previews/ways.desktop.png": {
+   "sha256": "df2fcdaefdf5900b379a3589412b8ea6fe728712d13a1ee2fbe7f7307841fcda",
+   "size": 38025
+  },
+  "previews/ways.mobile.png": {
+   "sha256": "2931b880174922707c7f5c13cbb0ad8abedb6c40b5976b9dbc463d7626903fa8",
+   "size": 29634
+  },
+  "previews/week-calendar.desktop.png": {
+   "sha256": "8afad7800607eb1c8e6c262678ffafc5c57655a4bfe19f4632b72155da2addb9",
+   "size": 39278
+  },
+  "previews/week-calendar.mobile.png": {
+   "sha256": "7e76f67057658a5b3368c93ab5254788ce74c5fd8ae913abfe72c5195775bc3e",
+   "size": 35744
+  },
+  "scenes/icons.py": {
+   "sha256": "15b13bf989ecdf696a66c55b76513c1b2a46455e6eb5f55638b51003fcf19812",
+   "size": 36408
+  },
+  "scenes/lib.py": {
+   "sha256": "b3e3ffeb5068bcbf05bd83470f56437ef9f9a7775de5e56832ecad2904f5f6e3",
+   "size": 86744
+  },
+  "scenes/story/arquitectura.py": {
+   "sha256": "01c6a4b3e10f2523f44ef49c93eab2169bae730e2c1d45ffb2b5b030967c5cc0",
+   "size": 76677
+  },
+  "scenes/story/banca_d01_06.py": {
+   "sha256": "9deb39acebfb287d1ca88ae4fc6f4fc4e6d481e2251179a3b4f826094fcab934",
+   "size": 44584
+  },
+  "scenes/story/banca_d07_10.py": {
+   "sha256": "33beec2a7ad4529a6848b34742cd95b99bc4616ff4c456f709073cdc72f5eb5f",
+   "size": 36625
+  },
+  "scenes/story/banca_s01_14.py": {
+   "sha256": "f268b7f9fd0027488ccf06866c9e248653a6512576c16fd4df52f1692eb3ab4e",
+   "size": 73548
+  },
+  "scenes/story/energia_s01_03.py": {
+   "sha256": "6ec42dd92e1d3d9b0a84e6c2fadcbc0d8f9cc4639c70d7c30e174f2095bd6cfa",
+   "size": 49532
+  },
+  "scenes/story/energia_s04_06.py": {
+   "sha256": "4361cd39f4770d0dc83872176f2d36e7ebbbbba6ac23358d7fb0fec3db7b9c66",
+   "size": 30390
+  },
+  "scenes/story/energia_s07_09.py": {
+   "sha256": "502b3916babaa636520569555b451972029b64a63767285761b0c298897eefa1",
+   "size": 50231
+  },
+  "scenes/story/energia_s10_12.py": {
+   "sha256": "4d67c9a6159803e6ceeea4d28783fdd65aa0945134082f7d0b7e83443dddb31c",
+   "size": 32692
+  },
+  "scenes/story/energia_s13_15.py": {
+   "sha256": "ee2c99a06c9af4aeb3f1959f577bff61137d8e1233335813a8aad56ba6297a46",
+   "size": 48664
+  },
+  "scenes/story/fidelizacion_portrait.py": {
+   "sha256": "df9ba1ddcdaa58e651f2db7ce0403cafaf9c4a7dc0f518bbfc6b07d4179c3cbe",
+   "size": 48547
+  },
+  "scenes/story/fidelizacion_s01_15.py": {
+   "sha256": "c89653556c5754f5c0742c6c9da8955a904530037c1608373d91e6b8fa057985",
+   "size": 80502
+  },
+  "scenes/story/formacion_s01_03.py": {
+   "sha256": "68ee479403f22de0b358390164a7d7a53621bfd3bf91bdddf5d2cf806d1c1175",
+   "size": 28815
+  },
+  "scenes/story/formacion_s04_06.py": {
+   "sha256": "b5c2493ae72ded6d5a6bc7d032603672c7dca149bb9493cdddc382141ddc0ae1",
+   "size": 29102
+  },
+  "scenes/story/formacion_s05_afuera.py": {
+   "sha256": "ddf0fcfa3a6440ce1020d3317d5d12f38614f5a3002849c65ead14d7ccb15aee",
+   "size": 12263
+  },
+  "scenes/story/formacion_s07_09.py": {
+   "sha256": "a7068cdfb5bbb90d47668da889a0ab526abf6d1d4cf35c34fa8bf25684671200",
+   "size": 14492
+  },
+  "scenes/story/formacion_s10_12.py": {
+   "sha256": "e51f23629e2f84eb81ed28e55547ef0a596e410c8094ac5b2dd9ecac1b026830",
+   "size": 33829
+  },
+  "scenes/story/formacion_s13_15.py": {
+   "sha256": "b70c079dfe515fbbe9d0cf8de5c2444be181eba9ddbb90fb2892836ef8090b44",
+   "size": 46381
+  },
+  "scenes/story/formacion_s16_18.py": {
+   "sha256": "68e8f494ee34f3feac9d922801137b6d9673b48e89f40a40d510d2720fae8ac1",
+   "size": 35471
+  },
+  "scenes/story/formacion_s19_20.py": {
+   "sha256": "239f62ef08856da45c19ea7e39cd985fd89e3dc0c73164b7afa3b4b577b681b2",
+   "size": 25141
+  },
+  "scenes/story/intents_s01_08.py": {
+   "sha256": "40167e45ae96d00bbbf8018a5a381a4c8aa2ce47bfe324ed9f50c0ef9291994f",
+   "size": 41391
+  },
+  "scenes/story/intents_s09_16.py": {
+   "sha256": "cf63c59191824836ec4d86f8bb1ba6cdb5367445f112af3d946dc5ace3f1ba93",
+   "size": 35288
+  },
+  "scenes/story/pagos_s01_03.py": {
+   "sha256": "826293d2c8e4847a0e081bc986f341704c0953e03e602796ca417b5cf6522c5d",
+   "size": 50759
+  },
+  "scenes/story/pagos_s04_06.py": {
+   "sha256": "6ae7f109a6283fa051a8fc9656aa9a9ec2ec76ced28dc17a3868cfd836c01e91",
+   "size": 54258
+  },
+  "scenes/story/pagos_s07_09.py": {
+   "sha256": "93755972a8cd52989840e14bfc264f5f5cfa704d6b158802e90068fb5d85802d",
+   "size": 24997
+  },
+  "scenes/story/pagos_s10_12.py": {
+   "sha256": "7f6085991e6e91baacba1cd442f2ba16b2b07d12bde88003fb2f5988a1ca1e30",
+   "size": 32354
+  },
+  "scenes/story/pagos_s13_15.py": {
+   "sha256": "de77ed17064fa4617591c7da43da598de68786ae351899e6ccde9454fcdf694c",
+   "size": 53330
+  },
+  "scenes/story/salud_s01_03.py": {
+   "sha256": "9ab574cefe5bc21cb1d138505e4f4d9f102577cce5dfee257515282ce1249a79",
+   "size": 21647
+  },
+  "scenes/story/salud_s04_06.py": {
+   "sha256": "949d43c2c87269599832fa1990d9a9e3eacfdde3fca741b883ac4b9a4312faa8",
+   "size": 36283
+  },
+  "scenes/story/salud_s07_14.py": {
+   "sha256": "d97f6337081584a51500c4e14537774a4b43e0118b96293ad46f6204eabaa40f",
+   "size": 48376
+  },
+  "scenes/story/simple_s01_08.py": {
+   "sha256": "17bb4a9a6f5b77bd62ec09da68785f11e79e20ac0389758628475d79c2e6e65d",
+   "size": 60244
+  },
+  "scenes/story/webinar_panel.py": {
+   "sha256": "f1cb90ff6efe3bf97dd5445e49476a66a767877496b66ad76af7c632da9cd0ee",
+   "size": 9361
+  },
+  "scenes/story/webinar_portrait.py": {
+   "sha256": "e7a0213a37c746e340e3078c3f4f77fa33e9a34e835318bcba56b4a30473ebc3",
+   "size": 56463
+  },
+  "scenes/story/webinar_s01_15.py": {
+   "sha256": "32ce7205f2f7a9b0d19bffd8ea44110c94f3e55b129e3854dcd7e9c1ddadeec6",
+   "size": 120410
+  },
+  "scenes/worlds/luz.py": {
+   "sha256": "f982dc48c6e09382d7c4ba30aa7ee2d3af390637e2e72cfb22f9ce67036f4950",
+   "size": 40509
+  },
+  "scenes/worlds/papel.py": {
+   "sha256": "4ba75b4653d60c7297a9235a34a421732ff700cfc9a1b3279aaf581b29f78e9b",
+   "size": 13123
+  },
+  "schema/card.schema.json": {
+   "sha256": "3b63115b8575e01d66857f4e52e5ff7c6c3a783ca0b5739cba2d582ce2482161",
+   "size": 1568
+  },
+  "schema/index.schema.json": {
+   "sha256": "c97a2231114d76f2dab45a97c34161d9f7317eb0a5418595e2a9f273ac3faaf8",
+   "size": 1662
+  },
+  "search.py": {
+   "sha256": "83b9d4e66691b3c569b2b3c85167cd3ecc4b597dca258c2a7e791d3e642e872f",
+   "size": 7953
+  },
+  "snippets/README.md": {
+   "sha256": "aa974dbab3e72c7b0b0c84eeb54bf48c73caa4ad7fcb4fd27033e903d26b1cb1",
+   "size": 38824
+  },
+  "snippets/adr-decisions.json": {
+   "sha256": "a8fcee7107b18a56ff4b5a71dfa63c66f98f3570790f3e289aad9dc587ab7cc1",
+   "size": 2029
+  },
+  "snippets/arq-hero.json": {
+   "sha256": "161bf906669537883b9d8b80d0b3cee38a6f0c53d4a97b2821d2fe641f0901ca",
+   "size": 1298
+  },
+  "snippets/arq-roadmap.json": {
+   "sha256": "a99bb4cf72b089e93aad82bd0b3a04865f1ad04057cd1eed36a3517a435ef820",
+   "size": 1873
+  },
+  "snippets/automation-stairs.json": {
+   "sha256": "7848e4be0c74eb5fa1dd0c21dc9a3d24bb026919da7e136b20d1db5c87fd3dbb",
+   "size": 1341
+  },
+  "snippets/before-after-lanes.json": {
+   "sha256": "c567e0ce37652c28570912f05704e018b33e835d6c896869712c639043eae3ba",
+   "size": 1442
+  },
+  "snippets/before-after-split.json": {
+   "sha256": "4dadc08dd7ac1f70edc0b90406519399b781978359d2f35dceb42f28629355b3",
+   "size": 1539
+  },
+  "snippets/build-deliver.json": {
+   "sha256": "4fa772a35179a1039b8d998d2aea8bbc67ac472b75f4ebaea9a8d4d01406b4fb",
+   "size": 1843
+  },
+  "snippets/c4-code.json": {
+   "sha256": "f3b1d0cc17d0042e1ac4cdbfeeba0aefe39c82606e2ee4554ccb8a581cfd55bf",
+   "size": 2498
+  },
+  "snippets/c4-component.json": {
+   "sha256": "c73bca0b1f711cae05464dea79ee7babccae2b0021730a270a8837784e3182ba",
+   "size": 3726
+  },
+  "snippets/c4-container.json": {
+   "sha256": "3c601af6534ceb6090a98c2a843f59beae7ba0976030052813ec0399d0a1b2c6",
+   "size": 4200
+  },
+  "snippets/c4-context.json": {
+   "sha256": "97f0b4886bb2c562d711bd3752deed79b081a9b48630725e212f075327baeca3",
+   "size": 2610
+  },
+  "snippets/capacity-join.json": {
+   "sha256": "a3e3826d851f068c699081ef070ee7c3f4ea8d82d0615cec870ac658fcb1a15a",
+   "size": 1497
+  },
+  "snippets/care-center.json": {
+   "sha256": "083d497322c8f8db1b2971681d364e1e5a24d5fa3d04be4cd8337da164a4422a",
+   "size": 2533
+  },
+  "snippets/cascade.json": {
+   "sha256": "f3b89661335410c31c2c6214fb76fb53744ac8199dd6768cd2d7a0065a733639",
+   "size": 1291
+  },
+  "snippets/chain-tap.json": {
+   "sha256": "b0fd21ec9217448c39fc398a5de5c111a44b1fd21e42617a6f7a592e61eb8300",
+   "size": 2755
+  },
+  "snippets/client-worries.json": {
+   "sha256": "99f4e1ad82ba41873038490f0ee8cb4fae76fb0aaac1e575763a2006c3df1f12",
+   "size": 1531
+  },
+  "snippets/component-diagram.json": {
+   "sha256": "626a6bed6c0df052004b248f5c6b0291ee3e2f9b8feb7246fe8fddcef8df4b07",
+   "size": 2064
+  },
+  "snippets/controlroom-live.json": {
+   "sha256": "94e86dc39742d0b7893766b7e9581099987e0e58f6df32797b9966198e226c8c",
+   "size": 1550
+  },
+  "snippets/cost-drop.json": {
+   "sha256": "bf42d7922a4cbaf328b16a14949fcaa442e7d668357d5d34e2009271c606cd43",
+   "size": 1286
+  },
+  "snippets/criterion-b.json": {
+   "sha256": "abcf923a84a3049248f4e0ff23bfed854037f0342a484bec59f8e2e76ec05617",
+   "size": 1980
+  },
+  "snippets/criterion.json": {
+   "sha256": "6b195cc266c98144a0f8602a976a49abd81ddfbf18388694ebb0931c36bf2794",
+   "size": 1838
+  },
+  "snippets/data-architecture.json": {
+   "sha256": "bb6fef93a1114ec600f8994c09571db7b3c45de0159ae5122dc5fc9fe8b94c9b",
+   "size": 1918
+  },
+  "snippets/data-lifecycle.json": {
+   "sha256": "ced1494318fe48e6a96587ad7619713ef21bd2df7b4f6a7823823e3d1b8bddd9",
+   "size": 1831
+  },
+  "snippets/delivery-cycle.json": {
+   "sha256": "f590e8f01fe1dbda7c33f7c79d9c310ab366846108c062a16d37dd3ff5e538bc",
+   "size": 1612
+  },
+  "snippets/diagnostic.json": {
+   "sha256": "35010c739a9795907193e02b858c050c47999454a0391f47698aca151ec1b08a",
+   "size": 2830
+  },
+  "snippets/discovery-b.json": {
+   "sha256": "569841027d368ed166aa44847e8c6f5bfaebaf6f3419dcc413cd5343b7114303",
+   "size": 2533
+  },
+  "snippets/discovery.json": {
+   "sha256": "bc7bda6e35e1984e07cf424696858a3fe56a49598c3ea0fc7d32454d9bb51ceb",
+   "size": 2307
+  },
+  "snippets/evidence.json": {
+   "sha256": "98b3f8012e9dabcc70da5cee686b5e8b5104d557bbbb2de30867345b43491719",
+   "size": 1353
+  },
+  "snippets/explain-cards.json": {
+   "sha256": "5eaffc942422dd0f37d76f9966bc76ce17cc7d7572b61c731e7ad068acb880c1",
+   "size": 1521
+  },
+  "snippets/facts-columns.json": {
+   "sha256": "7faa181b889a3a7bcbc926e53aad9ef32baa2222c91eea0eec105300a39bf8b4",
+   "size": 2273
+  },
+  "snippets/federated-live.json": {
+   "sha256": "ebfdab115e1c1cbabe79aea426bbdc773e33965ff3d53aad8f7a01ed47fed6fe",
+   "size": 2592
+  },
+  "snippets/figure-context.json": {
+   "sha256": "8e5fb1f083a5d7d667f1f694d98aa8f859be546fa5ddf23f6ac62aa0081b6d2e",
+   "size": 1168
+  },
+  "snippets/figure-door.json": {
+   "sha256": "147aa0c1de355a2df4cea832caa113dd4412aaee5b8a8070cc290ccf13702185",
+   "size": 1571
+  },
+  "snippets/figure-growth.json": {
+   "sha256": "b21ce83d8a9b5cdcbb3fa408dd67c71cacd1d0609cb7c8565a853f3a43f38313",
+   "size": 1673
+  },
+  "snippets/figure-rank.json": {
+   "sha256": "c32e659e290947f1ad33ab665fa61a70adadc4444a897e1439458f71e6df4261",
+   "size": 1728
+  },
+  "snippets/funnel-gates.json": {
+   "sha256": "8251cc2ee00366db3374c49962fc5b9c45d29937c047b4dde5e609a70ff45381",
+   "size": 1590
+  },
+  "snippets/funnel-stages.json": {
+   "sha256": "e130d9915b197f836921266bef5d424ce0e79ac8942aaa0c651903eb8a60fb1b",
+   "size": 1422
+  },
+  "snippets/funnel-weeks.json": {
+   "sha256": "a7081bbfe3b054a7f21203e6145ad96851266b1b88a1daf595d21f4871846427",
+   "size": 2416
+  },
+  "snippets/generic-template.json": {
+   "sha256": "7452530d6247f638d3cf21b950e5b041fe7b83dee3a09f94c1edca4e87286179",
+   "size": 2300
+  },
+  "snippets/hands-on-timer.json": {
+   "sha256": "e438f8e88b777db3e56460f90c664e9ee13c9012bcce0f34451409a40a3a6b74",
+   "size": 1211
+  },
+  "snippets/hero-bank.json": {
+   "sha256": "b38fb2f900513a51f2b64dc638a62586f24aeded640c4865eb5c056f0e5da1a9",
+   "size": 1615
+  },
+  "snippets/hero-care.json": {
+   "sha256": "e200e19f7b59c8ad7725757b144e0d55d48a0acb840c161f3a66d85e9ba561a7",
+   "size": 1474
+  },
+  "snippets/hero-network.json": {
+   "sha256": "410a4f1a5b0a07c89ad2778c6a0aa95f68fe8bda5f5e9602138f55dcd572facb",
+   "size": 1574
+  },
+  "snippets/hero.json": {
+   "sha256": "431af0d9a9ca352277cae76f1bad50c4f5c0aabe3ef1355f3ee7f3b4a6917ef9",
+   "size": 1548
+  },
+  "snippets/hypotheses-bank.json": {
+   "sha256": "41aeada6de6fc50d7798c9cd9ab21ec728df1f31c2991da89225e5bc821ea5b4",
+   "size": 2224
+  },
+  "snippets/hypotheses-care.json": {
+   "sha256": "46cb759ecc69d8442b1ca8407e455d9333db2bf7040b025ea8a48b43c8aa0d86",
+   "size": 2079
+  },
+  "snippets/hypotheses-live-b.json": {
+   "sha256": "cd3d42e1e76f7eac207d86382c0c2a084e80756e672ae5faeb19b873f6802e6d",
+   "size": 2012
+  },
+  "snippets/hypotheses-live.json": {
+   "sha256": "5a095fd5b1d6d9469e4391fdf0c97174246da7c8fba3c2b1a597d32fb0062701",
+   "size": 1879
+  },
+  "snippets/hypotheses-quarter.json": {
+   "sha256": "a19ab571e9a2a0a853b63101d1f82d8baf8d645ebf63288d2f7fd346616e8b45",
+   "size": 1942
+  },
+  "snippets/infra-topology.json": {
+   "sha256": "5299d814a9ab36faf72f068089451aa7829e1897ee0b070a5752db597a6e5409",
+   "size": 3058
+  },
+  "snippets/internal-case.json": {
+   "sha256": "0f8e47b16de3a8c2746945b5a5b29458ebfb804411ec9ed72ecc26bdff0cac0c",
+   "size": 1574
+  },
+  "snippets/journey-loop.json": {
+   "sha256": "31d0b381ba6730a2079874f87f98a2a0c8fca289e0c9a60d6a85024ec6c9af56",
+   "size": 1378
+  },
+  "snippets/journey-path.json": {
+   "sha256": "420495287a3f15173572fd83fc5e4d618ad3d31b08dcc5f5d435a50ca9a49e63",
+   "size": 1778
+  },
+  "snippets/knowledge-spaces.json": {
+   "sha256": "51432179333a2a631a8f90f35158e5f2d5dbb80a9dcc3ca76efcf55d3e74622c",
+   "size": 2602
+  },
+  "snippets/kpi-card.json": {
+   "sha256": "762929ed19de13a11de74802b0969bc5321f2a45a9b45885b910d60f64fedc28",
+   "size": 1860
+  },
+  "snippets/lema-conversation.json": {
+   "sha256": "caea94368eb65af936bdd418de2ad68797d2f28c4a6d45cb4d2294cf9b588b43",
+   "size": 1637
+  },
+  "snippets/lema-signer.json": {
+   "sha256": "23bcdcb4109adc87d60076276b121bc06d40b7bb017486b7d2c64bb0c7648e1a",
+   "size": 1403
+  },
+  "snippets/live-steps.json": {
+   "sha256": "131d228d761a4f8b50580b2db91fdc53189262897c97496ff28b49f816f39f4f",
+   "size": 2191
+  },
+  "snippets/luz-agenda.json": {
+   "sha256": "c8ab533895e3033c72f9484cbd63d536833234d9125d3a39967fbcf7f1517ab2",
+   "size": 2271
+  },
+  "snippets/luz-bridge.json": {
+   "sha256": "182ad8554eb1cc137f6881f17152e072f1b9eb2a602a94a49737f8e88d4c9e32",
+   "size": 2031
+  },
+  "snippets/luz-console.json": {
+   "sha256": "c82a2043ef162cf9a568c4875c12948843bc8722bf414537e7f0d401fe3a9a24",
+   "size": 2110
+  },
+  "snippets/luz-divider.json": {
+   "sha256": "c91a9a3e75bf8ca7318b30177880ff0141d881097c3fec900dcb8bd7db0dc7a2",
+   "size": 1656
+  },
+  "snippets/luz-end.json": {
+   "sha256": "cc8ad51a2b1badc56dd4abdc9d56540f482cdcac93835c518c95cc54292d1b4f",
+   "size": 1973
+  },
+  "snippets/luz-escala.json": {
+   "sha256": "a7afb6308c7d8fed60ec524b54f3fac64f5205ba8b28a0dc93ae741dd743e253",
+   "size": 2057
+  },
+  "snippets/luz-figures.json": {
+   "sha256": "476f54637d57e8b41d07806b4e7c70cb1c7ed0bea2bb11b241f5520e5a6cfd78",
+   "size": 2085
+  },
+  "snippets/luz-hero.json": {
+   "sha256": "9c09a815d6a6afbdc07330354d36cbbaa5301ee56dc735f3db93089f236b592a",
+   "size": 1465
+  },
+  "snippets/luz-ladder.json": {
+   "sha256": "7e670f2e29de27529ede857fe02a87f053a1d98aa61e5e71ad074fc3acec385b",
+   "size": 3234
+  },
+  "snippets/luz-loop.json": {
+   "sha256": "280388326ade6ae9671aeada8ad3916f0047df418fbbdf6910a93f434676315c",
+   "size": 1586
+  },
+  "snippets/luz-panel.json": {
+   "sha256": "29155cd662a9859bec179e236806dbef156f8da7bc1bc20b1f972773f12e7433",
+   "size": 1565
+  },
+  "snippets/luz-question.json": {
+   "sha256": "8ce8f49f79ba877b1f8cacdbef011f0a28b5aab368d683da88af95fb1dbce921",
+   "size": 1515
+  },
+  "snippets/luz-wave.json": {
+   "sha256": "65433ef9eaba0ddb75cdf88612a0df1d935b977f48b34eaa7aa48c4c55cc3c2d",
+   "size": 1930
+  },
+  "snippets/map-hub.json": {
+   "sha256": "471ad5f2cb270b8359190b0957742a7e0eda0d23c42e327571a0c55164ec4c87",
+   "size": 1280
+  },
+  "snippets/map-lines.json": {
+   "sha256": "b064353dfb7fe8d3c56280b00c54f8362c18e584a2656a17949d71d7c917657a",
+   "size": 1676
+  },
+  "snippets/matrix-quadrants.json": {
+   "sha256": "c9a60424b8166eb00e067d55f13af354d89a541abe96be3b8d8a0b8ec57d5603",
+   "size": 1807
+  },
+  "snippets/matrix-table.json": {
+   "sha256": "bd40cbc8d5df764de4962cbc4c13fe746e6e30cc1b7fcade48db2b1c350379dc",
+   "size": 1623
+  },
+  "snippets/mechanism-teams.json": {
+   "sha256": "7f3b8460b90722a610819963911e77a97ee0e6b67f4825e40ac9897a135b476b",
+   "size": 1979
+  },
+  "snippets/mechanism.json": {
+   "sha256": "49e0f9936e46dc713dd2d8d02bc0ae44c75a2c64d00fa014d7cc9abe2206e381",
+   "size": 1678
+  },
+  "snippets/mirroring.json": {
+   "sha256": "614a8b9c0f09c3d897e81a8012550d7aad431e2cf1e11b755daef1195ea6f6b6",
+   "size": 1467
+  },
+  "snippets/mondays-sent.json": {
+   "sha256": "755f3ea13c93eb71b5e000425120ffc7f986c5b32f733558844b31f65e1745b6",
+   "size": 1276
+  },
+  "snippets/noise-vs-evidence.json": {
+   "sha256": "6e49390c4c0f8a8a24b701e68297c55dcc42b038ba9995a35bd83c6b0f60dcbc",
+   "size": 1870
+  },
+  "snippets/ops-center.json": {
+   "sha256": "426ccf31e79208c7a5dd140bdc6f40cce3be17bf54de2e0f0699c2fba467ffb9",
+   "size": 2305
+  },
+  "snippets/orbit.json": {
+   "sha256": "3154c08642f858b54810b9164a30993caaf9d4c7f6547ed351aa52b2b2b84ef2",
+   "size": 1402
+  },
+  "snippets/org-squad.json": {
+   "sha256": "8519edf19b46d67c9b10858a0d1aa144e74aa513be8612aca96e57357d202262",
+   "size": 1506
+  },
+  "snippets/org-tree.json": {
+   "sha256": "62c4dbd5575e7ad44f9d055d95d09851781f9616820fa7397bcad5dfd920a596",
+   "size": 1652
+  },
+  "snippets/outside-business.json": {
+   "sha256": "fd37250bcf0cc9190f17559a894d1e4d9abbe89b3c856e4760098c62941c34b4",
+   "size": 1704
+  },
+  "snippets/outside-teams.json": {
+   "sha256": "e91da4a375999503920c420b946d44e637aeea8ff9b4a82c174ee59956468fb1",
+   "size": 1464
+  },
+  "snippets/outside.json": {
+   "sha256": "30238b0cbba5c02fb8addb1eb85f4bc5bfa88e14b9e2b6a2767eb1a045e0a744",
+   "size": 1455
+  },
+  "snippets/pair-read.json": {
+   "sha256": "0f1d6f2e7298abe69dd5f426f8acba52d30cf5871946872f69f297f59a6d9e7a",
+   "size": 1513
+  },
+  "snippets/panel-questions-list.json": {
+   "sha256": "340be13c1ec30653540c490ec5242339b0691d49e8ec7fc6cf5029e983ffdaf2",
+   "size": 1606
+  },
+  "snippets/panel-questions.json": {
+   "sha256": "c735bb6f53eecf5ea04c1f6472d3525a27a350ba7da85a26e35c68ff07834971",
+   "size": 1776
+  },
+  "snippets/paper-hero.json": {
+   "sha256": "1a39742c98255752c07d1190bcd1b1935563a98a3d5c4192ab8ef9d4cb59e072",
+   "size": 1206
+  },
+  "snippets/pinned-request.json": {
+   "sha256": "5288590490e42bb35c11a1653d615e438f39b9e7a81adb81e4e8d7dca8d24131",
+   "size": 1327
+  },
+  "snippets/proof-paths.json": {
+   "sha256": "4e331ba84c5e75803f72d52e001477c4f0d057a6146f7d499b9e53087c9f4db5",
+   "size": 1549
+  },
+  "snippets/prospect-cover.json": {
+   "sha256": "c71786e7931bd41908aa7977f18c81310dc9696a0ae7e50b33dd2c5bb35653f3",
+   "size": 1510
+  },
+  "snippets/quality-drivers.json": {
+   "sha256": "f7110eb7e9e3620512b4855066444c2b8aaf730dea19bc8c1ca92b1f9d1bafac",
+   "size": 1535
+  },
+  "snippets/reflections-cards.json": {
+   "sha256": "503421ef786eaa0fdd69a32ae192ae26da1933676f48a5159ec2a5bc9d5d90ee",
+   "size": 1292
+  },
+  "snippets/reflections-live.json": {
+   "sha256": "d5e0f91d22abf64772a2aa36dc4022b90b19f606a99cd4c7b588b225cc96e4ba",
+   "size": 1884
+  },
+  "snippets/repeat-story.json": {
+   "sha256": "503427b5c834fdd9c232a9fbe8cb32b68494e48016fadd4769c42b8a14a528cf",
+   "size": 1682
+  },
+  "snippets/report-before-after.json": {
+   "sha256": "36c2cac7535f178463ffc66be1d4e398dde3ceb822070c899579133a7fefdc09",
+   "size": 2145
+  },
+  "snippets/review-lens.json": {
+   "sha256": "c68eb0166fb342a8f6d45e8451c2a68b4d69201babac798713ea59aa7c169166",
+   "size": 1661
+  },
+  "snippets/risks-tradeoffs.json": {
+   "sha256": "0fa8b0a4069c4d9f1ccddeec23361b658d822820782c22b9a12ddb6d30bea85b",
+   "size": 1721
+  },
+  "snippets/roadmap-phases.json": {
+   "sha256": "5955c00cf2ec03ffef79d808bd0129215dabb925272b0afa96a18f971f9286d4",
+   "size": 1838
+  },
+  "snippets/roadmap-road.json": {
+   "sha256": "e2e770afefa5eb436de890710b1523c7f55ecaf6892bd2651cc765bf390459a7",
+   "size": 1480
+  },
+  "snippets/route-named.json": {
+   "sha256": "e04c0a94cd29153ef01044958d9a47012d901b4b3063aae6db8fdf0ab383fa9f",
+   "size": 1182
+  },
+  "snippets/shared-asset.json": {
+   "sha256": "3b8ccc0cb499f292a0984a5adacdd189017b3884a7134d1943d448ce4253f2e7",
+   "size": 1416
+  },
+  "snippets/simple-criterion.json": {
+   "sha256": "3a8cc3f1d7e93144653a203a23ab46f377a3c363ae6b399109c5b2289679c304",
+   "size": 1923
+  },
+  "snippets/simple-gap.json": {
+   "sha256": "9e304f264a924e8c3eae8020d2ef225d64bd9f437f90675bcf66b44384ed2f17",
+   "size": 2222
+  },
+  "snippets/simple-hero.json": {
+   "sha256": "8865787d735b318c063e469c998372695e924aad64a2f8c4fdbf0f2f93ba9fc8",
+   "size": 1778
+  },
+  "snippets/simple-hypotheses.json": {
+   "sha256": "26ec13ff0c32b525c42289355047b48ee9b3084dc02f427079d588ec94cb1d57",
+   "size": 1907
+  },
+  "snippets/simple-next.json": {
+   "sha256": "19b03c93cd7abc5e760a8eb76f8147753c5bd8eb9c7cb84d1f72f4ed9d682804",
+   "size": 1858
+  },
+  "snippets/simple-outside.json": {
+   "sha256": "e55530d759320d22c3a4b2bf12fa5faf160bdf03ed42ebe3eaf95d75b061d98a",
+   "size": 1958
+  },
+  "snippets/simple-path.json": {
+   "sha256": "566c330c1c0b81a569da900e70d1bae5b988cadf57df5f9fc7b028716a24630a",
+   "size": 1799
+  },
+  "snippets/simple-proof.json": {
+   "sha256": "961165e916cd856da7077844107e0b4659319747a3e03026e60036981ec18856",
+   "size": 2048
+  },
+  "snippets/skill-handoff.json": {
+   "sha256": "fc3e23c7e038909691492500c9e8628765a4e7fc9eb36bc0e0fbea3d8804da34",
+   "size": 1705
+  },
+  "snippets/solution-layers.json": {
+   "sha256": "72c66ed3134b11ec761fb837f78d5c4c6578e4eb831225d72d9d47a5d6d88afa",
+   "size": 1969
+  },
+  "snippets/strategy-map.json": {
+   "sha256": "aa6adc05d9863433593ae9fb16b326775ba6d9b5b67328799107bf8f0ed3f6a1",
+   "size": 1114
+  },
+  "snippets/success-case.json": {
+   "sha256": "217b3c25abfc3614f5c5e0ad39c26d1f231491dde0624ed31e4f061416d14fa3",
+   "size": 2394
+  },
+  "snippets/tickets-live.json": {
+   "sha256": "e034d30bb3f4c25191feaa64a280b0d5087cccd82fa2bb397e396cfd097f7241",
+   "size": 2522
+  },
+  "snippets/time-back.json": {
+   "sha256": "b5cc84203522d6b66e4ef0fa244c09eb45e9cbb1a84e4dbd4525cdc20c1a5e34",
+   "size": 2462
+  },
+  "snippets/time-freed.json": {
+   "sha256": "227c9f36cf7d8cc3b045d12d65ec541bc36ebea28a2f8b60707b6679db361306",
+   "size": 1384
+  },
+  "snippets/timeline-milestones.json": {
+   "sha256": "964f0147c95c5e031bda555492b504b3458c71c03eaa6c8ed803cd97edb08b6e",
+   "size": 1458
+  },
+  "snippets/timeline-tracks.json": {
+   "sha256": "1091e10e9f0bedadd1b3c11b8dc4471b5571e98eec75e3bda3d17cf6f628d61f",
+   "size": 1689
+  },
+  "snippets/titles-thread.json": {
+   "sha256": "949a2c952c3b90a38e7eef41c0aead845c1b907a3c588ff37fed89069093a6b8",
+   "size": 1688
+  },
+  "snippets/two-seconds.json": {
+   "sha256": "c5405d7c7c139fc2f5f8614452a1ec46fcc4089abda2efc650ab1b2c54634dbe",
+   "size": 1418
+  },
+  "snippets/unfold-describe.json": {
+   "sha256": "4998ffcd1e2361d3020202bb5ad8714d0ed2ddeb27290060dfb6e6b5581719bc",
+   "size": 1195
+  },
+  "snippets/ways-b.json": {
+   "sha256": "18b97ed514a11f45bc5b1741e8d943e6d98c0906f1ed6d5680b2be2a2d0f5729",
+   "size": 2527
+  },
+  "snippets/ways.json": {
+   "sha256": "5f588e9ba3cd7820e0a446755f3b428b122133d323c4c493c79ac12ecd9dd172",
+   "size": 2415
+  },
+  "snippets/week-calendar.json": {
+   "sha256": "afa145b7c80e0eb863a497b1dca134badc72afe4ff62bf28761c5f86b457f26f",
+   "size": 2085
+  },
+  "templates/arcs/arquitectura/banca.json": {
+   "sha256": "5ae3199e404bd93c9b212b8982e5cf7146075741c50cf5f6f4a37ee61a91c054",
+   "size": 3651
+  },
+  "templates/arcs/arquitectura/consumo.json": {
+   "sha256": "6355b020db8f0093eac30e32fe3a0f7b72ccb360fa6a0adf9d4f0753141c0411",
+   "size": 3516
+  },
+  "templates/arcs/arquitectura/cualquiera.json": {
+   "sha256": "970e36c4cee77ec1c89996191bec1a55228e53bc77d029e3d253f7eb55fdc85b",
+   "size": 2462
+  },
+  "templates/arcs/arquitectura/energia.json": {
+   "sha256": "c834d222ab2ab4986679bcd50c9542f0feab6022ea1f935c2f9e4f56feeed0b3",
+   "size": 3559
+  },
+  "templates/arcs/arquitectura/farmacia.json": {
+   "sha256": "22d8e4423355557e459b9866b5cd85a9a68ff2a52ed6fb60653aa12cc5e30d8d",
+   "size": 3503
+  },
+  "templates/arcs/arquitectura/fidelizacion.json": {
+   "sha256": "99759c729916072c217abe39d5838b85b4f3df2da705573cc25c060f5b035edd",
+   "size": 3568
+  },
+  "templates/arcs/arquitectura/formacion.json": {
+   "sha256": "a65c953148bcd16c49f39a00176b2640700d1b3e140c343cb16ccdf8df0f6a1b",
+   "size": 3569
+  },
+  "templates/arcs/arquitectura/industria.json": {
+   "sha256": "54a66a277357eb07164cd8d00d7b32ba6ea230bc16a07be847602a7d82fe93c1",
+   "size": 3590
+  },
+  "templates/arcs/arquitectura/logistica.json": {
+   "sha256": "f84622bce3cc14dc9c48afff77e8d769dd2df062633036add6089b3e40914f38",
+   "size": 3593
+  },
+  "templates/arcs/arquitectura/mineria.json": {
+   "sha256": "1500991db0db735e78d9c9fe264992e154889362786be079792a54165398432a",
+   "size": 3530
+  },
+  "templates/arcs/arquitectura/pagos.json": {
+   "sha256": "343a61952a371a0222a0c87362b74e8c5990a5c8d081be6c47a487d724bab115",
+   "size": 3477
+  },
+  "templates/arcs/arquitectura/publico.json": {
+   "sha256": "e1f11a135abf7dca9be67ddbcb064bf72df7b1b2da26564ca434b2a463d6d58d",
+   "size": 3568
+  },
+  "templates/arcs/arquitectura/retail.json": {
+   "sha256": "ff79790b5d2e6566615e561d5174a8a79f128a85d78bfaa878958d0ada42be11",
+   "size": 3474
+  },
+  "templates/arcs/arquitectura/salud.json": {
+   "sha256": "a9dfe0142d61ad674f62f40ec73150347022adc0ed6003803eb55e88e423e4d1",
+   "size": 3525
+  },
+  "templates/arcs/arquitectura/seguros.json": {
+   "sha256": "bde13ef55c85505d318d038b55b29504bff62c778ec7355ddb01f4d4fd3ea5f2",
+   "size": 3583
+  },
+  "templates/arcs/arquitectura/telco.json": {
+   "sha256": "d79778ddbae990507a6c7c957f9bb9e08b639696586a69bcc07e9ee9c7177e6d",
+   "size": 3469
+  },
+  "templates/arcs/cierre-training/banca.json": {
+   "sha256": "0048fbe895e9d3a946a3edebdbafdfcae2d7de228db494f7cfc54900c0368c70",
+   "size": 3536
+  },
+  "templates/arcs/cierre-training/consumo.json": {
+   "sha256": "d87973f04aba82085d1dee9ce1e7284a476b3ab0327e7bef76937468587c3fc7",
+   "size": 3384
+  },
+  "templates/arcs/cierre-training/cualquiera.json": {
+   "sha256": "eedc0df33e97b2577613dc6128a0b01fe6d663dc8ae60fd5ce23b90ad46afabe",
+   "size": 2590
+  },
+  "templates/arcs/cierre-training/energia.json": {
+   "sha256": "8a59967ea3b182bd633148fff91c590b80d445dce83a2f55495baee878a9142c",
+   "size": 3475
+  },
+  "templates/arcs/cierre-training/farmacia.json": {
+   "sha256": "24693b7dd3b1c006a44449839db333dbe6afcb6194f7c4930c4295d1c07603b3",
+   "size": 3399
+  },
+  "templates/arcs/cierre-training/fidelizacion.json": {
+   "sha256": "1f556adf930fc7c314c96c77907ab2bfb0284c9bcf187ef17c8ef6cf00b3bb60",
+   "size": 3434
+  },
+  "templates/arcs/cierre-training/formacion.json": {
+   "sha256": "6a4ff3cec0ca0a1081a8c82bbdf8fa838007a47e13c4bee4b96f93ca29c11b99",
+   "size": 3415
+  },
+  "templates/arcs/cierre-training/industria.json": {
+   "sha256": "63c1c33f7b9cbda2c2d7edcb01faece6a37592739a8e454d659d5e36d4ac476e",
+   "size": 3461
+  },
+  "templates/arcs/cierre-training/logistica.json": {
+   "sha256": "fcce3ff413ea4edaef614416634f25b823cc25bea516e308687206ff49cfad0f",
+   "size": 3474
+  },
+  "templates/arcs/cierre-training/mineria.json": {
+   "sha256": "5158b56ef5aac75e424049b1b057a11988b6d337071ce10843c56f4490e29bc7",
+   "size": 3425
+  },
+  "templates/arcs/cierre-training/pagos.json": {
+   "sha256": "5de16e0ae96c3fb854c146bbba53c4d668ca78a7928aa70c15f681b3049078c3",
+   "size": 3410
+  },
+  "templates/arcs/cierre-training/publico.json": {
+   "sha256": "b231f947d93c31f7db63cdc8a79225196a1aeff46b3290b3c7bdd7dc9fcd3a17",
+   "size": 3465
+  },
+  "templates/arcs/cierre-training/retail.json": {
+   "sha256": "e282355067c930cd0d2411406e7dc43ce24595d20405eb04c08a9a08a3053fbe",
+   "size": 3383
+  },
+  "templates/arcs/cierre-training/salud.json": {
+   "sha256": "a77971eabc19f294992c786b0c86de203a3cbd2d53984731c7ed71c79f023529",
+   "size": 3437
+  },
+  "templates/arcs/cierre-training/seguros.json": {
+   "sha256": "938d676a422d9838cd307a2e887ad9d88ee44cfd0186f260469fb5fdbb32a6cc",
+   "size": 3512
+  },
+  "templates/arcs/cierre-training/telco.json": {
+   "sha256": "ec7d54fb4a5ccd321c02138cdd678ec696b5621e1e80c498b68d8e7cacdb37e8",
+   "size": 3370
+  },
+  "templates/arcs/comercial/banca.json": {
+   "sha256": "722660a2ae6dcfc9a93a07c32e35396e478ed6244927c5282fd7e3eeb94e7b1b",
+   "size": 3131
+  },
+  "templates/arcs/comercial/consumo.json": {
+   "sha256": "aeab92a58931bf24d720bbc23ada6d71dee80c00127a64514f273e05c5dac2ec",
+   "size": 2990
+  },
+  "templates/arcs/comercial/cualquiera.json": {
+   "sha256": "d6c66e0d2990f4d96b20475a3e181bbee5ee191242031d1edfc9e4c5dd50c654",
+   "size": 2196
+  },
+  "templates/arcs/comercial/energia.json": {
+   "sha256": "1fa59fe192cc16f3e1b8ed8d34885b1c1b0cebba071897c33839c8e5268f2e55",
+   "size": 3061
+  },
+  "templates/arcs/comercial/farmacia.json": {
+   "sha256": "bd127ba1f1911e36aba07589139fc70d1985025b63e70331e3ca80c91e7e58d0",
+   "size": 3005
+  },
+  "templates/arcs/comercial/fidelizacion.json": {
+   "sha256": "02b2ccebed5cefba95e9cf46e2a8d5fc3909b7eaa4f256c5c4fdd7130fcd946a",
+   "size": 3040
+  },
+  "templates/arcs/comercial/formacion.json": {
+   "sha256": "72c779881bf43460222e683cc01701bef7d3298b10fea84b6f2b41b0222cbb5c",
+   "size": 3018
+  },
+  "templates/arcs/comercial/industria.json": {
+   "sha256": "d869b775095a0d5176674f97b61b218cda3efa5c044fc7253eaea6a51167e82a",
+   "size": 3067
+  },
+  "templates/arcs/comercial/logistica.json": {
+   "sha256": "bae4d79b057e8472814f460ebdeb10e8275ca429a9431250b6bf24cbacbfb5db",
+   "size": 3080
+  },
+  "templates/arcs/comercial/mineria.json": {
+   "sha256": "1489948b716899db60faad5679ee196e2ff9a02a8a0b41d8958df9f50aa6c115",
+   "size": 3031
+  },
+  "templates/arcs/comercial/pagos.json": {
+   "sha256": "4c0df2f6cefeaca9f264733666a6ae793b74ca979b7b5a2c227b6155aa40c34d",
+   "size": 3011
+  },
+  "templates/arcs/comercial/publico.json": {
+   "sha256": "b6838ddc4dc5204bb774a51327feab2f3ea3579d7b93520ce5e5673d13869f21",
+   "size": 3071
+  },
+  "templates/arcs/comercial/retail.json": {
+   "sha256": "3ed66527be3c52c81120c30924f586963f1d6814235ab92fa690bd85e4937875",
+   "size": 2989
+  },
+  "templates/arcs/comercial/salud.json": {
+   "sha256": "4b6b4362345ac4b1b89247e2fe8f58223143230d74abc69869e5f1ac99748254",
+   "size": 3033
+  },
+  "templates/arcs/comercial/seguros.json": {
+   "sha256": "2fb17ae9fedb60d6b6710ec2a60a597832c3a700d3ac9f4a999bf3025a82c620",
+   "size": 3118
+  },
+  "templates/arcs/comercial/telco.json": {
+   "sha256": "dcd0270ea3588e110e1152fe39d77ae5a59a52a8da8b8e5c83533a3e56df8c92",
+   "size": 2976
+  },
+  "templates/arcs/defensa-funcional/banca.json": {
+   "sha256": "2003d0467a3815b83d75fb96bf75166a6681b9e023226ee974208bc4aec864f2",
+   "size": 3678
+  },
+  "templates/arcs/defensa-funcional/consumo.json": {
+   "sha256": "f7632fec51bf5132bb1096b2b360fae59b7e54e4dfd242e08f30bf188ab9c271",
+   "size": 3543
+  },
+  "templates/arcs/defensa-funcional/cualquiera.json": {
+   "sha256": "c51725f29dc1bf7ddec0bb42cc5035fe0fd217e356fbc662d28b2ff8f6fd53aa",
+   "size": 2489
+  },
+  "templates/arcs/defensa-funcional/energia.json": {
+   "sha256": "26a8fe770eac5fd2b1938a539ed439f6518f3c6981ff0ced6eca8ef522262d65",
+   "size": 3581
+  },
+  "templates/arcs/defensa-funcional/farmacia.json": {
+   "sha256": "a8cfa110caa20924f09c5d6e91cc19fc04f879eacd934e36879d919ebfad0d36",
+   "size": 3530
+  },
+  "templates/arcs/defensa-funcional/fidelizacion.json": {
+   "sha256": "c0721ff661d9b58ab603c8f68c54bd3776e38038450d47705b1159d7eb31b9cc",
+   "size": 3595
+  },
+  "templates/arcs/defensa-funcional/formacion.json": {
+   "sha256": "e85b926aa7bb1ed31f590614f424bbd9e4f09031eba26a1e3ebae3d92e293e68",
+   "size": 3591
+  },
+  "templates/arcs/defensa-funcional/industria.json": {
+   "sha256": "34f3688edfe210ec65696af6c337d71f341888d843aedf9b7bcaee5bf8e0bd7e",
+   "size": 3617
+  },
+  "templates/arcs/defensa-funcional/logistica.json": {
+   "sha256": "334fe3d69b1e3e3478dc3e6ce464e27e376a422c8675f2561d84c6a11df965bf",
+   "size": 3620
+  },
+  "templates/arcs/defensa-funcional/mineria.json": {
+   "sha256": "26c82a3ab30c4f260942135ba38fba2dd54f3d964819b706f7424790c894adc0",
+   "size": 3557
+  },
+  "templates/arcs/defensa-funcional/pagos.json": {
+   "sha256": "62bf3487054fe388b6d843152f7576e48964c7384722baf9f5f34bf29e17952c",
+   "size": 3505
+  },
+  "templates/arcs/defensa-funcional/publico.json": {
+   "sha256": "3eb967920c1fb8a6092b6f131cfa4102766e44de73c25977260a4a6d57336dae",
+   "size": 3595
+  },
+  "templates/arcs/defensa-funcional/retail.json": {
+   "sha256": "5af5efe69af06560b9c2ecf74018425fd85a1fdd004f330db930334e4e66cf83",
+   "size": 3501
+  },
+  "templates/arcs/defensa-funcional/salud.json": {
+   "sha256": "3238cd081c23a1fc6f018f9f32ac1f75c55afbef0b8919a2b410cb16b13606a2",
+   "size": 3552
+  },
+  "templates/arcs/defensa-funcional/seguros.json": {
+   "sha256": "87b439136562b5d546cbb1f0111937154ca90eb42ec07dc3cb89ca6f5d0dc2b8",
+   "size": 3610
+  },
+  "templates/arcs/defensa-funcional/telco.json": {
+   "sha256": "739357cce9bde3391fb92cdd793982effc7c6c2481396b4b8b34f361b346e92d",
+   "size": 3496
+  },
+  "templates/arcs/defensa-hibrida/banca.json": {
+   "sha256": "82b06a72321af88e981942e6054509f5351041e40c8cb585c27ee661c6ca59e9",
+   "size": 3611
+  },
+  "templates/arcs/defensa-hibrida/consumo.json": {
+   "sha256": "28669b4528ff19532f3d1595a9bb2a7095675e2767f1105f2985108c4d9dbe1d",
+   "size": 3531
+  },
+  "templates/arcs/defensa-hibrida/cualquiera.json": {
+   "sha256": "959ce8279b6a1130ef0fc23a8421ab6344e7583d11fa48e5abb20cc4ef3ec0a8",
+   "size": 2514
+  },
+  "templates/arcs/defensa-hibrida/energia.json": {
+   "sha256": "02cbbc857af8e580c688e40b11b66cb719bac1dbf7c8acf3ddc442662d22c1a1",
+   "size": 3560
+  },
+  "templates/arcs/defensa-hibrida/farmacia.json": {
+   "sha256": "40d8e2283abcae585a3bcbb9080db56eec89224456592d547ea4b22355fa4514",
+   "size": 3507
+  },
+  "templates/arcs/defensa-hibrida/fidelizacion.json": {
+   "sha256": "fdfcbbbd77bb2615a92c2ea332951d71ce89f05df31a0ad638f40295a34f3d9c",
+   "size": 3550
+  },
+  "templates/arcs/defensa-hibrida/formacion.json": {
+   "sha256": "ddca06b4e9ded64afe31d2bf1313e1aab9e4492807d56195501b377d0f156e39",
+   "size": 3569
+  },
+  "templates/arcs/defensa-hibrida/industria.json": {
+   "sha256": "1cd35b42398314f9b894bb8fd05cedb55c3494722cdfad89fa1d7fe033546b2f",
+   "size": 3622
+  },
+  "templates/arcs/defensa-hibrida/logistica.json": {
+   "sha256": "d6e3459b8e440c45abf66c055d6d6411de00bd709a0534421609ba5011789c9d",
+   "size": 3646
+  },
+  "templates/arcs/defensa-hibrida/mineria.json": {
+   "sha256": "0ce30bfb728e674c46eba2219ee61f5756aa93b3636975aed37b47cd30050d90",
+   "size": 3591
+  },
+  "templates/arcs/defensa-hibrida/pagos.json": {
+   "sha256": "50d64a1fb1721b872a85c430d21293e6dcfcb7b547223e71c484d429a089b6c2",
+   "size": 3481
+  },
+  "templates/arcs/defensa-hibrida/publico.json": {
+   "sha256": "0296e40b759b87f29ba00f30be57e8245c133fc9dc90fb8bb28b9450f8b44a5c",
+   "size": 3636
+  },
+  "templates/arcs/defensa-hibrida/retail.json": {
+   "sha256": "752ced8a7a6f94d34776a8652ea0f379b78127265701e2d316742364e9e3f8ab",
+   "size": 3504
+  },
+  "templates/arcs/defensa-hibrida/salud.json": {
+   "sha256": "6a2bcb5dd2ee5c0a1db95d624cfc7d579e608aea7c6102ee7922c3d37bd40ec1",
+   "size": 3520
+  },
+  "templates/arcs/defensa-hibrida/seguros.json": {
+   "sha256": "f7dd11fd90bd5c20a027afb6ff9d5c74fcec7126fae2fe11dbd3d92f8f0f485c",
+   "size": 3658
+  },
+  "templates/arcs/defensa-hibrida/telco.json": {
+   "sha256": "63293dea1e925ba5bdfd87e235e74ac98786b9eb32c2ac9810bbe95a1c20d0bf",
+   "size": 3519
+  },
+  "templates/arcs/defensa-negocio/banca.json": {
+   "sha256": "8c98024035e3bd47bcae9707249f20520795a2adaad46fd01acba77cee6bf4a4",
+   "size": 3638
+  },
+  "templates/arcs/defensa-negocio/consumo.json": {
+   "sha256": "9a653a1df169a4bc992dd6bfacce87d7a7c24353b120ffbb31ab05a9709b705e",
+   "size": 3503
+  },
+  "templates/arcs/defensa-negocio/cualquiera.json": {
+   "sha256": "f55127ed3cdf12cf9787edeec48313115f79377bf016184280a0a5ea193bb08d",
+   "size": 2449
+  },
+  "templates/arcs/defensa-negocio/energia.json": {
+   "sha256": "7cebd29f429ff2c1e7a0d703fffe1758f90bdd8bde8558cfbed60ba263c4aade",
+   "size": 3546
+  },
+  "templates/arcs/defensa-negocio/farmacia.json": {
+   "sha256": "3f01b4f11946af772dd363aeea127a2a1160a5e21f9f4633376d8c108b238bea",
+   "size": 3490
+  },
+  "templates/arcs/defensa-negocio/fidelizacion.json": {
+   "sha256": "bfcafb15b33c9dd66c28e2176de567b95df28c34701bdf46c89b0d351b1aaa42",
+   "size": 3555
+  },
+  "templates/arcs/defensa-negocio/formacion.json": {
+   "sha256": "b24837788af10c6640a4d8d54f50dea5d515d297cd3a12292f066444fdb8f731",
+   "size": 3557
+  },
+  "templates/arcs/defensa-negocio/industria.json": {
+   "sha256": "9fada695f14c5ed9cb48ba7fbd5bee964bf3f2fafb2a4b22c9dd0fe2592d1e7a",
+   "size": 3577
+  },
+  "templates/arcs/defensa-negocio/logistica.json": {
+   "sha256": "491eb6564efa34aa0298560bc8bb8e056923345a9cfc0649f953b15c11b387ac",
+   "size": 3580
+  },
+  "templates/arcs/defensa-negocio/mineria.json": {
+   "sha256": "cb6dfe9795ae187acf3f365a54445b88f9f9eebd5181e59a83785496fd5e3eb9",
+   "size": 3517
+  },
+  "templates/arcs/defensa-negocio/pagos.json": {
+   "sha256": "ece03818acb509313c032e98bab6b7184a85ee41b4bbcae8c394c9c64f7f03e6",
+   "size": 3464
+  },
+  "templates/arcs/defensa-negocio/publico.json": {
+   "sha256": "b7e305c4039ede7f0e71ba17735e01b04f5b26e78119adf48bf0525289c37b93",
+   "size": 3555
+  },
+  "templates/arcs/defensa-negocio/retail.json": {
+   "sha256": "29b2c7733536203401da1da6446abb56cd2a14a669368f15379acc806d7d90cf",
+   "size": 3461
+  },
+  "templates/arcs/defensa-negocio/salud.json": {
+   "sha256": "f75b4b27c989f69fe27344fa5d3771850fe98fb5c536fda8918f14644299c83a",
+   "size": 3512
+  },
+  "templates/arcs/defensa-negocio/seguros.json": {
+   "sha256": "89ffdd9c296a4682c98b8f36225ada62139bd2a4e3dff5eeaccdf3195bc85bff",
+   "size": 3570
+  },
+  "templates/arcs/defensa-negocio/telco.json": {
+   "sha256": "c29720c06bfc5892ae2d3e1b13e5a8c20898955b0fa5841302dbedaf471799ce",
+   "size": 3456
+  },
+  "templates/arcs/defensa-tecnica/banca.json": {
+   "sha256": "187328c87233c9f4139eb82dd96bd58db1468b46b8c1deebe5e113e371eb28bd",
+   "size": 3385
+  },
+  "templates/arcs/defensa-tecnica/consumo.json": {
+   "sha256": "2debddf0b2379b5469a25672e4de5819d37700e86655e60dcd3be5295b6466bd",
+   "size": 3244
+  },
+  "templates/arcs/defensa-tecnica/cualquiera.json": {
+   "sha256": "fd385057f8cc7a35df48e37dd019960dc8ae148a03cb980e944904f4a7aa8664",
+   "size": 2450
+  },
+  "templates/arcs/defensa-tecnica/energia.json": {
+   "sha256": "33f11292878f37524ec3df26f5ed7e51fa707c2a1b53b12e4579dd7c08d95593",
+   "size": 3320
+  },
+  "templates/arcs/defensa-tecnica/farmacia.json": {
+   "sha256": "70b9d2daf0c2247da2746c1df7fea39afe385f371824de72b2b4dd3922f2ef02",
+   "size": 3259
+  },
+  "templates/arcs/defensa-tecnica/fidelizacion.json": {
+   "sha256": "e96db12569468ee7d6f2f9337b32acd44428b1707d91decb2cc50b6f1fdc1fae",
+   "size": 3294
+  },
+  "templates/arcs/defensa-tecnica/formacion.json": {
+   "sha256": "ed83923376866e1798e081e28f28ffa0624fdee5364e907f63e91e86233a293c",
+   "size": 3277
+  },
+  "templates/arcs/defensa-tecnica/industria.json": {
+   "sha256": "e6588f67b1ada81726c100378ff158ab07c32c365163d78c466da381b4074f54",
+   "size": 3321
+  },
+  "templates/arcs/defensa-tecnica/logistica.json": {
+   "sha256": "ed62ed190c73278b5e96a7cb04b917e084983743aa4e9628ea253ed35dcde6e0",
+   "size": 3334
+  },
+  "templates/arcs/defensa-tecnica/mineria.json": {
+   "sha256": "f4c8d2c76586a6f7f46136ac0356b0bece6cc6f86d07ef4e0373b56d98950e14",
+   "size": 3285
+  },
+  "templates/arcs/defensa-tecnica/pagos.json": {
+   "sha256": "76aa467e0835c6b3e1feab1d60ec3e6bd817fa774de07b4aacf994fcb7700346",
+   "size": 3264
+  },
+  "templates/arcs/defensa-tecnica/publico.json": {
+   "sha256": "b12f4b2f78c5e43c2490e2794fefa6203d6e461837d4cd48f6991016a1bdaba7",
+   "size": 3325
+  },
+  "templates/arcs/defensa-tecnica/retail.json": {
+   "sha256": "fac255034c685eeb20001aa2040358df9695b39ae38b0fee9343bd735ab2c62b",
+   "size": 3243
+  },
+  "templates/arcs/defensa-tecnica/salud.json": {
+   "sha256": "2447fabd02ee727888bd20d77cac98b1fa18dea3b928eb171a792677feb7c106",
+   "size": 3287
+  },
+  "templates/arcs/defensa-tecnica/seguros.json": {
+   "sha256": "1043a5bf5e0ce38b4b27b4bc8e3710dd5b3ad8e0cfcbf1e941a72c23c3629519",
+   "size": 3372
+  },
+  "templates/arcs/defensa-tecnica/telco.json": {
+   "sha256": "1b757d9a8e8312ecc616dff07019b56d9ef1b93418281d914da1babb3e3d20d8",
+   "size": 3230
+  },
+  "templates/arcs/formacion/banca.json": {
+   "sha256": "59cb9ae0bb6c16e6ae83b39faca8f3e6b4828bbd6c20aa51906d10019e003021",
+   "size": 4386
+  },
+  "templates/arcs/formacion/consumo.json": {
+   "sha256": "cf239a2a352decf94cd1c4d4620e66a153b6fbc8c516476aa103e8363d9a808a",
+   "size": 4236
+  },
+  "templates/arcs/formacion/cualquiera.json": {
+   "sha256": "e58f19b97c3b6d29f5f8d54187bcaa635cf7758263943094f7ec1511c4f6f01b",
+   "size": 2956
+  },
+  "templates/arcs/formacion/energia.json": {
+   "sha256": "00bc46e5606ce0b6de3dc2fafd56f4bce9762ec56f597ebde8668f90918eb66e",
+   "size": 4284
+  },
+  "templates/arcs/formacion/farmacia.json": {
+   "sha256": "fc6ece203313d4c4d568015bfe8b34339979b73ecef620cf62ce63c570f0644b",
+   "size": 4184
+  },
+  "templates/arcs/formacion/fidelizacion.json": {
+   "sha256": "682a740b11da03dc99cf0bde30bc968c135dad28a0d6a210d8156d3430083885",
+   "size": 4257
+  },
+  "templates/arcs/formacion/formacion.json": {
+   "sha256": "b4099da7ce556fb1b38b0b5c121b3b44e7504df9e7f33f266b2be201b438bd06",
+   "size": 4298
+  },
+  "templates/arcs/formacion/industria.json": {
+   "sha256": "8e0f0bfe66088bab460454cd177c2a941d3234176756b1aa33b8d3de391fb779",
+   "size": 4343
+  },
+  "templates/arcs/formacion/logistica.json": {
+   "sha256": "893d0d90e77de839857d4b9fc8f17a25f6254a658a2dacd38331a4a552fdd52d",
+   "size": 4349
+  },
+  "templates/arcs/formacion/mineria.json": {
+   "sha256": "a1da8b7b9cf454a7175ae81a9b256aa6fe364e6822d7f771128efe0de606d763",
+   "size": 4269
+  },
+  "templates/arcs/formacion/pagos.json": {
+   "sha256": "85e92409affe29c6c6e3a471bfd5bdc1dd138383d575067fe1671e3edff84439",
+   "size": 4180
+  },
+  "templates/arcs/formacion/publico.json": {
+   "sha256": "b081148e48c0e0c5625aa5153be8b55ddae0afb2514d2b0f4596f6d2a463e444",
+   "size": 4314
+  },
+  "templates/arcs/formacion/retail.json": {
+   "sha256": "e3b881a756d61aaf8fa9ee12f20187a2911fd7ef2481ebfb1ae87b0c4fd81229",
+   "size": 4168
+  },
+  "templates/arcs/formacion/salud.json": {
+   "sha256": "e27c064ceee3fa1ab86f3fbf69d3577f289b05d29c7bcdcd4df1af5a710516cb",
+   "size": 4256
+  },
+  "templates/arcs/formacion/seguros.json": {
+   "sha256": "57743162fdf61c7d4c56f0a80c5db45caa76cbda4c328dd3f6a1f592bff8115e",
+   "size": 4321
+  },
+  "templates/arcs/formacion/telco.json": {
+   "sha256": "396035a9c5c9a3cd0f3a3a2e3013d4fb86446a870500fcd2de80cef1f5683621",
+   "size": 4191
+  },
+  "templates/arcs/prospeccion/banca.json": {
+   "sha256": "11a0274c3dd2f3263694df03441bdb5512c5f9121bad8a81623d890c99e46ed5",
+   "size": 3669
+  },
+  "templates/arcs/prospeccion/consumo.json": {
+   "sha256": "1f492458204d69bd172c175af2a3de23f75e734429cf6c5b3619ba75d946ba90",
+   "size": 3534
+  },
+  "templates/arcs/prospeccion/cualquiera.json": {
+   "sha256": "a09328085d69c009b8f7bcad3f474d305fa47cf92e676842932c05e15b718097",
+   "size": 2480
+  },
+  "templates/arcs/prospeccion/energia.json": {
+   "sha256": "801ba98b7dac2e1b563f0f0a7f0e8ba391e14b5257446f089bd911599d7fea79",
+   "size": 3577
+  },
+  "templates/arcs/prospeccion/farmacia.json": {
+   "sha256": "3195b6e9b7ff9b0a4fd2e48849cb3384c00663624482acdb0b4e453026745881",
+   "size": 3521
+  },
+  "templates/arcs/prospeccion/fidelizacion.json": {
+   "sha256": "3d551d8266030f327a944afadbe7ba104e0b81e288da224b2168730e4b235fc1",
+   "size": 3586
+  },
+  "templates/arcs/prospeccion/formacion.json": {
+   "sha256": "718b65bb2ad4ae2d85063740e9c073788fd26beed0752e8f4ce9976904c0d339",
+   "size": 3590
+  },
+  "templates/arcs/prospeccion/industria.json": {
+   "sha256": "e88e0724a1fc7c90ae5a550867b3deb820f3e4fcb8ab2303b1ba97446f76c559",
+   "size": 3608
+  },
+  "templates/arcs/prospeccion/logistica.json": {
+   "sha256": "ebf1d40b48c2392760ff61b1c11d663bd346f669520f948f8f72d2a0934931f0",
+   "size": 3611
+  },
+  "templates/arcs/prospeccion/mineria.json": {
+   "sha256": "2264b9fadf501203e7a014fadb34de99dd210e47ec3ca29d2e77992174e509a8",
+   "size": 3548
+  },
+  "templates/arcs/prospeccion/pagos.json": {
+   "sha256": "ae195494b6572bc38e7a772bfe724d0bfc221b90f96dbf4431567d59edc24f33",
+   "size": 3495
+  },
+  "templates/arcs/prospeccion/publico.json": {
+   "sha256": "b4ab0ebd9748981bd657e36d0edd4c75de469a3e0325463414293b7259461495",
+   "size": 3586
+  },
+  "templates/arcs/prospeccion/retail.json": {
+   "sha256": "0009504b1fd4124900678d7ba95583dda658de07c95eb93a4506cd9a9de084f9",
+   "size": 3492
+  },
+  "templates/arcs/prospeccion/salud.json": {
+   "sha256": "40d18beeb807db286f516cee5d46af6525d3a020bac26b2ef987f472a1873541",
+   "size": 3543
+  },
+  "templates/arcs/prospeccion/seguros.json": {
+   "sha256": "33f3617ed37a1cba66d8c466c3184ffd7bb8d28700956b97a18925b6d3389497",
+   "size": 3601
+  },
+  "templates/arcs/prospeccion/telco.json": {
+   "sha256": "f763022f02af0032a75ebafd2b80f5ade183511c2746567a073f235e058e6a32",
+   "size": 3487
+  },
+  "templates/arcs/simple/banca.json": {
+   "sha256": "dca07def29cdc810c1af8c84ce53bb50d455f32dd9e4addcc9afa47b9f9664d1",
+   "size": 3664
+  },
+  "templates/arcs/simple/consumo.json": {
+   "sha256": "b05c5227dca3b788fd5ee429c0720e4cbd5d70a8aa349f9f22d99c18f854f609",
+   "size": 3529
+  },
+  "templates/arcs/simple/cualquiera.json": {
+   "sha256": "149ef3cd67483a7709bbe1b2ea7bea1f36a1f687d1e8cc297645fec5300b8eb5",
+   "size": 2475
+  },
+  "templates/arcs/simple/energia.json": {
+   "sha256": "4dd949da7d37ae650007b42d9339335ef457d5bf74d2ea3249bc9fed1b83b806",
+   "size": 3572
+  },
+  "templates/arcs/simple/farmacia.json": {
+   "sha256": "7b1202d1fe7af87baf9bfe9eabdecdafced84be5d1181735b8f324731bd7760c",
+   "size": 3516
+  },
+  "templates/arcs/simple/fidelizacion.json": {
+   "sha256": "916819971c0f20952703792be2e420c125a3ca484a04bafb9646989cf631bd36",
+   "size": 3581
+  },
+  "templates/arcs/simple/formacion.json": {
+   "sha256": "5ea60e220e8cb03fdcb983c14e739502baad2d19545b8936264504dd47688d55",
+   "size": 3585
+  },
+  "templates/arcs/simple/industria.json": {
+   "sha256": "9acd06881a637624d7ccf492cdff43a695f5f254371b148f4ab6adbaf7826bf7",
+   "size": 3603
+  },
+  "templates/arcs/simple/logistica.json": {
+   "sha256": "93e100b8b4e684ab4e4f685373972f7423f24f34abf46f8234c5c21a5e430876",
+   "size": 3606
+  },
+  "templates/arcs/simple/mineria.json": {
+   "sha256": "db19bd700827b8f575c2ac47a4691b255bcdff8f92dfae3d217853ea7feb1766",
+   "size": 3543
+  },
+  "templates/arcs/simple/pagos.json": {
+   "sha256": "cf847765312ed3ea43528abdb811fbdeced1266e6c39247fe5618a898bfb0546",
+   "size": 3490
+  },
+  "templates/arcs/simple/publico.json": {
+   "sha256": "4f4694d07bed88264cf34f3d66f8fe458750453fe0a0ad939684ad14da9b844c",
+   "size": 3581
+  },
+  "templates/arcs/simple/retail.json": {
+   "sha256": "af89bc452e201bd93de20d283673c5d26d28732c631e48b9e7c5261f859b9c8e",
+   "size": 3487
+  },
+  "templates/arcs/simple/salud.json": {
+   "sha256": "5c9bcaf54ee016b166c809ba8e897102298a8edaf35892247d87b42d0183dd0c",
+   "size": 3538
+  },
+  "templates/arcs/simple/seguros.json": {
+   "sha256": "8affe18171c98443dc59e5658945756544fd32bca77806a9fa47ecd005b8b9c8",
+   "size": 3596
+  },
+  "templates/arcs/simple/telco.json": {
+   "sha256": "f6753dea49e00e5861374390c7c27fa95af46fa0df23bf0b90ddddb534863e95",
+   "size": 3482
+  },
+  "templates/arcs/tecnico/banca.json": {
+   "sha256": "8b0e291b8d74e2e88a2b6f43980459198904dfefff260dadbddaab8b0922be51",
+   "size": 3400
+  },
+  "templates/arcs/tecnico/consumo.json": {
+   "sha256": "e320c4e49c7e6bdd864f66d358f9f9c1d95cbfdba3e8c49eaf11f353f899796b",
+   "size": 3259
+  },
+  "templates/arcs/tecnico/cualquiera.json": {
+   "sha256": "c98418bdeb874a23f1ae73aba1b29fcb374adce1867d7b088d7a3c65f94d6b20",
+   "size": 2465
+  },
+  "templates/arcs/tecnico/energia.json": {
+   "sha256": "000ac187a039749141c8c8b5cb031c65fc8fb0a919dd76943258bbdf9877db02",
+   "size": 3335
+  },
+  "templates/arcs/tecnico/farmacia.json": {
+   "sha256": "b55fdc83ffcd9e5504e548123e390ac688a104cdd2b6bb046c7f1e4e618fd999",
+   "size": 3274
+  },
+  "templates/arcs/tecnico/fidelizacion.json": {
+   "sha256": "65d261700b7e5b264a79cdef3c414232455e01b25f23d107b9a4f47d62992c91",
+   "size": 3309
+  },
+  "templates/arcs/tecnico/formacion.json": {
+   "sha256": "e679d1891ae3f72c182cfb5cd4a6fe185ff9bcff1b55c98b3261b5eecd477bb8",
+   "size": 3293
+  },
+  "templates/arcs/tecnico/industria.json": {
+   "sha256": "78f73c876df0a07b639f552db27c1583d615585a989120e4a048681de463361e",
+   "size": 3336
+  },
+  "templates/arcs/tecnico/logistica.json": {
+   "sha256": "ed234d9045cb1ebe088211cacbfac0573db57f1815880d5d82654df4935f1f28",
+   "size": 3349
+  },
+  "templates/arcs/tecnico/mineria.json": {
+   "sha256": "e92b2480086703f65d2c4a0573a9a1a1c62dadcf13fe44efb10e678f570dc0aa",
+   "size": 3300
+  },
+  "templates/arcs/tecnico/pagos.json": {
+   "sha256": "aacbf5e6720c7200e7914920aee721f1dac26ec6af4bd0eea745b578a79b3577",
+   "size": 3279
+  },
+  "templates/arcs/tecnico/publico.json": {
+   "sha256": "480a1cb7ff6ad5e4c8eb0055189e2bb6b4971095ad19a70a013c70a4631d5bec",
+   "size": 3340
+  },
+  "templates/arcs/tecnico/retail.json": {
+   "sha256": "336fe56717133c491868a560894e948ab634a8c01414dc5c1fa303cc2e5a0a9f",
+   "size": 3258
+  },
+  "templates/arcs/tecnico/salud.json": {
+   "sha256": "279945495993cfb593028469aa705fec41ea51393d913876c499d8ab33f67f2f",
+   "size": 3302
+  },
+  "templates/arcs/tecnico/seguros.json": {
+   "sha256": "1e1dec0780129266754cbf076ea3799bff63e45cf1d475fc9f635f246c70c699",
+   "size": 3387
+  },
+  "templates/arcs/tecnico/telco.json": {
+   "sha256": "14161241748383f311cd33a7f7e707c3c981bd963034eab390d9345f9a5bd5b6",
+   "size": 3245
+  },
+  "templates/arcs/webinar-panel/banca.json": {
+   "sha256": "9bdbd150171774c348c22356c02aeed55690c945e6505bed5e60a994bd70ccc2",
+   "size": 4153
+  },
+  "templates/arcs/webinar-panel/consumo.json": {
+   "sha256": "8664e709d5cbb38ab2e653afac3d946b5db6b0e3108747c79c079fca76f7a05b",
+   "size": 3992
+  },
+  "templates/arcs/webinar-panel/cualquiera.json": {
+   "sha256": "80b5d87efd9fe732c9f705f2bcf33c45919b2a310053a58b3222b29e47f5a70c",
+   "size": 2749
+  },
+  "templates/arcs/webinar-panel/energia.json": {
+   "sha256": "40b55f24cca00a6d4ebf630950a9d9aec1f91fbb5dd40a10428a1b6fb9781ea6",
+   "size": 4093
+  },
+  "templates/arcs/webinar-panel/farmacia.json": {
+   "sha256": "21dcd68482a2f14adcc477e09cd625f3269c03fd5da534c51fffabbe6f38c8e1",
+   "size": 3929
+  },
+  "templates/arcs/webinar-panel/fidelizacion.json": {
+   "sha256": "63e1c6de76535e4819744bf81b4e0ebb5973a2e153e0e22178e4ca144642e752",
+   "size": 3980
+  },
+  "templates/arcs/webinar-panel/formacion.json": {
+   "sha256": "54bd5246e8f98e41cb0e17f3344cea9245ee6f03e9f25bb8c1ca86c06533b915",
+   "size": 4033
+  },
+  "templates/arcs/webinar-panel/industria.json": {
+   "sha256": "9998b19ccb8be629dbf4dc6f57ea419197d6f9d6bbee654db782233da0b1fa6b",
+   "size": 4116
+  },
+  "templates/arcs/webinar-panel/logistica.json": {
+   "sha256": "bead1b1e5a639c14a1ea11114df680280d9460a2a726ec43ee2c0977d4df2578",
+   "size": 4143
+  },
+  "templates/arcs/webinar-panel/mineria.json": {
+   "sha256": "8c26b3be90d060861c9682486de66bdc5ebb30bd36c788a140c5f3f5d8b30fb2",
+   "size": 4071
+  },
+  "templates/arcs/webinar-panel/pagos.json": {
+   "sha256": "0bae1b684e39a79505552a7b9f896889fd4f9c40a93d49d9b1408f647f6e9d8e",
+   "size": 3984
+  },
+  "templates/arcs/webinar-panel/publico.json": {
+   "sha256": "518d9827700208a32e6b622aaa8e93a6e1ff33892707edc1df844af2310cf6ff",
+   "size": 4123
+  },
+  "templates/arcs/webinar-panel/retail.json": {
+   "sha256": "becd9c2cf089bc5ed90f50700fd0b98d9adcecee7d1deacd4b74c7650c90cc99",
+   "size": 3939
+  },
+  "templates/arcs/webinar-panel/salud.json": {
+   "sha256": "442dea8c6000641aa2f30e40672d03462ee8897de9571a702a61614a7104828f",
+   "size": 4057
+  },
+  "templates/arcs/webinar-panel/seguros.json": {
+   "sha256": "fa543952aef8ac19ba2dedbef698ccbb55dddd0afaa47bf7f1557d6219718db7",
+   "size": 4137
+  },
+  "templates/arcs/webinar-panel/telco.json": {
+   "sha256": "cce38d5ca8044ffcaac9c57e2e6a11b1fe1be07838e2883c1878683d23610519",
+   "size": 3982
+  },
+  "templates/types/arquitectura/brief.md": {
+   "sha256": "b10c412c4f2c915ce66ada9adc4e034ec88f08bc5ac5ca5938109f1c5a660b5c",
+   "size": 1737
+  },
+  "templates/types/arquitectura/guion.md": {
+   "sha256": "5c7c698ddf248354d473cd3de37b9e9a467e4564b592835cadfe5bcaf2f04ec7",
+   "size": 1956
+  },
+  "templates/types/arquitectura/titulos.md": {
+   "sha256": "0ecc3eeae15b5d05a51dd86e9a6624908cd582ed8ace9a765ec009497ac7ff35",
+   "size": 1878
+  },
+  "templates/types/cierre-training/brief.md": {
+   "sha256": "cae87c803a4fa2bb45a07878e7223649e25733810a93586061f5df7e60ea9373",
+   "size": 1819
+  },
+  "templates/types/cierre-training/guion.md": {
+   "sha256": "c6e4a591c31d197a36a3e4d4be7cf3b349a250e32091746c0c497e3a689249da",
+   "size": 1988
+  },
+  "templates/types/cierre-training/titulos.md": {
+   "sha256": "77bae1746cb0ad8ba93d286779964c8d8d786cf02060be1261e8bf8fdd3b7188",
+   "size": 1896
+  },
+  "templates/types/comercial/brief.md": {
+   "sha256": "141acc1e3c3553689699598bd082d574dca07ab722b922c20250feeb35ccd640",
+   "size": 1746
+  },
+  "templates/types/comercial/guion.md": {
+   "sha256": "c10f222a2d88abad942628d921a9d24f038e08dfe7c3a34b89d5a782d1fb1c14",
+   "size": 1960
+  },
+  "templates/types/comercial/titulos.md": {
+   "sha256": "304a36bf2a5b7c051819740ac03e30dcef3d5f0cae19620e4bb3990957df68f1",
+   "size": 1760
+  },
+  "templates/types/defensa-funcional/brief.md": {
+   "sha256": "d0ddfa6fb73a123b086ea2a0b02d4bacba326dbee1541d22474b6b374af57f6e",
+   "size": 1805
+  },
+  "templates/types/defensa-funcional/guion.md": {
+   "sha256": "e3ef530eee9abb0aa6c161ebf0c482494b879bcfadd0930b0780942d7362a7e9",
+   "size": 2090
+  },
+  "templates/types/defensa-funcional/titulos.md": {
+   "sha256": "683824a24fc04889811fad8d2ec7b70a86bf09eb316dc3761cbf62de2d3c406b",
+   "size": 1924
+  },
+  "templates/types/defensa-hibrida/brief.md": {
+   "sha256": "acb5ffcc0bd4b4c77704f843a86e3394fa58d73eae623c6bb46cf14ddb8437d6",
+   "size": 1821
+  },
+  "templates/types/defensa-hibrida/guion.md": {
+   "sha256": "a121103c8eaed2cde0145c4e8f965335952887581cce19d114c1a17f6e02516d",
+   "size": 2064
+  },
+  "templates/types/defensa-hibrida/titulos.md": {
+   "sha256": "b3c8ea8e0582753b5c75cb319c6e63724b2e63d361433950cd6006e2a94754af",
+   "size": 1938
+  },
+  "templates/types/defensa-negocio/brief.md": {
+   "sha256": "c399a5017b9327f72e8ee906da92e205707c0b5d5ea45b5a08208fa6bf03ba54",
+   "size": 1800
+  },
+  "templates/types/defensa-negocio/guion.md": {
+   "sha256": "498a03283301a1492eb8e54a633ba748c7ceee8f3200a9f9208dca556b76f196",
+   "size": 2083
+  },
+  "templates/types/defensa-negocio/titulos.md": {
+   "sha256": "222ed1732df75c2a43e2928ab6eb2a51d46792c2e7f15e2573363bf5b2f9cac6",
+   "size": 1919
+  },
+  "templates/types/defensa-tecnica/brief.md": {
+   "sha256": "37e20f3c1c4b43d67d4078c8a7f1754fcd61a8a134707da2581c4eed2f654fc1",
+   "size": 1786
+  },
+  "templates/types/defensa-tecnica/guion.md": {
+   "sha256": "17a6e23b5d4ee78027672e161b1ba032ab428ac3987dd6b8cd161b6d1d08999c",
+   "size": 2032
+  },
+  "templates/types/defensa-tecnica/titulos.md": {
+   "sha256": "a2a94a9bafe6cc830c76a85bc2d58715ebad873fec920754057f64ebdeb1a9ad",
+   "size": 1907
+  },
+  "templates/types/formacion/brief.md": {
+   "sha256": "07766c1e540b2fd068d24005513cee243d0335ad6d1ae2ed35bbd4f870f2cfc6",
+   "size": 1722
+  },
+  "templates/types/formacion/guion.md": {
+   "sha256": "2b2517e71a9ee7503a6ea562da0221cc616961a14def1f25a58160f7c26cb52b",
+   "size": 1822
+  },
+  "templates/types/formacion/titulos.md": {
+   "sha256": "ace2a57979db4789b1584186081085e99c163fe67f084ace13bc0de5005c40ab",
+   "size": 2208
+  },
+  "templates/types/prospeccion/brief.md": {
+   "sha256": "1de468bde27e916264cb45c0995405f142c5b32d360cc83edb97ac35b4765208",
+   "size": 1732
+  },
+  "templates/types/prospeccion/guion.md": {
+   "sha256": "5a2354163bac997c88bc408d4089a0d1133352d66ebd5c42eaa3c494c4e69e6e",
+   "size": 1920
+  },
+  "templates/types/prospeccion/titulos.md": {
+   "sha256": "be003a00ebe754462d6d8a131de7e76e22d68cbe7d8498d68bf711f8f77a50c9",
+   "size": 1956
+  },
+  "templates/types/simple/brief.md": {
+   "sha256": "fbac90edbe619ddace1daf1e66686c52f8ba3a8bec1ee76ab82c72c1728e5157",
+   "size": 1783
+  },
+  "templates/types/simple/guion.md": {
+   "sha256": "0c35e46a0bcb6bc2a97b10db688758653b6058872c12a61196943830e7454ab8",
+   "size": 1975
+  },
+  "templates/types/simple/titulos.md": {
+   "sha256": "b04748d211319ee91faf6c4b3d99618c85ac35f927e4e0b385a4e4ba83a9e691",
+   "size": 2004
+  },
+  "templates/types/tecnico/brief.md": {
+   "sha256": "14f3f6d0c142fc46f54b8c3e6ab42da0e4d29f3c1f40aa2134cf6accac93d51c",
+   "size": 1745
+  },
+  "templates/types/tecnico/guion.md": {
+   "sha256": "865cd520aa51356cc5c4c289c4f2d46744dfc834544bec9342ef12a11813c793",
+   "size": 1970
+  },
+  "templates/types/tecnico/titulos.md": {
+   "sha256": "9c405f4b66b897b265a795f343f5f83b0bcfff333e50b5dbad95cfc63c5b514e",
+   "size": 1916
+  },
+  "templates/types/webinar-panel/brief.md": {
+   "sha256": "c3aeca20d89d2b12832494ab5324eec6635d1b9971b77fa50de0a634623c27c6",
+   "size": 1883
+  },
+  "templates/types/webinar-panel/guion.md": {
+   "sha256": "9f772c68df90e90e9340025cf11002a7a3b8c3f3841ba4da574875bf43e4e4d5",
+   "size": 2009
+  },
+  "templates/types/webinar-panel/titulos.md": {
+   "sha256": "a350a78e18d220382c817fdb1ac952f87d6623a16cefabfaef32afc06b8bf17d",
+   "size": 1924
+  }
+ },
+ "graph": {
+  "links": 4531,
+  "nodes": 427,
+  "orphans": 0
+ },
+ "name": "dcd-asset-bank",
+ "schema": "dcd-asset-bank/v1",
+ "total": 1046,
+ "version": "v0.7.0"
+}

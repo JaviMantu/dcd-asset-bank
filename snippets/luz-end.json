@@ -1,0 +1,40 @@
+{
+  "id": "luz-end",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-end",
+  "args": {
+    "stops": [
+      "‹como: Idea›",
+      "‹como: POC›",
+      "‹como: Demo›"
+    ],
+    "bridge": [
+      "‹como: datos›",
+      "‹como: integración›",
+      "‹como: control›",
+      "‹como: adopción›",
+      "‹como: valor›"
+    ],
+    "from": "‹como: Piloto›",
+    "to": "‹como: Operación›",
+    "name": "‹como: Javier Andrés Montaño Guzmán›",
+    "role": "‹como: Speaker · Service Line de Data & IA›",
+    "sign": "‹como: Audacious Ideas, Delivered Beyond.›"
+  },
+  "lands": "‹como: El anillo del piloto, más grande, con «Piloto» en su centro; a la derecha, el puente de cinco pilares hacia la operación; abajo, el retrato de Javier en un anillo de luz, con su nombre y su rol; al fondo, estrellas y una cámara que respira.›",
+  "breathes": "‹como: La chispa del anillo pinta una última vuelta magenta; donde el piloto no tenía salida, estalla un destello y la estela sale por fin, baja con su cola de cometa al puente y lo cruza encendiendo sus cinco pilares (datos, integración, control, adopción, valor), mientras el anillo queda en calma detrás; aterriza en la operación, que estalla en dorado y late, y aparece «Audacious Ideas, Delivered Beyond.». Cuadro final: la estela aterrizada en la operación, el anillo quieto, el retrato del speaker y la firma.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

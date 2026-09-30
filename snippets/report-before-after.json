@@ -1,0 +1,51 @@
+{
+  "id": "report-before-after",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "report-before-after",
+  "args": {
+    "tag": "‹como: Caso Amaris · sin nombre de cliente›",
+    "sides": [
+      [
+        "‹como: Antes, a mano›",
+        "‹como: 20 min›",
+        "‹como: Una persona, paso a paso›"
+      ],
+      [
+        "‹como: Con un agente›",
+        "‹como: 160 s›",
+        "‹como: El agente arma el reporte; la persona revisa y decide›"
+      ]
+    ],
+    "tasks": [
+      "‹como: Buscar la fuente›",
+      "‹como: Exportar datos›",
+      "‹como: Copiar a la hoja›",
+      "‹como: Cruzar tablas›",
+      "‹como: Revisar cifras›",
+      "‹como: Armar gráficos›",
+      "‹como: Dar formato›",
+      "‹como: Enviar›"
+    ],
+    "ready": "‹como: Reporte listo›",
+    "review": [
+      "‹como: Revisar›",
+      "‹como: Revisado›"
+    ]
+  },
+  "lands": "‹como: Dos paneles lado a lado con sus cifras fijas: «20 min», atenuado, y «160 s», encendido; en cada uno, los mismos pasos del reporte, la hoja que llenan y, abajo, de espaldas, una persona con su tablet. Arriba, «Caso Amaris · sin nombre de cliente».›",
+  "breathes": "‹como: Un bucle de 12 segundos que muestra el proceso, no las cifras: a la izquierda la persona avanza a mano, un paso cada casi dos segundos; a la derecha el agente marca los mismos pasos en un instante, el reporte queda listo, baja a la tablet y la persona toca «Revisado». Cuadro final: a la derecha el reporte listo y revisado; a la izquierda el camino manual sigue en el sexto paso.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

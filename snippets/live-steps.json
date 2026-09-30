@@ -1,0 +1,57 @@
+{
+  "id": "live-steps",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "live-steps",
+  "args": {
+    "screen": "‹como: En vivo: el prospecto que elige la sala›",
+    "phases": [
+      "‹como: Contexto›",
+      "‹como: Confirmas›",
+      "‹como: Títulos›"
+    ],
+    "sources": [
+      "‹como: Su sitio y estrategia›",
+      "‹como: Tus notas›"
+    ],
+    "sorted": [
+      "‹como: Hechos›",
+      "‹como: Hipótesis›"
+    ],
+    "known_head": "‹como: Hechos que confirmas›",
+    "known": [
+      "‹como: Su meta del año›",
+      "‹como: Sus líneas de negocio›",
+      "‹como: Una cifra publicada›"
+    ],
+    "ask_head": "‹como: Máximo cinco preguntas›",
+    "questions": [
+      "‹como: ¿La sala?›",
+      "‹como: ¿El dolor?›",
+      "‹como: ¿La decisión?›",
+      "‹como: ¿La prueba?›",
+      "‹como: ¿Quién firma?›"
+    ],
+    "titles": [
+      "‹como: 1 · Su meta del año, en sus palabras›",
+      "‹como: 2 · Lo que vemos desde afuera›",
+      "‹como: 3 · Dónde podemos ayudar primero›"
+    ],
+    "approved": "‹como: Aprobado›"
+  },
+  "lands": "‹como: Tu pantalla en vivo con tres etapas en columna: Contexto (su sitio y tus notas, el skill, hechos e hipótesis), Confirmas (la tabla de hechos y las cinco preguntas) y Títulos.›",
+  "breathes": "‹como: Se encienden en orden: su sitio y tus notas fluyen al skill y se separan en hechos e hipótesis; cada hecho recibe su visto y las cinco preguntas se responden una a una; los títulos se encienden y cae el sello «Aprobado». Cuadro final: las tres etapas con visto y «Aprobado».›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

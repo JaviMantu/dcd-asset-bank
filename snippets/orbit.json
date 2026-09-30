@@ -1,0 +1,34 @@
+{
+  "id": "orbit",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "orbit",
+  "args": {
+    "figure": "‹como: 12.000›",
+    "label": "‹como: colaboradores AI ready›",
+    "reach": "‹como: en más de 60 países›",
+    "roles": [
+      "‹como: Datos›",
+      "‹como: IA›",
+      "‹como: Software›",
+      "‹como: Cloud›",
+      "‹como: Ciberseguridad›",
+      "‹como: Analytics›"
+    ]
+  },
+  "lands": "‹como: La cifra 12.000 aparece quieta en el centro de la órbita y, sobre ella, seis colegas sin rostro, cada uno con su disciplina: datos, IA, software, cloud, ciberseguridad y analytics.›",
+  "breathes": "‹como: Una chispa de IA recorre la órbita y llega a cada colega, que se enciende con su chispa, mientras su estela los une y el halo de la cifra crece hasta cerrar el anillo con los seis aumentados y conectados.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

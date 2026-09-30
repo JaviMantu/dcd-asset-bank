@@ -1,0 +1,42 @@
+{
+  "id": "luz-figures",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-figures",
+  "args": {
+    "figure": [
+      {
+        "pre": "‹como: Al menos›",
+        "v": "‹como: 30 %›",
+        "label": "‹como: de los proyectos de IA generativa, abandonados tras la POC (predicción, fin de 2025)›",
+        "src": "‹como: Gartner · 2024›"
+      },
+      {
+        "v": "‹como: 95 %›",
+        "label": "‹como: de los pilotos de IA generativa, sin impacto medible en el P&L (declarado, ene–jun 2025)›",
+        "src": "‹como: MIT NANDA · 2025›"
+      },
+      {
+        "v": "‹como: 42 %›",
+        "label": "‹como: de las empresas encuestadas abandonó la mayoría de sus iniciativas de IA en 2025›",
+        "src": "‹como: S&P Global · 2025›"
+      }
+    ],
+    "door": "‹como: Operación›"
+  },
+  "lands": "‹como: Tres cifras grandes y quietas en tarjetas de vidrio oscuro, cada una con su alcance y su fuente; a la derecha, un muro de luz punteado con una sola puerta alta y estrecha: «Operación».›",
+  "breathes": "‹como: El borde de cada tarjeta se ilumina por turnos y de ella salen siete chispas hacia el muro: lo tocan, se deslizan buscando la puerta y se apagan. La última de la tercera tarjeta la cruza con su trazo magenta: la puerta se enciende, los tres bordes brillan juntos y la chispa queda encendida del otro lado. Las cifras no se mueven. Cuadro final: tres cifras quietas con sus bordes encendidos, la puerta encendida, el trazo magenta y una chispa del otro lado.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

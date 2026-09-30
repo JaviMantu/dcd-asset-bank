@@ -1,0 +1,47 @@
+{
+  "id": "luz-console",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-console",
+  "args": {
+    "panels": [
+      [
+        "‹como: Antes de actuar›",
+        [
+          "‹como: Permisos y alcance›",
+          "‹como: Datos que toca›"
+        ]
+      ],
+      [
+        "‹como: Mientras actúa›",
+        [
+          "‹como: Trazabilidad›",
+          "‹como: Intervención humana›"
+        ]
+      ],
+      [
+        "‹como: Cuando falla›",
+        [
+          "‹como: Recuperación›",
+          "‹como: Quién responde›"
+        ]
+      ]
+    ],
+    "budget": "‹como: Y por supuesto, implica presupuesto de inversión: buscamos probar que intercambiamos tokens por tiempo o beneficio económico directo (revenue o eficiencia operativa medible).›"
+  },
+  "lands": "‹como: Una consola de tres paneles (antes de actuar, mientras actúa, cuando falla) con sus controles apagados; la estela del trabajo delegado entra por la izquierda y la cruza; debajo, la línea del presupuesto y su intercambio: fichas, una flecha, un reloj y tres barras.›",
+  "breathes": "‹como: La chispa cruza la consola: antes de actuar, el alcance se cierra con su candado y se encienden solo los datos que toca; mientras actúa, el rastro se dibuja nodo a nodo y una persona toma el control de pausa; cuando falla, una alerta serena, la recuperación rebobina y se ilumina quién responde; al final las fichas viajan y se encienden el tiempo y el beneficio. Cuadro final: los tres paneles encendidos y el intercambio del presupuesto resuelto.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

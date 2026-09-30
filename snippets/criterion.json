@@ -1,0 +1,51 @@
+{
+  "id": "criterion",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "criterion",
+  "args": {
+    "criteria": [
+      [
+        "‹como: Retorno claro›",
+        "‹como: Un resultado que el negocio puede medir›"
+      ],
+      [
+        "‹como: Habilitador clave›",
+        "‹como: Abre el camino a los casos que sí traen retorno›"
+      ]
+    ],
+    "or": "‹como: o›",
+    "ask": "‹como: ¿Retorno o habilitador?›",
+    "ideas": [
+      [
+        "‹como: Priorizar alarmas›",
+        "‹como: retorno›"
+      ],
+      [
+        "‹como: Una demo vistosa›",
+        "‹como: no›"
+      ],
+      [
+        "‹como: TI que entrega más rápido›",
+        "‹como: habilitador›"
+      ]
+    ],
+    "build": "‹como: Construimos›",
+    "aside": "‹como: Por ahora, no›"
+  },
+  "lands": "‹como: Arriba, retorno claro y habilitador clave unidos por una «o»; debajo, un lugar vacío que pregunta «¿Retorno o habilitador?» y dos destinos: «Construimos» y «Por ahora, no».›",
+  "breathes": "‹como: Llegan tres ideas: «Priorizar alarmas» enciende el retorno y se construye; «Una demo vistosa» no enciende ninguno y se aparta, sin drama, a «Por ahora, no»; «TI que entrega más rápido» enciende el habilitador y también se construye.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

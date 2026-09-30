@@ -1,0 +1,48 @@
+{
+  "id": "simple-path",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "simple-path",
+  "args": {
+    "phases": [
+      [
+        "‹como: Discovery›",
+        "‹como: Un dolor, su KPI y sus datos›",
+        "‹como: Un día›"
+      ],
+      [
+        "‹como: Prototipo›",
+        "‹como: Funciona con sus datos›",
+        "‹como: Una semana›"
+      ],
+      [
+        "‹como: Decisión›",
+        "‹como: Ustedes deciden si se construye›",
+        "‹como: Con el prototipo›"
+      ]
+    ],
+    "team": "‹como: Su equipo y el nuestro›",
+    "review": "‹como: Una persona revisa cada paso›",
+    "icons": [
+      "‹como: logistica/bodega›",
+      "‹como: logistica/caja›",
+      "‹como: logistica/ruta›",
+      "‹como: logistica/camion›"
+    ]
+  },
+  "lands": "‹como: Una ruta de tres pasos numerados (discovery, prototipo y decisión), cada uno con lo que pasa y cuánto dura; abajo, los dos equipos juntos y la persona que revisa.›",
+  "breathes": "‹como: Una chispa baja por la ruta: el discovery se enciende, el prototipo corre sobre su operación y la decisión recibe su visto; al final se enciende «Una persona revisa cada paso». Queda: los tres pasos encendidos y la revisión humana.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

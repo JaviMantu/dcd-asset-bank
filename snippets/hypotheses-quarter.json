@@ -1,0 +1,44 @@
+{
+  "id": "hypotheses-quarter",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "hypotheses-quarter",
+  "args": {
+    "count": "‹como: 10 hipótesis›",
+    "hypotheses": [
+      "‹como: Asistente del asesor›",
+      "‹como: Reportería con agente›",
+      "‹como: Calidad de datos›",
+      "‹como: Resumen de llamadas›",
+      "‹como: Consulta de políticas›",
+      "‹como: Documentar tablas›",
+      "‹como: Clasificar consultas›",
+      "‹como: Alertas tempranas›",
+      "‹como: Oferta a medida›",
+      "‹como: Su prioridad›"
+    ],
+    "lab": "‹como: Su laboratorio›",
+    "months": [
+      "‹como: Oct›",
+      "‹como: Nov›",
+      "‹como: Dic›"
+    ],
+    "pending": "‹como: Por validar›",
+    "done": "‹como: 10 de 10 validadas›"
+  },
+  "lands": "‹como: Diez tarjetas de hipótesis, numeradas y cada una con su «?», sobre un embudo que baja a «Su laboratorio»; debajo, la línea del trimestre con octubre, noviembre y diciembre y diez casillas vacías. El contador es texto fijo: «10 hipótesis».›",
+  "breathes": "‹como: Un bucle de 12 segundos: una a una, cada hipótesis se enciende, baja por el embudo al laboratorio y sale validada; su «?» se vuelve check y un check cae en su casilla del trimestre, que se llena mes a mes hasta «10 de 10 validadas». Cuadro final: diez checks en la línea del trimestre.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

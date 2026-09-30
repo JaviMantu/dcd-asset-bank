@@ -1,0 +1,24 @@
+{
+  "id": "strategy-map",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "strategy-map",
+  "args": {
+    "urgent": "‹como: Informe · lunes 8:00›"
+  },
+  "lands": "‹como: El post-it rojo clavado a la izquierda, una persona tranquila a su lado y un mapa de papel doblado.›",
+  "breathes": "‹como: El mapa se despliega panel a panel, la cinta magenta sale del post-it y traza la ruta; en cada parada aparece un ícono sin palabras: un chat con fichas, una lupa y un sobre con engranaje. Cuadro final: mapa abierto, ruta trazada, tres íconos y el post-it al inicio.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

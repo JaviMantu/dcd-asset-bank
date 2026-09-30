@@ -1,0 +1,33 @@
+{
+  "id": "journey-loop",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "journey-loop",
+  "args": {
+    "center": "‹como: Su cliente›",
+    "touchpoints": [
+      "‹como: Conoce›",
+      "‹como: Compara›",
+      "‹como: Contrata›",
+      "‹como: Usa›",
+      "‹como: Pide ayuda›",
+      "‹como: Renueva›"
+    ],
+    "loop": "‹como: Cada contacto aprende del anterior›"
+  },
+  "lands": "‹como: Su cliente al centro de un anillo con seis puntos de contacto, cada uno con un ícono de su sector y su nombre; abajo, la lección del ciclo.›",
+  "breathes": "‹como: Una chispa recorre el anillo una vez y deja su hilo encendido; cada punto de contacto se enciende a su paso y, al cerrar el anillo, el cliente del centro recibe su visto y se enciende la lección. Queda: el anillo cerrado, todo encendido.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "funnel-gates",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "funnel-gates",
+  "args": {
+    "ideas": [
+      "‹como: Chat de atención›",
+      "‹como: Tablero de ventas›",
+      "‹como: Alerta de inventario›",
+      "‹como: Una demo vistosa›",
+      "‹como: Reporte automático›"
+    ],
+    "gates": [
+      "‹como: ¿Resuelve un dolor?›",
+      "‹como: ¿Hay datos?›",
+      "‹como: ¿Se puede medir?›"
+    ],
+    "stops": [
+      -1,
+      2,
+      -1,
+      0,
+      1
+    ],
+    "aside": "‹como: Por ahora no›",
+    "keep": "‹como: Construimos›"
+  },
+  "lands": "‹como: A la izquierda, cinco ideas con los íconos de su sector; al medio, tres preguntas como compuertas; abajo, la bandeja «Por ahora no»; al final, «Construimos».›",
+  "breathes": "‹como: Cada idea corre hacia el final; donde una pregunta dice que no, baja sin drama a «Por ahora no» y su fila queda marcada con el número de esa pregunta; las demás llegan al final con su visto. Queda: cada idea con su destino.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

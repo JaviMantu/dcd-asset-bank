@@ -1,0 +1,29 @@
+{
+  "id": "luz-loop",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-loop",
+  "args": {
+    "stops": [
+      "‹como: Idea›",
+      "‹como: POC›",
+      "‹como: Demo›"
+    ],
+    "exit": "‹como: Operar›"
+  },
+  "lands": "‹como: El anillo Idea → POC → Demo con sus tres nodos y la chispa girando con su estela magenta; fuera del anillo, la puerta «Operar» apagada y un trazo punteado que no llega; debajo, el hilo magenta baja de «Demo» a un estante con tres lugares vacíos.›",
+  "breathes": "‹como: La chispa gira cada 4 segundos: Idea, POC, Demo y vuelta a empezar; cada paso por «Demo» deja caer una demo más en el estante, y se van acumulando. A los 5 segundos una chispa se separa hacia «Operar»: la puerta se enciende y dentro se dibuja un signo de pregunta; la chispa se queda cerca, duda, y vuelve al anillo justo cuando pasa la otra. Llega la tercera demo. Cuadro final: anillo girando con su estela, tres demos en el estante, «Operar» encendido con su «?» y el trazo que no llega a la puerta.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

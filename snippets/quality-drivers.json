@@ -1,0 +1,45 @@
+{
+  "id": "quality-drivers",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "quality-drivers",
+  "args": {
+    "drivers": [
+      [
+        "‹como: Disponibilidad›",
+        "‹como: Meta: 99,9 %›",
+        "‹como: Si cae una zona, el portal sigue atendiendo›"
+      ],
+      [
+        "‹como: Seguridad›",
+        "‹como: Datos cifrados›",
+        "‹como: Cada acceso con identidad y registro›"
+      ],
+      [
+        "‹como: Escalabilidad›",
+        "‹como: Meta: 3× en picos›",
+        "‹como: Tras una tormenta, el volumen se triplica›"
+      ],
+      [
+        "‹como: Trazabilidad›",
+        "‹como: Cada paso auditado›",
+        "‹como: Quién cambió el estado del reclamo y cuándo›"
+      ]
+    ]
+  },
+  "lands": "‹como: Cuatro tarjetas: disponibilidad, seguridad, escalabilidad y trazabilidad, cada una con su meta.›",
+  "breathes": "‹como: Cada atributo se enciende por turno, su barra llega a la meta y recibe su visto bueno.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

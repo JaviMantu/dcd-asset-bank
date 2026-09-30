@@ -1,0 +1,33 @@
+{
+  "id": "controlroom-live",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "controlroom-live",
+  "args": {
+    "screen": "‹como: Sala de control · en vivo›",
+    "chart": "‹como: Vibración · compresor›",
+    "forecast": "‹como: Pronóstico›",
+    "alert": "‹como: Alerta anticipada›",
+    "warehouse": "‹como: Bodega›",
+    "station": "‹como: Compresor›",
+    "suggest": "‹como: Sugerencia: mover el repuesto a la estación hoy›",
+    "approve": "‹como: Aprobar›",
+    "done": "‹como: Mantenimiento proactivo›",
+    "sign": "‹como: Audacious Ideas, Delivered Beyond.›"
+  },
+  "lands": "‹como: El prototipo crece hasta la sala de control: la pantalla en vivo con el pronóstico y el mapa de bodega a estación; delante, dos operadores en su consola.›",
+  "breathes": "‹como: Un bucle de 12 segundos: alerta anticipada, sugerencia de la IA, él aprueba en la tablet y la orden viaja a la bodega, el repuesto llega y la estación pasa a mantenimiento proactivo.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

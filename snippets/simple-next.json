@@ -1,0 +1,46 @@
+{
+  "id": "simple-next",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "simple-next",
+  "args": {
+    "cta": "‹como: Agendemos el discovery de su ruta›",
+    "when": "‹como: Esta semana · con su equipo›",
+    "worries": [
+      "‹como: Dentro de su presupuesto›",
+      "‹como: La meta del trimestre›",
+      "‹como: El KPI que prometió›"
+    ],
+    "stations": [
+      "‹como: Bodega›",
+      "‹como: Despacho›",
+      "‹como: Ruta›",
+      "‹como: Entrega›"
+    ],
+    "goal": "‹como: Cada pedido, a tiempo›",
+    "sign": "‹como: Audacious Ideas, Delivered Beyond.›",
+    "name": "‹como: Javier Montaño›",
+    "role": "‹como: Manager responsable›",
+    "icons": [
+      "‹como: logistica/bodega›",
+      "‹como: logistica/caja›",
+      "‹como: logistica/ruta›",
+      "‹como: logistica/camion›"
+    ]
+  },
+  "lands": "‹como: Arriba, la invitación con su fecha en un calendario y su botón; en el medio, su operación de la portada; abajo, sus tres preocupaciones y la firma de quien la prepara.›",
+  "breathes": "‹como: El botón late; su operación se enciende estación por estación, como en la portada, y cada preocupación recibe su visto. Queda: su operación encendida, las tres preocupaciones resueltas y la invitación abierta.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

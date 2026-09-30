@@ -1,0 +1,71 @@
+{
+  "id": "diagnostic",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "diagnostic",
+  "args": {
+    "task": "‹como: Consolidar el informe semanal›",
+    "lenses": [
+      {
+        "q": "‹como: ¿Genera fricción?›",
+        "icon": "‹como: friccion›",
+        "tick": true
+      },
+      {
+        "q": "‹como: ¿Se repite?›",
+        "icon": "‹como: repite›",
+        "tick": true
+      },
+      {
+        "q": "‹como: ¿Es tediosa?›",
+        "icon": "‹como: tediosa›",
+        "tick": true
+      },
+      {
+        "q": "‹como: ¿Es mecánica?›",
+        "icon": "‹como: mecanica›",
+        "tick": true
+      },
+      {
+        "q": "‹como: ¿Se puede delegar a la IA?›",
+        "hint": "‹como: la IA hace el borrador, tú revisas›",
+        "icon": "‹como: ia›",
+        "tick": true
+      },
+      {
+        "q": "‹como: ¿Se puede automatizar?›",
+        "hint": "‹como: corre sola, con revisión›",
+        "icon": "‹como: auto›",
+        "tick": true
+      },
+      {
+        "q": "‹como: ¿Mejora con un cambio de proceso?›",
+        "hint": "‹como: quitar o juntar un paso›",
+        "icon": "‹como: proceso›",
+        "tick": false
+      }
+    ],
+    "trays": [
+      "‹como: Delegar a la IA›",
+      "‹como: Automatizar›",
+      "‹como: Cambiar el proceso›"
+    ],
+    "close": "‹como: Descríbela en una frase: qué es, para quién, cuándo está bien›",
+    "clock": "‹como: 2 minutos›"
+  },
+  "lands": "‹como: Una hoja de diagnóstico de papel con siete preguntas, cada una con su ícono y su casilla, todas a la vista; debajo, tres bandejas (delegar a la IA, automatizar, cambiar el proceso), la ficha «Consolidar el informe semanal» junto a la primera pregunta y un reloj de papel de dos minutos.›",
+  "breathes": "‹como: La ficha baja pregunta por pregunta y marca las que aplican, y las marcas se acumulan: las seis primeras reciben su visto y la séptima queda en «no»; se encienden las bandejas «Delegar a la IA» y «Automatizar» y aparece la línea final, «Descríbela en una frase: qué es, para quién, cuándo está bien». El reloj de dos minutos da su vuelta. Cuadro final: las siete preguntas con sus marcas, dos bandejas encendidas y la línea final.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

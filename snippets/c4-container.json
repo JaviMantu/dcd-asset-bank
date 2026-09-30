@@ -1,0 +1,170 @@
+{
+  "id": "c4-container",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "c4-container",
+  "args": {
+    "boundary": "‹como: Plataforma de reclamos [Sistema]›",
+    "people": [
+      [
+        "‹como: asegurado›",
+        "‹como: Asegurado›",
+        "",
+        "",
+        "‹como: person›"
+      ],
+      [
+        "‹como: ajustador›",
+        "‹como: Ajustador›",
+        "",
+        "",
+        "‹como: person›"
+      ]
+    ],
+    "containers": [
+      [
+        "‹como: web›",
+        "‹como: Portal del asegurado›",
+        "‹como: React›",
+        "‹como: Aviso y seguimiento›",
+        "‹como: web›"
+      ],
+      [
+        "‹como: app›",
+        "‹como: App del ajustador›",
+        "‹como: Flutter›",
+        "‹como: Inspección en campo›",
+        "‹como: app›"
+      ],
+      [
+        "‹como: api›",
+        "‹como: API de reclamos›",
+        "‹como: Java · Spring Boot›",
+        "‹como: Reglas y estados del reclamo›",
+        "‹como: api›"
+      ],
+      [
+        "‹como: db›",
+        "‹como: BD de reclamos›",
+        "‹como: PostgreSQL›",
+        "",
+        "‹como: db›"
+      ],
+      [
+        "‹como: bus›",
+        "‹como: Bus de eventos›",
+        "‹como: Kafka›",
+        "",
+        "‹como: queue›"
+      ],
+      [
+        "‹como: motor›",
+        "‹como: Motor de evaluación›",
+        "‹como: Python›",
+        "",
+        "‹como: container›",
+        2
+      ]
+    ],
+    "externals": [
+      [
+        "‹como: core›",
+        "‹como: Core de pólizas›",
+        "",
+        "",
+        "‹como: external›"
+      ],
+      [
+        "‹como: pagos›",
+        "‹como: Pasarela de pagos›",
+        "",
+        "",
+        "‹como: external›"
+      ],
+      [
+        "‹como: mensajeria›",
+        "‹como: Mensajería›",
+        "",
+        "",
+        "‹como: external›"
+      ]
+    ],
+    "rels": [
+      [
+        "‹como: asegurado›",
+        "‹como: web›",
+        "‹como: Reporta el siniestro›",
+        ""
+      ],
+      [
+        "‹como: ajustador›",
+        "‹como: app›",
+        "‹como: Registra la inspección›",
+        ""
+      ],
+      [
+        "‹como: web›",
+        "‹como: api›",
+        "‹como: Crea el reclamo›",
+        "‹como: JSON›"
+      ],
+      [
+        "‹como: app›",
+        "‹como: api›",
+        "‹como: Sube fotos y valoración›",
+        "‹como: JSON›"
+      ],
+      [
+        "‹como: api›",
+        "‹como: db›",
+        "‹como: Guarda el reclamo›",
+        "‹como: SQL›"
+      ],
+      [
+        "‹como: api›",
+        "‹como: bus›",
+        "‹como: Publica el evento›",
+        ""
+      ],
+      [
+        "‹como: motor›",
+        "‹como: bus›",
+        "‹como: Consume eventos›",
+        ""
+      ],
+      [
+        "‹como: motor›",
+        "‹como: core›",
+        "‹como: Valida la cobertura›",
+        ""
+      ],
+      [
+        "‹como: motor›",
+        "‹como: pagos›",
+        "‹como: Ordena el pago›",
+        ""
+      ],
+      [
+        "‹como: motor›",
+        "‹como: mensajeria›",
+        "‹como: Avisa cada cambio›",
+        ""
+      ]
+    ]
+  },
+  "lands": "‹como: El recuadro de la plataforma con seis contenedores: portal, app, API, base de datos, bus de eventos y motor; fuera, personas y sistemas externos.›",
+  "breathes": "‹como: El reclamo entra por el portal, la API lo guarda y publica un evento; el motor lo consume, valida la cobertura, ordena el pago y avisa.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

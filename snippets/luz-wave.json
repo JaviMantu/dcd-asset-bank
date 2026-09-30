@@ -1,0 +1,38 @@
+{
+  "id": "luz-wave",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-wave",
+  "args": {
+    "stops": [
+      "‹como: Idea›",
+      "‹como: POC›",
+      "‹como: Demo›"
+    ],
+    "exit": "‹como: Operar›",
+    "agents": "‹como: Agentes›",
+    "figure": [
+      {
+        "pre": "‹como: Más del›",
+        "v": "‹como: 40 %›",
+        "label": "‹como: de los proyectos de IA agéntica se cancelarán antes de que termine 2027 (predicción)›",
+        "src": "‹como: Gartner · 2025›"
+      }
+    ]
+  },
+  "lands": "‹como: El mismo anillo Idea → POC → Demo de la diapositiva 5, ahora con tres agentes visibles (un pequeño robot de luz en cada uno) girando en él y la leyenda «Agentes» al centro; afuera, la puerta «Operar» apagada; abajo, la cifra quieta y grande: más del 40 %, con su alcance y su fuente.›",
+  "breathes": "‹como: Los tres agentes dan vueltas al anillo con su estela, como antes la chispa, y encienden cada parada al pasar; a los 3,5 s, cuando un agente pasa frente a la salida, una chispa se desprende y avanza dibujando el trazo magenta; a los 6 s llega al umbral, «Operar» se enciende con un anillo de luz y la chispa espera ahí, respirando: la pregunta queda abierta. La cifra no se mueve. Cuadro final: el anillo con sus agentes, la chispa en el umbral de «Operar» encendido y el 40 % quieto con su fuente.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

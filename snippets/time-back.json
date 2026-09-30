@@ -1,0 +1,87 @@
+{
+  "id": "time-back",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "time-back",
+  "args": {
+    "days": [
+      "‹como: Martes›",
+      "‹como: Miércoles›",
+      "‹como: Jueves›"
+    ],
+    "past": "‹como: Ya pasó›",
+    "now": "‹como: Ahora · 4 pm›",
+    "meet_time": "‹como: 10:00›",
+    "meet": "‹como: Reunión con el prospecto · 30 min›",
+    "busy": [
+      [
+        0,
+        16,
+        18,
+        "‹como: Correos›"
+      ],
+      [
+        1,
+        9,
+        12,
+        "‹como: Reunión con otro cliente›"
+      ],
+      [
+        1,
+        12,
+        13,
+        "‹como: Almuerzo›"
+      ],
+      [
+        1,
+        13,
+        14.2,
+        "‹como: Correos›"
+      ],
+      [
+        1,
+        17,
+        18,
+        "‹como: Llamada interna›"
+      ],
+      [
+        2,
+        9,
+        10,
+        "‹como: Correos›"
+      ]
+    ],
+    "free": [
+      1,
+      15,
+      17
+    ],
+    "prep": "‹como: Para preparar · 2 horas›",
+    "before": [
+      "‹como: Mover cajas›",
+      "‹como: Buscar una plantilla›",
+      "‹como: Ajustar el formato›"
+    ],
+    "after": [
+      "‹como: Leer al cliente›",
+      "‹como: Preparar las preguntas›",
+      "‹como: Pensar su caso de éxito›"
+    ],
+    "ready": "‹como: Lista›"
+  },
+  "lands": "‹como: La misma semana de la diapositiva 2: el martes a las 4 pm, el jueves 10:00 con el prospecto y, el miércoles, tus dos horas para preparar ocupadas por «Mover cajas», «Buscar una plantilla» y «Ajustar el formato».›",
+  "breathes": "‹como: Cada tarea de formato se deshace en cajitas y en su lugar se enciende una para el cliente: «Leer al cliente», «Preparar las preguntas», «Pensar su caso de éxito»; un hilo las lleva al jueves, que se enciende con su visto: «Lista». Cuadro final: los tres bloques nuevos encendidos y la reunión lista.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

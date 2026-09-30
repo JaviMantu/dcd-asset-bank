@@ -1,0 +1,36 @@
+{
+  "id": "figure-door",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "figure-door",
+  "args": {
+    "figure": "‹como: N M›",
+    "label": "‹como: clientes registrados en Cuida · fuente, año›",
+    "door": "‹como: Cuida›",
+    "services": [
+      "‹como: Teleconsulta›",
+      "‹como: Nutrición›",
+      "‹como: Psicología›",
+      "‹como: Signos vitales›"
+    ],
+    "behind": "‹como: Detrás de la puerta›",
+    "record": "‹como: El dato del cliente›",
+    "ontime": "‹como: El cuidado llega a tiempo›",
+    "late": "‹como: O el cuidado espera›"
+  },
+  "lands": "‹como: La cifra quieta en su marco; debajo, la puerta digital abierta con sus servicios y, detrás, el dato del cliente y dos caminos.›",
+  "breathes": "‹como: Teleconsulta, nutrición, psicología y signos vitales se encienden por turnos; cada dato cruza la puerta hasta el registro del cliente, que se completa, y el cuidado llega a tiempo; el otro camino, la espera, queda a la vista. La cifra no se mueve.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

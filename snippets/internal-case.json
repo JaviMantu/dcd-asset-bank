@@ -1,0 +1,33 @@
+{
+  "id": "internal-case",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "internal-case",
+  "args": {
+    "people": "‹como: Personas de todos los equipos›",
+    "agents": "‹como: Agentes que cada equipo crea y comparte›",
+    "knowledge": "‹como: Nuestro conocimiento, conectado y gobernado›",
+    "roles": [
+      "‹como: Datos›",
+      "‹como: IA›",
+      "‹como: Software›",
+      "‹como: Cloud›"
+    ],
+    "badge": "‹como: Socios estratégicos de Dust›"
+  },
+  "lands": "‹como: Tres columnas se arman (las personas de todos los equipos, cada una con su disciplina; los agentes que crean y comparten; y nuestro conocimiento, conectado y gobernado) y, al pie, el sello de socios estratégicos de Dust.›",
+  "breathes": "‹como: Software crea un agente, lo conecta a dos fuentes y lo comparte con Datos, IA y Cloud; Datos le pregunta y recibe la respuesta con su fuente; Cloud crea el suyo sobre la fuente restringida: el agente hereda su candado y solo lo ve quien tiene acceso a ese espacio.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

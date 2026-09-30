@@ -1,0 +1,30 @@
+{
+  "id": "hands-on-timer",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "hands-on-timer",
+  "args": {
+    "app": "‹como: El skill, abierto›",
+    "steps": [
+      "‹como: Un cliente real de este mes›",
+      "‹como: Contexto y hechos›",
+      "‹como: Títulos aprobados›"
+    ],
+    "timer": "‹como: 15 min›"
+  },
+  "lands": "‹como: Un escritorio con el portátil abierto en el skill, tres pasos por marcar en la pantalla y, al lado, un reloj de 15 minutos.›",
+  "breathes": "‹como: El reloj se llena mientras los pasos se marcan en orden: «Un cliente real de este mes», «Contexto y hechos» y «Títulos aprobados», que queda resaltado.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

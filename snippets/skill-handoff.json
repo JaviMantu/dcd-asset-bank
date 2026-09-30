@@ -1,0 +1,34 @@
+{
+  "id": "skill-handoff",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "skill-handoff",
+  "args": {
+    "package": "‹como: dynamic-commercial-decks.zip›",
+    "hand": "‹como: Te lo entrego ahora›",
+    "screen": "‹como: Facilitador›",
+    "screen_a": "‹como: Comparto el zip en el chat del equipo›",
+    "screen_b": "‹como: Elegimos un prospecto real›",
+    "install": [
+      "‹como: 1 · Recibes el zip›",
+      "‹como: 2 · Claude → Configuración → Capacidades → Skills›",
+      "‹como: 3 · Lo pides por su nombre›"
+    ],
+    "ready": "‹como: Skill listo›"
+  },
+  "lands": "‹como: El facilitador, sin rostro, sostiene el paquete «dynamic-commercial-decks.zip»; en su pantalla, «Comparto el zip en el chat del equipo»; abajo, tres portátiles con sus asistentes de espaldas y los tres pasos de instalación por marcar.›",
+  "breathes": "‹como: Una copia del zip vuela a cada portátil; en cada uno se marcan en orden los tres pasos y aparece «Skill listo»; la pantalla del facilitador pasa a «Elegimos un prospecto real». Cuadro final: todos los portátiles con «Skill listo» y la demo por empezar.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

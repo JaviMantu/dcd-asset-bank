@@ -1,0 +1,54 @@
+{
+  "id": "tickets-live",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "tickets-live",
+  "args": {
+    "screen": "‹como: Atención a comercios›",
+    "queue": "‹como: Tickets de comercios›",
+    "tickets": [
+      "‹como: ¿Cómo activo cuotas sin intereses?›",
+      "‹como: ¿Cuándo llega mi abono?›",
+      "‹como: El POS no conecta›",
+      "‹como: No reconozco un cargo›"
+    ],
+    "new": "‹como: Nuevo›",
+    "solved": "‹como: Resuelto · auto-atendido›",
+    "routed": "‹como: Sensible · a una persona, con contexto›",
+    "closed": "‹como: Resuelto por el equipo›",
+    "calm": "‹como: Cola al día›",
+    "space": "‹como: Espacio: atención a comercios›",
+    "space_sub": "‹como: Restringido · responde con sus permisos›",
+    "agent": "‹como: Agente de conocimiento›",
+    "docs": [
+      "‹como: Guías de producto›",
+      "‹como: Abonos y plazos›",
+      "‹como: Soporte del POS›"
+    ],
+    "monitor": "‹como: Monitoreo y control de TI›",
+    "share": "‹como: Auto-atendidos›",
+    "usage": "‹como: Uso por espacio›",
+    "rows": [
+      "‹como: Permisos por espacio›",
+      "‹como: Registro de actividad›"
+    ],
+    "review": "‹como: Resolver›",
+    "sign": "‹como: Audacious Ideas, Delivered Beyond.›",
+    "live": "‹como: En vivo›"
+  },
+  "lands": "‹como: El prototipo crece hasta la pantalla de atención a comercios en vivo: cuatro tickets, el espacio restringido del agente con su candado y sus fuentes y, abajo, el monitoreo de TI; delante, de espaldas, dos personas en su consola.›",
+  "breathes": "‹como: Un bucle de 12 segundos: cada consulta simple viaja al agente, se enciende la fuente de la que responde y el ticket se cierra solo; la sensible, un cargo que el comercio no reconoce, enciende el candado y pasa a la tablet de una persona con su contexto; él la resuelve y la cola queda al día. La barra de auto-atendidos crece sin cifra.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

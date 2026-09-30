@@ -1,0 +1,37 @@
+{
+  "id": "figure-growth",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "figure-growth",
+  "args": {
+    "figure": "‹como: 1.600 M›",
+    "label": "‹como: operaciones de pagos digitales al mes en el país›",
+    "source": "‹como: Fuente: BCRP, junio de 2026›",
+    "then": "‹como: 2018›",
+    "now": "‹como: 2026›",
+    "rule": "‹como: Nuevo reglamento de pagos›",
+    "since": "‹como: Vigente desde abril de 2026›",
+    "teams": [
+      "‹como: Producto›",
+      "‹como: Comercial›",
+      "‹como: Riesgo›",
+      "‹como: Atención›"
+    ],
+    "pressure": "‹como: Cada equipo necesita saber más, y más rápido›"
+  },
+  "lands": "‹como: La cifra queda quieta en su marco, con su fuente; debajo, dos carriles de pagos digitales, 2018 y 2026, y los cuatro equipos: producto, comercial, riesgo y atención.›",
+  "breathes": "‹como: Un bucle de 12 segundos: el carril de 2026 se llena hasta llevar veinte pagos por cada uno de 2018; llega el nuevo reglamento y se sella vigente; las preguntas bajan a cada equipo hasta que todos tienen una cola esperando. La cifra no se mueve.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "luz-panel",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "luz-panel",
+  "args": {
+    "seats": [
+      [
+        "‹como: Panelista 1›",
+        "‹como: Por confirmar›"
+      ],
+      [
+        "‹como: Panelista 2›",
+        "‹como: Por confirmar›"
+      ],
+      [
+        "‹como: Modera›",
+        "‹como: Por confirmar›"
+      ]
+    ]
+  },
+  "lands": "‹como: Una mesa de luz en perspectiva con tres siluetas sin rostro sentadas detrás y una lámpara en su riel arriba; frente a cada una, una tarjeta con su rol y «Por confirmar»; el trazo magenta cruza el frente de la mesa.›",
+  "breathes": "‹como: Un foco baja de la lámpara y se detiene en cada persona, como en su presentación de 20 segundos, mientras la chispa del trazo llega a su puesto; cada silueta, su charco de luz sobre la mesa, su punto y su tarjeta se encienden y quedan encendidos bajo un cono suave. Cuadro final: las tres siluetas encendidas bajo su luz, cada tarjeta legible con su rol y «Por confirmar».›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

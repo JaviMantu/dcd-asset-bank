@@ -1,0 +1,72 @@
+{
+  "id": "chain-tap",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "top",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "chain-tap",
+  "args": {
+    "base": "‹como: Base de preparación para Data & IA · Estrategia · Caso de negocio›",
+    "layers": [
+      [
+        "‹como: Gobierno de IA›",
+        "‹como: ¿El cumplimiento llega antes o después del piloto?›",
+        [
+          "‹como: Riesgo y cumplimiento de IA›",
+          "‹como: IA responsable y ética›",
+          "‹como: Políticas y estándares›"
+        ]
+      ],
+      [
+        "‹como: Capa fundacional›",
+        "‹como: ¿Sus bases aguantan escala, seguridad y velocidad?›",
+        [
+          "‹como: Plataforma de datos cloud›",
+          "‹como: Arquitectura e integración›",
+          "‹como: Calidad y gobierno de datos›"
+        ]
+      ],
+      [
+        "‹como: Capa de insights›",
+        "‹como: ¿Ven los datos o deciden con ellos?›",
+        [
+          "‹como: BI y tableros›",
+          "‹como: Modelos predictivos›",
+          "‹como: Analítica para el negocio›"
+        ]
+      ],
+      [
+        "‹como: Capa agéntica›",
+        "‹como: ¿Cuántos prototipos de IA llegaron a producción?›",
+        [
+          "‹como: IA generativa y conocimiento›",
+          "‹como: Copilotos en el día a día›",
+          "‹como: Agentes que ejecutan flujos›"
+        ]
+      ]
+    ],
+    "today": "‹como: Hoy›",
+    "placeholder": "‹como: Hoy estamos en…›",
+    "hint": "‹como: Marquémosla juntos›",
+    "next": "‹como: Empezamos por ahí›",
+    "answers": [
+      "‹como: Hoy estamos en gobierno de IA›",
+      "‹como: Hoy estamos en la capa fundacional›",
+      "‹como: Hoy estamos en la capa de insights›",
+      "‹como: Hoy estamos en la capa agéntica›"
+    ]
+  },
+  "lands": "‹como: Cuatro capas en cadena, cada una con su pregunta; abajo, un campo luminoso que escribe «Hoy estamos en…» y espera.›",
+  "breathes": "‹como: Un pulso recorre la cadena y el «?» enciende cada capa con su pregunta, luego la cadena entera se ilumina y el campo espera; al tocar la capa que nombren, se marca con «Hoy» y el campo responde «Empezamos por ahí».›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

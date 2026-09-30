@@ -1,0 +1,114 @@
+{
+ "$id": "index.schema.json",
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "additionalProperties": false,
+ "properties": {
+  "card": {
+   "pattern": "^cards/[a-z]+/[a-z0-9_.-]+\\.md$",
+   "type": "string"
+  },
+  "description": {
+   "type": "string"
+  },
+  "description_en": {
+   "type": "string"
+  },
+  "family": {
+   "enum": [
+    "scenes",
+    "arcs",
+    "templates",
+    "knowledge",
+    "examples",
+    "icons"
+   ],
+   "type": "string"
+  },
+  "id": {
+   "minLength": 1,
+   "type": "string"
+  },
+  "intent": {
+   "items": {
+    "type": "string"
+   },
+   "type": "array"
+  },
+  "keywords": {
+   "items": {
+    "type": "string"
+   },
+   "type": "array"
+  },
+  "layout": {
+   "type": "string"
+  },
+  "path": {
+   "type": "string"
+  },
+  "portrait": {
+   "type": "boolean"
+  },
+  "previews": {
+   "items": {
+    "type": "string"
+   },
+   "type": "array"
+  },
+  "related": {
+   "items": {
+    "type": "string"
+   },
+   "type": "array"
+  },
+  "sha256": {
+   "pattern": "^[0-9a-f]{64}$",
+   "type": "string"
+  },
+  "size_bytes": {
+   "type": "integer"
+  },
+  "tags": {
+   "items": {
+    "type": "string"
+   },
+   "type": "array"
+  },
+  "title": {
+   "minLength": 1,
+   "type": "string"
+  },
+  "title_en": {
+   "minLength": 1,
+   "type": "string"
+  },
+  "vertical": {
+   "items": {
+    "type": "string"
+   },
+   "type": "array"
+  }
+ },
+ "required": [
+  "card",
+  "description",
+  "description_en",
+  "family",
+  "id",
+  "intent",
+  "keywords",
+  "layout",
+  "path",
+  "portrait",
+  "previews",
+  "related",
+  "sha256",
+  "size_bytes",
+  "tags",
+  "title",
+  "title_en",
+  "vertical"
+ ],
+ "title": "dcd-asset-bank index record",
+ "type": "object"
+}

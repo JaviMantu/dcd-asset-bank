@@ -1,0 +1,34 @@
+{
+  "id": "pinned-request",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "pinned-request",
+  "args": {
+    "postits": [
+      "‹como: Informe mensual›",
+      "‹como: Actualizar plan›",
+      "‹como: Revisar cifras›",
+      "‹como: Acta del comité›",
+      "‹como: Correos pendientes›",
+      "‹como: Reunión de las 4›",
+      "‹como: Plan de la semana›",
+      "‹como: Tablero del equipo›"
+    ],
+    "urgent": "‹como: Informe · lunes 8:00›"
+  },
+  "lands": "‹como: El corcho con sus primeros post-its y un reloj de papel que marca 3:30.›",
+  "breathes": "‹como: Caen post-its hasta llenar el corcho; al final entra uno rojo, «Informe · lunes 8:00», y la chincheta lo clava al centro. Cuadro final: tablero lleno, post-it rojo clavado.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

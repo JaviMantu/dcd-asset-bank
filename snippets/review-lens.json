@@ -1,0 +1,35 @@
+{
+  "id": "review-lens",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "review-lens",
+  "args": {
+    "draft": "‹como: Borrador del informe›",
+    "invented": "‹como: 73 %›",
+    "nosource": "‹como: sin fuente›",
+    "proc": "‹como: Procedimiento›",
+    "steps": [
+      "‹como: Quién lo lee›",
+      "‹como: De dónde salen los datos›",
+      "‹como: Cuándo está bien›"
+    ],
+    "step": "‹como: Cada cifra con su fuente›",
+    "figure": "‹como: 42,7 %›",
+    "label": "‹como: aciertos del mejor modelo en preguntas cortas de hechos›"
+  },
+  "lands": "‹como: El borrador de papel con sus líneas y una cifra resaltada; al lado, el procedimiento con sus tres pasos y, debajo, la cifra de 42,7 % fija en su marco; en la esquina, el mapa con la primera parada encendida.›",
+  "breathes": "‹como: La lupa recorre el borrador y se detiene en la cifra sin fuente; un trazo magenta la tacha y la cinta la lleva al procedimiento, que gana una línea nueva, «cada cifra con su fuente»; se enciende la segunda parada. Cuadro final: cifra tachada, paso agregado, 42,7 % quieto.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

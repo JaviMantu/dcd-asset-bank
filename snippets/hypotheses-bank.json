@@ -1,0 +1,51 @@
+{
+  "id": "hypotheses-bank",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "hypotheses-bank",
+  "args": {
+    "cards": [
+      [
+        "‹como: Banca personas›",
+        "‹como: Responder en la app las dudas frecuentes, a toda hora›",
+        "‹como: Menos espera›"
+      ],
+      [
+        "‹como: Comercio exterior›",
+        "‹como: Revisar cartas de crédito y garantías antes de que lleguen a una persona›",
+        "‹como: Menos trabajo manual›"
+      ],
+      [
+        "‹como: Ofertas a su medida›",
+        "‹como: Ofrecer en la app lo preaprobado, solo con el consentimiento del cliente›",
+        "‹como: Más colocaciones›"
+      ],
+      [
+        "‹como: Tecnología›",
+        "‹como: Entregar software más rápido con un equipo aumentado por IA›",
+        "‹como: Habilitador de las otras tres›"
+      ]
+    ],
+    "ret": "‹como: Retorno posible›",
+    "cycle": "‹como: Del requerimiento al despliegue›",
+    "offer": [
+      "‹como: Preaprobado›",
+      "‹como: Con tu consentimiento›"
+    ]
+  },
+  "lands": "‹como: Tres hipótesis con su retorno posible (banca personas, comercio exterior y ofertas a su medida) se apoyan en una cuarta, tecnología, que las habilita; cada tarjeta lleva su «?».›",
+  "breathes": "‹como: Cada tarjeta cobra vida por turnos: de noche, la duda del chat recibe su respuesta al instante; los documentos sueltos de comercio exterior se leen, se validan y llegan listos a una persona; en la app aparece un preaprobado, el cliente da su consentimiento y solo entonces llega la oferta, con su check; al final, tecnología recorre su ciclo y enciende las otras tres.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}

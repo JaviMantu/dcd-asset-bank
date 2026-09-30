@@ -1,0 +1,36 @@
+{
+  "id": "cascade",
+  "act": "‹el momento del arco (meta.moments)›",
+  "layout": "left",
+  "eyebrow": "‹EYEBROW EN MAYÚSCULAS›",
+  "title": "‹un título que afirma algo, ≤10 palabras›",
+  "sub": "‹la idea en ≤16 palabras (≤20 en un deck full; references/copy-rules.md)›",
+  "scene": "cascade",
+  "args": {
+    "stations": [
+      "‹como: Turbina›",
+      "‹como: Compresor›",
+      "‹como: Bomba›",
+      "‹como: Válvula›"
+    ],
+    "small": "‹como: Desviación pequeña›",
+    "gap": "‹como: días después›",
+    "cascade": [
+      "‹como: Urgencia›",
+      "‹como: Compra de emergencia›",
+      "‹como: Parada›"
+    ]
+  },
+  "lands": "‹como: La línea de gas y sus cuatro equipos se arman; debajo esperan, apagados, los tres pasos de una cascada.›",
+  "breathes": "‹como: Una chispa en el compresor avisa y nadie la ve; días después se encienden la urgencia, la compra de emergencia y la parada, y el gas se detiene.›",
+  "intent": "‹para qué sirve esta diapositiva›",
+  "interaction": "‹la pregunta a la sala, o «—»›",
+  "spoken": "‹lo que dice quien presenta, frases de ≤25 palabras›",
+  "action": "‹lo que hace con las manos y la sala›",
+  "min": {
+    "30": [
+      1,
+      0
+    ]
+  }
+}
